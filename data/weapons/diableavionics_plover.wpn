@@ -1,0 +1,39 @@
+{
+	"id":"diableavionics_plover",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/da/weapons/diableavionics_plover_turret_base.png",
+	"hardpointSprite":"graphics/da/weapons/diableavionics_plover_hardpoint_base.png",
+	"hardpointOffsets":[
+14, 1.5,
+14, -1.5,
+14, 4.5,
+14, -4.5
+],
+	"turretOffsets":[
+11, 2,
+11, -2,
+10, 6,
+10, -6
+],
+	"hardpointAngleOffsets":[-0.75,-0.25,0.25,0.75],
+	"turretAngleOffsets":[-0.75,-0.25,0.25,0.75],	
+	"barrelMode":"ALTERNATING", #ALTERNATING LINKED
+	"animationType":"SMOKE",
+	"renderHints":[RENDER_LOADED_MISSILES_UNLESS_HIDDEN],
+	"interruptibleBurst":false,
+	"displayArcRadius":300,
+	"smokeSpec":{"particleSizeMin":20.0,
+                    "particleSizeRange":14.0,
+                    "cloudParticleCount":1,
+                    "cloudDuration":1.3,
+                    "cloudRadius":14.0;
+                    "blowbackParticleCount":3,
+                    "blowbackDuration":0.45,
+                    "blowbackLength":20.0,
+                    "blowbackSpread":6.0,
+                    "particleColor":[190,180,160,95]},
+	"projectileSpecId":"diableavionics_plover",
+	"fireSoundTwo":"diableavionics_plover_fire",
+}

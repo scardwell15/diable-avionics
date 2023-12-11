@@ -1,0 +1,17 @@
+{
+	"id":"diableavionics_virtuousSniper_shot",
+        "onHitEffect":"data.scripts.weapons.Diableavionics_virtuous_sniperHit",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":100.0,
+	"hitGlowRadius":100,
+	"width":8,
+	"fadeTime":0.25,
+	"fringeColor":[250,150,55,255],
+	"coreColor":[255,225,215,255],
+	"glowRadius":55,
+	"glowColor":[120,60,30,200],
+	"bulletSprite":"graphics/missiles/missile_MIRV_warhead.png"
+}

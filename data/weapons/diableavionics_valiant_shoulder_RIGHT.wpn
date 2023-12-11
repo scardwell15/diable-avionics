@@ -1,0 +1,22 @@
+{
+	"id":"diableavionics_valiant_shoulder_RIGHT",
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"SMALL",
+	"showDamageWhenDecorative":true,
+	"turretSprite":"graphics/da/ships/valiant/diableavionics_valiant_shoulder_RIGHT.png",
+	"hardpointSprite":"",
+	"renderBelowAllWeapons":"true",
+	"turretOffsets":[0,0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0,0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":5.0,
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate
+}

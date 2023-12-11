@@ -1,0 +1,16 @@
+{
+	"id":"diableavionics_fluxredirection",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_fluxRedirection",
+	
+	"weaponGlowColor":[255,50,0,155],
+	"weaponTypes":[BALLISTIC,ENERGY],
+	
+	"useSound":"system_ammo_feeder",
+	"loopSound":"system_high_energy_focus_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"aiHints":{
+	},
+}

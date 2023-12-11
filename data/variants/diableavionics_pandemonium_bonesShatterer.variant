@@ -1,0 +1,87 @@
+{
+    "displayName": "Bone-Smasher",
+    "fluxCapacitors": 22,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "diableavionics_pandemonium",
+    "hullMods": [
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_pandemonium_bonesShatterer",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_opfergv",
+                "WS0004": "diableavionics_opfergv"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_microarrayM",
+                "WS0002": "diableavionics_microarrayM"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "diableavionics_artdeux",
+                "WS0006": "diableavionics_artdeux",
+                "WS0007": "diableavionics_artdeux",
+                "WS0008": "diableavionics_artdeux",
+                "WS0034": "diableavionics_artdeux",
+                "WS0035": "diableavionics_artdeux"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "diableavionics_nocturne"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0022": "diableavionics_magicbox",
+                "WS0023": "diableavionics_magicbox",
+                "WS0024": "diableavionics_magicbox",
+                "WS0025": "diableavionics_magicbox"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "diableavionics_ibis",
+                "WS0013": "diableavionics_ibis",
+                "WS0014": "diableavionics_ibis",
+                "WS0015": "diableavionics_ibis",
+                "WS0030": "diableavionics_ibis",
+                "WS0031": "diableavionics_ibis",
+                "WS0032": "diableavionics_ibis",
+                "WS0033": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "diableavionics_raptor",
+                "WS0010": "diableavionics_raptor"
+            }
+        }
+    ],
+    "wings": [
+        "diableavionics_raven_wing",
+        "diableavionics_avalanche_wing",
+        "diableavionics_warlust_wing",
+        "diableavionics_raven_wing"
+    ]
+}

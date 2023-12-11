@@ -1,0 +1,16 @@
+{
+	"id":"diableavionics_miniharvest_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.Diableavionics_miniHarvestEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":80.0,
+	"hitGlowRadius":30,
+	"width":7.0,
+	"fadeTime":0.15,
+	"fringeColor":[5,55,255,255],
+	"coreColor":[55,255,255,255],
+	"glowRadius":0,
+	"glowColor":[0,10,20,50],
+}

@@ -1,0 +1,21 @@
+{
+	"id":"diableavionics_berserk",
+	"type":"STAT_MOD",
+	#"aiType":"WEAPON_BOOST",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_dakkaAI",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_berserkStats",
+	"weaponTypes":[ENERGY],
+	"weaponGlowColor":[255,50,0,55],
+
+	"engineGlowColor":[255,200,55,125],
+	"engineGlowContrailColor":[255,65,55,50],
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":1,
+
+	"useSound":"diableavionics_berserk_in",
+	"deactivateSound":"diableavionics_berserk_out",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

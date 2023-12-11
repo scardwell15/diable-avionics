@@ -1,0 +1,17 @@
+{
+	"id":"diableavionics_hexafire_ricochet_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	#"onHitEffect":"data.scripts.weapons.Diableavionics_HexafireEffectA",				
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":36.0,
+	"hitGlowRadius":25,
+	"width":4.0,
+	"fadeTime":0.25,
+	"fringeColor":[213,130,255,205],
+	"coreColor":[245,245,76,225],
+	"glowRadius":6,
+	"glowColor":[43,98,149,80],
+	"bulletSprite":"graphics/da/missiles/diableavionics_reaper.png"
+}

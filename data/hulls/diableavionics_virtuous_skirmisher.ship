@@ -1,0 +1,215 @@
+{
+  "hullName": "Virtuous",
+  "hullId": "diableavionics_virtuous_skirmisher",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/da/ships/virtuous/diableavionics_virtuous_body.png",
+  "style": "HIGH_TECH",
+  "height": 104,
+  "width": 120,
+  "center": [60, 41],
+  "collisionRadius": 105,
+  "shieldCenter": [11, 0],
+  "shieldRadius": 115,
+  "viewOffset": 0,
+  "builtInMods": [
+    "diableavionics_virtuousMasterHullmod"
+  ],
+  "builtInWeapons": {
+    "PAULDRON_L": "diableavionics_virtuous_pauldronB_L",
+    "PAULDRON_LG": "diableavionics_virtuous_pauldronB_LG",
+    "PAULDRON_R": "diableavionics_virtuous_pauldronB_R",
+    "PAULDRON_RG": "diableavionics_virtuous_pauldronB_RG",
+    "SHOULDER_L": "diableavionics_virtuous_shoulderL",
+    "SHOULDER_R": "diableavionics_virtuous_shoulderR"
+  },
+  "weaponSlots": [
+    {
+      "id": "LEFT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [6, 43],
+      "renderOrderMod": -50
+    },
+    {
+      "id": "RIGHT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -0,
+      "locations": [6, -43],
+      "renderOrderMod": -50
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [1, 16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [1, -16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 60,
+      "locations": [5, 37],
+      "renderOrderMod": 40
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -60,
+      "locations": [5, -37],
+      "renderOrderMod": 40
+    },
+    {
+      "id": "PAULDRON_L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18, 38],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "PAULDRON_R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-18, -38],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "PAULDRON_LG",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18, 38],
+      "renderOrderMod": 55
+    },
+    {
+      "id": "PAULDRON_RG",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-18, -38],
+      "renderOrderMod": 55
+    },
+    {
+      "id": "SHOULDER_L",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, 37],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "SHOULDER_R",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [1, -37],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [21, -0],
+      "renderOrderMod": -5
+    },
+    {
+      "id": "SYSTEM_L",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-18, 38]
+    },
+    {
+      "id": "SYSTEM_R",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18, -38]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, -0],
+      "length": 16,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-33, 11],
+      "length": 16,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-33, -11],
+      "length": 16,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    48.5, 29.5,
+    8, 40,
+    8, 51,
+    -32, 75,
+    -52, 58,
+    -27, 25,
+    -34, -0,
+    -27, -25,
+    -52, -58,
+    -32, -75,
+    8, -51,
+    8, -40,
+    48.5, -29.5,
+    61.5, -0
+  ]
+}

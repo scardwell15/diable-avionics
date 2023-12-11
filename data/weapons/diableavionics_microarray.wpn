@@ -1,0 +1,87 @@
+{
+	"id":"diableavionics_microarray",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"LARGE",
+	"turretSprite":"graphics/da/weapons/diableavionics_microarray.png",
+	"hardpointSprite":"",
+	"hardpointOffsets":[
+5, -152,
+5, 152,
+
+5, -120, 
+5, 120, 
+
+5, -88, 
+5, 88, 
+
+5, -56, 
+5, 56, 
+
+5, -24, 
+5, 24, 
+
+5, 8,
+5, -8, 
+
+5, 40, 
+5, -40, 
+
+5, 72, 
+5, -72, 
+
+5, 104, 
+5, -104, 
+
+5, 136, 
+5, -136, 
+],
+	"turretOffsets":[
+5, -152,
+5, 152,
+
+5, -120, 
+5, 120, 
+
+5, -88, 
+5, 88, 
+
+5, -56, 
+5, 56, 
+
+5, -24, 
+5, 24, 
+
+5, 8,
+5, -8, 
+
+5, 40, 
+5, -40, 
+
+5, 72, 
+5, -72, 
+
+5, 104, 
+5, -104, 
+
+5, 136, 
+5, -136, 
+],
+	"hardpointAngleOffsets":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+	"turretAngleOffsets":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+	"barrelMode":"ALTERNATING",
+	"animationType":"SMOKE",
+	"smokeSpec":{"particleSizeMin":10.0,
+				 "particleSizeRange":14.0,
+				 "cloudParticleCount":1,
+				 "cloudDuration":1.5,
+				 "cloudRadius":12.0;
+				 "blowbackParticleCount":3,
+				 "blowbackDuration":0.45,
+				 "blowbackLength":20.0,
+				 "blowbackSpread":6.0,
+				 "particleColor":[190,180,160,95]},
+	"autocharge":true,
+	"projectileSpecId":"diableavionics_micromissile",		
+	"fireSoundTwo":"diableavionics_micromissile_firing",
+}

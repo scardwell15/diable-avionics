@@ -1,0 +1,43 @@
+{
+	"id":"diableavionics_srab_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",	
+	"sprite":"graphics/da/missiles/diableavionics_srabmissile.png",
+	"size":[19,33],	
+	"center":[9.5,16.5],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[182,36,243,100],
+	"explosionRadius":100,
+	"maxFlightTime":3,
+	"fadeTime":0.1,
+	"noEngineGlowTime":0,
+	"engineSpec":{"turnAcc":2000,
+                        "turnRate":30, 
+                        "acc":500,
+                        "dec":300},			  
+	"engineSlots":[ 
+                {
+                "id":"ES1",
+                "loc":[0, 0],
+                "style":"CUSTOM",
+                "styleSpec":{
+                    "mode":"QUAD_STRIP",
+                    "engineColor":[200,0,230,64],
+                    "contrailDuration":1.25,
+                    "contrailWidthMult":2,
+                    "contrailWidthAddedFractionAtEnd":-0.75, 
+                    "contrailMinSeg":20,
+                    "contrailMaxSpeedMult":0.5f,
+                    "contrailAngularVelocityMult":0.5f,
+                    "contrailColor":[201,109,234,75],
+                    "contrailSpawnDistMult":-2,								
+                    "type":"SMOKE"
+                },					
+                "width":10.0,
+                "length":10.0,
+                "angle":180.0
+                },											
+	],
+        "onHitEffect":"data.scripts.weapons.Diableavionics_srabEffect",
+}

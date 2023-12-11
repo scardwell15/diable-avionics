@@ -1,0 +1,27 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "diableavionics_cirrus",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_cirrus_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "diableavionics_recson",
+                "WS0005": "diableavionics_recson"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "diableavionics_ibis"}
+        }
+    ],
+    "wings": ["diableavionics_zephyr_wing"]
+}

@@ -1,0 +1,39 @@
+name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#artassault Revolver Gun,diableavionics_artassault,FALSE,small,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#IBIS,diableavionics_ibis,FALSE,small,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Recson S,diableavionics_recson,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Raptor Defense System,diableavionics_raptor,FALSE,medium,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Recson V,diableavionics_recson2,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Trifire Scatter-Cannon,diableavionics_hexafire,FALSE,medium,ballistic,,,,,,,,ENERGY,TRUE,TRUE,,,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Mostro Cannon Array,diableavionics_mostro,FALSE,large,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Hexafire Scatter-Cannon,diableavionics_hexafire2,FALSE,large,ballistic,,,,,,,,ENERGY,TRUE,TRUE,,,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Banish Torpedo (Single),diableavionics_banishsmall,FALSE,small,missile,,,,TRUE,,,,ENERGY,,,TRUE,,TRUE,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Thunderbolt MRM Rack,diableavionics_thunderboltsmall,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Magicbox PD Missile,diableavionics_magicbox,FALSE,small,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,,,TRUE,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Thunderbolt MRM Pod,diableavionics_thunderboltpod,FALSE,medium,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Thrush LRM System,diableavionics_thrush,FALSE,medium,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Banish Torpedo Launcher,diableavionics_banish,FALSE,medium,missile,,,,TRUE,,,,ENERGY,,,TRUE,,TRUE,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Burchel Beam Repeater,diableavionics_burchel,FALSE,small,energy,,,TRUE,,,,TRUE,ENERGY,,TRUE,,TRUE,,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#SRAB Heavy Emitter,diableavionics_srab,FALSE,medium,energy,,,,,TRUE,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Glaux Lance Repeater,diableavionics_glaux,FALSE,medium,energy,,,TRUE,,TRUE,,,ENERGY,TRUE,,TRUE,,,,,DIABLE,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#State Support Beam,diableavionics_state,FALSE,medium,energy,,,,,,,,ENERGY,,TRUE,,,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Uhlan Siege Laser,diableavionics_uhlan,FALSE,large,energy,,,,,TRUE,,,ENERGY,TRUE,,TRUE,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Micro Missile Array,diableavionics_microarray,TRUE,large,missile,3,20,TRUE,,,,,HIGH_EXPLOSIVE,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Light Thermal Pulse Repeater,diableavionics_lightTPC,TRUE,small,energy,2,6,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Heavy ILIS,diableavionics_versant_head,TRUE,small,energy,3,6,,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Harvest,diableavionics_versant_harvest_LEFT,TRUE,medium,energy,3,14,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Harvest,diableavionics_versant_harvest_RIGHT,TRUE,medium,energy,3,14,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Heavy Thermal Pulse Cannon,diableavionics_heavythermalpulse,TRUE,large,energy,3,25,TRUE,,TRUE,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Grave HMG,diableavionics_gravemg,FALSE,medium,ballistic,,,,,,,,KINETIC,TRUE,,,,,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Glowtusk Linear Rifle,diableavionics_glowtusk,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Micro Missile Launcher,diableavionics_micromissile,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,TRUE,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Plover Rocket Pod,diableavionics_plover,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,TRUE,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lazyhorn Warp Projector,diableavionics_lazyhorn,FALSE,medium,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Opfer GV Repeating Artillery,diableavionics_opfergv,FALSE,large,ballistic,,,,,,,,KINETIC,TRUE,,TRUE,,,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Nocturne EMP Array,diableavionics_nocturne,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,TRUE,,,,TRUE,DIABLE,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10

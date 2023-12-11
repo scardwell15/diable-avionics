@@ -1,0 +1,191 @@
+{
+  "hullName": "Coanda",
+  "hullId": "diableavionics_coanda",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/da/ships/diableavionics_coanda.png",
+  "style": "HIGH_TECH",
+  "height": 220,
+  "width": 102,
+  "center": [49, 93],
+  "collisionRadius": 129,
+  "shieldCenter": [15, -0],
+  "shieldRadius": 114.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "diableavionics_mountBI",
+        "missleracks",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [92, 15]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [26, -19]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -7.5, -31,
+        20, -18
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 10,
+      "locations": [71, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -15,
+      "locations": [56, 7]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 20,
+      "locations": [42, 24]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -25,
+      "locations": [27, 6]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [13, 25]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 292.5,
+      "locations": [8, -37]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 112.5,
+      "locations": [-23, 17]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 180,
+      "locations": [-56, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-58, 31.5],
+      "length": 7.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-59, 23.5],
+      "length": 7.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-59, -23.5],
+      "length": 7.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-68, 14.5],
+      "length": 7.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-68, -14.5],
+      "length": 7.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    -60.5, 7,
+    -90, -0,
+    -61, -7,
+    -53.5, -31.5,
+    -35.5, -34,
+    -17, -48,
+    73.5, -42.5,
+    28, -18.5,
+    40.5, -9.5,
+    101.5, -7.5,
+    101.5, 24,
+    72, 42,
+    63, 36.5,
+    3, 40,
+    1, 46,
+    -19.5, 46,
+    -22.5, 38.5,
+    -34.5, 45.5,
+    -44.5, 34.5,
+    -56.5, 32.5
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "id":"diableavionics",
+    "name":"Diable Avionics",
+    "author":"Tartiflette, formerly created by Flashfrozen with the participation of Debido.",	
+    "version":
+    {
+        "major":2,
+        "minor":7,
+        "patch":"0rc3",
+    },
+    "description":"Claiming ownership over the possessions of millions seems to be a bold claim, but is one the Diable Avionics Corporation intends to enforce, with deadly means if necessary.",
+    "gameVersion": "0.96a",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+            #"version": "2.6"
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+            #"version": "2.6"
+        },
+    ],
+    "jars":["jars/Diable_Avionics.jar"],	
+    "modPlugin":"data.scripts.DAModPlugin",
+}

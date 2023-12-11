@@ -1,0 +1,52 @@
+{
+    "displayName": "Breacher",
+    "fluxCapacitors": 12,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "diableavionics_virtuous_brawler",
+    "hullMods": [
+        "diableavionics_virtuous_armD",
+        "diableavionics_virtuous_headA",
+        "diableavionics_virtuous_brawler",
+        "magazines",
+        "hardenedshieldemitter",
+        "fluxbreakers",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_virtuous_breacher",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LEFT": "diableavionics_virtuous_armD_L"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"RIGHT": "diableavionics_virtuous_armD_R"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_micromissile",
+                "WS0004": "diableavionics_micromissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "diableavionics_ibis",
+                "WS0006": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"HEAD": "diableavionics_virtuous_headA"}
+        }
+    ]
+}

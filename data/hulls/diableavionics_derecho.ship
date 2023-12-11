@@ -1,0 +1,225 @@
+{
+  "bounds": [
+    74.5,
+    -1.5,
+    36.5,
+    -8.5,
+    20,
+    -26.5,
+    44,
+    -39,
+    76.5,
+    -26.5,
+    80,
+    -29.5,
+    72,
+    -37,
+    42,
+    -48,
+    42,
+    -60,
+    24,
+    -53.5,
+    -9,
+    -64,
+    -18.5,
+    -58.5,
+    23,
+    -46,
+    20,
+    -39,
+    -17.5,
+    -34,
+    -20,
+    -26.5,
+    -41,
+    -25,
+    -55,
+    -12.5,
+    -55,
+    12.5,
+    -41,
+    25,
+    -20,
+    26.5,
+    -17.5,
+    34,
+    20,
+    39,
+    23,
+    46,
+    -18.5,
+    58.5,
+    -9,
+    64,
+    24,
+    53.5,
+    42,
+    60,
+    42,
+    48,
+    72,
+    37,
+    80,
+    29.5,
+    76.5,
+    26.5,
+    44,
+    39,
+    20,
+    26.5,
+    36.5,
+    8.5,
+    74.5,
+    1.5
+  ],
+  "builtInMods": [
+    #"diableavionics_avionics",
+    "diableavionics_cramped",
+    "high_maintenance",
+    "hiressensors",
+    "ecm",
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0000": "diableavionics_derechoSystem"
+  },
+  "center": [
+    66,
+    76
+  ],
+  "collisionRadius": 94,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -36.5,
+        8.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -36.5,
+        -8.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -34.5,
+        14.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -34.5,
+        -14.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    }
+  ],
+  "height": 158,
+  "hullId": "diableavionics_derecho",
+  "hullName": "Derecho",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    -17,
+    0.5
+  ],
+  "shieldRadius": 111.001129,
+  "spriteName": "graphics/da/ships/diableavionics_derecho.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0000",
+      "locations": [
+        7,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0001",
+      "locations": [
+        19,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        22,
+        -18
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 75,
+      "arc": 225,
+      "id": "WS0003",
+      "locations": [
+        -12,
+        30
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -75,
+      "arc": 225,
+      "id": "WS0004",
+      "locations": [
+        -12,
+        -30
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 135,
+      "id": "WS0005",
+      "locations": [
+        -23,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 132
+}

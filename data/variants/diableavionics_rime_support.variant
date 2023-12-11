@@ -1,0 +1,36 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 29,
+    "goalVariant": true,
+    "hullId": "diableavionics_rime",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "diableavionics_rime_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_srab"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "diableavionics_magicbox",
+                "WS0005": "diableavionics_magicbox"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "diableavionics_recson"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "diableavionics_ibis"}
+        }
+    ],
+    "wings": ["diableavionics_arbitrator_wing"]
+}

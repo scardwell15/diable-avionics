@@ -1,0 +1,26 @@
+{
+    "displayName": "Miner",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+	"goalVariant": true,
+    "hullId": "diableavionics_laminar",
+    "hullMods": ["heavyarmor"],
+	"permaMods": [],	
+    "quality": 0,
+    "variantId": "diableavionics_laminar_miner",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "mininglaser",
+                "WS0003": "mininglaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_ibis"}
+        }
+    ]
+}

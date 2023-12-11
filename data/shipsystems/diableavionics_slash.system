@@ -1,0 +1,26 @@
+{
+	"id":"diableavionics_slash",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_slashAI",
+	"statsScript":"data.shipsystems.scripts.Diableavionics_slashStats",
+	
+	#"jitterColor":[255,255,255,255],
+	#"jitterCopies":1,
+	#"jitterRange":0,
+	#"jitterRangeRadiusFraction":1,
+	
+	"engineGlowColor":[100,165,255,125],
+	"engineGlowContrailColor":[100,165,255,50],
+	"engineGlowLengthMult":2,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":2,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_maneuvering_jets",
+	#"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"averageSpeedIncrease":700,
+	},
+}

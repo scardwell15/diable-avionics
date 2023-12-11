@@ -1,0 +1,37 @@
+{
+	"id":"diableavionics_virtuousmissile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/da/missiles/diableavionics_micromissile.png",
+	"size":[6,15],	
+	"center":[3,9],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+        "maxFlightTime":12,
+        #"armingTime":0.25,	
+	"engineSpec":{"turnAcc":720,
+                        "turnRate":360,
+                        "acc":400,
+                        "dec":15},			  
+	"engineSlots":[{"id":"ES1",
+                        "loc":[-8, 0],
+                        "style":"CUSTOM",
+                        "styleSpec":{
+                                "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                                "engineColor":[107,195,210,255],
+                                "contrailDuration":4.0,
+                                "contrailWidthMult":0.75,
+                                "contrailWidthAddedFractionAtEnd":1.5,  # can be negative. makes trail spread out/narrow at the end
+                                "contrailMinSeg":10, # min segment length, in pixels
+                                "contrailMaxSpeedMult":0.75f,
+                                "contrailAngularVelocityMult":0.1f,
+                                "contrailColor":[33,103,120,190],
+                                "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+                        },
+                        "width":6.0,
+                        "length":30.0,
+                        "angle":180.0}],
+        "onHitEffect":"data.scripts.weapons.Diableavionics_virtuous_missileHit",
+}

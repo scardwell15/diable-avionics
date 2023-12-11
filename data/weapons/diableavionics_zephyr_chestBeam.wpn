@@ -1,0 +1,41 @@
+{
+	"specClass":"beam",
+	"id":"diableavionics_zephyr_chestBeam",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"beamFireOnlyOnFullCharge":true,
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"turretSprite":"",
+	"turretGlowSprite":"graphics/da/weapons/diableavionics_glaux_turret_glow.png",	
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/da/weapons/diableavionics_glaux_hardpoint_glow.png",	
+	"turretOffsets":[12, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[14, 0],
+	"hardpointAngleOffsets":[0],
+
+	#"darkCore":true,
+	
+	#"fringeColor":[100,150,255,255],
+	#"coreColor":[250,15,15,255],
+	#"glowColor":[232,128,35,255],
+
+	"darkCore":false,
+	
+	"fringeColor":[100,15,15,255],
+	"coreColor":[95,165,200,255],
+	"glowColor":[232,128,35,255],
+
+	"width":50.0,
+
+	"textureType":CHUNKY,
+	"textureScrollSpeed":428.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	#"fireSoundOne":"diableavionics_glaux_firing",
+	"beamEffect":"data.scripts.weapons.Diableavionics_unstableBurstsEffect",
+        "specialWeaponGlowWidth":0,
+        "specialWeaponGlowHeight":0,
+
+}

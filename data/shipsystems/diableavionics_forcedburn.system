@@ -1,0 +1,29 @@
+{
+	"id":"diableavionics_forcedburn",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_forcedburncatalyst",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_catalystAI",
+	
+	#"engineGlowColor":[255,175,125,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":2.5,
+	"engineGlowWidthMult":2.5,
+	"engineGlowGlowMult":4,
+	
+	"flameoutOnImpactChance":0.25,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"diableavionics_forcedstart",
+	"loopSound":"diableavionics_forcedloop",
+	"deactivateSound":"diableavionics_forcedend",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":100,
+	},
+}

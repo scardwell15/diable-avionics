@@ -1,0 +1,25 @@
+{
+	"id":"diableavionics_thunderboltpod",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/da/weapons/diableavionics_thunderboltPod_turret.png",
+	"hardpointSprite":"graphics/da/weapons/diableavionics_thunderboltPod_hardpoint.png",
+	"hardpointOffsets":[22,0, 19,0, 17,0],
+	"turretOffsets":[16,0, 14,0, 12,0],
+	"hardpointAngleOffsets":[0,0,0],
+	"turretAngleOffsets":[0,0,0],
+	"barrelMode":"ALTERNATING",
+	"renderHints":[RENDER_LOADED_MISSILES_UNLESS_HIDDEN],	
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":80.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":18.0,
+					   "particleSizeMin":2.0,
+					   "particleSizeRange":6.0,
+					   "particleDuration":0.88,
+					   "particleCount":13,
+					   "particleColor":[111,215,219,245]},
+	"autocharge":true,
+	"projectileSpecId":"diableavionics_thunderbolt",
+	"fireSoundOne":"diableavionics_thunderboltpod_firing",
+}

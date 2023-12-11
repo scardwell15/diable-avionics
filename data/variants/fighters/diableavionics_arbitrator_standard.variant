@@ -1,0 +1,32 @@
+{
+  "displayName": "Fast Interceptor",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "diableavionics_arbitrator",
+  "quality": 0,
+  "variantId": "diableavionics_arbitrator_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0000": "diableavionics_artassault"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_warlusthead"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "diableavionics_arbitratorBooster"
+      }
+    }
+  ],
+  "wings": []
+}

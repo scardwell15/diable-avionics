@@ -1,0 +1,42 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_ravenright",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":40,
+	"turretSprite":"graphics/da/ships/raven/diableavionics_ravenrightarm.png",
+	"turretGunSprite":"graphics/da/ships/raven/diableavionics_ravenrightbarrel.png",	
+	"hardpointSprite":"",
+	"hardpointGunSprite":"",	
+	"visualRecoil":12.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW, "SUSPEND_RECOIL"],		
+	"turretOffsets":[
+25, -3.5
+],
+	"turretAngleOffsets":[
+0
+],
+	"hardpointOffsets":[ 
+25, -3.5
+],
+	"hardpointAngleOffsets":[
+0
+],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"glowColor":[255,100,100,255],
+	"muzzleFlashSpec":{"length":30.0,
+                            "spread":5.0,
+                            "particleSizeMin":25.0,
+                            "particleSizeRange":30.0,
+                            "particleDuration":0.12,
+                            "particleCount":14,
+                            "particleColor":[225,110,90,255]},		
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"diableavionics_glowtusk_shot",  # projectile that will be fired
+	"fireSoundTwo":"diableavionics_glowtusklinear_firing",
+        "everyFrameEffect":"data.scripts.weapons.Diableavionics_ravenAnim",
+        
+        "specialWeaponGlowWidth":10,
+        "specialWeaponGlowHeight":15,
+}

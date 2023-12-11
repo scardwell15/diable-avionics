@@ -1,0 +1,32 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "diableavionics_chinook",
+    "hullMods": [
+        "heavyarmor",
+        "auxiliary_fuel_tanks"
+    ],
+    "permaMods": [],
+    "variantId": "diableavionics_chinook_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "diableavionics_micromissile",
+                "WS0002": "diableavionics_micromissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_ibis",
+                "WS0004": "diableavionics_ibis",
+                "WS0005": "diableavionics_ibis"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "diableavionics_station_lock1",
+  "hullId": "diableavionics_station_lock1",
+  "displayName": "Orbital Station",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+		# CROSS SECTION
+		{"CROSS_LEFT": "diableavionics_module_defense_lock1"},
+		{"CROSS_RIGHT": "diableavionics_module_defense_lock1"},
+		
+		# TIPS
+		# empty for lower tier
+		#{"TIP_UP": ""},
+		#{"TIP_DOWN": ""},
+		
+		# ARM SECTION
+		{"TOP_LEFT": "diableavionics_module_fighter_lock1"},
+		{"BOTTOM_LEFT": "diableavionics_module_fighter_lock1"},
+		{"TOP_RIGHT": "diableavionics_module_lightAttack_lock1"},
+		{"BOTTOM_RIGHT": "diableavionics_module_lightAttack_lock1"},
+	],
+  "wings": []
+}

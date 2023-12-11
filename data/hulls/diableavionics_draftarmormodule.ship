@@ -1,0 +1,72 @@
+{
+  "bounds": [
+    26.5,
+    4.5,
+    23,
+    8,
+    26,
+    15,
+    -4,
+    15,
+    -21,
+    17,
+    -28.5,
+    7.5,
+    -23.5,
+    -0,
+    -28.5,
+    -7.5,
+    -21,
+    -17,
+    -4,
+    -15,
+    26,
+    -15,
+    23,
+    -8,
+    26.5,
+    -4.5,
+    22,
+    -0
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches",
+  ],
+  "builtInWeapons": {
+  },
+  "builtInWings": [],
+  "center": [
+    18,
+    32
+  ],
+  "collisionRadius": 37.5,
+  "engineSlots": [],
+  "height": 60,
+  "hullId": "diableavionics_draftarmormodule",
+  "hullName": "Armor",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 37.5,
+  "spriteName": "graphics/da/ships/diableavionics_draftarmor.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        25,
+        -11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 37
+}

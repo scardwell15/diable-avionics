@@ -1,0 +1,17 @@
+{
+	"id":"diableavionics_harvest_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.Diableavionics_harvestEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":120.0,
+	"hitGlowRadius":20,
+	"width":10.0,
+	"fadeTime":0.15,
+	"fringeColor":[5,55,255,255],
+	"coreColor":[55,255,255,255],
+	"glowRadius":0,
+	"glowColor":[5,10,15,30],
+	#"bulletSprite":"graphics/da/missiles/diableavionics_reaper.png",
+}

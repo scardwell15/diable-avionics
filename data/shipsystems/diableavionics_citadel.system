@@ -1,0 +1,19 @@
+{
+	"id":"diableavionics_citadel",
+	"type":"SHIELD_MOD",
+	#"aiType":"FORTRESS_SHIELD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_virtuousCitadelAI",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_citadelStats",
+	"weaponTypes":[BALLISTIC,ENERGY,MISSILE],
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.5,
+	"soundFilterGainHF":0.25,
+
+	"useSound":"diableavionics_virtuousCitadel_activate",
+	"loopSound":"diableavionics_virtuousCitadel_loop",
+	"deactivateSound":"diableavionics_virtuousCitadel_deactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

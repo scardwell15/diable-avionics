@@ -1,0 +1,47 @@
+{
+	"specClass":"projectile",
+    "id":"diableavionics_blizzaiaGraveac",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":450,
+	"turretSprite":"graphics/da/ships/blizzaia/diableavionics_blizzaia_graveac.png",
+	"turretGunSprite":"graphics/da/ships/blizzaia/diableavionics_blizzaia_graveacB.png",	
+	"hardpointSprite":"graphics/da/ships/blizzaia/diableavionics_blizzaia_graveac.png",
+	"hardpointGunSprite":"graphics/da/ships/blizzaia/diableavionics_blizzaia_graveacB.png",	
+	"visualRecoil":2.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],	
+	"turretOffsets":[
+24, -4,
+23, -1,
+23, -7,
+],
+	"turretAngleOffsets":[
+0,
+-0.3,
+0.3,
+],
+	"hardpointOffsets":[
+24, -4,
+23, -1,
+23, -7,
+],
+	"hardpointAngleOffsets":[
+0,
+0,
+0,
+],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"separateRecoilForLinkedBarrels":"TRUE",
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":34.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":24.0,
+					   "particleDuration":0.02,
+					   "particleCount":12,
+					   "particleColor":[199,93,76,215]},
+	"projectileSpecId":"diableavionics_grave_shot",
+	"fireSoundTwo":"diableavionics_graveac_fire",
+        "specialWeaponGlowWidth":7,
+        "specialWeaponGlowHeight":10,
+}

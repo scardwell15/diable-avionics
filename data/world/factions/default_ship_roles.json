@@ -1,0 +1,224 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+            "diableavionics_draft_standard":4,
+            "diableavionics_draft_support":3,
+            "diableavionics_draft_assault":3,
+
+            "diableavionics_sleet_assault":2,
+            "diableavionics_sleet_beam":2,
+            "diableavionics_sleet_standard":3,
+            "diableavionics_sleet_support":3,
+	},
+	"combatSmall":{
+            "diableavionics_draft_standard":4,
+            "diableavionics_draft_support":3,
+            "diableavionics_draft_assault":3,
+
+            "diableavionics_sleet_assault":2,
+            "diableavionics_sleet_beam":2,
+            "diableavionics_sleet_standard":3,
+            "diableavionics_sleet_support":3,
+
+            "diableavionics_vapor_attack":2,
+            "diableavionics_vapor_standard":2,
+            "diableavionics_vapor_closeRange":2,
+            "diableavionics_vapor_closequarter":2,
+            "diableavionics_vapor_brawler":2,
+
+            "diableavionics_versant_assault":3,
+            "diableavionics_versant_escort":3,
+            "diableavionics_versant_standard":4,
+	},
+	"combatMedium":{
+            "diableavionics_calm_standard":2,
+            "diableavionics_calm_assault":2,
+            "diableavionics_calm_brute":2,	
+            "diableavionics_calm_mixed":2,	
+            "diableavionics_calm_closequarter":2,
+
+            "diableavionics_hayle_standard":2,
+            "diableavionics_hayle_attack":2,	
+            "diableavionics_hayle_combat":2,	
+            "diableavionics_hayle_multirole":2,	
+            "diableavionics_hayle_closequarter":2,
+
+            "diableavionics_derecho_support":3,	
+            "diableavionics_derecho_standard":4,
+            "diableavionics_derecho_kite":3,	
+
+
+            "diableavionics_coanda_standard":4,
+            "diableavionics_coanda_assault":2,
+            "diableavionics_coanda_support":4,
+
+            "diableavionics_miniGust_assault":2,	
+            "diableavionics_miniGust_closeSupport":2,	
+            "diableavionics_miniGust_support":2,	
+            "diableavionics_miniGust_beamer":2,	
+            "diableavionics_miniGust_pd":2,
+
+            "diableavionics_stratus_p_assault":2,
+            "diableavionics_stratus_p_combat":2,
+            "diableavionics_stratus_p_outdated":4,
+            "diableavionics_stratus_p_support":2,
+
+	},
+	"combatLarge":{
+            "diableavionics_haze_standard":2,	
+            "diableavionics_haze_assault":2,
+            "diableavionics_haze_missile":2,
+            "diableavionics_haze_support":2,
+            "diableavionics_haze_closequarter":2,
+	
+            "diableavionics_daze_assault":2,	
+            "diableavionics_daze_beamer":3,	
+            "diableavionics_daze_combat":3,	
+            "diableavionics_daze_craze":2,
+	
+            "diableavionics_gust_assault":2,	
+            "diableavionics_gust_sentinel":3,
+            "diableavionics_gust_standard":3,	
+            "diableavionics_gust_missile":2,	
+
+            "diableavionics_rime_p_breach":3,
+            "diableavionics_rime_p_standard":4,
+            "diableavionics_rime_p_support":3,
+
+            "diableavionics_rime_m_outdated":3,
+            "diableavionics_rime_m_standard":3,
+            "diableavionics_rime_m_assault":2,
+            "diableavionics_rime_m_advanced":2,
+
+	},
+	"combatCapital":{
+            "diableavionics_pandemonium_willBreaker":2,	
+            "diableavionics_pandemonium_bonesShatterer":2,
+            "diableavionics_pandemonium_gutsRipper":2,	
+            "diableavionics_pandemonium_mindBlower":2,
+            "diableavionics_pandemonium_extinguisher":2,
+
+            "diableavionics_maelstrom_standard":3,			
+            "diableavionics_maelstrom_beamer":2,			
+            "diableavionics_maelstrom_brawler":2,		
+            "diableavionics_maelstrom_vanguard":3,	
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+            "diableavionics_draft_standard":5,
+            "diableavionics_sleet_standard":5,
+	},
+	"combatFreighterMedium":{
+            "diableavionics_stratus_standard":2,
+            "diableavionics_stratus_combat":4,
+            "diableavionics_stratus_support":4,
+	},
+	"combatFreighterLarge":{
+            "diableavionics_rime_breach":3,
+            "diableavionics_rime_standard":4,
+            "diableavionics_rime_support":3,
+	},
+	
+	"civilianRandom":{
+            "diableavionics_laminar_miner":10,
+	},
+
+	# carriers
+	"carrierSmall":{
+            "diableavionics_fractus_support":2,
+            "diableavionics_fractus_attack":2,
+            "diableavionics_fractus_escort":2,
+            "diableavionics_fractus_standard":2,
+            "diableavionics_fractus_antiFighter":2,
+	},
+	"carrierMedium":{	
+            "diableavionics_storm_standard":2,	
+            "diableavionics_storm_strike":2,	
+            "diableavionics_storm_assault":2,	
+            "diableavionics_storm_support":2,	
+            "diableavionics_storm_closequarter":2,
+	},
+	"carrierLarge":{
+            "diableavionics_maelstrom_standard":3,			
+            "diableavionics_maelstrom_beamer":3,			
+            "diableavionics_maelstrom_brawler":2,		
+            "diableavionics_maelstrom_vanguard":2,
+	
+            "diableavionics_pandemonium_willBreaker":1,	
+            "diableavionics_pandemonium_bonesShatterer":1,
+            "diableavionics_pandemonium_gutsRipper":1,	
+            "diableavionics_pandemonium_mindBlower":1,	
+            "diableavionics_pandemonium_extinguisher":1,
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+	},
+	"freighterMedium":{
+            "diableavionics_stratus_standard":6,
+            "diableavionics_stratus_combat":2,
+            "diableavionics_stratus_support":2,
+	},
+	"freighterLarge":{
+            "diableavionics_rime_standard":4,
+            "diableavionics_rime_support":3,
+            "diableavionics_rime_breach":3,
+	},
+	
+	"tankerSmall":{
+	},
+	"tankerMedium":{
+            "diableavionics_chinook_standard":5,
+            "diableavionics_chinook_support":5,
+	},
+	"tankerLarge":{
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+            "diableavionics_cirrus_standard":5,
+            "diableavionics_cirrus_assault":5,
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+            "diableavionics_cirrus_standard":5,
+            "diableavionics_cirrus_assault":5,
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+            "diableavionics_shear_standard":10,
+	},
+	"crig":{
+	},
+	"utility":{
+            "diableavionics_laminar_miner":5,
+            "diableavionics_shear_standard":5,
+	},
+	
+	"orbitalStationLowTech":{
+	},
+	
+	"battlestationLowTech":{
+	},
+}

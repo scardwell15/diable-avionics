@@ -1,0 +1,53 @@
+{
+    "displayName": "Missile",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "diableavionics_gust",
+    "hullMods": ["magazines"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_gust_missile",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_opfergv"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "diableavionics_artdeux"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "diableavionics_recson",
+                "WS0008": "diableavionics_artassault",
+                "WS0009": "diableavionics_recson",
+                "WS0010": "diableavionics_artassault"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_micromissile",
+                "WS0005": "diableavionics_micromissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "diableavionics_magicbox",
+                "WS0006": "diableavionics_magicbox",
+                "WS0011": "diableavionics_ibis",
+                "WS0014": "diableavionics_ibis",
+                "WS0015": "diableavionics_burchel"
+            }
+        }
+    ],
+    "wings": ["diableavionics_blizzaia_wing"]
+}

@@ -1,0 +1,196 @@
+{
+  "bounds": [
+    10,
+    -4.5,
+    5,
+    -6.5,
+    3,
+    -13.5,
+    -1,
+    -13.5,
+    -3,
+    -6.5,
+    -13,
+    -5.5,
+    -13,
+    5.5,
+    -3,
+    6.5,
+    -1,
+    13.5,
+    3,
+    13.5,
+    5,
+    6.5,
+    10,
+    4.5
+  ],
+  "builtInWeapons": {
+    "A_GUN": "diableavionics_strifegun",
+    "B_TORSO": "diableavionics_strifeTorso",
+    "C_ARML": "diableavionics_strifeLeftArm",
+    "C_ARMR": "diableavionics_strifeRightArm",
+    "D_PAULDRONL": "diableavionics_strifeLeftPauldron",
+    "D_PAULDRONR": "diableavionics_strifeRightPauldron",
+    "E_HEAD": "diableavionics_strifehead",
+    "F_GLOW": "diableavionics_strifeGlow"
+  },
+  "builtInWings": [],
+  "center": [
+    9,
+    16.5
+  ],
+  "collisionRadius": 18,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 19.5,
+      "location": [
+        -13.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 8
+    },
+    {
+      "angle": -148,
+      "contrailSize": 6.786158,
+      "length": 11.553658,
+      "location": [
+        -14,
+        -5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6.786158
+    },
+    {
+      "angle": 148,
+      "contrailSize": 6.786158,
+      "length": 11.553658,
+      "location": [
+        -14,
+        5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6.786158
+    }
+  ],
+  "height": 26,
+  "hullId": "diableavionics_strife",
+  "hullName": "Strife",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 18,
+  "spriteName": "graphics/da/ships/strife/diableavionics_strifeHips.png",
+  "style": "DA_WANZER",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "A_GUN",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "B_TORSO",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "renderOrderMod":-100,
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "C_ARML",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "renderOrderMod":-5,
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "C_ARMR",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "D_PAULDRONL",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "D_PAULDRONR",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 135,
+      "id": "E_HEAD",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "renderOrderMod":+10,
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "F_GLOW",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 18
+}

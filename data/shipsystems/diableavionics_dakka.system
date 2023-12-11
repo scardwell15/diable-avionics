@@ -1,0 +1,13 @@
+{
+	"id":"diableavionics_dakka",
+	"type":"STAT_MOD",
+	#"aiType":"WEAPON_BOOST",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_dakkaAI",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_dakkaStats",
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

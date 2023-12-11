@@ -1,0 +1,62 @@
+{
+    "displayName": "Boss",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "hullId": "diableavionics_IBBgulf",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "diableavionics_IBBgulf_boss",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "tachyonlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "heatseeker",
+                "WS0011": "heatseeker",
+                "WS0012": "heatseeker",
+                "WS0013": "heatseeker",
+                "WS0014": "swarmer",
+                "WS0015": "swarmer",
+                "WS0016": "swarmer",
+                "WS0017": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hveldriver",
+                "WS0004": "hveldriver",
+                "WS0005": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "pdburst",
+                "WS0007": "pdburst",
+                "WS0008": "pdburst",
+                "WS0009": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "wasp_wing",
+        "wasp_wing"
+    ]
+}

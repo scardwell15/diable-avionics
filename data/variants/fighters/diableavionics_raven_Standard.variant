@@ -1,0 +1,43 @@
+{
+  "displayName": "9th gen Wanzer",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "diableavionics_raven",
+  "hullMods": [
+    "diableavionics_wanzer",
+    "autorepair"
+  ],
+  "quality": 0,
+  "variantId": "diableavionics_raven_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "diableavionics_ravenleft"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "diableavionics_ravenright"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        #"WS0004": "diableavionics_raventorso",
+        #"WS0005": "diableavionics_raventorso"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_ravenhead"
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "hullName": "Bastion Module",
+  "hullId": "diableavionics_module_tip",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/da/ships/station/diableavionics_station_bastion.png",
+  "style": "HIGH_TECH",
+  "height": 125,
+  "width": 178,
+  "center": [89, 46],
+  "collisionRadius": 127.5,
+  "shieldCenter": [-6, -0],
+  "shieldRadius": 115.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "WS0001": "diableavionics_microarrayM"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [52, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [10, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [3, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [3, -33]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [42, 57]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [42, -57]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [32, 42]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [32, -42]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [58, 26]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [58, -26]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    61, 12.5,
+    77, 28.5,
+    28.5, 28.5,
+    62, 79.5,
+    -18.5, 83.5,
+    -22, 60.5,
+    -37.5, 48.5,
+    -37.5, -48.5,
+    -22, -60.5,
+    -18.5, -83.5,
+    62, -79.5,
+    28.5, -28.5,
+    77, -28.5,
+    61, -12.5
+  ]
+}

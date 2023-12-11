@@ -1,0 +1,19 @@
+{
+    "baseHullId":"diableavionics_virtuous_skirmisher",
+    "skinHullId":"diableavionics_virtuous_scout",
+    "hullName":"Virtuous",
+    "descriptionId":"diableavionics_virtuous_skirmisher",
+    "systemId":"diableavionics_circus",
+    "removeBuiltInWeapons":[
+        "PAULDRON_L",
+        "PAULDRON_R",
+        "PAULDRON_LG",
+        "PAULDRON_RG",
+    ],
+    "builtInWeapons":{
+        "PAULDRON_L": "diableavionics_virtuous_pauldronD_L",
+        "PAULDRON_R": "diableavionics_virtuous_pauldronD_R",
+        "PAULDRON_LG": "diableavionics_virtuous_pauldronD_LG",
+        "PAULDRON_RG": "diableavionics_virtuous_pauldronD_RG",
+    },
+}

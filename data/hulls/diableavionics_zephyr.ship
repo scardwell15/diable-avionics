@@ -1,0 +1,268 @@
+{
+  "bounds": [
+    13,
+    8,
+    -4,
+    17,
+    -16,
+    8,
+    -16,
+    -8,
+    -4,
+    -17,
+    13,
+    -8
+  ],
+  "builtInWeapons": {
+    "HEAD": "diableavionics_zephyr_head",
+    "LEFT_ARM": "diableavionics_zephyr_leftArm",
+    "LEFT_BEAM": "diableavionics_zephyr_leftBeam",
+    "LEFT_CHEST": "diableavionics_zephyr_leftChest",
+    "LEFT_PAULDRON": "diableavionics_zephyr_leftPauldron",
+    "LEFT_ROD_A": "diableavionics_zephyr_leftRod",
+    "LEFT_ROD_B": "diableavionics_zephyr_leftRod",
+    "RAIL": "diableavionics_zephyr_rail",
+    "RIGHT_ARM": "diableavionics_zephyr_rightArm",
+    "RIGHT_BEAM": "diableavionics_zephyr_rightBeam",
+    "RIGHT_CHEST": "diableavionics_zephyr_rightChest",
+    "RIGHT_PAULDRON": "diableavionics_zephyr_rightPauldron",
+    "RIGHT_ROD_A": "diableavionics_zephyr_rightRod",
+    "RIGHT_ROD_B": "diableavionics_zephyr_rightRod"
+  },
+  "builtInWings": [],
+  "center": [
+    13,
+    19
+  ],
+  "collisionRadius": 42,
+  "engineSlots": [
+    {
+      "angle": 173,
+      "contrailSize": 8,
+      "length": 8.5,
+      "location": [
+        -18,
+        5.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 8
+    },
+    {
+      "angle": -173,
+      "contrailSize": 8,
+      "length": 8.5,
+      "location": [
+        -18,
+        -5.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 13.5,
+      "location": [
+        -14.5,
+        -0
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 8
+    }
+  ],
+  "height": 35,
+  "hullId": "diableavionics_zephyr",
+  "hullName": "Zephyr",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    -1.5,
+    0
+  ],
+  "shieldRadius": 40,
+  "spriteName": "graphics/da/ships/zephyr/diableavionics_zephyr_body.png",
+  "style": "DA_WANZER",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -15,
+      "arc": 90,
+      "id": "RIGHT_BEAM",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 15,
+      "arc": 90,
+      "id": "LEFT_BEAM",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -164,
+      "arc": 0,
+      "id": "RIGHT_ROD_A",
+      "locations": [
+        -6.5,
+        -13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 164,
+      "arc": 0,
+      "id": "LEFT_ROD_A",
+      "locations": [
+        -6.5,
+        13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 135,
+      "arc": 0,
+      "id": "LEFT_ROD_B",
+      "locations": [
+        5.5,
+        15
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -135,
+      "arc": 0,
+      "id": "RIGHT_ROD_B",
+      "locations": [
+        5.5,
+        -15
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 20,
+      "arc": 270,
+      "id": "LEFT_ARM",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -20,
+      "arc": 270,
+      "id": "RIGHT_ARM",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 20,
+      "arc": 270,
+      "id": "LEFT_PAULDRON",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -20,
+      "arc": 270,
+      "id": "RIGHT_PAULDRON",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "LEFT_CHEST",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 270,
+      "id": "RIGHT_CHEST",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 135,
+      "id": "HEAD",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "CHEST_BEAM",
+      "locations": [
+        19.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "RAIL",
+      "locations": [
+        20,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 26
+}

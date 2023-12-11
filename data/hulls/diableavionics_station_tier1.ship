@@ -1,0 +1,113 @@
+{
+  "hullName": "Orbital Station",
+  "hullId": "diableavionics_station_tier1",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/da/ships/station/diableavionics_station_core.png",
+  "style": "HIGH_TECH",
+  "height": 774,
+  "width": 276,
+  "center": [138, 387],
+  "collisionRadius": 448,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 448,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "diableAvionics_axialrotation",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "weaponSlots": [
+    {
+      "id": "CROSS_LEFT",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 86]
+    },
+    {
+      "id": "CROSS_RIGHT",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -86]
+    },
+    {
+      "id": "TIP_UP",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-400, -0]
+    },
+    {
+      "id": "TIP_DOWN",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [400, 0]
+    },
+    {
+      "id": "TOP_LEFT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [210, 60]
+    },
+    {
+      "id": "TOP_RIGHT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [210, -60]
+    },
+    {
+      "id": "BOTTOM_RIGHT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-210, 60]
+    },
+    {
+      "id": "BOTTOM_LEFT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-210, -60]
+    },
+  ],
+  "engineSlots": [],
+  "bounds": [
+    93, -80,
+    60, -97,
+    -60, -97,
+    -93, -80,
+    -383, -56,
+    -375, -25,
+    -375, 25,
+    -383, 56,
+    -93, 80,
+    -60, 97,
+    60, 97,
+    93, 80,
+    383, 56,
+    375, 25,
+    375, -25,
+    383, -56
+  ]
+}

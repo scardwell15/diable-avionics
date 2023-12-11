@@ -1,0 +1,301 @@
+{
+  "bounds": [
+    12.5,
+    -1.5,
+    -3.5,
+    -12.5,
+    -13.5,
+    -6,
+    -13.5,
+    6,
+    -3.5,
+    12.5,
+    12.5,
+    1.5
+  ],
+  "builtInWeapons": {
+    "HEAD": "diableavionics_valianthead",
+    "ITANOCIRCUS": "diableavionics_itanolauncher",
+    "LEFTGUN": "diableavionics_valiantleft",
+    "RIGHTGUN": "diableavionics_valiantright",
+    "TRANSFORM_00": "diableavionics_valiant_shoulder_LEFT",
+    "TRANSFORM_01": "diableavionics_valiant_shoulder_RIGHT",
+    "TRANSFORM_02": "diableavionics_valiant_barrel_LEFT",
+    "TRANSFORM_03": "diableavionics_valiant_barrel_RIGHT",
+    "TRANSFORM_04": "diableavionics_valiant_back",
+    "TRANSFORM_05": "diableavionics_valiant_chest",
+    "TRANSFORM_06": "diableavionics_valiant_head",
+    "TRANSFORM_07": "diableavionics_valiant_pauldron_LEFT",
+    "TRANSFORM_08": "diableavionics_valiant_pauldron_RIGHT",
+    "TRANSFORM_09": "diableavionics_valiant_cover_LEFT",
+    "TRANSFORM_10": "diableavionics_valiant_cover_RIGHT"
+  },
+  "center": [
+    10,
+    17
+  ],
+  "collisionRadius": 35,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 12,
+      "location": [
+        -14,
+        4.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 12,
+      "location": [
+        -14,
+        -4.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 128,
+      "length": 24,
+      "location": [
+        -18,
+        3.5
+      ],
+      "style": "DiableAvionicsBooster",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 128,
+      "length": 24,
+      "location": [
+        -18,
+        -3.5
+      ],
+      "style": "DiableAvionicsBooster",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 128,
+      "length": 16,
+      "location": [
+        -17,
+        8.5
+      ],
+      "style": "DiableAvionicsBooster",
+      "width": 3
+    },
+    {
+      "angle": -180,
+      "contrailSize": 128,
+      "length": 16,
+      "location": [
+        -17,
+        -8.5
+      ],
+      "style": "DiableAvionicsBooster",
+      "width": 3
+    }
+  ],
+  "height": 31,
+  "hullId": "diableavionics_valiant",
+  "hullName": "Valiant",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 35,
+  "spriteName": "graphics/da/ships/valiant/diableavionics_valiant.png",
+  "style": "DA_WANZER",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "ITANOCIRCUS",
+      "locations": [
+        5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 135,
+      "id": "HEAD",
+      "locations": [
+        1,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 15,
+      "arc": 90,
+      "id": "LEFTGUN",
+      "locations": [
+        0,
+        10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -15,
+      "arc": 90,
+      "id": "RIGHTGUN",
+      "locations": [
+        0,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "TRANSFORM_00",
+      "locations": [
+        0,
+        10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "TRANSFORM_01",
+      "locations": [
+        0,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 15,
+      "arc": 90,
+      "id": "TRANSFORM_02",
+      "locations": [
+        0,
+        10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -15,
+      "arc": 90,
+      "id": "TRANSFORM_03",
+      "locations": [
+        0,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "TRANSFORM_04",
+      "locations": [
+        -11,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "TRANSFORM_05",
+      "locations": [
+        17,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "TRANSFORM_06",
+      "locations": [
+        2,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 15,
+      "arc": 90,
+      "id": "TRANSFORM_07",
+      "locations": [
+        0,
+        10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -15,
+      "arc": 90,
+      "id": "TRANSFORM_08",
+      "locations": [
+        0,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 15,
+      "arc": 90,
+      "id": "TRANSFORM_09",
+      "locations": [
+        0,
+        10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -15,
+      "arc": 90,
+      "id": "TRANSFORM_10",
+      "locations": [
+        0,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 20
+}

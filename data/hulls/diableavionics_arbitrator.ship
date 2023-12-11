@@ -1,0 +1,81 @@
+{
+  "hullName": "Arbitrator",
+  "hullId": "diableavionics_arbitrator",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/da/ships/arbitrator/diableavionics_arbitrator.png",
+  "style": "DA_WANZER",
+  "height": 44,
+  "width": 28,
+  "center": [14, 17],
+  "collisionRadius": 31.5,
+  "shieldCenter": [5, 0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0000": "diableavionics_arbitratorartassault",
+    "WS0001": "diableavionics_warlusthead",
+    "WS0002": "diableavionics_arbitratorBooster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0000",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [2.5, -3]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10, 5.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13.5, -0],
+      "length": 18.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-27.5, -5.5],
+      "length": 30,
+      "width": 12,
+      "angle": -178.5,
+      "contrailSize": 128,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-27.5, 5.5],
+      "length": 30,
+      "width": 12,
+      "angle": 178.5,
+      "contrailSize": 128,
+      "style": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    9.5, 2.5,
+    -11.5, 12.5,
+    -11.5, -12.5,
+    9.5, -2.5,
+    26, -0
+  ]
+}

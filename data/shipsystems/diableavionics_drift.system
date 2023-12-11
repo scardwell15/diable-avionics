@@ -1,0 +1,20 @@
+{
+	"id":"diableavionics_drift",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_driftStats",
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	#"useSound":"diableavionics_drift",
+	#"loopSound":"diableavionics_drift",
+	#"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":125,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":80,
+	}
+}

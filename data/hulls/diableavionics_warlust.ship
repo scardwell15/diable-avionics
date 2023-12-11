@@ -1,0 +1,129 @@
+{
+  "bounds": [
+    15,
+    7,
+    10,
+    12,
+    12,
+    25.5,
+    -3,
+    25.5,
+    -1,
+    12,
+    -11.5,
+    6,
+    -11.5,
+    -6,
+    -1,
+    -12,
+    -3,
+    -25.5,
+    12,
+    -25.5,
+    10,
+    -12,
+    15,
+    -7
+  ],
+  "builtInWeapons": {
+    "LEFT": "diableavionics_warlustmissile",
+    "PAULDRON": "diableavionics_warlustpauldron",
+    "RIGHT": "diableavionics_warlustgun",
+    "WS_HEAD": "diableavionics_warlusthead"
+  },
+  "center": [
+    21,
+    17
+  ],
+  "collisionRadius": 33.5,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 7.5,
+      "location": [
+        -16,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 13
+    }
+  ],
+  "height": 35,
+  "hullId": "diableavionics_warlust",
+  "hullName": "Warlust",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 33.5,
+  "spriteName": "graphics/da/ships/warlust/diableavionics_warlust_body.png",
+  "style": "DA_WANZER",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 15,
+      "arc": 90,
+      "id": "PAULDRON",
+      "locations": [
+        4,
+        17
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "renderOrderMod":+30,
+    },
+    {
+      "angle": 0,
+      "arc": 135,
+      "id": "WS_HEAD",
+      "locations": [
+        4,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 15,
+      "arc": 90,
+      "id": "LEFT",
+      "locations": [
+        4,
+        17
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -15,
+      "arc": 90,
+      "id": "RIGHT",
+      "locations": [
+        4,
+        -17
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 45,
+      "arc": 0,
+      "id": "DRONE",
+      "locations": [
+        1.5,
+        17.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 42
+}

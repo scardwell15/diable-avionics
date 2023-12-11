@@ -1,0 +1,16 @@
+{
+	"id":"diableavionics_ibis_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":12,
+	"length":40.0,
+	"width":3.0,
+	"fadeTime":0.25,
+	"fringeColor":[120,160,202,150],
+	"coreColor":[200,200,255,255],
+	#"glowRadius":1,
+	#"glowColor":[0,1,2,150],
+	"bulletSprite":"graphics/missiles/shell_small_yellow.png"
+}

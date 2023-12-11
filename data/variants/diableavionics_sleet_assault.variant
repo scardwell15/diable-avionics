@@ -1,0 +1,33 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "diableavionics_sleet",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "variantId": "diableavionics_sleet_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_artassault",
+                "WS0002": "diableavionics_artassault"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_graveac",
+                "WS0004": "diableavionics_graveac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "diableavionics_burchel"}
+        }
+    ]
+}

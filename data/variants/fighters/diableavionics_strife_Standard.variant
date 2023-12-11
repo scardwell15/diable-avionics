@@ -1,0 +1,27 @@
+{
+  "displayName": "6th gen Wanzer",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "diableavionics_strife",
+  "hullMods": [
+    "diableavionics_wanzer",
+    "autorepair"
+  ],
+  "variantId": "diableavionics_strife_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "A_GUN": "diableavionics_strifegun",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "E_HEAD": "diableavionics_strifehead",
+      }
+    }
+  ]
+}

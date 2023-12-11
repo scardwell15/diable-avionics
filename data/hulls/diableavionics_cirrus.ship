@@ -1,0 +1,196 @@
+{
+  "bounds": [
+    106.5,
+    -26.5,
+    52.5,
+    -24.5,
+    47.5,
+    -34.5,
+    38.5,
+    -34.5,
+    34.5,
+    -29.5,
+    30.5,
+    -37.5,
+    -41.5,
+    -37.5,
+    -70.5,
+    -20.5,
+    -70.5,
+    20.5,
+    -41.5,
+    37.5,
+    30.5,
+    37.5,
+    34.5,
+    29.5,
+    38.5,
+    34.5,
+    47.5,
+    34.5,
+    52.5,
+    24.5,
+    106.5,
+    26.5
+  ],
+  "builtInMods": [
+    #"diableavionics_avionics",
+    "ground_support"
+  ],
+  "center": [
+    45,
+    81
+  ],
+  "collisionRadius": 125,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -72,
+        18.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -72,
+        -18.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -74,
+        10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -74,
+        -10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -70,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    }
+  ],
+  "height": 199,
+  "hullId": "diableavionics_cirrus",
+  "hullName": "Cirrus",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    17,
+    -0
+  ],
+  "shieldRadius": 113.5,
+  "spriteName": "graphics/da/ships/diableavionics_cirrus.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 45,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        43,
+        28
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -45,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        43,
+        -28
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 235,
+      "id": "WS0006",
+      "locations": [
+        -58,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        110,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        110,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        80,
+        -0,
+        90.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 90
+}

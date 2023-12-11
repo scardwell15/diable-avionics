@@ -1,0 +1,28 @@
+{
+	"id":"diableavionics_virtuousMinigun_shot",
+        "onHitEffect":"data.scripts.weapons.Diableavionics_virtuous_minigunHit",
+	"specClass":"projectile",
+
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+
+	#"spawnType":"BALLISTIC",
+	#"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	
+        "textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+
+	"hitGlowRadius":24,
+	"length":75.0,
+	"width":3.0,
+	"fadeTime":0.3,
+	"fringeColor":[245,210,150,150],
+	"coreColor":[255,250,225,255],
+
+	#"glowRadius":3,
+	#"glowColor":[0,25,50,150],
+
+	"bulletSprite":"graphics/missiles/flechette_med.png"
+}

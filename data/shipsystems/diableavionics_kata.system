@@ -1,0 +1,14 @@
+{
+	"id":"diableavionics_kata",
+	"type":"STAT_MOD",
+	#"aiType":"WEAPON_BOOST",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_kataAI",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_kataStats",
+	"weaponTypes":[BALLISTIC],
+	"weaponGlowColor":[255,50,0,155],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

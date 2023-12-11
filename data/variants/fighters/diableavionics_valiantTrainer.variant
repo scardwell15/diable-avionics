@@ -1,0 +1,34 @@
+{
+  "displayName": "9th gen+ Wanzer",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "diableavionics_valiantTrainer",
+  "hullMods": [
+    "diableavionics_wanzer",
+    "autorepair"
+  ],
+  "variantId": "diableavionics_valiantTrainer",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "LEFTGUN": "diableavionics_warlusthead",
+        "RIGHTGUN": "diableavionics_warlusthead"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "diableavionics_valianthead",
+      }
+    },
+  ]
+}

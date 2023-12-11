@@ -1,0 +1,37 @@
+{
+	"id":"diableavionics_thrushmirv",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/da/missiles/diableavionics_thrush.png",
+	"size":[8,35],	
+	"center":[4,16],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":175, # purely visual
+	"flameoutTime":3,
+	"maxFlightTime":14,
+	"engineSpec":{          "turnAcc":600,
+				"turnRate":33,
+				"acc":90,
+				"dec":50},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-14, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[107,195,210,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":10, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[33,103,120,165],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":7.0,
+				    "length":30.0,
+				    "angle":180.0}],
+}
+

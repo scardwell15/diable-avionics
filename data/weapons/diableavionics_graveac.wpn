@@ -1,0 +1,45 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_graveac",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":450,
+	"turretSprite":"graphics/da/weapons/diableavionics_graveac_turret.png",
+	"turretGunSprite":"graphics/da/weapons/diableavionics_graveac_turret_recoil.png",	
+	"hardpointSprite":"graphics/da/weapons/diableavionics_graveac_hardpoint.png",
+	"hardpointGunSprite":"graphics/da/weapons/diableavionics_graveac_hardpoint_recoil.png",	
+	"visualRecoil":2.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],	
+	"turretOffsets":[
+17, 0,
+16, -3,
+16, 3,
+],
+	"turretAngleOffsets":[
+0,
+-0.3,
+0.3,
+],
+	"hardpointOffsets":[
+23, 0,
+22, -3,
+22, 3,
+],
+	"hardpointAngleOffsets":[
+0,
+0,
+0,
+],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"separateRecoilForLinkedBarrels":"TRUE",
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":34.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":24.0,
+					   "particleDuration":0.02,
+					   "particleCount":12,
+					   "particleColor":[199,93,76,215]},
+	"projectileSpecId":"diableavionics_grave_shot",
+	"fireSoundTwo":"diableavionics_graveac_fire",
+}

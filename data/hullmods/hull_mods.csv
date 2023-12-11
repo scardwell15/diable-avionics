@@ -1,0 +1,79 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+,,,,,,,,,,,,,,,,,,
+Advanced Avionics,diableavionics_avionics,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsUpgrade," Diable Avionic designs feature custom avionics systems allowing for a much finer control of their ships. The reduction in parasite accelerations coupled with their proprietary Quantum Branch Prediction Computer allows those ships to optimize their thrust and their firing solutions the more time they spend in contact with the enemy.
+
+Upon deployment the ships suffer a %s reduction of their weapons accuracy. But after each computation cycle of %s, the ships gain a significant boost in both weapon accuracy and engines performances. Depending on the size of the ship, %s are necessary to achieve maximum performances with %s better engine acceleration and %s better leading accuracy.",,graphics/da/hullmods/diableavionics_avionics.png
+,,,,,,,,,,,,,,,,,,
+Resilient Frame,diableavionics_wanzer,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsWanzer,"Wanzers are exceptionally durable small crafts, with reinforced internals and tripe redundant systems. They get %s resitance to EMP, plus their weapons and engines are %s less likely to fail.",Gives Wanzers a %s resitance to EMP and reduce the damage taken to their weapons and engines by %s .,graphics/da/hullmods/diableavionics_quantumsensor.png
+,,,,,,,,,,,,,,,,,,
+Cramped Hull,diableavionics_cramped,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCramped,"This hull is abnormally small and can't accomodate any modification requiring much space such as %s, %s, or %s. Missile based weapons fire-rate reduced by %s.","Prevents the installation of large hullmods, reduce missiles fire-rate by %s.",graphics/da/hullmods/diableavionics_cramped.png
+,,,,,,,,,,,,,,,,,,
+Oversized Hull,diableavionics_oversized,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsOversized,This ship is abnormally large which creates a logistical nightmare when it needs to be readied for combat. Increases CR recovery cost by %s.,Increases CR recovery cost by %s.,graphics/da/hullmods/diableavionics_oversized.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Dampened Mount,diableavionics_mountBI,4,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsMountBI,The hull's weapon emplacements are designed around extra recoil dampeners allow projectile weapons to fire at a slightly extended range of %s.,,graphics/da/hullmods/diableavionics_mount.png
+#Dampened Mount,diableavionics_mount,3,0.33,Diable Avionics,"offensive, req_spaceport","Weapons, Requires Dock",15000,,,,10,15,25,40,data.hullmods.DiableAvionicsMount,Extra recoil dampeners are fitted around the mounts allowing projectile weapons to fire at a slightly extended range of %s but only at %s of their maximum firerate. They also take %s more damage as a result.,,graphics/da/hullmods/diableavionics_mount.png
+#Dampened Mount,diableavionics_mount,4,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsMount,"This hullmod should no longer exist",,graphics/da/hullmods/diableavionics_mount.png
+,,,,,,,,,,,,,,,,,,
+# WANZER GANTRY
+,,,,,,,,,,,,,,,,,,
+Wanzer Servicing Gantry,diableavionics_universaldecksExtra,,,Diable Avionics,,,,,TRUE,,10,15,25,40,data.hullmods.DiableAvionicsUniversalDecksUpgrade2,"Enlarged launch bays that ease servicing oversized space vehicles such as Wanzers. Optimized tooling and space usage allow the deck crew to manage %s for each installed Wanzer wing.
+
+These specialized facilities do not offer any tangible benefit, nor drawback, when operating regular fighters wings.",,graphics/da/hullmods/diableavionics_decks.png
+,,,,,,,,,,,,,,,,,,
+# COMMISSIONED CREW
+,,,,,,,,,,,,,,,,,,
+#Optimized Operations,diableavionics_cc,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCC,"The crew of this ship has been trained to follow the extremely strict protocols of the Diable Avionics Corporation, leading to a somewhat more economical maintenance of %s or %s supplies per month (whichever comes first). The reduced amount of immediately available spare parts means that recovering from combat deployment takes about %s more time.",Reduce the monthly maintenance but also reduces the CR recovery.,graphics/da/hullmods/diableavionics_cc.png
+Hyperspace Navigation Protocols,diableavionics_cc,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCC,"The crew of this ship has been trained to spot and weather deep hyperspace storms, ships will take %s less damage from strikes.",Reduce the impact of hyperspace storms on the fleet.,graphics/da/hullmods/diableavionics_cc.png
+,,,,,,,,,,,,,,,,,,
+# STATION REVERSE ROTAION
+,,,,,,,,,,,,,,,,,,
+Axial Rotation,diableAvionics_axialrotation,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsAxialRotation,This structure constantly rotates around its axis.,,graphics/hullmods/axial_rotation.png
+,,,,,,,,,,,,,,,,,,
+# VERSANT WEAPON SELECTOR
+,,,,,,,,,,,,,,,,,,
+Versant Frame,diableavionics_tuning,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsTuning,The Versant frame offers limited customization options in the form of various firing profile for its built-in MP66-6 Harvest" guns.
+
+%s: This ship is a masterfully fine-tuned machine of war that already operates with reduced margins and does not like getting tinkered with.
+
+Therefore it is impossible to install Hull-mods that increase components stress, such as %s.",,graphics/da/hullmods/diableavionics_tuning.png
+Fire selector: AUTOMATIC,diableavionics_selector_auto,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsAuto,"The fire profile of the built-in Harvests guns can be changed to better suit the captain's preferences.
+
+%s has better sustained firepower, but worse accuracy and range.
+
+%s",,graphics/da/hullmods/diableavionics_selector_auto.png
+Fire selector: BURST,diableavionics_selector_burst,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsBurst,"The fire profile of the built-in Harvests guns can be changed to better suit the captain's preferences.
+
+%s has better accuracy and flux efficiency, but worse sustained firepower.
+
+%s",,graphics/da/hullmods/diableavionics_selector_burst.png
+Fire selector: SEMI-AUTO,diableavionics_selector_semi,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsSemi,"The fire profile of the built-in Harvests guns can be changed to better suit the captain's preferences.
+
+%s has much better damage per shot and range, but worse sustained firepower and flux efficiency.
+
+%s",,graphics/da/hullmods/diableavionics_selector_semi.png
+,,,,,,,,,,,,,,,,,,
+# VIRTUOUS LOADOUT SELECTOR
+,,,,,,,,,,,,,,,,,,
+Virtuous frame,diableavionics_virtuousMasterHullmod,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_system,"The Virtuous frame offers extensive customization options. These non-standard equipements can alter in profound ways the flight profile of this ship.
+
+%s: This ship is a masterfully fine-tuned machine of war that already operates with reduced margins and does not like getting tinkered with.
+
+Therefore it is impossible to install Hull-mods that increase components stress," such as %s.,"",graphics/da/hullmods/diableavionics_virtuousHM.png
+,,,,,,,,,,,,,,,,,,
+Broken Frame,diableavionics_virtuousBroken,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_broken,"%s, this hull is broken and cannot be used in combat until it is restored.",,graphics/icons/intel/investigation.png
+,,,,,,,,,,,,,,,,,,
+Hull Config: Skirmisher,diableavionics_virtuous_skirmisher,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_teleport,This hull configuration is designed to maximize the Virtuous' ability to reach and exploit openings anywhere on the battelfield.,,graphics/da/hullmods/diableavionics_virtuousHM_hullA.png
+Hull Config: Brawler,diableavionics_virtuous_brawler,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_temporalShell,"This hull configuration is designed to maximize the damage output of the Virtuous when engaging an enemy, or allow swift escapes from unfavorable situations.",,graphics/da/hullmods/diableavionics_virtuousHM_hullB.png
+Hull Config: Defender,diableavionics_virtuous_defender,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_citadel,"This hull configuration is designed to optimize flux use by increasing the passive defenses of the Virtuous frame, and maximize its survivability when faced with superior forces.",,graphics/da/hullmods/diableavionics_virtuousHM_hullC.png
+Hull Config: Recon,diableavionics_virtuous_scout,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_itanoCircus,This hull configuration is designed to improve the logistical profile of the Virtuous frame and maximize both its strategic and tactical mobility.,,graphics/da/hullmods/diableavionics_virtuousHM_hullD.png
+,,,,,,,,,,,,,,,,,,
+Primary Kit: Ranger,diableavionics_virtuous_armA,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,This loadout is designed to take out small to medium targets extremely rapidly at short range. Secondary weapons such as missiles need to be deployed to deal with armored targets.,,graphics/da/hullmods/diableavionics_virtuousHM_kitA.png
+Primary Kit: Marksman,diableavionics_virtuous_armB,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"This loadout is designed to support allied ships with long range high explosive precision shots. If caught in a pinch, the double-tap Kinetic shotgun sidearm should give the enemy some concerns.",,graphics/da/hullmods/diableavionics_virtuousHM_kitB.png
+Primary Kit: Demolition,diableavionics_virtuous_armC,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,This loadout is designed to eliminate carriers and cruiser-level threats thanks to its heavy Glaux and rapid-fire High Explosive grenade launcher.,,graphics/da/hullmods/diableavionics_virtuousHM_kitC.png
+Primary Kit: Gunner,diableavionics_virtuous_armD,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"This loadout is designed to deal with heavy defenses. The high volume kinetic minigun is ideal to saturate shields, and the modified Mostro is a proven weapon against all armor.",,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
+,,,,,,,,,,,,,,,,,,
+Head Weapon: Burchel,diableavionics_virtuous_headA,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,This head type is equiped with a Burchel burst PD beam.,,graphics/da/hullmods/diableavionics_virtuousHM_headA.png
+Head Weapon: Winee,diableavionics_virtuous_headB,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,This head type is equiped with a Winee EMP emitter.,,graphics/da/hullmods/diableavionics_virtuousHM_headB.png
+Head Weapon: Grave,diableavionics_virtuous_headC,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,This head type is equiped with Grave light assault gun.,,graphics/da/hullmods/diableavionics_virtuousHM_headC.png
+Head Weapon: Magicbox,diableavionics_virtuous_headD,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,This head type is equiped with a Magicbox missile defense launcher.,,graphics/da/hullmods/diableavionics_virtuousHM_headD.png

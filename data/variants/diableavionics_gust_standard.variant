@@ -1,0 +1,56 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "diableavionics_gust",
+    "hullMods": [
+        "targetingunit",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_gust_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_uhlan"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "diableavionics_micromissile",
+                "WS0004": "diableavionics_micromissile",
+                "WS0005": "diableavionics_micromissile",
+                "WS0006": "diableavionics_micromissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "diableavionics_srab"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "diableavionics_recson",
+                "WS0009": "diableavionics_recson"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "diableavionics_ibis",
+                "WS0010": "diableavionics_ibis",
+                "WS0011": "diableavionics_ibis",
+                "WS0014": "diableavionics_ibis",
+                "WS0015": "diableavionics_ibis"
+            }
+        }
+    ],
+    "wings": ["diableavionics_zephyr_wing"]
+}

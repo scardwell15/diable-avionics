@@ -1,0 +1,14 @@
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Arbitrator Fast Interceptor,diableavionics_arbitrator_wing,FALSE,,,,TRUE,,TRUE,,,,TRUE,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Frost Escort Wanzer,diableavionics_frost_wing,FALSE,,,,TRUE,,TRUE,,,,TRUE,,,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Strife Combat Wanzer,diableavionics_strife_wing,FALSE,,,,TRUE,,TRUE,TRUE,,,,TRUE,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Warlust Sniper Wanzer,diableavionics_warlust_wing,FALSE,,,,,TRUE,,TRUE,,,,TRUE,TRUE,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Valiant Versatile Wanzer,diableavionics_valiant_wing,FALSE,,,,,TRUE,TRUE,TRUE,,,TRUE,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Raven Heavy Wanzer,diableavionics_raven_wing,FALSE,,,TRUE,TRUE,,,TRUE,,,,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+#Blizzaia Artillery Wanzer,diableavionics_blizzaia_wing,FALSE,,,,TRUE,TRUE,,,,TRUE,,,TRUE,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vortex Defense Drone,diableavionics_vortex_wing,TRUE,,,,,,TRUE,,,,TRUE,TRUE,TRUE,,,DIABLE,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,
+Zephyr Beam Wanzer,diableavionics_zephyr_wing,FALSE,,,,,TRUE,,TRUE,TRUE,,TRUE,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Arbitrator Z Rocketeer,diableavionics_arbitratorZ_wing,FALSE,,,,TRUE,,,TRUE,,TRUE,,,,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10

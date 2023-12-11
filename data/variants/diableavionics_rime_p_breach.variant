@@ -1,0 +1,40 @@
+{
+    "displayName": "Breacher",
+    "fluxCapacitors": 0,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "diableavionics_rime_p",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_rime_p_breach",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavyac"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "typhoon",
+                "WS0008": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "vulcan",
+                "WS0004": "vulcan",
+                "WS0005": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "lrpdlaser"}
+        }
+    ]
+}

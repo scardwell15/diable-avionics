@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_module_wanzer",
+    "skinHullId":"diableavionics_module_wanzer_lock",
+    "hullName":"Wanzer Facility Module",
+    "descriptionId":"diableavionics_module_wanzer",
+    "tags":["no_autofit"],
+}

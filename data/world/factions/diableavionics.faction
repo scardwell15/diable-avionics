@@ -1,0 +1,456 @@
+{
+    id:"diableavionics",
+
+    "color":[119,52,47,255],
+    "baseUIColor":[173,38,16,200],
+    "darkUIColor":[34,51,95,175],
+    "gridUIColor":[34,51,95,75],
+
+    #"secondaryUIColor":[34,51,95,255],
+    #"secondarySegments":4,
+
+    "displayName":"Diable Avionics",
+    "displayNameWithArticle":"the Diable Corp",	
+
+    "displayNameLong":"Diable Avionics Corporation",
+    "displayNameLongWithArticle":"the Diable Avionics Corporation",
+    "personNamePrefixAOrAn":"a",
+    "displayNameIsOrAre":"is",
+
+    "logo":"graphics/da/factions/daflag.png",
+    "crest":"graphics/da/factions/dacrest.png",
+	
+    "shipNamePrefix":"DSF",
+	
+    "shipNameSources":{
+        "diableavionics":1,
+    },	
+    "names":{
+        "modern":1,
+    },
+
+    # variantOverrides restricts hulls to listed variants and adjusts their probability
+    #"variantOverrides":{
+        #"diableavionics_versant_assault":30,
+    #},
+
+    # multiplier for how often hulls show up in the faction's fleets
+    "hullFrequency":{
+        "tags":{"diable_ship_bp":1,
+        },
+        "hulls":{
+            "gremlin":0,
+            "diableavionics_draft":1,
+            "diableavionics_vapor":1,
+            "diableavionics_sleet":1,
+            "diableavionics_versant":0.5,
+
+            "diableavionics_laminar":1,
+            "diableavionics_shear":1,
+
+            "diableavionics_calm":1,
+            "diableavionics_hayle":1,
+            "diableavionics_coanda":1,
+            "diableavionics_derecho":0.5,	
+            "diableavionics_miniGust":0.5,
+            "diableavionics_fractus":1,
+
+            "diableavionics_chinook":1,
+            "diableavionics_stratus":1,
+            "diableavionics_cirrus":1,
+
+            "diableavionics_haze":1,
+            "diableavionics_daze":1,
+            "diableavionics_gust":0.5,
+            "diableavionics_storm":1,	
+            "diableavionics_rime_m":0.25,
+
+            "diableavionics_rime":1,
+
+            "diableavionics_maelstrom":1,
+            "diableavionics_pandemonium":0.2,
+        },
+    },
+
+    # ships the faction gets access to when importing S&W out-of-faction
+    "shipsWhenImporting":{
+        "tags":["base_bp","diable_ship_bp"],
+        "hulls":[
+            "diableavionics_draft",
+            "diableavionics_sleet",
+            "diableavionics_vapor",
+            "diableavionics_versant",
+
+            "diableavionics_laminar",
+            "diableavionics_shear",
+
+            "diableavionics_calm",
+            "diableavionics_hayle",
+            "diableavionics_coanda",
+            "diableavionics_derecho",
+            "diableavionics_miniGust",
+            "diableavionics_fractus",
+
+            "diableavionics_chinook",
+            "diableavionics_stratus",
+            "diableavionics_cirrus",
+
+            "diableavionics_haze",
+            "diableavionics_daze",
+            "diableavionics_gust",
+            "diableavionics_storm",
+            "diableavionics_rime_m",
+
+            "diableavionics_rime",
+
+            "diableavionics_maelstrom",
+            "diableavionics_pandemonium",
+        ],
+    },
+
+    "knownShips":{
+        "tags":["diable_ship_bp"],
+        "hulls":[
+            "diableavionics_draft",
+            "diableavionics_sleet",
+            "diableavionics_vapor",
+            "diableavionics_versant",
+
+            "diableavionics_laminar",
+            "diableavionics_shear",
+
+            "diableavionics_calm",
+            "diableavionics_hayle",
+            "diableavionics_coanda",
+            "diableavionics_derecho",
+            "diableavionics_miniGust",
+            "diableavionics_fractus",
+
+            "diableavionics_chinook",
+            "diableavionics_stratus",
+            "diableavionics_cirrus",
+
+            "diableavionics_haze",
+            "diableavionics_daze",
+            "diableavionics_gust",
+            "diableavionics_storm",
+            "diableavionics_rime_m",
+
+            "diableavionics_rime",
+
+            "diableavionics_maelstrom",
+            "diableavionics_pandemonium",
+        ],
+    },
+
+    # listing ships here will make the faction mostly use them even if other hulls become available
+    "priorityShips":{
+        "tags":["diable_ship_bp"],
+        "hulls":[
+            "diableavionics_draft",
+            "diableavionics_sleet",
+            "diableavionics_vapor",
+            "diableavionics_versant",
+
+            "diableavionics_laminar",
+            "diableavionics_shear",
+
+            "diableavionics_calm",
+            "diableavionics_hayle",
+            "diableavionics_coanda",
+            "diableavionics_derecho",
+            "diableavionics_miniGust",
+            "diableavionics_fractus",
+
+            "diableavionics_chinook",
+            "diableavionics_stratus",
+            "diableavionics_cirrus",
+
+            "diableavionics_haze",
+            "diableavionics_daze",
+            "diableavionics_gust",
+            "diableavionics_storm",
+            "diableavionics_rime_m",
+
+            "diableavionics_rime",
+
+            "diableavionics_maelstrom",
+            "diableavionics_pandemonium",
+        ],
+    },
+
+    "knownFighters":{
+        "tags":[
+            #"base_bp",
+            #"hightech_bp",
+            #"midline_bp",
+            #"diable_ship_bp",
+            "diable_wanzer_bp"
+            ],
+        "fighters":[
+            "diableavionics_arbitrator_wing",
+            "diableavionics_arbitratorZ_wing",
+            "diableavionics_frost_wing",
+            "diableavionics_hoar_wing",
+            "diableavionics_strife_wing",
+            "diableavionics_warlust_wing",
+            "diableavionics_valiant_wing",
+            "diableavionics_raven_wing",
+            "diableavionics_blizzaia_wing",
+            "diableavionics_zephyr_wing",
+            "diableavionics_avalanche_wing",
+        ],
+    },
+
+    "priorityFighters":{
+        "tags":[
+            #"diable_ship_bp",
+            "diable_wanzer_bp"],
+        "fighters":[
+            "diableavionics_arbitrator_wing",
+            "diableavionics_arbitratorZ_wing",
+            "diableavionics_frost_wing",
+            "diableavionics_hoar_wing",
+            "diableavionics_strife_wing",
+            "diableavionics_warlust_wing",
+            "diableavionics_valiant_wing",
+            "diableavionics_raven_wing",
+            "diableavionics_blizzaia_wing",
+            "diableavionics_zephyr_wing",
+            "diableavionics_avalanche_wing",
+        ],
+    },
+
+    "knownWeapons":{
+        "tags":[
+            #"base_bp",
+            #"missile_bp",
+            #"hightech_bp",
+            #"midline_bp",
+            "diable_weapon_bp"
+            ],
+        "weapons":[
+            "diableavionics_recson",
+            "diableavionics_ibis",
+            "diableavionics_artassault",
+            "diableavionics_burchel",
+            "diableavionics_micromissile",
+            "diableavionics_thunderboltsmall",
+            "diableavionics_magicbox",
+            "diableavionics_banishsmall",
+            "diableavionics_winee",
+            "diableavionics_graveac",
+
+            "diableavionics_raptor",
+            "diableavionics_recson2",
+            "diableavionics_gravemg",
+            "diableavionics_hexafire",
+            "diableavionics_glowtusk",
+            "diableavionics_lazyhorn",
+            "diableavionics_glaux",
+            "diableavionics_state",
+            "diableavionics_srab",
+            "diableavionics_nocturne",
+            "diableavionics_thunderboltpod",
+            "diableavionics_plover",
+            "diableavionics_banish",
+            "diableavionics_thrush",
+            "diableavionics_artdeux",
+
+            "diableavionics_mostro",
+            "diableavionics_hexafire2",
+            "diableavionics_uhlan",
+            "diableavionics_opfergv",
+        ],
+    },
+
+    "priorityWeapons":{
+        "tags":[
+            "diable_weapon_bp"],
+        "weapons":[
+            "diableavionics_recson",
+            "diableavionics_ibis",
+            "diableavionics_artassault",
+            "diableavionics_burchel",
+            "diableavionics_micromissile",
+            "diableavionics_thunderboltsmall",
+            "diableavionics_magicbox",
+            "diableavionics_banishsmall",
+            "diableavionics_winee",
+            "diableavionics_graveac",
+
+            "diableavionics_raptor",
+            "diableavionics_recson2",
+            "diableavionics_gravemg",
+            "diableavionics_hexafire",
+            "diableavionics_glowtusk",
+            "diableavionics_lazyhorn",
+            "diableavionics_glaux",
+            "diableavionics_state",
+            "diableavionics_srab",
+            "diableavionics_nocturne",
+            "diableavionics_thunderboltpod",
+            "diableavionics_plover",
+            "diableavionics_banish",
+            "diableavionics_thrush",
+            "diableavionics_artdeux",
+
+            "diableavionics_mostro",
+            "diableavionics_hexafire2",
+            "diableavionics_uhlan",
+            "diableavionics_opfergv",
+        ],
+    },
+
+    "knownHullMods":{
+        "tags":["base_bp", "tritachyon"],
+        "hullMods":[
+            "converted_hangar",
+            "expanded_deck_crew",
+            "advancedshieldemitter",
+            "armoredweapons",
+            "augmentedengines",
+            "autorepair",
+            "auxiliarythrusters",
+            "blast_doors",
+            "eccm",
+            "magazines",
+            "missleracks",
+            "extendedshieldemitter",
+            "fluxcoil",
+            "fluxdistributor",
+            "hardenedshieldemitter",
+            "hardened_subsystems",
+            "heavyarmor",
+            "insulatedengine",
+            "pointdefenseai",
+            "targetingunit",
+            "adaptiveshields",
+            "reinforcedhull",
+            "fluxbreakers",
+            "stabilizedshieldemitter",
+            "unstable_injector",
+            "shielded_holds",
+            "recovery_shuttles",
+            "ecm",
+        ],
+    },
+
+    "factionDoctrine":{
+        "warships":4,
+        "carriers":3,
+        "phaseShips":0,
+
+        "officerQuality":3,
+        "shipQuality":3,
+        "numShips":3,
+
+        "shipSize":3,
+        "aggression":5,
+
+        "combatFreighterProbability":0.2,     				# instead of some portion of the freighters in a fleet
+        "combatFreighterCombatUseFraction":0.2,  				# as part of the normal combat lineup
+        "combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+        "autofitRandomizeProbability":0.1,
+
+        "commanderSkillsShuffleProbability":0.5,
+        "commanderSkills":[
+			"coordinated_maneuvers",
+			"crew_training",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+        ],
+    },
+
+    "illegalCommodities":[
+    ],
+
+    "music":{
+            "theme":"diableavionics_market_interaction_neutral",
+            "market_neutral":"diableavionics_market_interaction_neutral",
+            "market_hostile":"diableavionics_market_interaction_hostile",
+            "market_friendly":"diableavionics_market_interaction_friendly",
+            "encounter_neutral":"diableavionics_market_interaction_neutral",
+            "encounter_hostile":"diableavionics_market_interaction_hostile",
+            "encounter_friendly":"diableavionics_market_interaction_friendly",
+    },
+
+    "internalComms":"diableavionics_internal",	
+
+    #"tariffFraction":0.13,
+    #"tollFraction":0,
+    #"fineFraction":0.5,		
+
+    "portraits":{
+        "standard_male":[
+            "graphics/portraits/portrait_hegemony05.png",
+            "graphics/portraits/portrait_mercenary01.png",
+            "graphics/portraits/portrait18.png",
+            "graphics/portraits/portrait_corporate01.png",
+            "graphics/portraits/portrait_corporate03.png",
+            "graphics/portraits/portrait_corporate05.png",
+            "graphics/portraits/portrait_corporate06.png",
+            "graphics/portraits/portrait13.png",
+            "graphics/portraits/portrait25.png",
+            "graphics/portraits/portrait30.png",
+            "graphics/portraits/portrait35.png",
+        ],
+        "standard_female":[
+            "graphics/portraits/portrait_hegemony04.png",
+            "graphics/portraits/portrait16.png",
+            "graphics/portraits/portrait_corporate02.png",
+            "graphics/portraits/portrait_corporate04.png",
+            "graphics/portraits/portrait_mercenary02.png",
+            "graphics/portraits/portrait_corporate04.png",
+            "graphics/portraits/portrait_corporate07.png",
+            "graphics/portraits/portrait34.png",
+        ],
+    },
+
+    "ranks":{
+            "ranks":{
+                    "spaceCommander":{"name":"Central Commander"},
+            },
+            "posts":{
+                    "patrolCommander":{"name":"Patrol Manager"},
+                    "fleetCommander":{"name":"Fleet Manager"},
+                    "baseCommander":{"name":"Base Manager"},
+            },
+    },
+
+    "custom":{
+        "offersCommissions":true,
+        "engagesInHostilities":true,
+        "buysAICores":true,
+        "AICoreValueMult":1,
+        "AICoreRepMult":3,
+        "buysSurveyData":false,
+        "hostilityImpactOnGrowth":true,
+	"caresAboutAtrocities":false,
+        "punitiveExpeditionData":{
+            "vsCompetitors":true,
+            "vsFreePort":false,
+            "canBombard":true,
+            "territorial":true,
+        },
+    },
+
+    "fleetTypeNames":{
+        "trade":"Commerce Fleet",
+
+        "tradeLiner":"Transit Flight",
+        "tradeSmuggler":"Suspicious Convoy",
+        "smallTrader":"Resupply Convoy",
+
+        "patrolSmall":"Security Detachment",
+        "patrolMedium":"Aggressive Recon",
+        "patrolLarge":"Strategic Task-force",
+
+        "inspectionFleet":"Oversight Inspector",
+        "taskForce":"Invasion Fleet",
+
+        "foodReliefFleet":"Relief Convoy",
+    },
+},

@@ -1,0 +1,30 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_virtuous_armA_L",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"displayArcRadius":500,
+	"turretSprite":"graphics/da/ships/virtuous/diableavionics_virtuous_armA_L.png",
+	"turretGunSprite":"graphics/da/ships/virtuous/diableavionics_virtuous_armA_LB.png",
+	"hardpointSprite":"",	
+	"hardpointGunSprite":"",	
+	"visualRecoil":1.5,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],		
+	"turretOffsets":[59, 12],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[34, 4],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"interruptibleBurst":true,
+	"muzzleFlashSpec":{"length":60.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":40.0,
+					   "particleDuration":0.1,
+					   "particleCount":15,
+					   "particleColor":[195,150,255,255]},
+	"autocharge":true,					   
+	"projectileSpecId":"diableavionics_virtuousCarbine_shot",
+	"fireSoundTwo":"diableavionics_virtuousBlaster_fire",
+}

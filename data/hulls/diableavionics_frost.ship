@@ -1,0 +1,152 @@
+{
+  "bounds": [
+    10.5,
+    -0,
+    -1.5,
+    -13.5,
+    -3.5,
+    -5.5,
+    -12.5,
+    -6.5,
+    -12.5,
+    -2.5,
+    -8,
+    -0,
+    -12.5,
+    2.5,
+    -12.5,
+    6.5,
+    -3.5,
+    5.5,
+    -1.5,
+    13.5
+  ],
+  "builtInWeapons": {
+    "ARM": "diableavionics_frostRightArm",
+    "PAULDRON": "diableavionics_frostPauldron",
+    "WS0001": "diableavionics_frosthead",
+    "WS0002": "diableavionics_frostLeftArm",
+    "WS0003": "diableavionics_frostBlade",
+    "PAULDRON2": "diableavionics_frostPauldron2",
+  },
+  "builtInWings": [],
+  "center": [
+    15,
+    14
+  ],
+  "collisionRadius": 18,
+  "engineSlots": [
+    {
+      "angle": -175,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -12,
+        -4.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6
+    },
+    {
+      "angle": 175,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -12,
+        4.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6
+    }
+  ],
+  "height": 26,
+  "hullId": "diableavionics_frost",
+  "hullName": "Frost",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 18,
+  "spriteName": "graphics/da/ships/frost/diableavionics_frost_body.png",
+  "style": "DA_WANZER",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 135,
+      "id": "WS0001",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 20,
+      "arc": 90,
+      "id": "WS0002",
+      "locations": [
+        0,
+        7
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -20,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        0,
+        -7
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -20,
+      "arc": 360,
+      "id": "ARM",
+      "locations": [
+        0,
+        -7
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -20,
+      "arc": 360,
+      "id": "PAULDRON",
+      "locations": [
+        0,
+        -7
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 20,
+      "arc": 90,
+      "id": "PAULDRON2",
+      "locations": [
+        0,
+        7
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "renderOrderMod":+10,
+    },
+  ],
+  "width": 30
+}

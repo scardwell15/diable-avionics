@@ -1,0 +1,354 @@
+{
+  "bounds": [
+    26.5,
+    7.5,
+    63.5,
+    9.5,
+    64.5,
+    14.5,
+    22.5,
+    14.5,
+    17.5,
+    29.5,
+    -1,
+    32,
+    -10.5,
+    25.5,
+    -28.5,
+    24.5,
+    -28.5,
+    12.5,
+    -35.5,
+    10.5,
+    -35.5,
+    -10.5,
+    -28.5,
+    -12.5,
+    -28.5,
+    -24.5,
+    -10.5,
+    -25.5,
+    -1,
+    -32,
+    17.5,
+    -29.5,
+    22.5,
+    -14.5,
+    64.5,
+    -14.5,
+    63.5,
+    -9.5,
+    26.5,
+    -7.5
+  ],
+  "builtInMods": [
+    "diableavionics_cramped",
+    "diableavionics_tuning",
+    #"delicate"
+  ],
+  "builtInWeapons": {
+    "ENGINE_PANEL_LEFT": "diableavionics_versant_shield_LEFT",
+    #"GUN_LEFT": "diableavionics_versant_harvest_LEFT",
+    "BARREL_LEFT": "diableavionics_versant_barrel_LEFT",
+    "SHIELD_LEFT": "diableavionics_versant_door_LEFT",
+    "COVER_LEFT": "diableavionics_versant_bit_LEFT",
+
+    "ENGINE_PANEL_RIGHT": "diableavionics_versant_shield_RIGHT",
+    #"GUN_RIGHT": "diableavionics_versant_harvest_RIGHT",
+    "BARREL_RIGHT": "diableavionics_versant_barrel_RIGHT",
+    "SHIELD_RIGHT": "diableavionics_versant_door_RIGHT",
+    "COVER_RIGHT": "diableavionics_versant_bit_RIGHT",
+
+    "TOP_LEFT": "diableavionics_versant_panel_LEFT",
+    "TOP_RIGHT": "diableavionics_versant_panel_RIGHT",
+
+    "PD_SLOTS": "diableavionics_versant_slots",
+
+    "PRONG_LEFT": "diableavionics_versant_prong_LEFT",
+    "PRONG_RIGHT": "diableavionics_versant_prong_RIGHT"
+  },
+  "center": [
+    44,
+    47
+  ],
+  "collisionRadius": 85,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 10,
+      "location": [
+        -38,
+        8.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 10,
+      "location": [
+        -38,
+        -8.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 10,
+      "location": [
+        -37,
+        -0
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    }
+  ],
+  "height": 120,
+  "hullId": "diableavionics_versant",
+  "hullName": "Versant",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    12,
+    -0
+  ],
+  "shieldRadius": 70,
+  "spriteName": "graphics/da/ships/versant/diableavionics_versant_body.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0000",
+      "locations": [
+        30,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "renderOrderMod":-99,
+    },
+    {
+      "angle": 90,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        -17,
+        13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        -17,
+        -13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "PD_SLOTS",
+      "locations": [
+        -17,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "ENGINE_PANEL_LEFT",
+      "locations": [
+        -21.5,
+        13.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "renderOrderMod":-10,
+    },
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "ENGINE_PANEL_RIGHT",
+      "locations": [
+        -21.5,
+        -13.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "renderOrderMod":-10,
+    },
+    {
+      "angle": 15,
+      "arc": 45,
+      "id": "GUN_LEFT",
+      "locations": [
+        3.5,
+        19.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -15,
+      "arc": 45,
+      "id": "GUN_RIGHT",
+      "locations": [
+        3.5,
+        -19.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 15,
+      "arc": 45,
+      "id": "BARREL_LEFT",
+      "locations": [
+        3.5,
+        19.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "renderOrderMod":-50,
+    },
+    {
+      "angle": -15,
+      "arc": 45,
+      "id": "BARREL_RIGHT",
+      "locations": [
+        3.5,
+        -19.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "renderOrderMod":-50,
+    },
+    {
+      "angle": 15,
+      "arc": 45,
+      "id": "SHIELD_LEFT",
+      "locations": [
+        3.5,
+        19.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      #"renderOrderMod":-10,
+    },
+    {
+      "angle": -15,
+      "arc": 45,
+      "id": "SHIELD_RIGHT",
+      "locations": [
+        3.5,
+        -19.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      #"renderOrderMod":-10,
+    },
+    {
+      "angle": 15,
+      "arc": 45,
+      "id": "COVER_LEFT",
+      "locations": [
+        3.5,
+        19.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "renderOrderMod":10,
+    },
+    {
+      "angle": -15,
+      "arc": 45,
+      "id": "COVER_RIGHT",
+      "locations": [
+        3.5,
+        -19.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "renderOrderMod":10,
+    },
+    {
+      "angle": -0,
+      "arc": 45,
+      "id": "TOP_LEFT",
+      "locations": [
+        4,
+        12
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      #"renderOrderMod":-10,
+    },
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "TOP_RIGHT",
+      "locations": [
+        4,
+        -12
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      #"renderOrderMod":-10,
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "PRONG_LEFT",
+      "locations": [
+        41.5,
+        11
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "renderOrderMod":-50,
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "PRONG_RIGHT",
+      "locations": [
+        41.5,
+        -11
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "renderOrderMod":-50,
+    }
+  ],
+  "width": 88
+}

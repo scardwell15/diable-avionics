@@ -1,0 +1,145 @@
+{
+  "hullName": "ECM Module",
+  "hullId": "diableavionics_module_ecm",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/da/ships/station/diableavionics_station_ecm.png",
+  "style": "HIGH_TECH",
+  "height": 137,
+  "width": 335,
+  "center": [167, 64],
+  "collisionRadius": 176,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 174.5,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -23,
+    28
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "WS0010": "diableavionics_ecmModuleSystem"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [-35, -104]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [-19, -46]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [-12, -10],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [-19, 26],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -30,
+      "locations": [8, -135]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [6, -53]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [18, 26]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-32, 3],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-32, -23],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [17, 87]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -53.5, 157,
+    -54.5, 82,
+    -34, 44.5,
+    -33.5, -38.5,
+    -60.5, -89.5,
+    -60.5, -125.5,
+    -5, -166.5,
+    7.5, -159.5,
+    8, -128,
+    -1, -120,
+    -2, -92.5,
+    9, -72,
+    10, -25,
+    18, 41.5,
+    -12, 70.5,
+    19, 83.5,
+    37, 128.5,
+    10.5, 136.5,
+    -12, 147,
+    -24.5, 141.5,
+    -44.5, 165.5
+  ]
+}

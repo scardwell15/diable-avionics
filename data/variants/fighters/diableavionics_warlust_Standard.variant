@@ -1,0 +1,39 @@
+{
+  "displayName": "7th gen Wanzer",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "diableavionics_warlust",
+  "hullMods": [
+    "diableavionics_wanzer",
+    "autorepair"
+  ],
+  "variantId": "diableavionics_warlust_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+            "RIGHT": "diableavionics_warlustgun",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+            "LEFT": "diableavionics_warlustmissile",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+            "WS_HEAD": "diableavionics_warlusthead"
+}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

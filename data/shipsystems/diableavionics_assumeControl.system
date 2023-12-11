@@ -1,0 +1,17 @@
+{
+    "id":"diableavionics_assumeControl",
+    "type":"STAT_MOD",
+    #"aiType":"CUSTOM",
+    "aiType":"TARGETING_FEED",
+
+    #"aiScript":"data.shipsystems.scripts.ai.Diableavionics_assumeControlAI",
+    "statsScript":"data.shipsystems.scripts.Diableavionics_assumeControlStats",
+
+    "useSound":"system_high_energy_focus_activate",
+    "deactivateSound":"system_high_energy_focus_deactivate",
+
+    "outOfUsesSound":"gun_out_of_ammo",
+    "loopSound":"system_high_energy_focus_loop",
+	"aiHints":{
+	},	
+}

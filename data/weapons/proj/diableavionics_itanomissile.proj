@@ -1,0 +1,35 @@
+{
+	"id":"diableavionics_itanomissile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/da/missiles/diableavionics_micromissile.png",
+	"size":[6,15],	
+	"center":[3,9],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":25, # purely visual
+		"maxFlightTime":8,
+	"engineSpec":{"turnAcc":180,
+				  "turnRate":180,
+				  "acc":150,
+				  "dec":15},			  
+	"engineSlots":[{"id":"ES1",
+					"loc":[-3, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[107,195,210,255],
+						"contrailDuration":2.0,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":20, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.75f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailColor":[33,103,120,165],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}]
+}

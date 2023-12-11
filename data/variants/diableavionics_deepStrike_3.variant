@@ -1,0 +1,14 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "diableavionics_deepStrike",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "diableavionics_deepStrike_3",
+    "weaponGroups": [],
+    "wings": [
+        "diableavionics_blizzaia_wing_independent",
+        "diableavionics_frost_wing_independent"
+    ]
+}

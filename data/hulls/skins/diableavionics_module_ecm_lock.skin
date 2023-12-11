@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_module_ecm",
+    "skinHullId":"diableavionics_module_ecm_lock",
+    "hullName":"ECM Module",
+    "descriptionId":"diableavionics_module_ecm",
+    "tags":["no_autofit"],
+}

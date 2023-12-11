@@ -1,0 +1,49 @@
+{
+    "displayName": "Carbine",
+    "fluxCapacitors": 6,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "diableavionics_virtuous_skirmisher",
+    "hullMods": [
+        "diableavionics_virtuous_armA",
+        "diableavionics_virtuous_skirmisher",
+        "hardenedshieldemitter",
+        "magazines",
+        "fluxbreakers",
+        "diableavionics_virtuous_headB"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_virtuous_carbine",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "LEFT": "diableavionics_virtuous_armA_L",
+                "RIGHT": "diableavionics_virtuous_armA_R"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "diableavionics_thunderboltsmall",
+                "WS0004": "diableavionics_thunderboltsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"HEAD": "diableavionics_virtuous_headB"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "diableavionics_burchel",
+                "WS0006": "diableavionics_burchel"
+            }
+        }
+    ]
+}

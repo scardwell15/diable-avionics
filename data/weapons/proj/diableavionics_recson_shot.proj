@@ -1,0 +1,27 @@
+{
+	"id":"diableavionics_recson_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":175.0,
+	"hitGlowRadius":50,
+	"width":6,
+	"fadeTime":0.75,
+
+	#"fringeColor":[200,50,20,100],
+	#"coreColor":[255,255,255,255],
+	#"glowRadius":20,
+	#"glowColor":[255,150,0,25],
+	#"bulletSprite":"graphics/missiles/shell_hephag.png",
+
+	"fringeColor":[170,160,130,130],
+	"coreColor":[255,100,50,255],
+	"glowRadius":15,
+	"glowColor":[55,45,25,155],
+	"bulletSprite":"graphics/missiles/shell_hephag.png",
+
+	"textureType":"ROUGH",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	"textureScrollSpeed":5,
+	"pixelsPerTexel":1.0,
+}

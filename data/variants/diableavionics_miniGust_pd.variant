@@ -1,0 +1,41 @@
+{
+    "displayName": "PD",
+    "fluxCapacitors": 5,
+    "fluxVents": 20,
+    "hullId": "diableavionics_miniGust",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_miniGust_pd",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "diableavionics_microcluster"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "diableavionics_micromissile",
+                "WS0008": "diableavionics_micromissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_lazyhorn"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "diableavionics_burchel",
+                "WS0003": "diableavionics_burchel",
+                "WS0004": "diableavionics_burchel",
+                "WS0005": "diableavionics_burchel"
+            }
+        }
+    ],
+    "wings": ["diableavionics_zephyr_wing"]
+}

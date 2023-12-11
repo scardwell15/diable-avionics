@@ -1,0 +1,44 @@
+{
+	"id":"diableavionics_virtuous_headC",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/da/ships/virtuous/diableavionics_virtuous_headC.png",
+	"turretGunSprite":"graphics/da/ships/virtuous/diableavionics_virtuous_headCB.png",	
+	"hardpointSprite":"",
+	"hardpointGunSprite":"",
+	"visualRecoil":2.0,
+	"renderHints":[RENDER_BARREL_BELOW],	
+	"turretOffsets":[
+13, 0,
+12, -2,
+12, 2,
+],
+	"turretAngleOffsets":[
+0,
+-0.3,
+0.3,
+],
+	"hardpointOffsets":[
+23, 0,
+22, -3,
+22, 3,
+],
+	"hardpointAngleOffsets":[
+0,
+0,
+0,
+],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"separateRecoilForLinkedBarrels":"TRUE",
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":34.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":24.0,
+					   "particleDuration":0.02,
+					   "particleCount":12,
+					   "particleColor":[199,93,76,215]},
+	"projectileSpecId":"diableavionics_grave_shot",
+	"fireSoundTwo":"diableavionics_graveac_fire",
+}

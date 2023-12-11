@@ -1,0 +1,33 @@
+{
+    "displayName": "Breacher",
+    "fluxCapacitors": 0,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "diableavionics_rime",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_rime_breach",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "diableavionics_recson",
+                "WS0004": "diableavionics_recson",
+                "WS0005": "diableavionics_recson"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_lazyhorn"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "diableavionics_ibis"}
+        }
+    ],
+    "wings": ["diableavionics_arbitratorZ_wing"]
+}

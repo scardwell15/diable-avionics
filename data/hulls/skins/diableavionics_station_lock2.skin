@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_station_tier2",
+    "skinHullId":"diableavionics_station_lock2",
+    "hullName":"Battlestation",
+    "descriptionId":"diableavionics_station_tier2",
+    "tags":["no_autofit"],
+}

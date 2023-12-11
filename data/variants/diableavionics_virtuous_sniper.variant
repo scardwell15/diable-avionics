@@ -1,0 +1,46 @@
+{
+    "displayName": "Sniper",
+    "fluxCapacitors": 4,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "diableavionics_virtuous_defender",
+    "hullMods": [
+        "diableavionics_virtuous_armB",
+        "diableavionics_virtuous_headD",
+        "diableavionics_virtuous_defender",
+        "heavyarmor",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_virtuous_sniper",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"RIGHT": "diableavionics_virtuous_armB_R"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LEFT": "diableavionics_virtuous_armB_L"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "diableavionics_recson",
+                "WS0006": "diableavionics_recson"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "HEAD": "diableavionics_virtuous_headD",
+                "WS0003": "diableavionics_magicbox",
+                "WS0004": "diableavionics_magicbox"
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "displayName": "Beamer",
+    "fluxCapacitors": 3,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "diableavionics_miniGust",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_miniGust_beamer",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "diableavionics_thunderboltsmall",
+                "WS0008": "diableavionics_thunderboltsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_glaux"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_graveac",
+                "WS0004": "diableavionics_graveac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "diableavionics_winee"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "diableavionics_burchel",
+                "WS0006": "diableavionics_microcluster"
+            }
+        }
+    ],
+    "wings": ["diableavionics_valiant_wing"]
+}

@@ -1,0 +1,16 @@
+{
+	"id":"diableavionics_reaper_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":50.0,
+	"hitGlowRadius":30,
+	"width":4.0,
+	"fadeTime":0.5,
+	"fringeColor":[255,255,155,255],
+	"coreColor":[255,255,255,255],
+	"glowRadius":10,
+	"glowColor":[0,10,50,150],
+	"bulletSprite":"graphics/da/missiles/diableavionics_reaper.png"
+}

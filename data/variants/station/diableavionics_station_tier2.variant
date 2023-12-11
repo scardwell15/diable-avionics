@@ -1,0 +1,32 @@
+{
+  "variantId": "diableavionics_station_tier2",
+  "hullId": "diableavionics_station_tier2",
+  "displayName": "Orbital Station",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+		# CROSS SECTION
+		{"CROSS_LEFT": "diableavionics_module_missile_tier2"},
+		{"CROSS_RIGHT": "diableavionics_module_missile_tier2"},
+		
+		# TIPS
+		# empty for lower tier
+		#{"TIP_UP": ""},
+		#{"TIP_DOWN": ""},
+		
+		# ARM SECTION
+		#{"TOP_LEFT": "diableavionics_module_ecm_tier2"},
+		{"TOP_RIGHT": "diableavionics_module_attack_tier2"},
+		#{"BOTTOM_LEFT": "diableavionics_module_ecm_tier2"},
+		{"BOTTOM_RIGHT": "diableavionics_module_attack_tier2"},
+                # TEST WITH REGULAR DECKS
+		{"TOP_LEFT": "diableavionics_module_fighter_tier2"},
+		{"BOTTOM_LEFT": "diableavionics_module_fighter_tier2"},
+	],
+  "wings": []
+}

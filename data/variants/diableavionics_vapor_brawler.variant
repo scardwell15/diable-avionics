@@ -1,0 +1,28 @@
+{
+    "displayName": "Brawler",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "diableavionics_vapor",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "diableavionics_vapor_brawler",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_nocturne",
+                "WS0002": "diableavionics_nocturne"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_winee",
+                "WS0004": "diableavionics_winee"
+            }
+        }
+    ]
+}

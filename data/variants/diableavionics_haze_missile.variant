@@ -1,0 +1,55 @@
+{
+    "displayName": "Missile",
+    "fluxCapacitors": 0,
+    "fluxVents": 21,
+    "goalVariant": true,
+    "hullId": "diableavionics_haze",
+    "hullMods": [
+        "eccm",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_haze_missile",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "diableavionics_banish",
+                "WS0006": "diableavionics_banish"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0016": "diableavionics_thunderboltsmall",
+                "WS0017": "diableavionics_thunderboltsmall",
+                "WS0020": "diableavionics_thunderboltsmall",
+                "WS0021": "diableavionics_thunderboltsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_srab",
+                "WS0002": "diableavionics_srab",
+                "WS0003": "diableavionics_srab",
+                "WS0004": "diableavionics_srab"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "diableavionics_magicbox",
+                "WS0008": "diableavionics_ibis",
+                "WS0009": "diableavionics_ibis",
+                "WS0012": "diableavionics_ibis",
+                "WS0013": "diableavionics_ibis"
+            }
+        }
+    ]
+}

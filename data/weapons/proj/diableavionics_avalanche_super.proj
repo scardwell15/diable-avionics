@@ -1,0 +1,36 @@
+{
+	"id":"diableavionics_avalanche_super",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":75.0,
+	"hitGlowRadius":40,
+	"width":5,
+	"fadeTime":0.1,
+	"fringeColor":[200,75,00,255],
+	"coreColor":[255,255,255,255],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large_blue.png",
+	"behaviorSpec":{
+                "behavior":"PROXIMITY_FUSE",
+                "range":10,
+                "vsMissileRange":20,
+		"shotRangeVariance":0.25,
+                "explosionSpec":{
+                        "duration":0.1f,
+                        "radius":40,
+                        "coreRadius":20, # full damage within core radius - also equal to proximity fuse range
+                        "collisionClass":PROJECTILE_FF,
+                        "collisionClassByFighter":PROJECTILE_FIGHTER,
+                        "particleSizeMin":5.0,
+                        "particleSizeRange":10.0,
+                        "particleDuration":0.1,
+                        "particleCount":15,
+                        "particleColor":[255,155,100,255],
+                        "sound":"explosion_flak"
+                },
+        },
+	"onHitEffect":"data.scripts.weapons.Diableavionics_avalancheHit",	
+}

@@ -1,0 +1,20 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "diableavionics_stratus_p":0.5,
+            "diableavionics_rime_p":0.5,
+        },
+    },
+    "shipsWhenImporting":{
+        "hulls":[
+            "diableavionics_stratus_p",
+            "diableavionics_rime_p",
+        ],
+    },
+    "knownShips":{
+        "hulls":[
+            "diableavionics_stratus_p",
+            "diableavionics_rime_p",
+        ],
+    },
+},

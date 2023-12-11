@@ -1,0 +1,58 @@
+{
+	"id":"diableavionics_microcluster",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/da/weapons/diableavionics_microarray.png",
+	"hardpointSprite":"",
+	#"renderHints":[RENDER_LOADED_MISSILES],
+	"hardpointOffsets":
+[
+0.5,-20,
+-0.5,-12,
+-1.5,-4,
+-2.5,4,
+-3.5,12,
+-4.5,20
+],
+	"turretOffsets":
+[
+2.5,-20,
+1.5,-12,
+0.5,-4,
+-0.5,4,
+-1.5,12,
+-2.5,20
+],
+	"hardpointAngleOffsets":[
+-2.5,
+-1.5,
+-0.5,
+0.5,
+1.5,
+2.5
+],
+	"turretAngleOffsets":[
+-2.5,
+-1.5,
+-0.5,
+0.5,
+1.5,
+2.5
+],
+	"barrelMode":"ALTERNATING",
+	"animationType":"SMOKE",
+	"smokeSpec":{"particleSizeMin":10.0,
+				 "particleSizeRange":14.0,
+				 "cloudParticleCount":1,
+				 "cloudDuration":1.5,
+				 "cloudRadius":12.0;
+				 "blowbackParticleCount":3,
+				 "blowbackDuration":0.45,
+				 "blowbackLength":20.0,
+				 "blowbackSpread":6.0,
+				 "particleColor":[190,180,160,95]},
+	"autocharge":true,
+	"projectileSpecId":"diableavionics_micromissile",		
+	"fireSoundTwo":"diableavionics_micromissile_firing",
+}

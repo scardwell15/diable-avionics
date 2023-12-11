@@ -1,0 +1,34 @@
+{
+	"specClass":"beam",
+	"id":"diableavionics_zephyr_leftBeam",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"turretSprite":"",
+	"turretGlowSprite":"graphics/da/ships/zephyr/diableavionics_zephyr_leftArm_glow.png",	
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",	
+	"turretOffsets":[14, 17],
+	"turretAngleOffsets":[-2],
+	"hardpointOffsets":[14, 17],
+	"hardpointAngleOffsets":[-2],
+
+	"darkCore":true,
+	
+	"fringeColor":[95,165,200,255],
+	"coreColor":[15,15,15,255],
+	"glowColor":[232,128,35,255],
+
+	"width":22.0,
+
+	"textureType":ROUGH,
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	#"fireSoundOne":"diableavionics_glaux_firing",
+	"beamEffect":"data.scripts.weapons.Diableavionics_fastBurstsEffect",
+        "specialWeaponGlowWidth":10,
+        "specialWeaponGlowHeight":15,
+
+}

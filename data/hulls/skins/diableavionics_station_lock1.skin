@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_station_tier1",
+    "skinHullId":"diableavionics_station_lock1",
+    "hullName":"Orbital Station",
+    "descriptionId":"diableavionics_station_tier1",
+    "tags":["no_autofit"],
+}

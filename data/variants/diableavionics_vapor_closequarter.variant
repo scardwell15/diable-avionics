@@ -1,0 +1,28 @@
+{
+    "displayName": "Close Quarter",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "diableavionics_vapor",
+    "hullMods": ["insulatedengine"],
+    "permaMods": [],
+    "variantId": "diableavionics_vapor_closequarter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_hexafire",
+                "WS0002": "diableavionics_hexafire"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "diableavionics_magicbox",
+                "WS0004": "diableavionics_magicbox"
+            }
+        }
+    ]
+}

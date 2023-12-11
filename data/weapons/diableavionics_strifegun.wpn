@@ -1,0 +1,29 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_strifegun",  # this id must match what's in the spreadsheet
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/da/ships/strife/diableavionics_strifeGun_00.png",
+	"hardpointSprite":"graphics/da/ships/strife/diableavionics_strifeGun_00.png",
+	"numFrames":4,	
+	"frameRate":0,
+	"turretOffsets":[33, -12],
+	"turretAngleOffsets":[0.5],
+	"hardpointOffsets":[33, -12],
+	"hardpointAngleOffsets":[0.5],	
+	"interruptibleBurst":true,
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":34.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":24.0,
+					   "particleDuration":0.02,
+					   "particleCount":12,
+					   "particleColor":[199,93,76,215]},
+	"projectileSpecId":"diableavionics_strifegun_shot",
+	"fireSoundTwo":"diableavionics_strifegun_firing",
+        "everyFrameEffect":"data.scripts.weapons.Diableavionics_strifeEffect",
+        "specialWeaponGlowWidth":10,
+        "specialWeaponGlowHeight":20,
+}

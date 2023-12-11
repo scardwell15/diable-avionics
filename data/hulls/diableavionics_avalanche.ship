@@ -1,0 +1,151 @@
+{
+  "bounds": [
+    4.5,
+    16,
+    -20,
+    -0,
+    4.5,
+    -16,
+    12,
+    -0
+  ],
+  "builtInMods": [
+    "diableavionics_wanzer"
+  ],
+  "builtInWeapons": {
+    "ARM": "diableavionics_avalancheArm",
+    "GUN": "diableavionics_avalancheGun",
+    "HEAD": "diableavionics_avalancheHead",
+    "PAULDRON_L": "diableavionics_avalanchePauldronL",
+    "PAULDRON_R": "diableavionics_avalanchePauldronR",
+    "TORSO": "diableavionics_avalancheTorso"
+  },
+  "center": [
+    12,
+    22
+  ],
+  "collisionRadius": 24,
+  "coversColor": "",
+  "engineSlots": [
+    {
+      "angle": 174.5,
+      "contrailSize": 5,
+      "length": 5.5,
+      "location": [
+        -17,
+        6
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 5
+    },
+    {
+      "angle": -174.5,
+      "contrailSize": 5,
+      "length": 5.5,
+      "location": [
+        -17,
+        -6
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 6,
+      "location": [
+        -21,
+        -0
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 8
+    }
+  ],
+  "height": 35,
+  "hullId": "diableavionics_avalanche",
+  "hullName": "Avalanche",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    -2,
+    -0
+  ],
+  "shieldRadius": 22,
+  "spriteName": "graphics/da/ships/avalanche/diableavionics_avalanche_body.png",
+  "style": "DA_WANZER",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 10,
+      "arc": 90,
+      "id": "GUN",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "HEAD",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "TORSO",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "PAULDRON_L",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "PAULDRON_R",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "ARM",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 24
+}

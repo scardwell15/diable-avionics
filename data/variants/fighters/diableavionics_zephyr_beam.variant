@@ -1,0 +1,31 @@
+{
+  "displayName": "9th gen Wanzer",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": false,
+  "hullId": "diableavionics_zephyr",
+  "hullMods": [
+    "diableavionics_wanzer",
+    "autorepair"],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "diableavionics_zephyr_beam",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "RIGHT_BEAM": "diableavionics_zephyr_rightBeam",
+        "LEFT_BEAM": "diableavionics_zephyr_leftBeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "diableavionics_zephyr_head"
+      }
+    },
+  ],
+  "wings": []
+}

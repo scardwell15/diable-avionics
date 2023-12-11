@@ -1,0 +1,17 @@
+{
+	"id":"diableavionics_fastRefit",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	#"aiType":"RESERVE_DEPLOYMENT",
+
+        "aiScript":"data.shipsystems.scripts.ai.Diableavionics_fastRefitAI",	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_fastRefitStats",
+	
+	"useSound":"system_targeting_feed",
+	#"loopSound":"system_targeting_feed_loop",
+	"deactivateSound":"gun_out_of_ammo",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

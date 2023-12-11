@@ -1,0 +1,130 @@
+{
+  "bounds": [
+    28.5,
+    -6.5,
+    15.5,
+    -12.5,
+    23.5,
+    -25,
+    -11,
+    -25,
+    -19.5,
+    -4,
+    -28.5,
+    -4,
+    -28.5,
+    4,
+    -19.5,
+    4,
+    -11,
+    25,
+    23.5,
+    25,
+    15.5,
+    12.5,
+    28.5,
+    6.5
+  ],
+  "builtInMods": [
+    #"diableavionics_avionics",
+    "surveying_equipment"
+  ],
+  "builtInWeapons": {
+    "WS0002": "mininglaser",
+    "WS0003": "mininglaser"
+  },
+  "center": [
+    29,
+    33
+  ],
+  "collisionRadius": 45.011108,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -29,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 6,
+      "location": [
+        -17,
+        16.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 6,
+      "location": [
+        -17,
+        -16.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6
+    }
+  ],
+  "height": 72,
+  "hullId": "diableavionics_laminar",
+  "hullName": "Laminar",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 44,
+  "spriteName": "graphics/da/ships/diableavionics_laminar.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -45,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        0,
+        -15
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        14.5,
+        -12.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        14.5,
+        12.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 58
+}

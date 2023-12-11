@@ -1,0 +1,75 @@
+{
+  "bounds": [
+    4.5,
+    -14.5,
+    1.5,
+    -17.5,
+    -5.5,
+    -0,
+    1.5,
+    17.5,
+    4.5,
+    14.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "diableavionics_ibis"
+  },
+  "center": [
+    19,
+    8
+  ],
+  "collisionRadius": 19.5,
+  "engineSlots": [
+    {
+      "angle": -160,
+      "contrailSize": 8,
+      "length": 8,
+      "location": [
+        -2.5,
+        -7.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 8
+    },
+    {
+      "angle": 160,
+      "contrailSize": 8,
+      "length": 8,
+      "location": [
+        -2.5,
+        7.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 8
+    }
+  ],
+  "height": 14,
+  "hullId": "diableavionics_vortex",
+  "hullName": "Vortex",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 19.5,
+  "spriteName": "graphics/da/ships/diableavionics_vortex.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "WS0001",
+      "locations": [
+        3,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 38
+}

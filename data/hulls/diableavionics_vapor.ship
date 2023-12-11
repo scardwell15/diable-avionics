@@ -1,0 +1,179 @@
+{
+  "bounds": [
+    70.5,
+    -1.5,
+    23.5,
+    -4.5,
+    12.5,
+    -7.5,
+    9.5,
+    -18.5,
+    23.5,
+    -33.5,
+    -2.5,
+    -34.5,
+    -10.5,
+    -23.5,
+    -17.5,
+    -22.5,
+    -23.5,
+    -6.5,
+    -28.5,
+    -6.5,
+    -28.5,
+    6.5,
+    -23.5,
+    6.5,
+    -17.5,
+    22.5,
+    -10.5,
+    23.5,
+    -2.5,
+    34.5,
+    23.5,
+    33.5,
+    9.5,
+    18.5,
+    12.5,
+    7.5,
+    23.5,
+    4.5,
+    70.5,
+    1.5
+  ],
+  "builtInMods": [
+    #"diableavionics_avionics",
+    "diableavionics_cramped"
+  ],
+  "builtInWings": [],
+  "center": [
+    38,
+    41
+  ],
+  "collisionRadius": 83.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 6,
+      "location": [
+        -19,
+        20.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 6,
+      "location": [
+        -19,
+        -20.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 6,
+      "location": [
+        -23,
+        10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 6,
+      "location": [
+        -23,
+        -10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -29,
+        0
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    }
+  ],
+  "height": 115,
+  "hullId": "diableavionics_vapor",
+  "hullName": "Vapor",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    18.5,
+    -0
+  ],
+  "shieldRadius": 65,
+  "spriteName": "graphics/da/ships/diableavionics_vapor.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        9,
+        13
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 5.01,
+      "id": "WS0002",
+      "locations": [
+        9,
+        -13
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -10,
+      "arc": 35,
+      "id": "WS0003",
+      "locations": [
+        18.5,
+        25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 10,
+      "arc": 35,
+      "id": "WS0004",
+      "locations": [
+        18.5,
+        -25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 76
+}

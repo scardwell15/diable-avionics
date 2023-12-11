@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "diableavionics_fractus",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "diableavionics_fractus_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "diableavionics_recson2"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_thunderboltsmall",
+                "WS0006": "diableavionics_thunderboltsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_ibis",
+                "WS0004": "diableavionics_ibis",
+                "WS0005": "diableavionics_ibis"
+            }
+        }
+    ],
+    "wings": [
+        "diableavionics_arbitratorZ_wing",
+        "diableavionics_arbitrator_wing"
+    ]
+}

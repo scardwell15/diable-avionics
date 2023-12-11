@@ -1,0 +1,264 @@
+{
+  "bounds": [
+    113.5,
+    -27.5,
+    62.5,
+    -25,
+    17,
+    -29.5,
+    14,
+    -37.5,
+    -35.5,
+    -37.5,
+    -64.5,
+    -21.5,
+    -64.5,
+    21.5,
+    -35.5,
+    37.5,
+    14,
+    37.5,
+    17,
+    29.5,
+    62.5,
+    25,
+    113.5,
+    27.5
+  ],
+  "builtInMods": [
+    #"diableavionics_avionics"
+    "shielded_holds",
+  ],
+  "builtInWeapons": {
+    "WS0009": "diableavionics_microbuiltin",
+    "WS0010": "diableavionics_microbuiltin",
+    "WS0013": "diableavionics_microbuiltin",
+    "WS0014": "diableavionics_microbuiltin"
+  },
+  "center": [
+    45,
+    75
+  ],
+  "collisionRadius": 133.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -66,
+        18.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -66,
+        -18.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -68,
+        10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -68,
+        -10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -64,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    }
+  ],
+  "height": 199,
+  "hullId": "diableavionics_stratus_p",
+  "hullName": "Stratus (P)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    11,
+    -0
+  ],
+  "shieldRadius": 122,
+  "spriteName": "graphics/da/ships/diableavionics_stratus_p.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        99,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 45,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        27,
+        27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -45,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        27,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 235,
+      "id": "WS0006",
+      "locations": [
+        -52,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        116,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        116,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS0007",
+      "locations": [
+        56,
+        23
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 90,
+      "id": "WS0008",
+      "locations": [
+        56,
+        -23
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        1,
+        32
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        1,
+        -32
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        -21,
+        32
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        -21,
+        -32
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 90
+}

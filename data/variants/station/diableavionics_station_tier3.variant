@@ -1,0 +1,39 @@
+{
+  "variantId": "diableavionics_station_tier3",
+  "hullId": "diableavionics_station_tier3",
+  "displayName": "Orbital Station",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "diableavionics_station_deepStrike"}
+        },
+        #{
+        #    "autofire": false,
+        #    "mode": "ALTERNATING",
+        #    "weapons": {"WS0002": "diableavionics_station_deepStrike"}
+        #},
+  ],
+  "modules": [
+		# CROSS SECTION
+		{"CROSS_LEFT": "diableavionics_module_wanzer_tier3"},
+		{"CROSS_RIGHT": "diableavionics_module_wanzer_tier3"},
+		
+		# TIPS
+		{"TIP_UP": "diableavionics_module_tip_tier3"},
+		{"TIP_DOWN": "diableavionics_module_tip_tier3"},
+		
+		# ARM SECTION
+		{"TOP_LEFT": "diableavionics_module_ecm_tier3"},
+		{"TOP_RIGHT": "diableavionics_module_attack_tier3"},
+		{"BOTTOM_LEFT": "diableavionics_module_ecm_tier3"},
+		{"BOTTOM_RIGHT": "diableavionics_module_attack_tier3"},
+	],
+  "wings": []
+}

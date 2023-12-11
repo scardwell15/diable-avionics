@@ -1,0 +1,55 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "diableavionics_rime_m",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_rime_m_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "diableavionics_banish",
+                "WS0013": "diableavionics_banish"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "diableavionics_microbuiltin",
+                "WS0007": "diableavionics_microbuiltin",
+                "WS0008": "diableavionics_microbuiltin",
+                "WS0009": "diableavionics_microbuiltin",
+                "WS0010": "diableavionics_microbuiltin",
+                "WS0011": "diableavionics_microbuiltin"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_nocturne"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "diableavionics_burchel",
+                "WS0005": "diableavionics_burchel"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "diableavionics_ibis"}
+        }
+    ],
+    "wings": [
+        "diableavionics_strife_wing",
+        "diableavionics_frost_wing"
+    ]
+}

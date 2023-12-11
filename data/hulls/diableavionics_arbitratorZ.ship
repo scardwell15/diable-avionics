@@ -1,0 +1,97 @@
+{
+  "bounds": [
+    10.5,
+    4.5,
+    25.5,
+    7.5,
+    4.5,
+    11.5,
+    -4.5,
+    18.5,
+    -8.5,
+    18.5,
+    -8.5,
+    -18.5,
+    -4.5,
+    -18.5,
+    4.5,
+    -11.5,
+    25.5,
+    -7.5,
+    10.5,
+    -4.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "diableavionics_strifehead",
+    "WS0002": "diableavionics_plover_fighter"
+  },
+  "builtInWings": [],
+  "center": [
+    20,
+    14
+  ],
+  "collisionRadius": 30.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 21,
+      "location": [
+        -10.5,
+        6
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 21,
+      "location": [
+        -10.5,
+        -6
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 8
+    }
+  ],
+  "height": 42,
+  "hullId": "diableavionics_arbitratorZ",
+  "hullName": "Arbitrator Z",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    4,
+    -0
+  ],
+  "shieldRadius": 26,
+  "spriteName": "graphics/da/ships/arbitrator/diableavionics_arbitratorZ.png",
+  "style": "DA_WANZER",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 225,
+      "id": "WS0001",
+      "locations": [
+        -0.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        10,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 40
+}

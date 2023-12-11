@@ -1,0 +1,54 @@
+{
+	"id":"diableavionics_opfergv",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"graphics/da/weapons/opfer/diableavionics_opfergvT_00.png",
+	"hardpointSprite":"graphics/da/weapons/opfer/diableavionics_opfergvH_00.png",	
+	"turretGunSprite":"graphics/da/weapons/opfer/diableavionics_opfergvT.png",
+	"hardpointGunSprite":"graphics/da/weapons/opfer/diableavionics_opfergvH.png",
+	"numFrames":4,	
+	"frameRate":20,
+	"visualRecoil":2.0,
+	"renderHints":["SUSPEND_RECOIL"],
+	"turretOffsets":[
+28,-14,
+29,-5,
+29,5,
+28,14,
+],
+	"turretAngleOffsets":[
+-0.3,
+-0.1,
+0.1,
+0.3
+],
+	"hardpointOffsets":[
+39,-12,
+40,-4,
+40,4,
+39,12,
+],
+	"hardpointAngleOffsets":[
+-0.3,
+-0.1,
+0.1,
+0.3
+],
+	"barrelMode":"LINKED", #ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+	"separateRecoilForLinkedBarrels":"TRUE",
+	"animationType":"MUZZLE_FLASH",
+	"interruptibleBurst":true,
+	"muzzleFlashSpec":{"length":34.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":32.0,
+					   "particleDuration":0.07,
+					   "particleCount":7,
+					   "particleColor":[199,93,76,205]},
+
+	"projectileSpecId":"diableavionics_opfer_shot",
+
+	#"fireSoundTwo":"diableavionics_opfer_fire",
+        "everyFrameEffect":"data.scripts.weapons.Diableavionics_minigunAnimation",
+}

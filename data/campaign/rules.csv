@@ -1,0 +1,44 @@
+id,trigger,conditions,script,text,options,notes
+"#RULESET_NAME Diable Avionics",,,,,,
+,,,,,,
+# Diable Avionics fleet greeting lines,,,,,,
+greetingDAFriendly,OpenCommLink,"$faction.id == diableavionics
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Greetings $playerName. Is there something $theFaction can do for one of our fine associates?""",,
+greetingDAHostileWeaker,OpenCommLink,"$faction.id == diableavionics
+$faction.hostileToPlayer
+$relativeStrength < 0","$ignorePlayerCommRequests = true 1","""If you have any idea of your best interests, you should leave now and join $theFaction.""","cutCommLink:Cut the comm link",
+greetingDAHostileWeakerDefiant,OpenCommLink,"$faction.id == diableavionics
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding","$ignorePlayerCommRequests = true 1","""Know that someday, you and your family will work for $theFaction as slaves.""","cutCommLink:Cut the comm link",
+greetingDAHostileStronger,OpenCommLink,"$faction.id == diableavionics
+$faction.hostileToPlayer
+$relativeStrength >= 0","$ignorePlayerCommRequests = true 1","""All I see is a fine addition to either my fleet or my kill tally.""","cutCommLink:Cut the comm link",
+greetingDANeutral,OpenCommLink,"$faction.id == diableavionics
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""You are speaking to $PersonRank $personName of $theFaction Navy. State your buisness.""",,
+"#END Diable Avionics fleet greeting lines",,,,,,
+,,,,,,
+# Trade panel flavor text,,,,,,
+flavorTextMarketEclipse,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == diableavionics
+$market.id == eclipse_market","AddText ""A heavily fortified staging point for the Diable Avionics corporation. The beginning of the return of the Domain of Man."" textGrayColor",,,
+flavorTextMarketDiableAvionics,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == diableavionics","AddText ""Glares pierce into you as looks of contempt make sure you know that you are merely tolerated, not welcomed."" textGrayColor",,,
+"#END Trade panel flavor text",,,,,,
+,,,,,,
+"# default commission conversation strings, copy and adjust this section for faction-specific conversation flavor",,,,,,
+CMSNTextRejectHostile_diableavionics,CMSNTextRejectHostile,"$faction.id == ora",,"""Is this some kind of joke? If you are who you say you are, you're on several $faction wanted lists.""",,
+CMSNTextHasOther_diableavionics,CMSNTextHasOther,"$faction.id == ora",,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.""",,
+CMSNTextUnsuited_diableavionics,CMSNTextUnsuited,"$faction.id == ora",,"""I'm sorry, but you don't meet our criteria for receiving a commission.""",,
+CMSNTextSuitedPart1_diableavionics,CMSNTextSuitedPart1,"$faction.id == ora",,"""Hmm, yes, you're a suitable candidate.\n\nAccepting a commission is a serious matter. You will be required to fight enemies of $theFaction, wherever they may be found.\n\nYou'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.""",,
+CMSNTextSuitedPart2_diableavionics,CMSNTextSuitedPart2,"$faction.id == ora",,"""So, how about it? Still want to sign on?""",,
+CMSNTextWelcomePart1_diableavionics,CMSNTextWelcomePart1,"$faction.id == ora",,"""Excellent! Welcome to the service.""",,
+CMSNTextWelcomePart2_diableavionics,CMSNTextWelcomePart2,"$faction.id == ora",,"""Anything else I can do for you?""",,
+CMSNTextChangeMind_diableavionics,CMSNTextChangeMind,"$faction.id == ora",,"""Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.\n\nAnything else I can do for you?""",,
+CMSNResignAskToConfirm_diableavionics,CMSNResignAskToConfirm,"$faction.id == ora",,"""Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
+CMSNResignConfirmed_diableavionics,CMSNResignConfirmed,"$faction.id == ora",,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
+CMSNResignCancelled_diableavionics,CMSNResignCancelled,"$faction.id == ora",,"""A good decision. We can use people like you.""",,
+"#END default commission conversation strings, copy and adjust this section for faction-specific conversation flavor",,,,,,
+

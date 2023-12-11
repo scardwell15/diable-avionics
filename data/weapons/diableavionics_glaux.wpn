@@ -1,0 +1,32 @@
+{
+	"specClass":"beam",
+	"id":"diableavionics_glaux",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"turretSprite":"graphics/da/weapons/diableavionics_glaux_turret_base.png",
+	"turretGlowSprite":"graphics/da/weapons/diableavionics_glaux_turret_glow.png",	
+	"hardpointSprite":"graphics/da/weapons/diableavionics_glaux_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/da/weapons/diableavionics_glaux_hardpoint_glow.png",	
+	"turretOffsets":[12, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[17, 0],
+	"hardpointAngleOffsets":[0],
+
+	"darkCore":true,
+	
+	"fringeColor":[255,100,0,255],
+	"coreColor":[15,0,0,255],
+	"glowColor":[232,128,35,255],
+
+	"width":22.0,
+
+	"textureType":ROUGH,
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	#"fireSoundOne":"diableavionics_glaux_firing",
+	"beamEffect":"data.scripts.weapons.Diableavionics_fastBurstsEffect",
+
+}

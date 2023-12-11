@@ -1,0 +1,95 @@
+{
+    "displayName": "Extinguisher",
+    "fluxCapacitors": 23,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "diableavionics_pandemonium",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_pandemonium_extinguisher",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_mostro",
+                "WS0004": "diableavionics_mostro"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_microarrayM",
+                "WS0002": "diableavionics_microarrayM"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "diableavionics_recson2",
+                "WS0006": "diableavionics_recson2",
+                "WS0007": "diableavionics_recson2",
+                "WS0008": "diableavionics_recson2",
+                "WS0034": "diableavionics_recson2",
+                "WS0035": "diableavionics_recson2"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "diableavionics_winee",
+                "WS0013": "diableavionics_winee"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "diableavionics_artassault",
+                "WS0017": "diableavionics_artassault",
+                "WS0018": "diableavionics_artassault",
+                "WS0019": "diableavionics_artassault",
+                "WS0020": "diableavionics_artassault",
+                "WS0021": "diableavionics_artassault"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0022": "diableavionics_graveac",
+                "WS0023": "diableavionics_graveac",
+                "WS0024": "diableavionics_graveac",
+                "WS0025": "diableavionics_graveac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "diableavionics_raptor",
+                "WS0010": "diableavionics_raptor",
+                "WS0011": "diableavionics_lazyhorn",
+                "WS0014": "diableavionics_ibis",
+                "WS0015": "diableavionics_ibis",
+                "WS0030": "diableavionics_ibis",
+                "WS0031": "diableavionics_ibis",
+                "WS0032": "diableavionics_ibis",
+                "WS0033": "diableavionics_ibis"
+            }
+        }
+    ],
+    "wings": [
+        "diableavionics_frost_wing",
+        "diableavionics_strife_wing",
+        "diableavionics_hoar_wing",
+        ""
+    ]
+}

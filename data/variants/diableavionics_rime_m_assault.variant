@@ -1,0 +1,54 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "hullId": "diableavionics_rime_m",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_rime_m_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "diableavionics_thunderboltpod",
+                "WS0013": "diableavionics_thunderboltpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "diableavionics_microbuiltin",
+                "WS0007": "diableavionics_microbuiltin",
+                "WS0008": "diableavionics_microbuiltin",
+                "WS0009": "diableavionics_microbuiltin",
+                "WS0010": "diableavionics_microbuiltin",
+                "WS0011": "diableavionics_microbuiltin"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_gravemg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "diableavionics_winee",
+                "WS0005": "diableavionics_winee"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "diableavionics_ibis"}
+        }
+    ],
+    "wings": [
+        "diableavionics_arbitrator_wing",
+        "diableavionics_arbitrator_wing"
+    ]
+}

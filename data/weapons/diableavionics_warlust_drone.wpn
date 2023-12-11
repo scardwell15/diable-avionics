@@ -1,0 +1,24 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_warlust_drone",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":40,
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
+                            "spread":6.0,
+                            "particleSizeMin":6.0,
+                            "particleSizeRange":8.0,
+                            "particleDuration":0.15,
+                            "particleCount":7,
+                            "particleColor":[255,240,165,200]},
+	"projectileSpecId":"diableavionics_ibis_shot",  # projectile that will be fired
+	"fireSoundTwo":"diableavionics_ibis_firing",
+}

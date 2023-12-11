@@ -1,0 +1,54 @@
+{
+    "displayName": "Enhanced",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "diableavionics_module_missile_lock",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "diableavionics_module_missile_lock2",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "diableavionics_microarrayM"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                #"WS0002": "diableavionics_thrush",
+                #"WS0003": "diableavionics_thrush",
+                #"WS0004": "diableavionics_thrush"
+
+                "WS0002": "diableavionics_banish",
+                "WS0003": "diableavionics_banish",
+                "WS0004": "diableavionics_banish"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "diableavionics_ibis",
+                "WS0008": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "diableavionics_burchel",
+                "WS0006": "diableavionics_burchel",
+                "WS0009": "diableavionics_burchel",
+                "WS0010": "diableavionics_burchel"
+            }
+        }
+    ],
+    "wings": [
+        "diableavionics_arbitratorZ_wing",
+        "diableavionics_arbitratorZ_wing",
+        #"diableavionics_arbitrator_wing",
+        #"diableavionics_arbitrator_wing"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+	"id":"diableavionics_damperwave",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+
+	"statsScript":"data.shipsystems.scripts.Diableavionics_damperWaveStats",
+	
+	"jitterUnderColor":[90,255,165,155],
+	"jitterUnderCopies":10,
+	"jitterUnderMinRange":2,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+
+	"engineGlowColor":[100,165,255,125],
+	"engineGlowContrailColor":[100,165,255,50],
+	"engineGlowLengthMult":2,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":2,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"diableavionics_damperwave",
+	#"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+            "averageSpeedIncrease":300,
+	},
+}

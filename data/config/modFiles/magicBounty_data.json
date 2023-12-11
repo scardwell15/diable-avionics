@@ -1,0 +1,58 @@
+{
+    # Super special fleets present in the sector that get a pointer after a while
+
+    "diable_gulf":{
+
+    "trigger_marketFaction_any": ["diableavionics"],
+    #"trigger_market_minSize": 5,
+    #"trigger_min_days_elapsed": 360, 
+    "trigger_playerRelationship_atLeast": {"diableavionics":0.5,},
+    "trigger_min_fleet_size": 150,
+
+    "job_name": "A cold plate of revenge",
+    "job_description": "Sifting through the restricted job postings you find quite the oddity: An offer from the Diable Avionics Corporation. It had to be something very special as they seldom use outsider help for their shenanigans. That is when they do not need someone to take the fall, something to keep in mind should you accept the offer.\n\nThe job description is pretty laconic: the ==Tri-tachyon Corporation== somehow got their hands on a lost odd-ball ship of theirs, and they want it gone. The trick being that the ship is part of a fleet located in the well defended ==$system system==.\n\nThe documentation about the target is thorough, as you can expect from the life-long professionals of DA's intelligence offices, and paints quite an impressive ship. One you probably would not mind keeping if the option presented itself. The information about rest of the fleet are hazier, the target escorts are regularly rotated to prevent exactly what this offer is asking of you.",
+    #"job_comm_reply": "",
+    "job_intel_success": "You send word of your victory and wait for an answer, somehow unable to shake the feeling that sometime in the near future you will get hit by another bounty hunter hired to eliminate any witness of Diable Avionics' involvment in this battle. No reply come to relieve your angst but you do get a notification that the appropriate sum has been deposited into your account. You will probably have some trouble sleeping the next few nights.",
+    #"job_intel_failure": "",
+    #"job_intel_expired": "",
+    "job_forFaction": "diableavionics",
+    "job_deadline": 360,
+    "job_credit_reward": 90000,
+    "job_reputation_reward":15,
+    "job_type":"assassination",
+    "job_show_type": true,
+    "job_show_captain": false,
+    "job_show_fleet": "flagshipText",
+    "job_show_distance": "exact",
+    "job_difficultyDescription": "auto",
+
+    "existing_target_memkey":"$gulf",	
+    },
+
+    "diable_virtuous":{
+
+    "trigger_marketFaction_any": ["tritachyon"],
+    "trigger_marketFaction_alliedWith": true,
+    "trigger_min_fleet_size": 200,
+    #"trigger_min_days_elapsed": 720, 
+
+    "job_name": "Save the Children",
+    "job_description": "You notice an open call to action for a charity, a somewhat unusual avenue for those organizations but nothing unheard of.\n\n\"The Diable Avionics Corporation, true to its name, is using child laborers and even child soldiers to fuel its offensive and illegal ambitions over the free citizen of the Sector. None of those precious beings should have ever been sacrificed on the altar of greed and lust for power. This ongoing vile act must stop now!\n\nThe Brighter Future For Everyone association has committed a ==$reward credits reward== for the elimination of the symbol of this oppression: the fleet known as ==The last Line== in the ==$system system==. The flagship of this fleet was developed at the cost of countless innocent lives, such abhorrent creation must be destroyed.\"\n\nThe whole thing goes on a few more paragraphs without adding much substance. Your intelligence officer interrupts your thoughts: this charity is wholly funded and owned by the Tri-Tachyon Corporation, a revelation that does not surprise you in the slightest.",
+    "job_intel_success": "The reward comes accompanied by an invitation to a gala as well as a request for an interview. It seems that the backers of the Brighter Future For Everyone charity want to extract the most propaganda and goodwill from your involvement. You direct your comms officer to ignore their requests: the DA's army is not renowned for its forgiveness and this is one feat they are bound to want retribution for. You see no reason to make their task easier by exposing yourself for the gain of others.",
+    #"job_intel_failure": "",
+    #"job_intel_expired": "",
+    "job_forFaction": "tritachyon",
+    "job_deadline": 360,
+    "job_credit_reward": 125000,
+    "job_reputation_reward":5,
+    "job_type":"destruction",
+    "job_show_type": true,
+    "job_show_captain": false,
+    "job_show_fleet": "flagshipText",
+    "job_show_distance": "exact",
+    "job_difficultyDescription": "auto",
+
+    "existing_target_memkey":"$virtuous",
+    },
+
+}

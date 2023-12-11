@@ -1,0 +1,62 @@
+{
+    "displayName": "Fang",
+    "fluxCapacitors": 0,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "diableavionics_IBBgulf",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_IBBgulf_fang",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_uhlan",
+                "WS0002": "diableavionics_uhlan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "diableavionics_thunderboltpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "diableavionics_micromissile",
+                "WS0011": "diableavionics_micromissile",
+                "WS0012": "diableavionics_micromissile",
+                "WS0013": "diableavionics_micromissile",
+                "WS0014": "diableavionics_micromissile",
+                "WS0015": "diableavionics_micromissile",
+                "WS0016": "diableavionics_micromissile",
+                "WS0017": "diableavionics_micromissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "diableavionics_glaux",
+                "WS0005": "diableavionics_glaux"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "diableavionics_burchel",
+                "WS0007": "diableavionics_burchel",
+                "WS0008": "diableavionics_burchel",
+                "WS0009": "diableavionics_burchel"
+            }
+        }
+    ],
+    "wings": [
+        "diableavionics_strife_wing",
+        "diableavionics_frost_wing"
+    ]
+}

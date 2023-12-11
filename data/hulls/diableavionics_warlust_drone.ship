@@ -1,0 +1,63 @@
+{
+  "bounds": [
+    16,
+    1,
+    -1,
+    8,
+    -11,
+    -0,
+    -1,
+    -8,
+    16,
+    -1
+  ],
+  "builtInWeapons": {
+    "WS0001": "diableavionics_warlust_drone"
+  },
+  "center": [
+    9,
+    12
+  ],
+  "collisionRadius": 20.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 21.5,
+      "location": [
+        -10,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsMissileNoTrail",
+      "width": 9
+    }
+  ],
+  "height": 30,
+  "hullId": "diableavionics_warlust_drone",
+  "hullName": "Snap Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    3,
+    0
+  ],
+  "shieldRadius": 17,
+  "spriteName": "graphics/da/ships/warlust/diableavionics_warlust_drone.png",
+  "style": "DA_WANZER",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        16,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 18
+}

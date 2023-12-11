@@ -1,0 +1,31 @@
+{
+	"id":"diableavionics_warlust_drone",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	
+	"droneVariant":"diableavionics_warlust_drone_variant",
+	
+	"allowFreeRoam":true,
+	
+	"launchSpeed":10,
+	"launchDelay":0.5,
+	"maxDrones":2,
+	"droneBehavior":[
+		{"droneIndex":[0,1],
+		 "defaultFacing":"MATCH_SHIP_FACING",
+		 "faceEnemy":true,
+		 "holdRoamRange":100,
+		 "freeRoamRange":1000,
+		 "targetPriority":[MISSILE, FIGHTER, SHIP_TARGET, SHIP],
+		 "initialOrbitAngle":90,
+		 "orbitRadius":15,
+		 "orbitDir":1,
+		 "orbitSpeed":0,
+		},
+	],
+	"aiHints":{
+	},
+	
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

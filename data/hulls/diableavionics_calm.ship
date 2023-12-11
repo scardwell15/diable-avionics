@@ -1,0 +1,344 @@
+{
+  "bounds": [
+    44.5,
+    -14.5,
+    113.5,
+    -16.5,
+    117.5,
+    -21.5,
+    48.5,
+    -27.5,
+    45.5,
+    -31.5,
+    10.5,
+    -32.5,
+    6.5,
+    -39.5,
+    -2.5,
+    -39.5,
+    -6.5,
+    -32.5,
+    -44.5,
+    -34.5,
+    -60.5,
+    -22.5,
+    -54.5,
+    -12.5,
+    -63.5,
+    -11.5,
+    -63.5,
+    11.5,
+    -54.5,
+    12.5,
+    -60.5,
+    22.5,
+    -44.5,
+    34.5,
+    -6.5,
+    32.5,
+    -2.5,
+    39.5,
+    6.5,
+    39.5,
+    10.5,
+    32.5,
+    45.5,
+    31.5,
+    48.5,
+    27.5,
+    117.5,
+    21.5,
+    113.5,
+    16.5,
+    44.5,
+    14.5,
+    51.5,
+    -0
+  ],
+  "builtInMods": [
+    #"diableavionics_avionics"
+  ],
+  "builtInWeapons": {
+    "SYSTEM": "diableavionics_calmSystem",
+    "WS0007": "diableavionics_microbuiltin",
+    "WS0008": "diableavionics_microbuiltin",
+    "WS0009": "diableavionics_microbuiltin",
+    "WS0010": "diableavionics_microbuiltin"
+  },
+  "center": [
+    41,
+    82
+  ],
+  "collisionRadius": 135,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 5,
+      "location": [
+        -61,
+        21.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 5,
+      "location": [
+        -61,
+        -21.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -64,
+        8.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -64,
+        -8.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 7.5,
+      "location": [
+        -65,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail",
+      "width": 10
+    }
+  ],
+  "height": 201,
+  "hullId": "diableavionics_calm",
+  "hullName": "Calm",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    20,
+    -0
+  ],
+  "shieldRadius": 114.5,
+  "spriteName": "graphics/da/ships/diableavionics_calm_deck.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "SYSTEM",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        44,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0012",
+      "locations": [
+        22,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 225,
+      "id": "WS0001",
+      "locations": [
+        2,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 225,
+      "id": "WS0002",
+      "locations": [
+        2,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -19,
+        30
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -19,
+        -30
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -32,
+        30
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -32,
+        -30
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 5.01,
+      "id": "WS0007",
+      "locations": [
+        36,
+        28
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 5.01,
+      "id": "WS0008",
+      "locations": [
+        36,
+        -28
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 5.01,
+      "id": "WS0009",
+      "locations": [
+        23,
+        28
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 5.01,
+      "id": "WS0010",
+      "locations": [
+        23,
+        -28
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -180,
+      "arc": 20,
+      "id": "WS0013",
+      "locations": [
+        -39,
+        4
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 180,
+      "arc": 20,
+      "id": "WS0014",
+      "locations": [
+        -39,
+        -4
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -39,
+        -0,
+        -47,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 82
+}

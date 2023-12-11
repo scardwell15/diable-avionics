@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_module_fighter",
+    "skinHullId":"diableavionics_module_fighter_lock",
+    "hullName":"Fighter Module",
+    "descriptionId":"diableavionics_module_fighter",
+    "tags":["no_autofit"],
+}

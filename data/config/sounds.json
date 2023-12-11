@@ -1,0 +1,741 @@
+{        
+	#CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK 
+
+
+        "diableavionics_virtuousSyphon_loop":[
+		{"file":"sounds/diablefx/da_virtuousSyphon_loop.ogg","pitch":1.00, "volume":0.3},
+        ],
+        "diableavionics_virtuousSyphon_deactivate":[
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate1.ogg","pitch":1.07, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate2.ogg","pitch":1.06, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate3.ogg","pitch":1.05, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate4.ogg","pitch":1.04, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate1.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate2.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate3.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate4.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate1.ogg","pitch":0.96, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate2.ogg","pitch":0.95, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate3.ogg","pitch":0.94, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_deactivate4.ogg","pitch":0.93, "volume":0.3},
+        ],
+        "diableavionics_virtuousSyphon_activate":[
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate1.ogg","pitch":1.07, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate2.ogg","pitch":1.06, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate3.ogg","pitch":1.05, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate4.ogg","pitch":1.04, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate1.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate2.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate3.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate4.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate1.ogg","pitch":0.96, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate2.ogg","pitch":0.95, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate3.ogg","pitch":0.94, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousSyphon_activate4.ogg","pitch":0.93, "volume":0.3},
+        ],
+        
+        "diableavionics_virtuousTeleport":[
+		{"file":"sounds/diablefx/da_virtuousTeleport_5.ogg","pitch":1.07, "volume":0.50},
+		{"file":"sounds/diablefx/da_virtuousTeleport_5.ogg","pitch":1.05, "volume":0.50},
+		{"file":"sounds/diablefx/da_virtuousTeleport_5.ogg","pitch":1.03, "volume":0.50},
+		{"file":"sounds/diablefx/da_virtuousTeleport_6.ogg","pitch":1.00, "volume":0.50},
+		{"file":"sounds/diablefx/da_virtuousTeleport_6.ogg","pitch":1.01, "volume":0.50},
+		{"file":"sounds/diablefx/da_virtuousTeleport_6.ogg","pitch":0.99, "volume":0.50},
+		{"file":"sounds/diablefx/da_virtuousTeleport_7.ogg","pitch":0.97, "volume":0.50},
+		{"file":"sounds/diablefx/da_virtuousTeleport_7.ogg","pitch":0.95, "volume":0.50},
+		{"file":"sounds/diablefx/da_virtuousTeleport_7.ogg","pitch":0.93, "volume":0.50},
+        ],
+        "diableavionics_virtuousBlaster_fire":[
+		{"file":"sounds/diablefx/da_virtuousBlaster_fire1.ogg","pitch":1.07, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousBlaster_fire2.ogg","pitch":1.05, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousBlaster_fire3.ogg","pitch":1.03, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousBlaster_fire1.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousBlaster_fire2.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousBlaster_fire3.ogg","pitch":1.00, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousBlaster_fire1.ogg","pitch":0.97, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousBlaster_fire2.ogg","pitch":0.95, "volume":0.3},
+		{"file":"sounds/diablefx/da_virtuousBlaster_fire3.ogg","pitch":0.93, "volume":0.3},
+        ],
+
+        "diableavionics_virtuousGrenade_fire":[
+		{"file":"sounds/diablefx/da_virtuousGrenade_fireC1.ogg","pitch":1.07, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousGrenade_fireC2.ogg","pitch":1.05, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousGrenade_fireC3.ogg","pitch":1.03, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousGrenade_fireC1.ogg","pitch":1.00, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousGrenade_fireC2.ogg","pitch":1.00, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousGrenade_fireC3.ogg","pitch":1.00, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousGrenade_fireC1.ogg","pitch":0.97, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousGrenade_fireC2.ogg","pitch":0.95, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousGrenade_fireC3.ogg","pitch":0.93, "volume":0.25},
+        ],
+        "diableavionics_virtuousGrenade_hit":[
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit1.ogg","pitch":1.05, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit2.ogg","pitch":1.05, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit3.ogg","pitch":1.05, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit4.ogg","pitch":1.05, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit5.ogg","pitch":1.05, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit6.ogg","pitch":1.05, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit1.ogg","pitch":1.00, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit2.ogg","pitch":1.00, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit3.ogg","pitch":1.00, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit4.ogg","pitch":1.00, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit5.ogg","pitch":1.00, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit6.ogg","pitch":1.00, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit1.ogg","pitch":0.95, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit2.ogg","pitch":0.95, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit3.ogg","pitch":0.95, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit4.ogg","pitch":0.95, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit5.ogg","pitch":0.95, "volume":0.40},
+		{"file":"sounds/diablefx/da_virtuousGrenade_hit6.ogg","pitch":0.95, "volume":0.40},
+	], 
+
+        "diableavionics_virtuousShotgun_fire":[
+            {"file":"sounds/diablefx/da_virtuousShotgun_fire.ogg","pitch":1.06, "volume":0.49},
+            {"file":"sounds/diablefx/da_virtuousShotgun_fire.ogg","pitch":1.03, "volume":0.47},
+            {"file":"sounds/diablefx/da_virtuousShotgun_fire.ogg","pitch":1.00, "volume":0.45},
+            {"file":"sounds/diablefx/da_virtuousShotgun_fire.ogg","pitch":0.97, "volume":0.43},
+            {"file":"sounds/diablefx/da_virtuousShotgun_fire.ogg","pitch":0.94, "volume":0.41}
+	],
+
+        "diableavionics_virtuousTarget_beep":[
+		{"file":"sounds/diablefx/da_virtuousTarget_beep2.ogg","pitch":1.1, "volume":0.4},
+	], 
+        "diableavionics_virtuousTarget_activate":[
+		{"file":"sounds/diablefx/da_virtuousTarget_activate.ogg","pitch":1.00, "volume":0.75},
+	],
+
+        "diableavionics_virtuousCitadel_activate":[
+		{"file":"sounds/diablefx/da_virtuousCitadel_activate2.ogg","pitch":1.00, "volume":1.00},
+	],
+        "diableavionics_virtuousCitadel_loop":[
+		{"file":"sounds/diablefx/da_virtuousCitadel_loop.ogg","pitch":1.00, "volume":1.00},
+	],
+        "diableavionics_virtuousCitadel_deactivate":[
+		{"file":"sounds/diablefx/da_virtuousCitadel_deactivate.ogg","pitch":1.00, "volume":0.50},
+	],
+ 
+        "diableavionics_virtuousSniper_fire":[
+		{"file":"sounds/diablefx/da_virtuousSniper_fire.ogg","pitch":1.05, "volume":0.5},
+		{"file":"sounds/diablefx/da_virtuousSniper_fire.ogg","pitch":1.00, "volume":0.5},
+		{"file":"sounds/diablefx/da_virtuousSniper_fire.ogg","pitch":0.95, "volume":0.5},
+        ],
+
+	"diableavionics_virtuousMinigun_trail":[
+		{"file":"sounds/diablefx/da_virtuousMinigun_trail.ogg","pitch":1.00, "volume":0.5},
+	],
+	"diableavionics_virtuousMinigun_fire":[
+	
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":1.10, "volume":0.25},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":1.08, "volume":0.25},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":1.06, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":1.04, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":1.02, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":1.00, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":0.98, "volume":0.25},
+		{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":0.96, "volume":0.25},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":0.94, "volume":0.25},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":0.92, "volume":0.25},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireE.ogg","pitch":0.90, "volume":0.25},
+		
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":1.10, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":1.08, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":1.06, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":1.04, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":1.02, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":1.00, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":0.98, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":0.96, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":0.94, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":0.92, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD01.ogg","pitch":0.90, "volume":0.5},
+		
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":1.10, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":1.08, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":1.06, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":1.04, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":1.02, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":1.00, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":0.98, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":0.96, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":0.94, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":0.92, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD02.ogg","pitch":0.90, "volume":0.5},
+		
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":1.10, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":1.08, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":1.06, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":1.04, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":1.02, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":1.00, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":0.98, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":0.96, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":0.94, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":0.92, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireD03.ogg","pitch":0.90, "volume":0.5},
+	
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":1.10, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":1.08, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":1.06, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":1.04, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":1.02, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":1.00, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":0.98, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":0.96, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":0.94, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":0.92, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fireC.ogg","pitch":0.90, "volume":0.5},
+		
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire01.ogg","pitch":1.00, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire02.ogg","pitch":1.02, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire03.ogg","pitch":1.04, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire04.ogg","pitch":1.06, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire05.ogg","pitch":1.08, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire01.ogg","pitch":0.94, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire02.ogg","pitch":0.90, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire03.ogg","pitch":0.96, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire04.ogg","pitch":0.98, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire05.ogg","pitch":0.92, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire01.ogg","pitch":1.18, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire02.ogg","pitch":1.16, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire03.ogg","pitch":1.14, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire04.ogg","pitch":1.12, "volume":0.5},
+		#{"file":"sounds/diablefx/da_virtuousMinigun_fire05.ogg","pitch":1.10, "volume":0.5},
+	],
+
+    "diableavionics_damperwave":[
+		{"file":"sounds/diablefx/da_damperwave_1.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_damperwave_1.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_damperwave_1.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_damperwave_2.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_damperwave_2.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_damperwave_2.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_damperwave_3.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_damperwave_3.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_damperwave_3.ogg","pitch":0.95, "volume":0.75},
+	],
+
+ 
+    "diableavionics_deepStrike_launch":[
+		{"file":"sounds/diablefx/da_deepStrike_launch1.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_launch1.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_launch1.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_launch2.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_launch2.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_launch2.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_launch3.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_launch3.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_launch3.ogg","pitch":1.05, "volume":0.75},
+	],
+    "diableavionics_deepStrike_open":[
+		{"file":"sounds/diablefx/da_deepStrike_open1.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_open1.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_open1.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_open2.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_open2.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_open2.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_open3.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_open3.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_open3.ogg","pitch":1.05, "volume":0.75},
+	],
+    "diableavionics_deepStrike_emerge":[
+		{"file":"sounds/diablefx/da_deepStrike_emerge1.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge1.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge1.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge2.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge2.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge2.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge3.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge3.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge3.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge4.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge4.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge4.ogg","pitch":1.05, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge5.ogg","pitch":1.00, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge5.ogg","pitch":0.95, "volume":0.75},
+		{"file":"sounds/diablefx/da_deepStrike_emerge5.ogg","pitch":1.05, "volume":0.75},
+	],
+
+
+
+	"diableavionics_ibis_firing":[
+		{"file":"sounds/diablefx/da_ibis_fire.ogg","pitch":1, "volume":0.10},
+		{"file":"sounds/diablefx/da_ibis_fire.ogg","pitch":0.95, "volume":0.11},
+		{"file":"sounds/diablefx/da_ibis_fire.ogg","pitch":0.90, "volume":0.12}
+	],
+	"diableavionics_recson_firing":[
+		{"file":"sounds/diablefx/da_recson_fire.ogg","pitch":1, "volume":0.4},
+		{"file":"sounds/diablefx/da_recson_fire.ogg","pitch":0.95, "volume":0.37},
+		{"file":"sounds/diablefx/da_recson_fire.ogg","pitch":0.90, "volume":0.34}
+	], 
+	"diableavionics_artassault_fire":[
+		{"file":"sounds/diablefx/da_artassault_fire_short.ogg","pitch":1, "volume":0.33},
+		{"file":"sounds/diablefx/da_artassault_fire_short.ogg","pitch":0.975, "volume":0.3},
+		{"file":"sounds/diablefx/da_artassault_fire_short.ogg","pitch":1.025, "volume":0.27}
+	],
+	"diableavionics_artdeux_fire":[
+		{"file":"sounds/diablefx/da_artdeux_doubletap_short.ogg","pitch":1, "volume":0.35},
+		{"file":"sounds/diablefx/da_artdeux_doubletap_short.ogg","pitch":0.95, "volume":0.35},
+		{"file":"sounds/diablefx/da_artdeux_doubletap_short.ogg","pitch":1.05, "volume":0.35},
+	],
+	"diableavionics_artdeux_trail":[
+		{"file":"sounds/diablefx/da_artdeux_trail.ogg","pitch":1, "volume":0.35},
+		{"file":"sounds/diablefx/da_artdeux_trail.ogg","pitch":0.95, "volume":0.35},
+		{"file":"sounds/diablefx/da_artdeux_trail.ogg","pitch":1.05, "volume":0.35},
+	],
+	"diableavionics_glowtusklinear_firing":[
+		{"file":"sounds/diablefx/da_glowtusk_fire.ogg","pitch":1.0, "volume":0.55},
+		{"file":"sounds/diablefx/da_glowtusk_fire.ogg","pitch":0.97, "volume":0.53},
+		{"file":"sounds/diablefx/da_glowtusk_fire.ogg","pitch":0.94, "volume":0.51}
+	], 
+	"diableavionics_graveac_fire":[
+		{"file":"sounds/diablefx/da_graveac_fire.ogg","pitch":1.0, "volume":0.25},
+		{"file":"sounds/diablefx/da_graveac_fire.ogg","pitch":0.97, "volume":0.25},
+		{"file":"sounds/diablefx/da_graveac_fire.ogg","pitch":0.94, "volume":0.25}
+	],  
+	"diableavionics_grave_firing":[
+		{"file":"sounds/diablefx/da_grave_fire.ogg","pitch":1, "volume":0.3},
+		{"file":"sounds/diablefx/da_grave_fire.ogg","pitch":0.92, "volume":0.27},
+		{"file":"sounds/diablefx/da_grave_fire.ogg","pitch":0.86, "volume":0.24}
+	], 
+	
+	
+	
+	"diableavionics_hoar_fire":[
+		{"file":"sounds/diablefx/da_hoar_fire1.ogg","pitch":1.00, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire1.ogg","pitch":0.92, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire1.ogg","pitch":1.06, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire2.ogg","pitch":1.00, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire2.ogg","pitch":0.92, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire2.ogg","pitch":1.06, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire3.ogg","pitch":1.00, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire3.ogg","pitch":0.92, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire3.ogg","pitch":1.06, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire4.ogg","pitch":1.00, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire4.ogg","pitch":0.92, "volume":0.2},
+		{"file":"sounds/diablefx/da_hoar_fire4.ogg","pitch":1.06, "volume":0.2},
+	], 
+	
+	"diableavionics_magic_firing":[
+		{"file":"sounds/diablefx/da_magicbox_fire1.ogg","pitch":1, "volume":0.3},
+		{"file":"sounds/diablefx/da_magicbox_fire1.ogg","pitch":0.95, "volume":0.27},
+		{"file":"sounds/diablefx/da_magicbox_fire1.ogg","pitch":1.05, "volume":0.24},
+		{"file":"sounds/diablefx/da_magicbox_fire2.ogg","pitch":1, "volume":0.3},
+		{"file":"sounds/diablefx/da_magicbox_fire2.ogg","pitch":0.95, "volume":0.27},
+		{"file":"sounds/diablefx/da_magicbox_fire2.ogg","pitch":1.05, "volume":0.24}
+	], 		
+	"diableavionics_thunderbolt_firing":[
+		{"file":"sounds/diablefx/da_thunderbolt_fire1.ogg","pitch":0.9, "volume":0.35},
+		{"file":"sounds/diablefx/da_thunderbolt_fire1.ogg","pitch":0.87, "volume":0.36},
+		{"file":"sounds/diablefx/da_thunderbolt_fire1.ogg","pitch":0.84, "volume":0.38},
+		{"file":"sounds/diablefx/da_thunderbolt_fire2.ogg","pitch":1, "volume":0.35},
+		{"file":"sounds/diablefx/da_thunderbolt_fire2.ogg","pitch":1.03, "volume":0.36},
+		{"file":"sounds/diablefx/da_thunderbolt_fire2.ogg","pitch":1.05, "volume":0.38}
+	],
+	"diableavionics_thunderboltpod_firing":[
+		{"file":"sounds/diablefx/da_thunderboltpod_fire.ogg","pitch":1, "volume":0.38},
+		{"file":"sounds/diablefx/da_thunderboltpod_fire.ogg","pitch":0.97, "volume":0.30},
+		{"file":"sounds/diablefx/da_thunderboltpod_fire.ogg","pitch":0.94, "volume":0.32}
+	],
+	"diableavionics_banish_blast":[
+		{"file":"sounds/diablefx/da_banish_blast.ogg","pitch":1.0, "volume":0.66},
+		{"file":"sounds/diablefx/da_banish_blast.ogg","pitch":0.95, "volume":0.66},
+		{"file":"sounds/diablefx/da_banish_blast.ogg","pitch":1.05, "volume":0.66}
+	],		
+	"diableavionics_banish_stage":[
+		{"file":"sounds/diablefx/da_banish_stage.ogg","pitch":1.0, "volume":1},
+		{"file":"sounds/diablefx/da_banish_stage.ogg","pitch":0.95, "volume":1},
+		{"file":"sounds/diablefx/da_banish_stage.ogg","pitch":1.05, "volume":1}
+	],
+	"diableavionics_micromissile_firing":[
+		{"file":"sounds/diablefx/da_micromissile_fire.ogg","pitch":1, "volume":0.3},
+		{"file":"sounds/diablefx/da_micromissile_fire.ogg","pitch":0.95, "volume":0.27},
+		{"file":"sounds/diablefx/da_micromissile_fire.ogg","pitch":0.90, "volume":0.24}
+	], 
+	"diableavionics_opfer_spin":[
+            {"file":"sounds/diablefx/da_opfer_spinLoop.ogg","pitch":1.0, "volume":1},
+	],				
+	"diableavionics_opfer_fire":[
+            {"file":"sounds/diablefx/da_opfer_fireLoop.ogg","pitch":1.0, "volume":0.5},
+	],
+	
+	
+	
+
+	"diableavionics_burchel_firing":[
+		{"file":"sounds/diablefx/da_glaux_fire.ogg","pitch":1.3, "volume":0.40},
+		{"file":"sounds/diablefx/da_glaux_fire.ogg","pitch":1.32, "volume":0.45},
+		{"file":"sounds/diablefx/da_glaux_fire.ogg","pitch":1.34, "volume":0.50}
+	],        
+	"diableavionics_glaux_firing":[
+		{"file":"sounds/diablefx/da_glaux_fire.ogg","pitch":0.90, "volume":0.50},
+		{"file":"sounds/diablefx/da_glaux_fire.ogg","pitch":0.87, "volume":0.55},
+		{"file":"sounds/diablefx/da_glaux_fire.ogg","pitch":0.84, "volume":0.60}
+	],         
+        "diableavionics_state_firing":[
+		{"file":"sounds/diablefx/da_state_fire.ogg","pitch":1.0, "volume":0.25},
+		{"file":"sounds/diablefx/da_state_fire.ogg","pitch":0.97, "volume":0.23},
+		{"file":"sounds/diablefx/da_state_fire.ogg","pitch":1.03, "volume":0.22}
+	],
+        "diableavionics_state_loop":[
+		{"file":"sounds/diablefx/da_state_loop.ogg","pitch":1.0, "volume":0.31},
+		{"file":"sounds/diablefx/da_state_loop.ogg","pitch":0.97, "volume":0.33},
+		{"file":"sounds/diablefx/da_state_loop.ogg","pitch":1.03, "volume":0.35}
+	],
+        "diableavionics_nocturne_fire":[
+		{"file":"sounds/diablefx/da_nocturne_fire.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_nocturne_fire.ogg","pitch":0.97, "volume":0.35},
+		{"file":"sounds/diablefx/da_nocturne_fire.ogg","pitch":1.03, "volume":0.35}
+	],
+        "diableavionics_nocturne_loop":[
+		{"file":"sounds/diablefx/da_nocturne_loop.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_nocturne_loop.ogg","pitch":1.03, "volume":0.35},
+		{"file":"sounds/diablefx/da_nocturne_loop.ogg","pitch":0.97, "volume":0.35}
+	],
+        "diableavionics_nocturne_hit":[
+		{"file":"sounds/diablefx/da_spark_01.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_02.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_03.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_04.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_05.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_06.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_07.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_08.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_09.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_10.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_11.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_12.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_13.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_14.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_15.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_16.ogg","pitch":1.0, "volume":0.35},
+		{"file":"sounds/diablefx/da_spark_17.ogg","pitch":1.0, "volume":0.35},
+	],
+	"diableavionics_lazyhorn_firing":[
+		{"file":"sounds/diablefx/da_lazyhorn_fire.ogg","pitch":1.0, "volume":0.31},
+		{"file":"sounds/diablefx/da_lazyhorn_fire.ogg","pitch":0.95, "volume":0.29},
+		{"file":"sounds/diablefx/da_lazyhorn_fire.ogg","pitch":1.05, "volume":0.27}
+	],	
+	"diableavionics_lazyhorn_explosion":[
+		{"file":"sounds/diablefx/da_lazyhorn_explosion.ogg","pitch":1.03, "volume":0.13},
+		{"file":"sounds/diablefx/da_lazyhorn_explosion.ogg","pitch":0.97, "volume":0.20},
+		{"file":"sounds/diablefx/da_lazyhorn_explosion.ogg","pitch":1.0, "volume":0.27}
+	],
+	"diableavionics_lazyhorn_charge":[
+		{"file":"sounds/diablefx/da_lazyhorn_charge.ogg","pitch":1.03, "volume":0.33},
+		{"file":"sounds/diablefx/da_lazyhorn_charge.ogg","pitch":0.97, "volume":0.33},
+		{"file":"sounds/diablefx/da_lazyhorn_charge.ogg","pitch":1.0, "volume":0.33}
+	],
+	"diableavionics_lazyhorn_hit":[
+		{"file":"sounds/diablefx/da_lazyhorn_hit1.ogg","pitch":1.03, "volume":0.25},
+		{"file":"sounds/diablefx/da_lazyhorn_hit1.ogg","pitch":0.97, "volume":0.25},
+		{"file":"sounds/diablefx/da_lazyhorn_hit1.ogg","pitch":1.0, "volume":0.25},
+		{"file":"sounds/diablefx/da_lazyhorn_hit2.ogg","pitch":1.03, "volume":0.25},
+		{"file":"sounds/diablefx/da_lazyhorn_hit2.ogg","pitch":0.97, "volume":0.25},
+		{"file":"sounds/diablefx/da_lazyhorn_hit2.ogg","pitch":1.0, "volume":0.25}
+	],
+	"diableavionics_hexafire_firing":[
+		{"file":"sounds/diablefx/da_hexafire_03.ogg","pitch":1, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_03.ogg","pitch":1.03, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_03.ogg","pitch":0.97, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_04.ogg","pitch":1, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_04.ogg","pitch":1.03, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_04.ogg","pitch":0.97, "volume":0.33},
+	], 
+	"diableavionics_hexafire2_firing":[
+		{"file":"sounds/diablefx/da_hexafire_00.ogg","pitch":1, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_00.ogg","pitch":1.03, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_00.ogg","pitch":0.97, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_01.ogg","pitch":1, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_01.ogg","pitch":1.03, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_01.ogg","pitch":0.97, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_02.ogg","pitch":1, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_02.ogg","pitch":1.03, "volume":0.33},
+		{"file":"sounds/diablefx/da_hexafire_02.ogg","pitch":0.97, "volume":0.33},
+	], 
+	"diableavionics_winee_charge":[
+		{"file":"sounds/diablefx/da_winee_charge.ogg","pitch":1.03, "volume":0.2},
+		{"file":"sounds/diablefx/da_winee_charge.ogg","pitch":0.97, "volume":0.2},
+		{"file":"sounds/diablefx/da_winee_charge.ogg","pitch":1.0, "volume":0.2}
+	],
+	"diableavionics_winee_fire":[
+		{"file":"sounds/diablefx/da_winee_fire1.ogg","pitch":1.03, "volume":0.25},
+		{"file":"sounds/diablefx/da_winee_fire1.ogg","pitch":0.97, "volume":0.25},
+		{"file":"sounds/diablefx/da_winee_fire1.ogg","pitch":1.0, "volume":0.25},
+		{"file":"sounds/diablefx/da_winee_fire2.ogg","pitch":1.03, "volume":0.25},
+		{"file":"sounds/diablefx/da_winee_fire2.ogg","pitch":0.97, "volume":0.25},
+		{"file":"sounds/diablefx/da_winee_fire2.ogg","pitch":1.0, "volume":0.25},
+		{"file":"sounds/diablefx/da_winee_fire3.ogg","pitch":1.03, "volume":0.25},
+		{"file":"sounds/diablefx/da_winee_fire3.ogg","pitch":0.97, "volume":0.25},
+		{"file":"sounds/diablefx/da_winee_fire3.ogg","pitch":1.0, "volume":0.25},
+	],
+	"diableavionics_uhlan_firing":[
+		{"file":"sounds/diablefx/da_uhlan_fire.ogg","pitch":1.0, "volume":0.45},
+		{"file":"sounds/diablefx/da_uhlan_fire.ogg","pitch":0.97, "volume":0.43},
+		{"file":"sounds/diablefx/da_uhlan_fire.ogg","pitch":0.94, "volume":0.41},
+		{"file":"sounds/diablefx/da_uhlan_fire.ogg","pitch":1.03, "volume":0.45},
+		{"file":"sounds/diablefx/da_uhlan_fire.ogg","pitch":1.05, "volume":0.43},
+		{"file":"sounds/diablefx/da_uhlan_fire.ogg","pitch":0.92, "volume":0.41},
+	],		
+	"diableavionics_uhlan_chargeup":[
+            {"file":"sounds/diablefx/da_uhlan_chargeup.ogg","pitch":1.0, "volume":0.25},
+            {"file":"sounds/diablefx/da_uhlan_chargeup.ogg","pitch":0.97, "volume":0.25},
+            {"file":"sounds/diablefx/da_uhlan_chargeup.ogg","pitch":0.94, "volume":0.25},
+	],	
+	"diableavionics_uhlan_chargedown":[
+            {"file":"sounds/diablefx/da_uhlan_cooldown.ogg","pitch":1.0, "volume":0.25},
+            {"file":"sounds/diablefx/da_uhlan_cooldown.ogg","pitch":0.97, "volume":0.25},
+            {"file":"sounds/diablefx/da_uhlan_cooldown.ogg","pitch":0.94, "volume":0.25},
+	],	
+	
+	
+	
+	"diableavionics_cicada_fire":[
+		{"file":"sounds/diablefx/da_cicada_fire.ogg","pitch":1.05, "volume":0.16},
+		{"file":"sounds/diablefx/da_cicada_fire.ogg","pitch":1.0, "volume":0.15},
+		{"file":"sounds/diablefx/da_cicada_fire.ogg","pitch":0.95, "volume":0.14}
+	],	
+	"diableavionics_cicada_hit":[
+		{"file":"sounds/diablefx/da_cicada_hit1.ogg","pitch":1.05, "volume":0.16},
+		{"file":"sounds/diablefx/da_cicada_hit1.ogg","pitch":1, "volume":0.15},
+		{"file":"sounds/diablefx/da_cicada_hit1.ogg","pitch":0.95, "volume":0.14},
+		{"file":"sounds/diablefx/da_cicada_hit2.ogg","pitch":1.05, "volume":0.16},
+		{"file":"sounds/diablefx/da_cicada_hit2.ogg","pitch":1, "volume":0.15},
+		{"file":"sounds/diablefx/da_cicada_hit2.ogg","pitch":0.95, "volume":0.14},
+	],
+	"diableavionics_snowblast_fire":[
+		{"file":"sounds/diablefx/da_snowblast_fire.ogg","pitch":1.05, "volume":0.16},
+		{"file":"sounds/diablefx/da_snowblast_fire.ogg","pitch":1.0, "volume":0.15},
+		{"file":"sounds/diablefx/da_snowblast_fire.ogg","pitch":0.95, "volume":0.14}
+	],
+	"diableavionics_snowblast_reload":[
+		{"file":"sounds/diablefx/da_snowblast_reload.ogg","pitch":1.05, "volume":0.16},
+		{"file":"sounds/diablefx/da_snowblast_reload.ogg","pitch":1.0, "volume":0.15},
+		{"file":"sounds/diablefx/da_snowblast_reload.ogg","pitch":0.95, "volume":0.14}
+	],
+	"diableavionics_berserk_in":[
+		{"file":"sounds/diablefx/da_berserk_in.ogg","pitch":1.05, "volume":0.3},
+		{"file":"sounds/diablefx/da_berserk_in.ogg","pitch":1.0, "volume":0.3},
+		{"file":"sounds/diablefx/da_berserk_in.ogg","pitch":0.95, "volume":0.3}
+	],
+	"diableavionics_berserk_out":[
+		{"file":"sounds/diablefx/da_berserk_out.ogg","pitch":1.05, "volume":0.3},
+		{"file":"sounds/diablefx/da_berserk_out.ogg","pitch":1.0, "volume":0.3},
+		{"file":"sounds/diablefx/da_berserk_out.ogg","pitch":0.95, "volume":0.3}
+	], 
+	"diableavionics_valianthead_firing":[
+		{"file":"sounds/diablefx/da_state_fire.ogg","pitch":2.0, "volume":0.1},
+		{"file":"sounds/diablefx/da_state_fire.ogg","pitch":2.05, "volume":0.1},
+		{"file":"sounds/diablefx/da_state_fire.ogg","pitch":1.95, "volume":0.1}
+	],
+	"diableavionics_valiantgun_firing":[
+		{"file":"sounds/diablefx/da_cull_fire.ogg","pitch":1.2, "volume":0.12},
+		{"file":"sounds/diablefx/da_cull_fire.ogg","pitch":1.15, "volume":0.13},
+		{"file":"sounds/diablefx/da_cull_fire.ogg","pitch":1.25, "volume":0.11}
+	], 	
+	"diableavionics_wanzer_transform":[
+		{"file":"sounds/diablefx/da_wanzerShift.ogg","pitch":1.5, "volume":0.2},
+		{"file":"sounds/diablefx/da_wanzerShift.ogg","pitch":1.55, "volume":0.2},
+		{"file":"sounds/diablefx/da_wanzerShift.ogg","pitch":1.45, "volume":0.2}
+	],			
+	"diableavionics_wanzer_untransform":[
+		{"file":"sounds/diablefx/da_wanzerShift.ogg","pitch":0.5, "volume":0.4},
+		{"file":"sounds/diablefx/da_wanzerShift.ogg","pitch":0.45, "volume":0.4},
+		{"file":"sounds/diablefx/da_wanzerShift.ogg","pitch":0.55, "volume":0.4}
+	],	
+	"diableavionics_warlust_fire":[
+		{"file":"sounds/diablefx/da_warlust_fire.ogg","pitch":1.0, "volume":0.1},
+		{"file":"sounds/diablefx/da_warlust_fire.ogg","pitch":0.97, "volume":0.1},
+		{"file":"sounds/diablefx/da_warlust_fire.ogg","pitch":0.94, "volume":0.1}
+	],
+	
+        "diableavionics_covet_firing":[
+            {"file":"sounds/diablefx/da_covet_shot1.ogg","pitch":1.00, "volume":0.55},
+            {"file":"sounds/diablefx/da_covet_shot1.ogg","pitch":0.97, "volume":0.53},
+            {"file":"sounds/diablefx/da_covet_shot1.ogg","pitch":0.94, "volume":0.51},
+            {"file":"sounds/diablefx/da_covet_shot2.ogg","pitch":1.00, "volume":0.55},
+            {"file":"sounds/diablefx/da_covet_shot2.ogg","pitch":0.97, "volume":0.53},
+            {"file":"sounds/diablefx/da_covet_shot2.ogg","pitch":0.94, "volume":0.51},
+            {"file":"sounds/diablefx/da_covet_shot3.ogg","pitch":1.00, "volume":0.55},
+            {"file":"sounds/diablefx/da_covet_shot3.ogg","pitch":0.97, "volume":0.53},
+            {"file":"sounds/diablefx/da_covet_shot3.ogg","pitch":0.94, "volume":0.51},
+	],
+	
+        "diableavionics_blade_0":[{"file":"sounds/diablefx/da_bladeA_1.ogg","pitch":1.00, "volume":0.30}],
+        "diableavionics_blade_1":[{"file":"sounds/diablefx/da_bladeA_2.ogg","pitch":1.00, "volume":0.30}],
+        "diableavionics_blade_2":[{"file":"sounds/diablefx/da_bladeA_3.ogg","pitch":1.00, "volume":0.30}],
+        "diableavionics_blade_3":[{"file":"sounds/diablefx/da_bladeA_4.ogg","pitch":1.00, "volume":0.30}],
+        "diableavionics_blade_4":[{"file":"sounds/diablefx/da_bladeA_5.ogg","pitch":1.00, "volume":0.30}],
+        "diableavionics_blade_5":[{"file":"sounds/diablefx/da_bladeB_1.ogg","pitch":1.00, "volume":0.30}],
+        "diableavionics_blade_6":[{"file":"sounds/diablefx/da_bladeB_2.ogg","pitch":1.00, "volume":0.30}],
+        "diableavionics_blade_7":[{"file":"sounds/diablefx/da_bladeB_3.ogg","pitch":1.00, "volume":0.30}],
+        "diableavionics_blade_8":[{"file":"sounds/diablefx/da_bladeB_4.ogg","pitch":1.00, "volume":0.30}],
+        "diableavionics_blade_9":[{"file":"sounds/diablefx/da_bladeB_5.ogg","pitch":1.00, "volume":0.30}],
+	
+	"diableavionics_drift":[
+		{"file":"sounds/diablefx/da_drift.ogg","pitch":1.05, "volume":1},
+		{"file":"sounds/diablefx/da_drift.ogg","pitch":1.0, "volume":1},
+		{"file":"sounds/diablefx/da_drift.ogg","pitch":0.95, "volume":1}
+	],
+	"diableavionics_draft_repairs":[
+		{"file":"sounds/diablefx/da_draft_repairs.ogg","pitch":1.05, "volume":1},
+		{"file":"sounds/diablefx/da_draft_repairs.ogg","pitch":1.0, "volume":1},
+		{"file":"sounds/diablefx/da_draft_repairs.ogg","pitch":0.95, "volume":1}
+	],
+	
+
+	#UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED 
+	
+	
+
+		
+
+
+
+        
+		
+	"diableavionics_explosionA":[
+            {"file":"sounds/diablefx/da_explosionA.ogg","pitch":1.0, "volume":0.22},
+            {"file":"sounds/diablefx/da_explosionA.ogg","pitch":0.96, "volume":0.24},
+            {"file":"sounds/diablefx/da_explosionA.ogg","pitch":0.92, "volume":0.26}
+	],
+        
+
+        
+	
+             
+        
+	"diableavionics_harvest_firing":[
+            {"file":"sounds/diablefx/da_harvest_fire.ogg","pitch":1, "volume":0.3},
+            {"file":"sounds/diablefx/da_harvest_fire.ogg","pitch":0.95, "volume":0.27},
+            {"file":"sounds/diablefx/da_harvest_fire.ogg","pitch":0.90, "volume":0.24}
+	],
+
+	"diableavionics_mostro_firing":[
+            {"file":"sounds/diablefx/da_mostro_fire.ogg","pitch":1, "volume":0.35},
+            {"file":"sounds/diablefx/da_mostro_fire.ogg","pitch":0.97, "volume":0.38},
+            {"file":"sounds/diablefx/da_mostro_fire.ogg","pitch":0.94, "volume":0.41},
+            {"file":"sounds/diablefx/da_mostro_fire.ogg","pitch":1.02, "volume":0.35},
+            {"file":"sounds/diablefx/da_mostro_fire.ogg","pitch":1.04, "volume":0.38},
+            {"file":"sounds/diablefx/da_mostro_fire.ogg","pitch":1.06, "volume":0.41}
+	], 	
+        
+	"diableavionics_plover_fire":[
+            {"file":"sounds/diablefx/da_plover_fire.ogg","pitch":1.0, "volume":0.28},
+            {"file":"sounds/diablefx/da_plover_fire.ogg","pitch":0.97, "volume":0.27},
+            {"file":"sounds/diablefx/da_plover_fire.ogg","pitch":0.94, "volume":0.29}
+	],
+	
+        
+        "diableavionics_srab_firing":[
+            {"file":"sounds/diablefx/da_srab_fire.ogg","pitch":1.0, "volume":0.35},
+            {"file":"sounds/diablefx/da_srab_fire.ogg","pitch":0.97, "volume":0.33},
+            {"file":"sounds/diablefx/da_srab_fire.ogg","pitch":0.94, "volume":0.31}
+	],
+        
+
+        
+        "diableavionics_strifegun_firing":[
+            {"file":"sounds/diablefx/da_strifegun_fire.ogg","pitch":1, "volume":0.30},
+            {"file":"sounds/diablefx/da_strifegun_fire.ogg","pitch":0.97, "volume":0.33},
+            {"file":"sounds/diablefx/da_strifegun_fire.ogg","pitch":0.94, "volume":0.36}
+	], 
+	
+	"diableavionics_thrush_firing":[
+            {"file":"sounds/diablefx/da_thrush_fire.ogg","pitch":1, "volume":0.09},
+            {"file":"sounds/diablefx/da_thrush_fire.ogg","pitch":0.97, "volume":0.11},
+            {"file":"sounds/diablefx/da_thrush_fire.ogg","pitch":0.94, "volume":0.13}
+	],
+        
+       
+        
+
+
+
+
+	
+			
+		
+	"diableavionics_ecm_loop":[
+            {"file":"sounds/diablefx/da_derechoecm.ogg","pitch":0.94, "volume":0.5}
+	],
+        
+	"diableavionics_flicker":[
+            {"file":"sounds/diablefx/da_flicker.ogg","pitch":1.0, "volume":0.45},
+            {"file":"sounds/diablefx/da_flicker.ogg","pitch":0.97, "volume":0.43},
+            {"file":"sounds/diablefx/da_flicker.ogg","pitch":0.94, "volume":0.41}
+	],
+        
+	"diableavionics_heavyflicker":[
+            {"file":"sounds/diablefx/da_heavyflicker.ogg","pitch":1.0, "volume":0.45},
+            {"file":"sounds/diablefx/da_heavyflicker.ogg","pitch":0.97, "volume":0.43},
+            {"file":"sounds/diablefx/da_heavyflicker.ogg","pitch":0.94, "volume":0.41}
+	],
+        "diableavionics_transform_in":[
+            {"file":"sounds/diablefx/da_transform_in.ogg","pitch":1, "volume":0.5},
+            {"file":"sounds/diablefx/da_transform_in.ogg","pitch":1.05, "volume":0.5},
+            {"file":"sounds/diablefx/da_transform_in.ogg","pitch":0.95, "volume":0.5}
+	],
+        
+        "diableavionics_transform_out":[
+            {"file":"sounds/diablefx/da_transform_out.ogg","pitch":1, "volume":0.5},
+            {"file":"sounds/diablefx/da_transform_out.ogg","pitch":1.05, "volume":0.5},
+            {"file":"sounds/diablefx/da_transform_out.ogg","pitch":0.95, "volume":0.5}
+	],        
+       
+        "diableavionics_forcedloop":[
+            {"file":"sounds/diablefx/da_rimewub.ogg","pitch":1, "volume":1.0}
+	],
+	
+        "diableavionics_forcedstart":[
+            {"file":"sounds/diablefx/da_burnactivate.ogg","pitch":1, "volume":0.5}
+	],	
+
+        "diableavionics_forcedend":[
+            {"file":"sounds/diablefx/da_burndeactivate.ogg","pitch":1, "volume":0.5}
+	],	
+	    "diableavionics_zephyr_firing":[
+            {"file":"sounds/diablefx/da_zephyr_fire1.ogg","pitch":1.00, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire1.ogg","pitch":1.05, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire1.ogg","pitch":0.95, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire2.ogg","pitch":1.00, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire2.ogg","pitch":1.05, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire2.ogg","pitch":0.95, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire3.ogg","pitch":1.00, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire3.ogg","pitch":1.05, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire3.ogg","pitch":0.95, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire4.ogg","pitch":1.00, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire4.ogg","pitch":1.05, "volume":0.75},
+            {"file":"sounds/diablefx/da_zephyr_fire4.ogg","pitch":0.95, "volume":0.75},
+	],
+
+        "itano_early":[
+            {"file":"sounds/itanomusic/DA_missile_massacre_earlyBacker.ogg","pitch":1, "volume":1}
+        ],
+        "itano_earlyDrum":[
+            {"file":"sounds/itanomusic/DA_missile_massacre_earlyDrum.ogg","pitch":1, "volume":1}
+        ],
+        "itano_high":[
+            {"file":"sounds/itanomusic/DA_missile_massacre_hard_backer.ogg","pitch":1, "volume":1}
+        ],
+        "itano_highDrum":[
+            {"file":"sounds/itanomusic/DA_missile_massacre_hard_drums.ogg","pitch":1, "volume":1}
+        ],
+        "itano_death":[
+            {"file":"sounds/itanomusic/DA_missile_massacre_DEATH.ogg","pitch":1, "volume":1}
+        ],
+
+#MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_
+
+	"music":{
+				
+                "diableavionics_market_interaction_neutral":[
+                        {"file":"DA_neutral_interaction.ogg","source":"sounds/diablemusic/","volume":0.35,"randomStart":true},
+                ],
+                "diableavionics_market_interaction_hostile":[
+                        {"file":"DA_hostile_interaction.ogg","source":"sounds/diablemusic/","volume":0.35,"randomStart":true},
+                ],
+                "diableavionics_market_interaction_friendly":[
+                        {"file":"DA_friendly_interaction.ogg","source":"sounds/diablemusic/","volume":0.35,"randomStart":true},
+                ],
+        }
+}

@@ -1,0 +1,99 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Fugitives",
+    
+    "directoryUseShortName":true,
+
+    "startRelationships":{
+        "hegemony":-0.6,
+        "luddic_church":-0.6,
+        "persean":-0.2,
+        "ORA":-0.6,
+        "sindrian_diktat":0.2,
+    },
+
+    "morality":"evil",
+
+    "diplomacyTraits":["stalwart", "temperamental", "envious", "lowprofile"],
+
+    "alignments":{
+            "corporate":-0.5,
+            "technocratic":0,
+            "militarist":0.5,
+            "diplomatic":-1,
+            "ideological":-1,
+    },
+
+    "isPirateNeutral":true,
+
+    "vengeanceLevelNames":["Retaliation", "Purge", "Obliteration"],
+    "vengeanceFleetNames":["Retaliation", "Purge", "Obliteration"],
+    "vengeanceFleetNamesSingle":["a Retaliation Fleet", "a Purge Force", "an Obliteration Force"],
+
+    "miningVariantsOrWings":["diableavionics_laminar_miner"],
+    
+    "startShipsSolo":[
+        ["diableavionics_sleet_standard"],
+        ["diableavionics_draft_standard"],
+    ],
+
+    "startShipsCombatSmall":[
+        ["diableavionics_calm_mixed", "diableavionics_draft_support", "diableavionics_draft_support"],
+        ["diableavionics_hayle_combat", "diableavionics_vapor_standard","diableavionics_sleet_standard"],
+        ["diableavionics_coanda_support", "diableavionics_hayle_combat"],
+    ],
+
+    "startShipsCombatLarge":[
+        ["diableavionics_haze_standard", "diableavionics_coanda_standard", "diableavionics_draft_assault"],
+        ["diableavionics_daze_standard", "diableavionics_hayle_combat", "diableavionics_vapor_attack"],
+        ["diableavionics_gust_missile", "diableavionics_miniGust_support", "diableavionics_sleet_standard"],
+    ],
+
+    "startShipsTradeSmall":[
+        ["diableavionics_stratus_standard", "diableavionics_draft_support", "diableavionics_laminar_miner"],
+    ],
+
+    "startShipsTradeLarge":[
+        ["diableavionics_rime_breach", "diableavionics_calm_mixed", "diableavionics_versant_assault"],
+    ],
+
+    "startShipsCarrierSmall":[
+        ["diableavionics_fractus_standard", "diableavionics_vapor_standard", "diableavionics_vapor_standard"],
+    ],
+
+    "startShipsCarrierLarge":[
+        ["diableavionics_storm_standard", "diableavionics_derecho_kite", "diableavionics_draft_standard"],
+    ],
+
+    "startShipsSuper":[
+        ["diableavionics_versant_standard","diableavionics_stratus_standard"],
+        ["diableavionics_miniGust_assault"],
+    ],
+	
+    "defenceStations":[
+        {"ids":["diableavionics_orbitalstation", "diableavionics_battlestation", "diableavionics_starfortress"]},
+    ],
+
+    "startSpecialItems":[
+        [["diableavionics_ship_package",""]],
+        [["diableavionics_weapon_package",""]],
+        [["diableavionics_wanzer_package",""]],
+
+    ],
+
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"militarybase", "mult":0.2},
+        {"id":"fuelprod", "mult":0.05},
+    ],
+
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"aiCore_station", "count":2, "mult":0.2},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":1.5},
+    ],
+}

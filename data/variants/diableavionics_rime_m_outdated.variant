@@ -1,0 +1,54 @@
+{
+    "displayName": "Outdated",
+    "fluxCapacitors": 4,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "diableavionics_rime_m",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "diableavionics_rime_m_outdated",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "diableavionics_plover",
+                "WS0013": "diableavionics_plover"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "diableavionics_microbuiltin",
+                "WS0007": "diableavionics_microbuiltin",
+                "WS0008": "diableavionics_microbuiltin",
+                "WS0009": "diableavionics_microbuiltin",
+                "WS0010": "diableavionics_microbuiltin",
+                "WS0011": "diableavionics_microbuiltin"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_recson2"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "diableavionics_recson",
+                "WS0005": "diableavionics_recson"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "diableavionics_ibis"}
+        }
+    ],
+    "wings": [
+        "diableavionics_arbitratorZ_wing",
+        "diableavionics_arbitratorZ_wing"
+    ]
+}

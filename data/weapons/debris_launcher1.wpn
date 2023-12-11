@@ -1,0 +1,32 @@
+{
+	"id":"debris_launcher1",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":650,
+	"turretSprite":"graphics/weapons/mg_light_turret_base.png",
+	"turretGunSprite":"graphics/weapons/mg_light_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/mg_light_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/mg_light_hardpoint_recoil.png",
+	"visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[14, -2, 14, 2],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[7, -2, 7, 2],
+	"hardpointAngleOffsets":[0, 0],
+	"specialWeaponGlowWidth":15,
+	"specialWeaponGlowHeight":40,
+	"interruptibleBurst":true,
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":7.0,
+					   "particleDuration":0.2,
+					   "particleCount":12,
+					   "particleColor":[255,255,255,175]},
+	"projectileSpecId":"debris1",  # projectile that will be fired
+	#"fireSoundOne":"minigun_spinup",
+	"fireSoundTwo":"vulcan_cannon_intro"
+}

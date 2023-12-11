@@ -1,0 +1,23 @@
+{
+	"id":"diableavionics_booster",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_boosterAI",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_boosterStats",
+	
+	"engineGlowColor":[200,225,255,255],
+	"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":2,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":1,
+	
+	"flameoutOnImpactChance":0.0,
+
+
+	"aiHints":{
+	},
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+}

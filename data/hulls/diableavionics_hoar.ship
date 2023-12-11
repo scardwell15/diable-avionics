@@ -1,0 +1,108 @@
+{
+  "hullName": "Hoar",
+  "hullId": "diableavionics_hoar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/da/ships/hoar/diableavionics_hoar_body.png",
+  "style": "DA_WANZER",
+  "height": 28,
+  "width": 32,
+  "center": [16, 15],
+  "collisionRadius": 42.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 42.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "ARM_L": "diableavionics_hoarArmL",
+    "ARM_R": "diableavionics_hoarArmR",
+    "HEAD": "diableavionics_hoar_winee",
+    "PAULDRON_L": "diableavionics_hoarPauldronL",
+    "PAULDRON_R": "diableavionics_hoarPauldronR"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "PAULDRON_L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 356,
+      "angle": 20,
+      "locations": [0, 4]
+    },
+    {
+      "id": "PAULDRON_R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 356,
+      "angle": -20,
+      "locations": [0, -4]
+    },
+    {
+      "id": "ARM_L",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [0, 8]
+    },
+    {
+      "id": "ARM_R",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [0, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, -7],
+      "length": 18,
+      "width": 6,
+      "angle": -149.5,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-9.5, 7],
+      "length": 18,
+      "width": 6,
+      "angle": 149.5,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-13, -0],
+      "length": 12.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    5.5, 9.5,
+    5, 16.5,
+    -1.5, 16.5,
+    -9.5, 6.5,
+    -9.5, -6.5,
+    -1.5, -16.5,
+    5, -16.5,
+    5.5, -9.5,
+    12.5, -0
+  ]
+}

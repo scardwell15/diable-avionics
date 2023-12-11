@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_module_attack",
+    "skinHullId":"diableavionics_module_attack_lock",
+    "hullName":"Attack Module",
+    "descriptionId":"diableavionics_module_attack",
+    "tags":["no_autofit"],
+}

@@ -1,0 +1,90 @@
+{
+    "displayName": "Mind-Crusher",
+    "fluxCapacitors": 1,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "diableavionics_pandemonium",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_pandemonium_mindBlower",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_hexafire2",
+                "WS0004": "diableavionics_hexafire2"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_microarrayM",
+                "WS0002": "diableavionics_microarrayM"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "diableavionics_srab",
+                "WS0006": "diableavionics_srab",
+                "WS0007": "diableavionics_srab",
+                "WS0008": "diableavionics_srab",
+                "WS0034": "diableavionics_srab",
+                "WS0035": "diableavionics_srab"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "diableavionics_hexafire"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0022": "diableavionics_magicbox",
+                "WS0023": "diableavionics_magicbox",
+                "WS0024": "diableavionics_magicbox",
+                "WS0025": "diableavionics_magicbox"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "diableavionics_ibis",
+                "WS0013": "diableavionics_ibis",
+                "WS0014": "diableavionics_ibis",
+                "WS0015": "diableavionics_ibis",
+                "WS0016": "diableavionics_ibis",
+                "WS0017": "diableavionics_ibis",
+                "WS0018": "diableavionics_ibis",
+                "WS0019": "diableavionics_ibis",
+                "WS0020": "diableavionics_ibis",
+                "WS0021": "diableavionics_ibis",
+                "WS0032": "diableavionics_ibis",
+                "WS0033": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "diableavionics_lazyhorn",
+                "WS0010": "diableavionics_lazyhorn",
+                "WS0030": "diableavionics_burchel",
+                "WS0031": "diableavionics_burchel"
+            }
+        }
+    ],
+    "wings": [
+        "diableavionics_valiant_wing",
+        "diableavionics_hoar_wing",
+        "diableavionics_zephyr_wing",
+        ""
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "baseHullId":"diableavionics_virtuous_skirmisher",
+    "skinHullId":"diableavionics_virtuous_destroyed",
+    "hullName":"Destroyed Virtuous",
+    "descriptionId":"diableavionics_virtuous_skirmisher",
+    "descriptionPrefix":"While this wreck was salvageable, the ship has been so thoroughly beat up that it will require a complete restoration to become usable again.",
+    "systemId":"burndrive",
+    "restoreToBaseHull":true,
+    "removeBuiltInWeapons":[
+        "PAULDRON_L",
+        "PAULDRON_R",
+        "PAULDRON_LG",
+        "PAULDRON_RG",
+        "LEFT",
+        "RIGHT",
+        "HEAD",
+    ],
+    "removeWeaponSlots":[
+        "PAULDRON_L",
+        "PAULDRON_R",
+        "PAULDRON_LG",
+        "PAULDRON_RG",
+        "LEFT",
+        "RIGHT",
+        "HEAD",
+    ],
+    "ordnancePoints":0,
+    "removeBuiltInMods":[
+        "diableavionics_virtuousMasterHullmod",
+    ],
+    "builtInMods":[
+        "diableavionics_virtuousBroken",
+        "destroyed_mounts",
+    ],
+    "removeHints":[
+         "UNBOARDABLE",
+    ],
+}

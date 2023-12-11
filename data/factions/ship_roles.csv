@@ -1,0 +1,27 @@
+#name,id,qfMin,qfMax,shields,sortSlots,rare,fastAttack,escortSmall,escortMedium,combatSmall,combatMedium,combatLarge,combatCapital,combatFreighterSmall,combatFreighterMedium,combatFreighterLarge,civilianRandom,carrierSmall,carrierMedium,carrierLarge,freighterSmall,freighterMedium,freighterLarge,tankerSmall,tankerMedium,tankerLarge,personnelSmall,personnelMedium,personnelLarge,linerSmall,linerMedium,linerLarge,tug,crig,utility,miningSmall,miningMedium,miningLarge,techType
+
+#Draft,diableavionics_draft,0.2,0.8,OPTIONAL,FALSE,,,15,,5,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,DIABLE
+#Vapor,diableavionics_vapor,0.4,1,GOOD,FALSE,,20,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DIABLE
+#Shear,diableavionics_shear,0,1,STANDARD,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,,10,,,,CIVILIAN_TECH
+#Laminar,diableavionics_laminar,0.2,0.8,STANDARD,FALSE,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,5,10,,,CIVILIAN_TECH
+#Versant,diableavionics_versant,0.6,1.4,STANDARD,FALSE,3,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DIABLE
+
+#Calm,diableavionics_calm,0.3,0.9,STANDARD,FALSE,,,2,15,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,DIABLE
+#Hayle,diableavionics_hayle,0.3,1.1,STANDARD,FALSE,,2,,,2,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,DIABLE
+#Chinook,diableavionics_chinook,0.2,0.8,STANDARD,FALSE,,,,,,,,,,5,,,,,,,,,,10,,,5,,,,,,,,,,,CIVILIAN_TECH
+#Stratus,diableavionics_stratus,0.2,0.8,STANDARD,FALSE,,,,,,,,,,5,,,,,,,10,,,,,,,,,,,,,,,,,DIABLE
+#Cirrus,diableavionics_cirrus,0.2,0.8,STANDARD,FALSE,,,,,,,,,,,,,,,,,,,,,,,10,,,10,,,,,,,,DIABLE
+#Fractus,diableavionics_fractus,0.3,0.9,STANDARD,FALSE,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,DIABLE
+#Derecho,diableavionics_derecho,0.5,1.1,GOOD,FALSE,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,DIABLE
+
+#Gust,diableavionics_gust,0.3,0.9,STANDARD,FALSE,,,,,,,5,,,,,,,10,,,,,,,,,,,,,,,,,,,,DIABLE
+#Haze,diableavionics_haze,0.4,1,BAD,FALSE,,,,,,2,10,,,,,,,,,,,,,,,,,,,,,,,,,,,DIABLE
+#Rime,diableavionics_rime,0.2,0.8,STANDARD,FALSE,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,DIABLE
+#Storm,diableavionics_storm,0.4,1,STANDARD,FALSE,,,,,,,,3,,,,,,,10,,,,,,,,,,,,,,,,,,,DIABLE
+
+#Maelstrom,diableavionics_maelstrom,0.5,1.1,STANDARD,FALSE,,,,,,,,10,,,,,,,2,,,,,,,,,,,,,,,,,,,DIABLE
+#Pandemonium,diableavionics_pandemonium,0.8,1.2,BAD,FALSE,3,,,,,,,2,,,,,,,1,,,,,,,,,,,,,,,,,,,DIABLE
+
+
+Pocket Gust,diableavionics_miniGust,0.3,0.9,STANDARD,FALSE,,,,,,5,,,,,,,10,,,,,,,,,,,,,,,,,,,,,DIABLE
+Daze,diableavionics_daze,0.4,1,STANDARD,FALSE,,,,,,2,10,,,,,,,,,,,,,,,,,,,,,,,,,,,DIABLE

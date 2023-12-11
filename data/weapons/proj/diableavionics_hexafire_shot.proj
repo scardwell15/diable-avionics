@@ -1,0 +1,25 @@
+{
+	"id":"diableavionics_hexafire_shot",
+	"specClass":"projectile",
+	#"onHitEffect":"data.scripts.weapons.Diableavionics_hexafireEffect",
+
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	#"spawnType":"BALLISTIC",				
+	#"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"PROJECTILE_FIGHTER",
+
+	"length":48.0,
+	"hitGlowRadius":30,
+	"width":4.0,
+	"fadeTime":0.5,
+	"fringeColor":[213,130,255,205],
+	"coreColor":[245,245,76,225],
+	"glowRadius":12 ,
+	"glowColor":[10,20,30,200],
+	#"bulletSprite":"graphics/da/missiles/diableavionics_reaper.png"
+	"textureType":"SMOOTH",
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Grenadier",
+    "fluxCapacitors": 9,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "diableavionics_virtuous_scout",
+    "hullMods": [
+        "diableavionics_virtuous_armC",
+        "missleracks",
+        "diableavionics_virtuous_scout",
+        "targetingunit",
+        "diableavionics_virtuous_headC"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_virtuous_grenadier",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"LEFT": "diableavionics_virtuous_armC_L"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"RIGHT": "diableavionics_virtuous_armC_R"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"HEAD": "diableavionics_virtuous_headC"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "diableavionics_recson",
+                "WS0006": "diableavionics_recson"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "diableavionics_magicbox",
+                "WS0004": "diableavionics_magicbox"
+            }
+        }
+    ]
+}

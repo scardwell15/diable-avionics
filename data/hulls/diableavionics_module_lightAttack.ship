@@ -1,0 +1,174 @@
+{
+  "hullName": "Light Attack Module",
+  "hullId": "diableavionics_module_lightAttack",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/da/ships/station/diableavionics_station_lightAttack.png",
+  "style": "HIGH_TECH",
+  "height": 100,
+  "width": 368,
+  "center": [167, 51],
+  "collisionRadius": 179,
+  "shieldCenter": [-0.5, -0.5],
+  "shieldRadius": 178,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -10,
+    -33
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-6, -121],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [41, -128]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [31, -31]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-19, 18],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-19, -8],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [21, 130]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-7, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-7, 5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-7, -21]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [10, -93]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-6, -65],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [-13, 68]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [-29, 96],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [-13, 124]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -8.5, -156.5,
+    40.5, -131,
+    34.5, -26,
+    26.5, -23.5,
+    20.5, 67.5,
+    12, 84,
+    12, 114,
+    20, 122.5,
+    21.5, 154,
+    13, 162,
+    -22.5, 146.5,
+    -47.5, 121,
+    -47.5, 82.5,
+    -21.5, 36.5,
+    -20, -26.5,
+    -37.5, -124
+  ]
+}

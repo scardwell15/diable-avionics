@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_station_tier3",
+    "skinHullId":"diableavionics_station_lock3",
+    "hullName":"Star Fortress",
+    "descriptionId":"diableavionics_station_tier3",
+    "tags":["no_autofit"],
+}

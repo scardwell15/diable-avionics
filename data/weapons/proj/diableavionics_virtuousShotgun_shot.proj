@@ -1,0 +1,17 @@
+{
+	"id":"diableavionics_virtuousShotgun_shot",
+        "onHitEffect":"data.scripts.weapons.Diableavionics_virtuous_shotgunHit",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":5,
+	"length":50.0,
+	"width":4.0,
+	"fadeTime":0.25,
+	"fringeColor":[120,160,202,150],
+	"coreColor":[255,255,255,255],
+	"glowRadius":16,
+	"glowColor":[50,30,64,100],
+	"bulletSprite":"graphics/missiles/shell_small_yellow.png"
+}

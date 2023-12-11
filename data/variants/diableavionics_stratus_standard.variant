@@ -1,0 +1,33 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "diableavionics_stratus",
+    "hullMods": [
+        "expanded_cargo_holds",
+        "efficiency_overhaul"
+    ],
+    "permaMods": [],
+    "variantId": "diableavionics_stratus_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "diableavionics_burchel"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_micromissile"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "diableavionics_ibis",
+                "WS0005": "diableavionics_ibis"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_artassault",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":450,
+	"turretSprite":"graphics/da/weapons/diableavionics_artassault_turret_base.png",
+	"turretGunSprite":"graphics/da/weapons/diableavionics_artassault_turret_recoil.png",
+	"hardpointSprite":"graphics/da/weapons/diableavionics_artassault_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/da/weapons/diableavionics_artassault_hardpoint_recoil.png",	
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW, "SUSPEND_RECOIL"],		
+	"turretOffsets":[15, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[20, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":34.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":24.0,
+					   "particleDuration":0.02,
+					   "particleCount":12,
+					   "particleColor":[199,93,76,215]},
+	"projectileSpecId":"diableavionics_artassault_shot",  # projectile that will be fired
+	#"fireSoundOne":"vulcan_cannon_intro",
+	"fireSoundTwo":"diableavionics_artassault_fire",
+        "everyFrameEffect":"data.scripts.weapons.Diableavionics_artassaultFire",
+}

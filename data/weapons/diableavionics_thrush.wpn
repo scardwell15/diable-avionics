@@ -1,0 +1,35 @@
+{
+	"id":"diableavionics_thrush",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/da/weapons/diableavionics_thrush_turret_base.png",
+	"hardpointSprite":"graphics/da/weapons/diableavionics_thrush_hardpoint_base.png",
+	"hardpointOffsets":[
+10, -9,
+10, 9
+],
+	"turretOffsets":[
+3, -10,
+3, 10
+],
+	"hardpointAngleOffsets":[0, 0],
+	"turretAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING",
+	"animationType":"SMOKE",
+	"renderHints":[RENDER_LOADED_MISSILES_UNLESS_HIDDEN],
+	"interruptibleBurst":false,
+	"displayArcRadius":300,
+	"smokeSpec":{"particleSizeMin":20.0,
+				 "particleSizeRange":20.0,
+				 "cloudParticleCount":3,
+				 "cloudDuration":1.0,
+				 "cloudRadius":10.0,
+				 "blowbackParticleCount":3,
+				 "blowbackDuration":2.0,
+				 "blowbackLength":30.0,
+				 "blowbackSpread":10.0,
+				 "particleColor":[100,100,100,200]},
+	"projectileSpecId":"diableavionics_thrushmirv",
+	"fireSoundTwo":"diableavionics_thrush_firing",
+}

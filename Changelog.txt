@@ -1,0 +1,1826 @@
+﻿DIABLE AVIONICS
+
+2.70
+
+[RC3] Fixed Linux-related typo.
+[RC2] Fixed issue with the Coanda-class' system that could give unlimited speed when spammed.
+
+ - Added Coanda-class frontline destroyer: A heavy destroyer hull with many small turrets and a medium missile hardpoint to bully smaller ships and distract bigger ones. Has a mixed mobility+defense ship system.
+ > This is to the Hayle what the Daze is to the Haze.
+
+ - Removed non built-in Dampened Mounts hullmod.
+ - Added a pair of bounties to point the player toward the Virtuous, and the Gulf if you don't have IBBs enabled.
+
+
+
+BALANCING:
+
+Massive balance pass that aims to make the Wanzers more usable on regular carriers, buff up a few ships that have been a bit too squishy for a while but also tone down a handful of weapons that have on the other hand crept in power a bit too far.
+
+ * WANZERS overall:
+   . Now all have default rebuild times closer to regular wings (around + 10 to 20% longer than regular fighters instead of + 100 to +200%),
+   . OP costs have been spread out upward a lot.
+
+ * Wanzer Gantry Hullmod: 
+   . Now exclusively built into the Storm, Gust and Pandemonium (and added to the Gulf because why the hell not),
+   . Now adds one extra craft to all installed wanzer wings (instead of reducing rebuild times),
+   . No longer require "wanzer-exclusive" complements to apply its effect!
+
+ > This is an attempt at finding a new balancing paradigm for Wanzers.
+ > Hopefully this will make them more usable outside of Diable ships without relying on the Gantry hullmod crutch to prevent snowballing.
+ > At the same time, the Gantry has been turned into a tool to make Wanzers great on select hulls rather than an OP tax to make them usable at all on regular carrier.
+ > Thus the Wanzer Gantry hullmod has been removed from several ships.
+ > Mix-and-match of Wanzer and non-Wanzer wings is now possible with the Gantry, this should allow more versatility in using cheaper wings to draw fire away from the expensive units.
+
+ - Frost trooper:
+   . Covet handgun DPS doubled to 150 from 75 (stat card is also much clearer).
+   . Rebuild time reduced to 12s from 26, OP cost unchanged at 8.
+ > Now a solid Broadsword replacement with half the kinetic damage potential, but much more HE with the blade attacks.
+
+ - Strife gunner:
+   . Removed the Thunderbolt launcher.
+   . Rebuild time reduced to 15s from 34, OP cost raised to 12 from 9.
+ > There's a fierce competition in the 12OP range, I hope the reduced rebuild-time will make up for the loss of the single Thunderbolt.
+
+ - Hoar bodyguard:
+   . Gun damage per shot increased to 140 from 125 (dps of 175 per gun from 156), range increased to 600 from 500.
+   . HP reduced to 750 from 950, armor reduced to 75 from 100, speed increased to 250 from 160.
+   . Rebuild time reduced to 15s from 30, OP cost unchanged at 10.
+ > Should now be a capable interceptor able to defend a wide area against missiles and fighters instead of an escort for big ships.
+
+ - Avalanche shock trooper:
+   . Added a two-shot Thunderbolt launcher.
+   . Armor increased to 200 from 175, speed reduced to 160 from 175.
+   . Main gun no longer has limited ammo, damage per shot increased to 75 from 40 but number of pellets reduced to 6 from 8.
+   . Rebuild time reduced to 20s from 38, OP cost raised to 14 from 10.
+ > The Avalanche was lacking in bite against armored targets, so it gets the Strife's Thunderbolt missiles to make it the improvement it should have been.
+ > It now should be equivalent to a wing of Warthogs but more reliable and versatile.
+  
+ - Warlust sniper:
+   . Main gun is now Kinetic instead of Energy, damage and dps unchanged at 400 et 200 respectively.
+   . Added 200 EMP damage per shot.
+   . Now has a "fighter" role instead of "support".
+   . Rebuild time reduced to 20s from 42, OP cost raised to 16 from 12.
+ > Basically, a fighter with a HVD. 
+ > It's hard to beat the Broadsword in raw kinetic output (900 dps wing wide, if only for a moment) but between the point defense support and the pin-point accuracy, the Warlust should bring something interesting to the table.
+
+ - Blizzaia grenadier:
+   . Cicada grenade launcher ammo removed, dps reduced a bit. 
+   . Rebuild time reduced to 25s from 42, OP cost raised to 18 from 15.
+ > Removed ammo due to an issue with the new Gantry effect
+
+ - Valiant commando
+   . Cull damage-per-shot increased to 100 from 65, firerate reduced to maintain dps.
+   . Rebuild time reduced to 18s from 38, OP cost raised to 22 from 14.
+
+ - Zephyr marksman
+   . Rebuild time reduced to 20s from 46, OP cost raised to 20 from 13.
+
+ - Raven heavy trooper:
+   . Glowtusk range reduced to 500 from 625, ammo removed, DPS increased to 200 from 125,
+   . Grave HMG range reduced to 550 from 650, DPS increased to 325 from 260,
+   . Rebuild time reduced to 25s from 60, OP cost raised to 26 from 16.
+ > Now you won't wait forever for the replacement to be deployed! OP cost might require further increase because that thing is a beast without the ammo limit.
+
+
+ * SHIPS
+
+
+ - Draft-class frigate
+   . Hull increased to 2250 points from 1750
+
+ - Versant-class hybrid wanzer:
+   . Shield efficiency buffed to 0.8 from 1.
+   . Increased the damage and flux-per-shot of all three built-in Harvest weapon variants.
+ > With its flux stats unchanged it should not be a ludicrous powerhouse yet, but still much better at punching through medium armor.
+
+ - Pocket Gust-class combat carrier:
+   . Deployment cost reduced to 9 from 11,
+   . Maneuverability significantly improved,
+   . Flux capacity increased to 4500 from 4000,
+   . OP amount increased to 95 from 85,
+   . Removed built-in Wanzer Servicing Gantry hullmod
+ > Gantry was no longer needed, and added some thematic buffs for a ship supposed to be quick and agile but ended up folding every other battle.
+
+ - Calm-class destroyer:
+   . Reduced cargo capacity to 80 from 110,
+   . Reduced fuel capacity to 50 from 60,
+ > These changes are more for flavor and give a bit of breathing room to the new Coanda-class destroyer to stand out.
+
+ - Gust-class light cruiser:
+   . Deployment cost reduced to 20 supplies from 24,
+   . Max speed increased to 75su/s from 65,
+   . Flux capacity increased to 9500 from 8200.
+   . Gets the improved Wanzer Gantry hullmod.
+ > I'm trying to keep it a bit more brittle than an Eagle but about as mobile and no longer ludicrously more expensive to deploy.
+
+ - Rime-class recon cruiser:
+   . Flux dissipation increased to 300 from 250,
+   . Flux capacity increased to 6000 from 5500,
+   . Speed increased to 65su/s from 50,
+   . Maneuverability slightly increased.
+ > It's in the deployment cost range of a Falcon and while it should not be as good, it certainly should not have been hopeless either.
+
+ - Haze-class cruiser:
+   . OP amount increased to 175 from 170,
+   . Maneuverability slightly increased.
+ > The Haze has been outshone by the Daze, these are very minor buff to try and bring it up to parity.
+
+ - Storm-class Battlecarrier:
+   . Removed 2 medium hybrid turrets,
+   . System changed to Plasma Burn from Targeting Feed,
+   . Deployment cost increased to 26 supplies from 23,
+   . Gets the improved Wanzer Gantry hullmod.
+ > If you think this is a nerf, wait until you give it a whirl with those +1 Wanzer wings!
+
+ - Maelstrom-class Battlecruiser:
+   . Removed the Wanzer Servicing Gantry hullmod.
+ > No longer needed
+
+ - Pandemonium-class Dreadnought:
+   . Oversized Hull hullmod removed, 
+   . Deployment cost increased to 75 supplies from 60,
+   . Number of decks reduced to 3 from 4.
+ > Last update added a 4th deck and it is already gone... But hey, those three with the new Gantry hullmod are worth "6" decks if you use solo wings!
+
+
+ * WEAPONS:
+
+
+ - Artassault revolver cannon:
+   . Accuracy significantly improved
+   . Damage and Flux-per-shot increased to 75 from 60,
+   . DPS adjusted to 175 from 150.
+ > It needed a serious buff considering the anemic 500 range for the same cost and similar offensive stats as the Light Assault Gun.
+
+ - Artdeux Twin Cannon:
+   . Flux/dmg buffed to 1.0 from 1.1,
+   . OP cost reduced to 11 from 13.
+
+ - Glowtusk Linear Rifle:
+   . Flux-per-shot reduced to 400 from 500 (0.8 flux efficiency)
+
+ - SRAB:
+   . Range lowered to 800 from 1000,
+   . Projectile durability halved.
+ > Since it benefits from both weapons *and* missile hullmods and skills, it was a bit insane when deployed in numbers.
+
+ - Thunderbolt Pod:
+   . Fire delay increased to 6s from 3.6,
+   . Burst size increased to 4 from 3,
+   . Ammo reduced to 16 from 24,
+   . OP cost reduced to 10 from 12.
+ > Some changes to help the AI not waste missiles, others to make it less "power dense" for a single medium slot.
+
+ - Lazyhorn Warp Projector:
+   . Damage-per-shot reduced to 200 from 280,
+   . Flux-per-shot reduced to 100 from 140,
+   . OP cost reduced to 12 from 13.
+ > Same deal, the weapon just offered too much utility out of a single slot, even for the OP cost.
+
+ - Opfer GV:
+   . Damage and Flux-per-shot reduced to 10 from 15,
+   . Ammo reduced to 320 from 400,
+   . Ammo regen increased to half its burst DPS.
+   . OP cost reduced to 20 from 26.
+ > Another weapon that was just a bit too much power in a single slot,
+ > It should still be a worthwhile upgrade upon the Mark IX but no longer a massive jump in power with the OP cost as the lone meaningful drawback.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Added "broken" hullmod to recovered Virtuous, and resolved the crashing issue for deploying it without restoring first.
+ - Removed (!) icon next to the Virtuous fleet (and the Gulf one if you don't have IBBs enabled) and added it to the post-battle wreck.
+ > It confused so many people!
+ - Fixed Virtuous being unreliable to recover.
+
+
+2.64
+
+Diable now has several musical themes added to their markets, composed by Mesotronik thanks to the donations of all my generous Patrons. 
+
+BALANCING:
+ - Lazyhorn Warp Repeater:
+   . Minor nerfs across damage, lifetime and firerate stats.
+   . Significantly more flux intensive.
+
+ - Virtuous wunder wanzer:
+   . Excision Sniper: Damage per shot increased to 1250 from 750, firerate reduced to 20rpm from 24.
+   . Snowblast Shotgun: range increased to 900 from 750.
+
+   . Roar minigun: range increased to 900 from 850.
+   . Beast cannon: range increased to 900 from 800.
+
+   . Scicle Blaster: Added 50emp damage per shot.
+
+BUGFIXES/IMPROVEMENTS:
+ - Fixed another possible NPE from MagicBoxes AI.
+ - Hopefully fixed the issue with the Virtuous or the Gulf spawning to the center of the system.
+ - Fixed the messed up hullmod descriptions.
+ - Virtuous/Blizzaia grenade launchers should be a LOT more accurate.
+
+2.63
+
+[RC5]
+ - Fixed crash related to Magicbox anti-missiles.
+ - (Hopefully) fixed some issues related to unique ships' wreck spawning multiple times or inside stars.
+ - Arbitrator interceptors now have a visually smaller booster.
+ - Pirate skins are now slightly rarer.
+ - Assume Control and Prière ECM Field systems now benefit more from the System Expertise skill.
+ - Added a fun main menu mission...
+
+ - Stratus:
+   . Maintenance/dp reduced to 5 from 6,
+   . Crew requirement reduced to 30 from 45,
+   . Speed increased to 55 from 45,
+   . P variant received a few mild further buffs and the Shielded Cargo-Hold hullmod.
+   > Further securing its position as a compromise between Buffalo and Mules.
+
+ - Rime P:
+   . OP amount raised to 90 from 70,
+   . Cargo capacity raised to 400 from 300.
+   > The civilian-grade amount of OPs was a bit too much of a handicap.
+
+[RC4]
+ - Virtuous-class wunder wanzer:
+   . Added a visual glow to indicate the system is ready to use.
+   . Base speed increased to 85 from 60.
+   . Special loadouts cannot be changed without a spaceport.
+ - Stratus freighter:
+   . Cargo capacity increased to 250 from 200
+   > Now properly competes with the Mule as a non civilian freighter.
+ - Plasma Capacitor Shunt system:
+   . Active time increased to 1.3s from 1.
+ - Burchel beam repeater:
+   . Flux ratio improved to 0.8 from 1.33.
+   > Now competes with the Burst Laser at .62 ratio.
+ - Glaux Beam Repeater:
+   . Flux ratio improved to 1.1 flux/dmg from 1.17,
+   . Sustained DPS increased to 200 from 150.
+   > Should now compete with the phase Lance on equal footing.
+ - State Support Beam:
+   . Now a burst beam with 2s on, 2s off firing pattern, from a continuous one,
+   . Firing dps increased to 400 from 200 (same sustained damage),
+   . OP cost notched down to 11 from 12,
+   . Range slightly reduced to 800 from 850.
+   > Now offers more flexibility when choosing between not insignificant bursts, or continuous alternating beams.
+ - Magicbox Anti-missiles:
+   . Spread between multiple targets when fired in bulk.
+   > Should be more reliable against multiple incoming missiles.
+ - Thunderbolt MRM Pod:
+   . OP cost raised to 12 from 10.
+   > It has twice the damage potential of a Harpoon Pod so definitely required
+ - Banish Torpedo Launcher:
+   . OP cost notched down to 11 from 12.
+   > Not really required, but it creates a smooth op gradient along Plover, Banish, Thunderbolt, Thrush
+ - Lazyhorn Warp Projector:
+   . Tweaked Prox fuse ranges to better deal with swarms of missiles,
+   . Max damage reduced to 300 from 350,
+   . Fire-rate increased to 17 salvo per minute from 12,
+   . Autofiring solution vastly improved.
+   > Now this is a reliable Energy mount Flak gun.
+ - Warlust, Frost wanzers:
+   . Removed ammo limitation on their main weapons.
+ - Avalanche, Raven wanzers:
+   . Added limited ammo regen to their main weapons.
+   > The AI would not retreat them for rearming reliably.
+ - Deep Strike Pod:
+   . Wanzers should stay in combat if the pod is destroyed instead of retreating.
+ - Some weapon tiers have been shuffled to try and help the auto-fitter.
+ - Fixed a bunch of outdated descriptions.
+
+[RC3]
+ - Fixed a reorder issue with some S-mod and the "toggle" hullmods of the Verstant or the Virtuous.
+ - Virtuous-class wunder wanzer:
+   . Scicle blaster damage reduced to 250 from 300,
+   . Scicle blaster regen rate significantly increased to 400 dps from 300. (now it has much shorter down times between clips)
+   . Unlocked Flicker Core system flux buildup reduced to 5% per use from 10%.
+   . Phase Grazer Siphon system regen time improved to 16s from 20.
+   . Micro-missile Rafale system now has 2 charges on a short 5s cooldown, regen set to 20s from the previous 15s cooldown.
+
+[RC2]
+ - Pandemonium is back to 60DP and only get +200 flux dissipation from previous patch instead of +400 because I was getting too many private messages complaining about the changes.
+ - Special fleets should despawn now when they lose their flagship.
+ - Special fleets should spawn in ongoing saves.
+ - Fixed Thunderbolt effect crash against modules.
+
+ - Virtuous-class wunder wanzer:
+   . Flux capacity increased to 7500 from 5000.
+   . Shield efficiency improved to 0.8 from 1.
+   . Grasshopper grenade launcher ammo down to 10 from 20,
+   . Grasshopper grenade launcher no longer tagged as PD_ALSO to limit target switching.
+   . Glaux Mk.2 beam DPS increased to 600 from 500.
+   . Glaux Mk.2 now deals double damage to fighters and drones.
+   . Excision sniper rifle rof increased to 24rpm from 20.
+   . Snowblast shotgun range increased to 750 from 600, max accuracy lowered.
+   . Scicle Blaster range increased to 800 from 750,
+   . Scicle Blaster damage increased to 300 from 150,
+   . Scicle Blaster fire-rate halved,
+   . Scicle Blaster ammo reduced to 12 from 20.
+   . Phase Grazer Siphon active time lowered to 3s from 3.5.
+   . Citadel Protocol system now has a custom AI.
+
+
+BALANCING:
+
+ - Maelstrom-class:
+   . Burn speed increased to 8 from 7.
+
+ - Pandemonium-class:
+   . Number of flight decks raised to 4 from 3,
+   . OP amount raised to 375 from 360,
+   . DP and Monthly cost reduced to 50 supplies from 60. (Oversized hullmod still applies on top)
+   . Now has the Advanced Ground Support hullmod instead of the regular Ground Support one.
+
+ - Rime-class:
+   . Combat and Pirate variants now have the Ground Support hullmod built-in.
+
+ - Strife wanzer wing:
+   . Thunderbolt ammo reduced to 1 from 2.
+
+ - Phase Grazer Core system:
+   . No longer turn off shields.
+
+ - Dampened mounts hullmod: 
+   . Removed both fire-rate and extra damage to weapons penalties for the built-in ones,
+   . Slightly raised the base flux dissipation of ships with it built-in to compensate the increased fire-rate.
+
+ - Versant-class:
+   . Sensible Tuning hullmod now only prevent installing the Safety Overrides hullmod instead of reducing the PPT if a variety of hullmods were installed.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Diable Avionics' worlds will no longer appear in Nexerelin's Random Mode.
+
+ - Thunderbolt/Plover special effect changes:
+   . Now dig into the target instead of damaging it from the "exit" wound.  
+   . Will no longer cause memory leaks.
+
+ - Starbase Deep Strike capabilities are once again operational.
+
+ - The modular Dampened Mount and Wanzer Gantry hullmods can no longer be used on top of their built-in versions.
+
+ - The IBB Gulf now spawns in a patrol fleet if Ship and Weapon Pack is not enabled. 
+
+ - The Versant's fire selector hullmod now has a fixed order and won't move to the bottom whenever it is toggled.
+
+2.62
+
+Barebone compatibility update for 0.95a
+
+2.61
+
+BALANCING:
+ - Wanzer Servicing Gantry: No longer has any drawback when built-in a hull.
+ - Wanzer wings: widened the refit time range, small wanzers get rebuilt faster, big wanzers take slightly more time.
+
+2.60
+
+NEW CONTENT:
+ - Added a new set of stations.
+
+BALANCING:
+ - Hexafire/Twin-Hexafire: damage bonus now applies on soft flux instead of hard flux.
+
+2.55
+
+BALANCING:
+ - Flux Redirection: no longer causes a loss of accuracy.
+ - Storm-class carrier: System changed to Flux Redirection from Targeting Feed.
+ - Thrush LRM system:
+   . OP cost reduced to 13 from 14,
+   . AI tweaked so that it can now be reliably fired off-bore.
+ - Tunderbolt MRM Pod: OP cost reduced to 10 from 12.
+ - Recson V: dps increased to 175 from 160.
+ - Artdeux twin cannon:
+   . flux efficiency improved to 1.1 from 1.25,
+   . Max recoil inaccuracy increased, but accuracy loss per shot decreased (more accurate in short burst).
+
+BUGFIXES/IMPROVEMENTS:
+ - Implemented MagicSettings.
+ - Derecho Quantum Disruption Device: Added an optional missile resistance in modSettings.
+ - Fixed hidden weapon crash for good this time.
+ - Further attempt at preventing the Versant's swapabble built-in weapons from dropping after a fight.
+
+
+2.54
+
+NEW CONTENT:
+ - Added Hoar-type 6th gen wanzer wing:
+   . Extremely efficient anti-fighter,
+   . Cool akimbo gunslinger swagger.
+
+BALANCING:
+ - Micro-missiles:
+   . Mounting cost reduced to 3op from 5,
+   . Ammo regen rate doubled to 5s per from 10s,
+   . Max ammo and clip sizes reduced to 3 missiles from 5.
+ - Daze-class:
+   . Built-in micro-missiles now fire forward.
+ - Wanzers:
+   . Increased the hull and/or armor of all solo wanzer wings by up to 25%.
+   . Slightly buffed Valiant's shield.
+ - Haze-class:
+   . OP available increased to 170 from 160.
+ - Phase Grazer Core:
+   . Displacement very slightly increased.
+
+BUGFIXES/IMPROVEMENTS:
+ - Lazyhorn special effect weapon glow forced off.
+ - Rewrote the entire Assume Control code, hopefully that will fix some inconsistent crashes in rare circumstances.
+ - Fixed Version Checker repository issue.
+
+
+2.53, post tournament patch
+
+BALANCING:
+ - Winee EMPR fire delay raised to 8s from 7.
+ - Nocturne EMP Array:
+   . EMP and Kinetic damage increased by 66.6% (!)
+   . OP increased to 12 from 11.
+   . Fire delay increased to 8.5s from 6.
+ - Artdeux twin cannon:
+   . Base ammo count lowered to 30 from 40.
+   . Clip size raised to 15 from 10.
+   . Reload rate nearly doubled (sustained DPS raised to 300 from 160).
+   . Added Flux-dependent extra frag damage on hits.
+ - SRAB projectile hitpoints raised to 600 from 300.
+ - Opfer GV base ammo count reduced to 400 from 600.
+ - Glowtusk:
+   . Fire delay reduced to 2.5s from 3 (200 dps from 166.6).
+   . Range reduced to 600 from 650.
+ - Thunderbolts:
+   . Base damage reduced to 500, updated stat card to reflect previous changes in the piercing effect.
+   . Rack fires missiles in pairs, ammo raised to 8 from 5, OP raised to 6 from 4.
+   . Pod fires missiles in triplets, ammo raised to 24 from 16, OP raised to 12 from 10.
+ - Gust-class cruiser deployment cost and maintenance raised to 24 from 22.
+ - Haze-class cruiser:
+   . Deployment cost and maintenance lowered to 25 from 28.
+   . Shield efficiency buffed to 0.9 from 1.
+   . OP raised to 160 from 155.
+ - Storm-class carrier deployment cost and maintenance lowered to 23 from 26.
+ - Daze-class cruiser
+   . Deployment cost and maintenance lowered to 22 from 23.
+   . Shield efficiency buffed to 0.8 from 0.9.
+   . OP raised to 145 from 140.
+ - Zephyr wanzer wing:
+   . Leash range extended to 4000 from 2000.
+   . Micro Glaux range increased to 650 from 550.
+   . Speed increased to 165 from 150.
+
+BUGFIXES/IMPROVEMENTS:
+ - Fixed crash when looting Universal Wanzer Deck Upgrade
+ - Commissioned Crew hullmod now halve the damage taken from hyperspace storms instead of reducing the ship's maintenance.
+
+2.52 Per-tournament patch
+
+BALANCING:
+ - Weapon prices lowered by 5 to 20%.
+ - Ship prices and deployment cost raised by 5 to 10%.
+
+BUGFIXES/IMPROVEMENTS:
+ - Tentative fix for the banish torpedo firing every frame.
+ - Wanzer Gantry tooltip fixed and clarified.
+
+2.51
+
+BALANCING:
+
+ - Phase Grazer:
+   . Now dissipates hard flux.
+
+ - Versant tweaks:
+   . Now gets slightly debuffed PPT from using any engine mod/SO.
+   . Now has multiple selectable fire modes for its built-in Harvests (auto, burst, semi-auto) that slightly alter the weapons stats.
+
+ - Wanzer Servicing Gantry:
+   . Now reduces Wanzers replacement time by 50% from 33%
+   . Wanzer replacement time increased across the board to more or less compensate.
+   . Replacement rate depletion debuff now 20% per fitted wing from 33% flat.
+
+ - Rime, Rime (F):
+   . Ship system replaced with Plasma Capacitors (micro fortress shield) from Plasma Burn
+
+BUGFIXES/IMPROVEMENTS:
+ - Wanzers:
+   . Reduced glow from systems effects.
+
+ - Arbitrator:
+   . Booster now acts as a rocket instead of a bomb to reduce friendly fire incidents.
+
+ - Nexerelin:
+   . Improved integration.
+
+ - Externalized the few remaining compiled strings.
+
+2.50
+
+NEW CONTENT:
+
+ - New/tweaked sprites for every single ship and weapon.
+ - Rime-class
+   . Freighter variant is now a conversion from a military hull.
+   . Military variant hull is a light cruiser.
+   . 2 decks + 2 medium missile hardpoints + 1 medium hybrid turret.
+   . Still very fragile.
+ - Sleet-class heavy frigate:
+   . Tough armor, dependable hull.
+   . Moderate armament.
+   . Decent shielded cargo.
+   . Totally not a smuggler ship!
+ - Reintroduced the Stratus (P):
+   . Similar to old regular Stratus. 
+   . Except with a cool pirate paint-job.
+   . Armed with a medium hardpoint and a bunch of built-in micro missiles.
+ - Reintroduced Rime (P):
+   . No flight deck but keeps those 2 medium missile hardpoints.
+   . Has a cool painjob so it must be strong.
+ - Artdeux twin cannons:
+   . BRRRRRRRRRRRRRRT
+   . BRRRRT
+   . BRRRRT
+ - Winee EMPR:
+   . Burst Ion cannon on steroids.
+ - Grave Autocannon:
+   . Small burst Grave witha mean punch.
+ - Blizzaia Artillery wanzer:
+   . Entirely redone.
+   . Beefier, meaner, but also single.
+   . Equipped with a Cicada grenade launcher and a Grave Light Auto-Cannon.
+   . OP cost set to 15.
+ - Avalanche Assault wanzer:
+   . Brings the pain up close.
+   . Doesn't like to be ticked.
+   . Brings A LOT MORE PAIN if tickled. 
+ - Added support for Commissioned Crew:
+   . Optimized Operations.
+   . -2 or -25% (whichever is smaller) supplies per month.
+   . -15% CR recovery rate. 
+
+BALANCING:
+
+ - Removed Advanced Avionics hullmod.
+ - Wanzer Gantry:
+   . Only affects full wanzer complements.
+   . Increases the rate at which the fighter replacement rate decreases due to fighter losses by 33%.
+   . Reduces replacement times by 33%, only with full wanzer complements.
+ - All wanzers no longer get extra craft from Reserve Deployment.
+
+--- WEAPONS ---
+
+ - Artassault:
+   . Damage per shot reduced to 60 from 65.
+   . Flux per shot raised to 60 from 55.
+   . Accuracy significantly increased, projectile speed slightly decreased.
+ - Recson V:
+   . Fire-rate increased to 24 rpm from 20.
+   . Damage per shot reduced to 200 Kinetic, from 250, flux to fire reduced to 250 from 300.
+ - Grave HMC:
+   . DPS increased to 325 from 260.
+   . Flux efficiency improved to 0.8 from 1.0. 
+ - Glowtusk:
+   . OP cost reduced to 10 from 11.
+   . Flux to fire reduced to 500 from 750.
+   . Range increased to 650 from 625.
+   . Firerate increased to 20 rpm from 15
+   . Removed random extra damage on shield hits.
+   . Projectile speed reduced by 15%.
+ - Mostro Cannon Array:
+   . Now fires two by two.
+   . Damage per shot increased to 250 from 200, fire-rate reduced to maintain DPS.
+   . Range extended to 800 from 700.
+
+ - Burchel:
+   . Range extended to 600 from 550.
+   . Flux to fire reduced to 333 from 350.
+ - Glaux:
+   . OP cost reduced to 11 from 12.
+   . Range extended to 700 from 650.
+   . Flux efficiency slightly buffed to 1.17 from 1.27.
+ - Hexafire Scatter Cannon (both):
+   . Now an Energy weapons instead of Ballistic.
+   . Removed ricochet effect.
+   . Now gets up to 50% extra damage the higher the firing ship's hard flux is.
+   . Fire-rate reduced to 30rpm from 40.
+   . (Twin Hexafire) Range reduced to 700 from 900.
+   . (Hexafire) OP cost raised to 11 from 10. 
+   . Flux-to-Damage buffed to 1.1 from 1.25.
+ - Lazyhorn projector:
+   . Now an energy weapon instead of ballistic.
+   . Damage per shot raised to 350 from 200, flux per shot raised to 150 from 100.
+ - SRAB:
+   . Damage type changed to Energy from High Explosive.
+   . Added 400 EMP damage per shot.
+   . Flux per shot reduced to 750 from 900.
+   . Fire rate increased to 20 rpm from 15.
+   . Projectile speed decreased by 10%.
+ - Nocturne EMP Array:
+   . Beams growth speed increased by 20%.
+ - Uhlan Siege Laser:
+   . Max accuracy reduced to 5deg from 0.
+   . Min accuracy increased to 15deg from 12.
+
+ - Thunderbolt (all):
+   . Damage increased to 550 from 400, extra damage reduced to 275 from 400.
+ - Banish torpedoes (all)
+   . Added 2000 EMP damage.
+ - Plover:
+   . Burst fire much quicker.
+   . Damage increased to 400 from 200.
+   . Fire-rate decreased to 13 from 17.
+   . Ammo reduced to 50 from 60.
+
+--- STRIKE-CRAFTS ---
+
+ - Arbitrator interceptor:
+   . New Sprite.
+   . Main Artassault gun now has a 10deg arc.
+   . Roaming range reduced to 6000 from 10000.
+ - Arbitrator Z rocketeer:
+   . Rocket range reduced to 600 from 1000.
+   . Rocket spread reduced.
+   . Rocket unload much quicker.
+ - Frost trooper wanzer:
+   . Hull reduced to 800 from 1100, armor reduced to 100 from 125, maneuverability increased by 25%.
+   . Wing size increased to 3 from 2.
+   . Covet sidearm changed into a Kinetic 6 shooter, from a Frag shotgun.
+   . Botte Secrète system cool-down increased to 18s from 8, damage reduced by 50%.
+   . OP cost increased to 10 from 8.
+   . Roaming range extended to 4000 from 3000.
+   . No longer triggers the "disabled" sound when deploying. (do tell me if the system miss-fires now!)
+ - Strife gunner wanzer:
+   . Hull reduced to 900 from 1450, armor reduced to 125 from 150, speed increased to 180 from 160, maneuverability increased by 33%.
+   . Wing size increased to 2 from 1.
+   . Thunderbolt rack ammo reduced to 2 from 5.
+   . Grom MG damage per shot reduced to 75 from 100.
+   . OP cost increased to 10 from 8.
+   . Roaming range extended to 4000 from 3000.
+ - Warlust sniper wanzer:
+   . Hull increased to 1100 from 900, armor reduced to 100 from 115, speed reduced to 150 from 170, maneuverability increased by 80%.
+   . Sniper Blaster fire-rate increased to 30rmp from 20.
+   . Wing size reduced to 1 from 2.
+   . Magibox PD missile salvo reduced to 1 from 4.
+   . Added support drone system.
+ - Zephyr wanzer wing:
+   . Hull reduced to 1500 from 1850, maneuverability reduced by 15%.
+   . OP cost lowered to 10 from 12.
+   . Wing size reduced to 1 from 2.
+   . Roaming range reduced to 2000 from 4000.
+ - Raven heavy wanzer:
+   . Hull reduced to 2000 from 2600.
+   . Refit time raised to 45s from 30.
+   . OP cost raised to 16 from 14.
+
+--- FRIGATES ---
+
+ - Draft frigate:
+   . Arcus drone changed into a fixed module.
+   . Armor module hull lowered to 4000 from 7500, armor raised to 400 from 150.
+   . System changed to Arcus Armor Repairs from Arcus Drone.
+   . Flux capacity reduced to 1500 from 2350.
+ - Versant hybrid wanzer:
+   . Gained one medium universal hardpoint.
+   . Shield arc reduced to 270deg from 360.
+   . OP amount increased to 45 from 30.
+   . Harvest built-in guns damage decreased to 75 from 150, flux decreased to 80 from 140, fire-rate increased to 200rpm from 170.
+
+--- DESTROYERS ---
+
+ - Calm destroyer:
+   . Removed built-in wings.
+   . Changed system to Vortex drones from Flux Redirection, with added passive boost to various systems.
+   . Top medium mount changed to a turret from a hardpoint, arc widened to 15deg from 5.
+ - Derecho ECM destroyer:
+   . Left medium mount changed to a turret from a hardpoint, arc widened to 15deg from 5.
+ - Pocket Gust:
+   . Added an extra sideways missile hardpoint because only one was just sad.
+ - Stratus freighter:
+   . Now a dedicated freighter instead of a combat freighter.
+   . Removed two small turrets, replaced the small main turret by a universal hardpoint.
+   . System changed to Active Flares from Passive Flares.
+   . Armor reduced to 350 from 400.
+   . Flux capacity reduced to 2500 from 3500, dissipation reduced to 150 from 200.
+   . OP reduced to 40 from 54.
+   . Speed reduced to 45 from 60.
+   . Crew requirement reduced to 45 from 55, crew capacity increased to 100 from 80.
+   . Cargo capacity reduced to 200 from 225.
+   . Burn speed increased to 9 from 8.
+   . Deployment/maintenance cost reduced to 6 from 7.
+ - Cirrus troop transport:
+   . System changed to Active Flares from Passive Flares.
+   . Hull increased to 4250 from 4200, armor reduced to 400 from 420.
+   . Crew capacity increased to 280 from 250.
+   . Cargo capacity reduced to 60 from 75, fuel capacity increased to 100 from 75.
+   . Burn speed increased to 9 from 8.
+ - Chinook tanker:
+   . System changed to Active Flares from Flicker Core.
+   . Fuel capacity reduced to 400 from 550.
+   . Burn speed increased to 9 from 8.
+   . Deployment/maintenance cost increased to 6 from 5.
+ - Fractus carrier:
+   . Removed built-in Wanzer Gantry hullmod.
+   . Added 2 small missile hardpoints.
+   . OP increased to 70 from 60.
+
+--- CRUISERS ---
+
+ - Rime freighter:
+   . Medium turret now hybrid from universal.
+   . Cargo capacity decreased to 600 from 800.
+   . Fuel capacity increased to 500 from 300.
+   . System changed to Plasma Burst from Catalyzed Burn.
+   . Fuel/ly reduced to 3.5 from 4.
+   . Price droped to 60000 from 110000.
+   . Deployment/maintenance cost increased to 10 from 15.
+ - Storm battlecarrier:
+   . Flight decks reduced to 2 from 3
+   . Gained 2 medium missile turrets as well as 1 small hybrid turret.
+   . Flux capacity increased to 9000 from 7000, dissipation reduced to 450 from 350.
+   . Shield efficiency buffed to 0.9 from 1.
+   . OP amount increased to 130 from 120.
+ - Gulf Mod-cruiser:
+   . Hull increased to 10000 from 9500, armor increased to 1000 from 950.
+   . Speed reduced to 60 from 70.
+   . Crew requirement increased to 205 from 165, crew capacity increased to 275 from 210.
+   . Deployment/maintenance cost increased to 35 from 33.
+
+--- CAPITAL SHIPS ---
+
+ - Maelstrom battlecruiser:
+   . Ship system switched to Phase Grazer Core from Heavy Flicker Core.
+   . Removed 2 front small hardpoints, 2 rear missile hardpoints and 1 small turret.
+   . layout shuffled around a bit.
+   . Armor decreased to 1100 from 1200.
+   . Flux capacity decreased to 18000 from 21250, dissipation reduced to 1000 from 1200.
+   . OP amount reduced to 235 from 260.
+   . Speed increased to 45 from 35.
+ - Pandemonium dreadnought:
+   . Ship system switched to Phase Grazer Core from Heavy Flicker Core.
+   . Large hybrid mounts reduced to 2 from 4, but gained 2 built in Micro-missile Arrays, 2 medium universal turrets and 2 small hybrid turrets. 
+   . Armor increased to 1300 from 1200.
+   . OP amount reduced to 360 from 435.
+
+
+BUGFIXES/IMPROVEMENTS:
+ - Externalized all string from compiled code to make translations easier.
+ - Assume Wing Control system visual effect toned down.
+ - Added DPS stats to the name of fighter only weapons, so that they show up on the fighter stat card.
+ - Pocket Gust:
+   . Weapons render order fixed.
+
+
+2.05
+
+BALANCING:
+ - DA blueprint packages prices lowered to vanilla levels.
+
+2.04
+
+BALANCING:
+ - Ship prices raised to 0.9.1 levels.
+
+BUGFIXES/IMPROVEMENTS:
+ - Uhlan Artillery shots now pass through missiles.
+ - Derecho system visual feedback now rendering below ships.
+ - Versant rear panels now properly rendered below the arms.
+ - Added trails to Uhlan shots, Warlust, Valiant and Versant weapons.
+ - Reworked fleets composition for a tougher challenge.
+
+2.03
+
+ - Added Vesperon Combine compatibility.
+
+BALANCING:
+ - Daze-class Cruiser:
+   . Speed reduced to 50 from 55,
+   . Shield efficiency reduced to 0.9 from 0.8,
+   . Shield upkeep raised to 0.4 from 0.35,
+   . Flux dissipation reduced to 650 from 825,
+   . Flux capacity raised to 13000 from 12000,
+   . Hull reduced to 10000 from 12000.
+
+ - Haze-class Cruiser:
+   . Flux dissipation raised to 750 from 650.
+
+BUGFIXES/IMPROVEMENTS:
+ - Uhlan Artillery changed all around, should fire a lot more often.
+
+2.02
+
+ - Updated compatibility with Nexerelin.
+
+BALANCING:
+ - Dampened Mount hullmod:
+   . Only affects projectile weapons, not beams,
+   . Increased OP cost to 10/15/25/40 from 10/15/20/30,
+   . Now reduces the firerate of the weapons by 20%.
+
+ - IBIS pd:
+   . Flux per shot reduced to 3 from 9 (60 flux/s from 180),
+   . Range raised to 350 from 300,
+   . Added limited ammo and regenerating clips.
+
+ - Raptor pd now also has limited ammo and regenerating charges.
+
+BUGFIXES/IMPROVEMENTS:
+ - Shuffled some blueprints, neither package contains any capital ship like with vanilla.
+ - Campaign relations slightly adjusted toward hostilities.
+ - Slightly tweaked the economy toward self sufficiency (while keeping the loot from raids):
+   . Removed Eclipse Station nanoforge.
+   . Removed all Freeport statuses.
+   . Removed all Waystation and Commerce industries.
+ - Fixed Flicker Core description error.
+ - Added missing info to missile stat cards.
+
+2.01
+
+BALANCING:
+
+ - Opfer Artillery:
+   . Now limited to 600 ammo.
+   . Reloads in 200 shots clips every 10s.
+
+ - Frost-class Wanzer:
+   . Shotgun damage changed to Fragmentation from Energy.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Fixed a few case issues for Linux users.
+ - Fixed Rime-class system constant toggle.
+
+2.00
+
+rc2: Fixed IBIS flux.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Improved and working economy. 
+ - Proper blueprints and drops.
+ - Dampened Weapon Mounts hullmod:
+   . Can now drop and be learned.
+   . Now also reduces the weapons durability.
+ - Cirrus troop transport now has the Ground Support hullmod built-in.
+ - Cramped Hull hullmod now also incompatible with most new logistic hullmods.
+
+1.99
+
+RC2: Blueprint fix 
+RC3: Flux per proj fix
+RC4: Fixed Gust system, ajusted pirate relations
+
+   Barebone 0.9.0 compatibility update.
+
+1.94
+
+NEW CONTENT:
+
+ - Arbitrator Z bomber:
+   . Twin fuselage Arbitrator.
+   . Loaded with Plover rockets.
+
+BALANCING:
+
+ - Flicker Core ship-systems:
+   . Regen delay increased to 20s from 10/15s.
+   . Charges increased by 1.
+
+ - Haze-class cruiser:
+   . Removed 2 small sideways turrets.
+   . Down-sized medium universal turret to small.
+   . OP adjusted accordingly.
+
+ - SRAB Heavy Emitter :
+   . Shots speed increased by 50%.
+
+ - Pandemonium-class dreadnought:
+   . Added built-in High-Maintenance hullmod.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Gust/Pocket Gust system:
+   . Control isn't transfered to the fighters when the player ship is in auto-pilot and use the Ship-System. Regular fighter buff is still applied.
+
+ - New Nexerelin starting options.
+
+ - Removed Uhlan Artillery chargeup for better AI behavior.
+
+ - Opfer Artillery improved sound and animation.
+
+1.93
+
+NEW CONTENT:
+
+ - Opfer Repeater Artillery:
+   . Lots of Dakka
+   . Large mount Kinetic weapon
+   . LOTS OF DAKKA I SAY!
+
+ - Lazyhorn Warp Projector:
+   . Medium PD
+   . Lasting AOE
+
+ - Nocturne EMP Array:
+   . Medium burst beam
+   . Kinetic + EMP
+
+BALANCING:
+
+ - Daze-class cruiser:
+   . Removed built-in ITU.
+
+
+1.92
+
+NEW CONTENT:
+
+ - Daze-class heavy cruiser:
+   . Anvil to the Haze-class' hammer,
+   . Few weapon mounts with wide arcs,
+   . Generous flux stats further enhanced by a Flux Redirection ship system.
+
+BALANCING:
+
+ - Haze-class:
+   . Now has Flicker Core ship system instead of Flux Redirection,
+   . Speed reduced to 60 from 70,
+   . Armor reduced to 900 from 1000.
+
+1.91
+
+BALANCING:
+
+ - Zephyr-class wanzer:
+   . Special beam attack damage reduced by about 60%,
+   . Now comes in wing of 2,
+   . System AI made more aggressive,
+   . Price raised to 16000 from 12000.
+
+
+ - Maelstrom:
+   . Armor reduced to 1200 from 1300.
+
+ - Pandemonium:
+   . Armor reduced to 1200 from 1700,
+   . Hull points raised to 20000 from 17000,
+   . Flux dissipation raised to 1200 from 1100,
+   . Deployment cost and maintenance raised to 60 from 50,
+   . Hull price raised to 374999 from 324999.
+   
+BUGFIXES/IMPROVEMENTS:
+
+ - Gust-class ship system now has a 0.5s delay to avoid triggering the system of the fighter taken over.
+
+ [RC2] Zephyr system AI NPE fix.
+
+1.90
+
+NEW CONTENT:
+
+ - Zephyr-class Beamer wing:
+   . Full soft-flux loadout,
+   . A lot of soft-flux,
+   . A LOT.
+
+BALANCING:
+
+ - Calm:
+   . System switched to "Export Fortress Shield", a time limited Fortress Shield system variant, from Vortex drones,
+   . Got 3 built-in wings of Vortex drone,
+   . Vortex drones now larger and equipped with IBIS instead of LR PD Laser,
+   . Flux capacity raised to 4250 from 3400,
+   . Flux dissipation raise to 325 from 275.
+
+ - Warlust:
+   . Now equiped with Magicbox PD Missiles instead of Micro-missiles.
+
+ - Arbitrator wing:
+   . Now benefits from Wanzer's gantry fast repairs.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Dynasector integration updated.
+
+1.89
+
+NEW CONTENT:
+
+ - Pocket Gust:
+   . Cute lil' Destroyer-sized Gust,
+   . Same system as the full sized one,
+   . One fight deck, one medium turret, a few small ones and a built-in Micro-Missile Cluster.
+
+BALANCING:
+
+ - Thrush LRM:
+   . OP cost raised to 14 from 10.
+
+ - Plover Rocket Pod:
+   . OP reduced to 10 from 12,
+   . Spread halved,
+   . Launch speed doubled.
+
+ - Banish Launcher:
+   . OP raised to 12 from 11.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Adjusted starting relationships.
+ - Shuffled Nexerelin's starting ships.
+
+1.88
+
+NEW CONTENT:
+
+ - Gust:
+   . New sprite,
+   . New weapon layout,
+   . New ship-system.
+
+BALANCING:
+
+ - Vapor Evasion system:
+   . Range slightly reduced (same "invincibility" time),
+   . Charge regen delay increased to 15s from 10.
+
+ - Derecho:
+   . Large Hybrid hardpoint now medium,
+   . Medium Missile hardpoint now universal,
+   . Added one small rearward hybrid turret,
+   . Added built-in Cramped Hull hullmod.
+
+ - Maelstrom:
+   . Price raised to 219999 from 185500.
+
+ - Artassaut:
+   . Burst size reduced to 5 shots from 7,
+   . Damage per shot raised to 65 from 40,
+   . Range raised to 500 from 425,
+   . Projectile speed raised by 60%.
+
+1.87
+
+BALANCING:
+
+ - Cramped Hull:
+   . Hullmod that prevents the instalation of physically "large" hullmods such as Expanded Missiles Racks of Expanded Magazines,
+   . Reduces the missiles fire-rate by 50%,
+   . Built-in the Hayle, Vapor and Versant.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Thunderbolts:
+   . Raised the engine's endurance to better match the listed range.
+
+ - Glowtusk:
+   . Shots now more visible.
+
+ - (finally) Fixed a mod incompatibility regarding some visual effects.
+
+ - Shear tug now has "Drive Field Stabilizer" instead of "Tow Cable".
+
+1.86
+
+BALANCING
+ - IBIS and Raptor:
+   . Reworked firing pattern with scripted spread,
+   . Slightly buffed DPS, slightly nerfed projectile speed and flux efficiency.
+
+ - State beam:
+   . Lowered the flux requirement to 1:1 ratio.
+
+ - Strife:
+   . Raised the damage per shot of the minigun, reduced the fire-rate,
+   . Raised the accuracy and projectile speed.
+
+ - Frost:
+   . Now all wanzers can use the slashing special move, not just the leader,
+   . Cooldown raised accordingly.
+
+ - Storm:
+   . Deployment cost reduced to 28 supplies from 35.
+
+ - Fractus:
+   . Now equipped with a "Emergency refit" ship-system that lowers the refit time at the cost of faster depletion of the fighter replacement rate.
+
+*experimental changes*
+
+ - Glowtusk:
+   . Now a high powered, long cooldown HE murder cannon.
+
+ - Grave MG:
+   . Now a kinetic stream of death.
+
+ - Raven:
+   . Now armed with a Glowtusk and a Grave HMC.
+
+ - Recson V:
+   . Significant buff to the per-shot damage,
+   . Significant reduction of the fire-rate,
+   . Significant buff to the flux per shot,
+   . Range raised to 1000.
+
+ - SRAB:
+   . Range raised to 1000.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Changed some ship tags leading to better AI behaviors.
+ - Wanzer Servicing Gantry hullmod now usable on non Diable ships.
+ - Draft:
+   . Improved sprite,
+   . Slightly bigger armor drone that should better protect the front of the ship.
+
+1.85
+
+NEW CONTENT:
+
+ - Arbitrator Interceptor wing:
+   . Long range fast interceptor for a moderate price.
+   . Armed with a single barrel IBIS and an Artassaut cannon.
+   . Equipped with a drop-booster to quickly traverse the battlefield. Also usable for improvised bombing runs.
+
+BALANCING:
+
+ - Storm:
+   . Median turrets got more generous arcs
+
+ - Fractus:
+   . Ship system changed from Reserve Deployment to Long Range Coordination.
+   . Raises the wings range by 3000su but reduces the carrier speed by 75%.
+
+ - Valiant wings:
+   . Shield now front facing instead of omni.
+   . Shield arc raised to 120deg from 90.
+   . Weapons range reduced to 400 from 600.
+   . Weapons flux raised to 1:1 ratio.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - Wanzers Servicing Gantry: 
+   . No longer allows bombers to deploy new fighters before the deployed ones landed to rearm.
+
+ - Uhlan Artillery:
+   . Fixed hardpoint recoil.
+
+1.84
+
+BALANCING:
+
+ - Most combat ships' shield efficiency raised by 10%.
+
+ - Haze:
+   . New sprite.
+   . Gained 3 small turrets but medium central one no longer reaches the rear.
+   . OP raised to 180 from 145.
+   . Ship-system now reduces the weapons accuracy when in use.
+
+ - Advanced Avionics hullmod:
+   . No longer affects weapon ranges.
+   . Now raises the ships' acceleration over time.
+   . Ships base accelerations adjusted accordingly.
+   . Still affects auto-aim accuracy, weapons turn rates and recoil.
+   . Now compatible with Safety Override.
+
+ - Dampened Mounts hullmod:
+   . Extends the range of all weapons by 200su.
+   . Built-in the Maelstrom and the Pandemonium (replaces built-in Targeting Core).
+
+ - Uhlan Artillery:
+   . Range reduced to 1000su from 1200.
+
+ - SRAB:
+   . Shots hp reduced to 300 from 450.
+
+ - Burchel:
+   . Charges regeneration reduced to 30rpm from 45.
+   . Flux requirement raised to 350fps from 300.
+
+ - Calm:
+   . Now has four built-in micro-missiles launchers.
+   . OP reduced accordingly.
+
+BUGFIXES/IMPROVEMENTS:
+
+ - RC4 (ugh) fixed bug with the Haze system. (will try to make a fancier version later)
+ - RC4 fixed Wanzers refit time bug.
+ - RC3 fixed crash between the Wanzer carrier hullmod and non-Diable wings.
+ - RC2 fixed targeting crash.
+ - RC2 fixed Shadow forward base's shadow.
+ - Wanzer Servicing Gantry hullmod:
+   . Now actually does something.
+
+ - All missile AIs reworked/optimized.
+
+
+1.83
+
+BALANCING:
+ - Warlust:
+   . Removed ammo limitation for the weapon.
+   . Damage per shot increased to 400 from 300.
+   . Weapon's shots are now more visible.
+ - Blizzaia:
+   . Burst Recson replaced with Plover Rack.
+ - Haze:
+   . Flux Redirection system no longer reduce the shield efficiency.
+ - Starting reputation with the player slightly increased.
+
+BUGFIXES/IMPROVEMENTS:
+ - RC3: Fixed Nexerelin generation.
+ - New sprites for the Vapor, the Calm and the Hayle.
+ - Warlust is now a Support fighter (will attack from afar)
+ - Removed pirate variants that confused people.
+ - Adjusted some FP values for more coherent markets availability.
+ - Fixed generation bug from 0.8.1.
+ - Targeting Analysis hint no longer blinking when deploying few Diable ships, script optimized.
+
+1.82
+
+BALANCING:
+ - Valiant:
+   . Lost Resilient Frame hullmod.
+
+ - Derecho:
+   . Gets built-in ECM, ECCM and High Maintenance hullmods in addition to the High Resolution Sensors and Advanced Avionics.
+
+ - Wanzers:
+   . Blizzaia speed raised to 110 from 95.
+   . Blizzaia OP reduced to 16 from 20.
+   . Raven speed raised to 120 from 100.
+   . Raven OP reduced to 14 from 16.
+   . Strife speed raised to 160 from 115.
+   . Strife OP reduced to 8 from 10.
+   . Warlust speed increased to 170 from 130.
+   . Warlust OP reduced to 9 from 12.
+   . Frost speed increased to 200 from 150.
+
+ - Trifire/Hexafire:
+   . EMP damage per shot raised to 30 from 15.
+   . Accuracy slightly reduced.
+
+BUGFIXES/IMPROVEMENTS:
+ - Fixed Thunderbolt friendly fire issue.
+ - Fixed case sensitivity issues.
+ - Fixed lootable Wanzer weapon.
+ - Removed fixed derelict ships.
+
+1.81
+
+BALANCING:
+ - Warlust:
+   . Sniper gun damage nerfed by 25% overall, added limited ammo with half fire-rate regen.
+   . Removed Maneuvering Jets ship system.
+
+ - Raven
+   . Removed chest Glaux Lances.
+
+ - Strife:
+   . Added 50% damage reduction to the armor only while the system is active.
+
+ - Vapor:
+   . Modified the system as a stop-gap fix until 0.8.1 releases.
+
+ - Arassaut:
+   . Flux per shot reduced to 35 from 50.
+
+ - SRAB:
+   . Flux per shot reduced to 900 from 1100.
+
+ - GlowTusk:
+   . Flux per shot reduced to 750 from 900.
+
+ - Burchel:
+   . Flux per second raised to 300 from 275.
+
+
+BUGFIXES/IMPROVEMENTS:
+ - Removed Universal Decks from ships without regular flight decks.
+ - Renamed the "Universal Decks" hullmod "Wanzer Servicing Gantry". (There, happy?)
+ - Minor descriptions fixes.
+
+1.8
+
+Starsector 0.8a compatibility (and all that entails)
+
+BALANCING:
+ - Wanzers:
+   . All wings have one or two Wanzer,
+   . They have long reffit timers,
+   . Hulls unchanged but weapons vastly changed and/or buffed.
+
+ - Ships:
+   . Most Carriers got the "Universal Fightdecks" that reffit quickly the first three losses of each Wanzer wing (no effect on vanilla wings)
+
+ - Storm:
+   . Reworked as a slightly smaller cruiser with three decks and half the weapon mounts. 
+
+
+1.7
+
+BALANCING:
+ - GlowTusk:
+   . Raised the damage per shot to 500 from 450.
+ - Hexafire Scatter-Cannon:
+   . Reduced the flux requirement to fire from 1300 to 900. (Mjolnir side-grade)
+ - Trifire Scatter-Cannon:
+   . Reduced the flux requirement to fire from 675 to 450.
+ - Prices adjustment:
+   . Draft price increased from 8999 to 9499.
+   . Vapor price decreased from 13599 to 11499.
+   . Versant price decreased from 32599 to 27449.
+   . Fractus price decreased from 25750 to 19999.
+   . Gust price decreased from 57500 to 52999.
+
+   . Recson S price decreased from 900 to 700.
+   . Micro Missile Launcher price decreased from 900 to 500.
+   . Thunderbolt MRM Rack price decreased from 600 to 400.
+   . Recson V price increased from 1800 to 2400.
+   . Glowtusk price decreased from 2700 to 2250.
+   . Trifire price decreased from 3000 to 2100.
+   . Glaux Lance Repeater price increased from 1950 to 3000.
+   . State Support Beam price increased from 1650 to 2000.
+   . SRAB Heavy Emitter price increased from 1500 to 2300.
+
+   . Blizzaia wing price decreased from 26000 to 20000.
+   . Valiant wing price decreased from 32000 to 26000.
+   . Raven wing price decreased from 52000 to 32000.
+
+BUGFIXES/IMPROVEMENTS:
+ - Thunderbolt Pods:
+   . Thunderbolts missiles now decelerate if they can't find a target, preventing the use of the catapult to reach ships far out of range.
+ - Derecho system:
+   . The AI now consider the full AOE for activating the system.
+   . New improved visual feedback.
+
+1.66
+
+BALANCING:
+ - Magicbox anti-missiles:
+   . Slightly reduced the fringe and core AOE damage while maintaining the mid range. (bell curve instead of exponential falloff)
+
+BUGFIXES/IMPROVEMENTS:
+ - Corrected some minor typos
+ - SRAB no longer collide with allies but is still checking for line of sight (for balance purpose).
+
+
+1.65
+
+NEW CONTENT:
+ - Glowtusk Linear Rifle: High-power high precision short range Kinetic damage ballistic gun, with extra damage against bare hulls.
+ - SRAB Heavy Emitter: High power long range guided HE damage energy weapon whose shots can be shot down.
+
+BALANCING:
+ - Thunderbolts Rack/Pod:
+   . Too many changes and reverts over the months to remember but nerfed overall.
+   . Maneuverability significantly reduced.
+   . Tweaks to the AI so that frigates can sometime dodge them.
+   . Rack ammo reduced to 5 from 6, pod ammo reduced to 16 from 20.
+
+ - Micro-Missiles:
+   . HP reduced by 50% to 25.
+   . Ammo stack reduced to 5 from 10
+
+ - Versant:
+   . Raised flux capacity to 3500 from 3000.
+   . Raised flux dissipation to 350 from 225. 
+   . Lowered base speed to 110 from 120.
+   . Raised transformed speed to 240 from 220.
+
+ - Grave HMC:
+   . Range reduced to 625 from 825.
+   . OP reduced to 11 from 12.
+   . Precision improved.
+   . Turn-rate slightly improved.
+
+ - Draft:
+   . Removed built-in Light Thermal Pulse Repeater.
+   . Added one medium Hybrid mount.
+   . Raised OP available to 50 from 40.
+   . Arcus Armor now held firmly in place instead of wobbling around.
+
+ - Derecho:
+   . Jamming system range increased to 2000su.
+
+BUGFIXES/IMPROVEMENTS:
+ - Fixed crash when the Uhlan Artillery is mounted in a hidden slot. 
+ - Lots of rewritten descriptions.
+ - New sound effects.
+ - New weapon sprites.
+ - As usual misc improvements all over the place.
+
+1.63
+
+BALANCING:
+ - Glaux Lance Repeater:
+   . Clip reduced to 6 charges from 10.
+ - Versant:
+   . Harvests damage per shot raised to 150 Energy from 100, 130 flux/shot from 90, 171 shots/min from 240 (429dps from 400),
+   . Heavy ILIS turn-rate raised to 120 from 30,
+   . Base speed raised to 120 from 90, base acceleration/deceleration raised to 240 from 180,
+   . High Speed Mode boost reduced to 100 from 110, turn rate reduced by -25% from -50%, acceleration debuff removed.
+
+BUGFIXES/IMPROVEMENT:
+ - Advanced Avionics hull-mod:
+   . Bonus to short range weapons rewritten,
+   . Now adds up to 150/200/250/300su to all weapons,
+   . Bonus increasingly smaller for longer range weapons,
+   . No bonus beyond 1500/2000/2500/3000 range (if any weapon ever reach those ranges.
+ - Calm:
+   . Fixed the drone system mistakenly reduced to 4 charges instead of 8,
+   . Still deploys only 4 of them at once.
+ - Gust:
+   . Repositioned the drones farther from the hull.
+
+1.62
+
+NEW CONTENT:
+ - New Uhlan sprite and animation.
+ - Gulf IBB. (once SS+ updates)
+
+BALANCING:
+ - Thunderbolt MRM Rack:
+   . Fire delay raised to 6s from 4 (133 DPS from 200)
+ - Thunderbolt MRM Pod:
+   . Fire delay raised to 5s from 4 (160 DPS from 200),
+   . Ammo count reduced to 20 from 30.
+ - Glaux Lance Repeater:
+   . Full DPS reduced to 650 from 700,
+   . Flux requirement reduced to 825 from 875,
+   . Recharge rate lowered to 24 charges/min from 30. (125 sustained dps from 168)
+ - Raptor Defense System:
+   . Fire-rate reduced to 600 RPM from 800 (500 DPS from 667)
+ - Versant:
+   . Switched the High Maintenance hull-mod for Delicate Machinery,
+   . CR to deploy reduced to 20% from 30,
+   . High-Speed Mode boost raised to 110 from 100 (200 base speed from 190),
+   . Shield efficiency raised to 0.9 flux/dam from 1.1,
+   . Head's Heavy ILIS now has 100 ENERGY dps from 200 HIGH-EXPLOSIVE, 75 flux/sec from 175 and 700 range from 550.
+ - Grave HMG:
+   . Loss of precision during continuous fire halved.
+ - Pandemonium:
+   . Small nerf of about 5% for all stats.
+ - Haze Cruiser:
+   . Flux Redirection ship-system no longer deactivates the shield but lowers greatly its efficiency. (Should help the AI quite a bit)
+ - Derecho Destroyer:
+   . Jamming ship-system now affects all missiles in range and has a (small) chance to flame-out them.
+ - Banish torpedoes:
+   . Damage reduced to 2000 ENERGY from 2400 and 500 EMP from 600.
+ - Thrush LRM:
+   . Ammo count reduced to 10 from 16,
+   . Refire delay reduced to 10s from 13,
+   . Regen rate raise to 4 ammo/min from 3,
+   . Failsafe MIRV raised to 4 micro-missiles from 3.
+
+BUGFIXES/IMPROVEMENTS:
+ - Banish Torpedoes:
+   . Now have a proper custom AI,
+   . No more miss-fires,
+   . Precise enough to hit reliably destroyers by default,
+   . Can hit reliably slow frigates with ECCM.
+ - Thunderbolt missiles:
+   . Corrected an issue when the target has been vaporized.
+ - Thrush LRM:
+   . Now have a proper custom AI,
+   . Can hit targets reliably from great distances unless they maneuver at the last second,
+   . Consistently MIRV in four micro-missiles if it overshot its target,
+   . Benefits a lot from ECCM.
+
+1.61
+
+ STARSECTOR 0.7.2 compatibility.
+
+BUGFIXES/IMPROVEMENT:
+ - Corrected a few typos in the descriptions.
+ - Adjusted all hard-points positions to better fit the covers.
+
+1.6
+
+NEW CONTENT:
+ - Versant versatile frigate:
+   . IT TRANSFORMS!!!
+   . Nuff said.
+ - Trifire Scatter Cannon:
+   . Single barrel Hexafire, medium sized.
+ - Rime blockade runner:
+   . Cruiser sized freighter.
+   . Not exactly well armed but survivable.
+   . Equipped with a Burn Drive Catalyzer system that slowly increase the speed but can be interrupted. 
+ - Escalation mission:
+   . Showcase the Valiant wings and the Versant frigates.
+
+BALANCING:
+ - Banish Torpedoes:
+   . Slightly raised the maneuverability of the first stage.
+ - Magic-box Missiles:
+   . Significantly raised the max turn rate.
+ - Valiant:
+   . Hull reduced to 1200 from 1450,
+   . Flux dissipation reduced to 210 from 250,
+   . Shield upkeep reduced to 70 from 125.
+   . Weapons changed to Culls (similar to the weapons of the Versant frigate). Slightly less damage per shots, higher fire-rate and much greater projectile speed.
+ - IBIS/Raptor:
+   . Doubled the turn rate while firing.
+ - Burchel Beam Repeater:
+   . Doubled the turn rate while firing,
+   . OP reduced to 8 from 9.
+ - Vapor:
+   . Small Universals Hard-points switched to Turrets.
+   . Arcs increased to 35 degrees from 25.
+
+BUGFIXES/IMPROVEMENTS:
+ - Valiant (and Versant) transformation AI:
+   . Logic improved against faster targets,
+   . Ships now deploy folded.
+ - Valiant:
+  . Completely revamped the transformation for a much smoother animation and no damage decals popping.
+ - Banish Torpedo (single):
+  . Fire rate lowered to 6 rpm from 60 for real this time .
+ - Recson S:
+  . Added a proper hard-point sprite.
+ - Calm:
+  . New drone system,
+  . Deploys 8 PD drones in frontal arc,
+  . Provides an excellent missile defense while they last.
+
+1.51
+
+NEW CONTENT:
+ - Blizzaia Bomber Wanzer:
+   . Slow but resilient Wanzer wing of two.
+   . Each armed with two single Banish Torpedoes and a PD.
+
+BALANCING:
+ - Storm, Maelstrom and Pandemonium got the proper hull and supplies values applied.
+ - Banish Torpedo (single):
+  . Fire rate lowered to 6 rpm from 60 (in line with vanilla).
+ - Magic-Box PD System:
+  . Now won't fire against ships,
+  . Damage raised to 150 FRAGMENTATION from 100,
+  . AOE damage significantly reduced.
+ - Derecho:
+  . OP raised to 65 from 60.
+ - Faction relation shuffled around for a more interesting dynamic:
+  . Diable is still hostile to all major Factions,
+  . Diable is now inhospitable to the Independents,
+  . Diable is now suspicious/favorable to all trouble-makers, including the Pirates and the Scy Nation.
+
+1.5
+
+NEW FEATURE:
+ - SS+ INTEGRATION.
+
+NEW CONTENT:
+ - Banish Torpedo (Single):
+   . Cheap single-shot torpedo rack for small missiles mounts.
+ - Magic-box Anti-missile missile:
+   . Small missile launcher loaded with shrapnel to intercept incoming missiles.
+   . Reloads over time.
+
+BALANCING:
+ - Gust:
+   . Deployment/monthly cost reduced to 20 supplies from 25.
+   . Hull raised to 7500 from 7250.
+ - Haze:
+   . Deployment/monthly cost reduced to 28 supplies from 35.
+   . Armor raised to 1000 from 900.
+   . Hull raised to 10000 from 9000.
+   . Shield widened to 120 degrees from 90.
+ - Storm:
+   . Deployment/monthly cost reduced to 35 supplies from 40.
+   . Armor raised to 1100 from 975.
+   . Shield widened to 90 degrees from 50.
+ - MaelStrom:
+   . Deployment/monthly cost reduced to 40 supplies from 50.
+   . Armor raised to 1300 from 1250.
+   . Shield widened to 90 degrees from 60.
+   . Added 3 small Hybrid turrets to the front.
+   . ordnance Points raised to 250 from 235.
+ - Pandemonium:
+   . Deployment/monthly cost reduced to 50 supplies from 60.
+   . Armor raised to 1800 from 1500.
+   . Shield widened to 90 degrees from 75. 
+   . Added 4 small Hybrid turrets to the front.
+   . ordnance Points raised to 420 from 400.
+   . Weapons arcs are now more generous.
+ - Hexafire:
+   . Reduced range to 900 from 975.
+   . Removed the random 20 points extra damage.
+   . Raised the damage per buckshot to 100 from 55.
+   . Lowered the fire-rate to 30 from 50.
+   . Raised the flux per shot to 1400 from 700.
+ - Plover Pod:
+   . Halved the rockets dispersion.
+ - Derecho:
+   . System's cool-down reduced to 10 seconds from 20.
+ - Flicker Core ship-system:
+   . Increased the number of uses to 2 charges from 1 but with a recharge rate of 10 seconds from 2.
+ - Heavy Flicker Core ship-system:
+   . Increased the number of uses to 4 charges from 2 but with a recharge rate of 10 seconds from 2.
+ - Evasive Maneuver ship-system:
+   . Increased the number of uses to 3 charges from 2 but with a recharge rate of 10 seconds from 4.
+
+BUGFIXES/IMPROVEMENTS:
+ - "Fixed" the Vapor continuously using it's ship system without charges when controlled by the AI. (removed the empty sound really)
+ - Moved the Outer Terminus system South to avoid the Templar fleets.
+ - Added the current state of the ship's "Advanced Avionics" to the satus tooltips.
+ - Improved all Wanzers descriptions to indicate their roles.
+
+
+
+1.4
+
+NEW CONTENT:
+
+ - Mostro Cannon Array:
+  . Large assault battery designed to brutalize armor and hull at medium range.
+
+ - Artassaut Revolver Gun:
+  . Small High Explosive gun that can delivers a lots of rounds on target in a very short span of time.
+
+ - Thrust LRM System: 
+  . Long range Missile that can split in several micro-missiles should it's target be too nimble to hit with the main stage.
+
+ - Quantum Impulse ship-system:
+  . New system of the Derecho destroyer, jams the guidance of nearby enemy missiles for a short while, making them easier to shoot down.
+  . Especially effective against waving missiles.
+
+ - Raven wanzer:
+  . Ultra heavy wanzer that comes in wings of two.
+
+BALANCING:
+ - All wings:
+  . Monthly cost lowered for the low tier ones,
+  . CR cost to deploy raised for the high tier ones,
+  . CR recovery rate slightly increased overall.
+ - Plover damage raised to 400 from 200.
+ - Thunderbolt fire-rate halved.
+ - Banish torpedo damage raised to 2400 from 1800.
+ - Slight buff to most Wanzers weapons turn rate.
+ - Significant nerf to the Valiant secondary weapons (Head ILIS and micro-missile launchers)
+
+1.3
+
+NEW CONTENT:
+
+ - Advanced Avionics:
+  . Debuff all weapons aiming by 15% on deployment.
+  . Every 60sec spent in contact with enemy ships, the weapons get a buff to their aiming depending on the ship's size.
+  . After 60/120/180/240s, the weapons have a 15% buff to their aiming, -15% to their spread and up to 50% range the shorter their normal range is. (300 range weapons get +50%, 1000 range weapons get only +7%)
+
+ - Hexafire Scatter-Cannon:
+  . Double barreled Space-shotgun!
+  . Buckshots bounce off shields.
+
+ - Derecho Electronic Warfare Destroyer:
+  . One large Hybrid hard-point, one medium Missile hard-point and two small turrets for PD...
+  . Reveals the enemy units on the battlefield.
+
+BALANCING:
+ - Recson S:
+  . range reduced to 800 from 850. (Decent alternative to the Railgun)
+ - Burchel Beam Repeater: 
+  . Reduced ammo count to 6 from 8.
+  . Raised the Burst dps to 240 from 120, adjusted re-fire rate to 90 sustained DPS from 64.
+ - Micro Missile Launcher:
+  . Reduced the ammo count to 10 from 20.
+  . Reduced the flux per shot to 50 from 150.
+ - Thunderbolt Rack/Pod:
+  . Reduced the max speed to 300 from 400.
+  . Greatly improved the maneuverability and tracking. (Easy to intercept but won't miss that often)
+ - Raptor Defense System:
+  . Reduced the range to 500 from 550. (Decent alternative to the Flak Cannon)
+  . Reduced the flux requirement from 266 to 133FPS.
+ - Recson V:
+  . Raised the OP cost to 12 from 11. (Decent alternative to the HVD)
+ - Grave HMG:
+  . Raised the range to 825 from 725.
+  . Raised the OP cost to 12 from 11.
+  . Raised the dispersion during continuous firing. (Long range deluxe Assault Chaingun)
+ - Glaux Beam Repeater:
+  . Raised the burst DPS to 672 from 320.
+  . Raised the sustained DPS to 168 from 90.
+ - Plover Rocket Pod:
+  . Removed the flux cost to fire.
+ - Uhlan Siege Laser:
+  . Raised the range to 1200 from 1050.
+  . Raised the projectiles speed to 600 from 550.
+  . Lowered the OP cost to 30 from 35.
+
+ - Draft:
+  . Added built-in Light Thermal Pulse Cannon.
+  . Armor reduced to 300 from 325.
+  . Hull raised from 1625 to 1750.
+  . Speed increased to 120 from 112.
+  . Flux capacity increased from 1750 to 2350.
+  . Maneuverability raised by roughly 25%
+ - Vapor:
+  . Switched to Evasive Maneuver ship-system. Brief burst of speed and evades incoming ordnances.
+  . Hull raised from 900 to 1500.
+  . OP raised to 50 from 45.
+  . Acceleration raised by 30%
+ - Shear:
+  . Hull reduced from 600 to 450.
+ - Laminar:
+  . Flux capacity raised to 2000 from 100.
+  . Armor raised to 225 from 150.
+
+ - Calm:
+  . Armor reduced to 425 from 575.
+  . Hull raised to 4250 from 3750.
+  . Flux capacity raised to 5000 from 3400.
+ - Hayle:
+  . Switched to Flicker Core ship-system.
+  . Hull raised to 4100 from 3150.
+  . Armor lowered to 410 from 525.
+  . Flux capacity raised to 6250 from 4400.
+  . Flux dissipation raised to 425 from 250.
+ - Chinook:
+  . Hull reduced to 3000 from 4200.
+  . Armor reduced to 400 from 450.
+  . Speed reduced to 50 from 70.
+ - Stratus:
+  . Hull raised to 4000 from 3600.
+  . Armor reduced to 400 from 500.
+  . Flux dissipation reduced to 200 from 225.
+ - Cirrus:
+  . Hull reduced to 4200 from 4800.
+  . Speed reduced to 45 from 55.
+ - Fractus:
+  . Medium hard-point converted to Universal from Missile.
+  . Hull reduced to 3500 from 4200.
+  . Armor reduced to 400 from 450.
+  . Flux dissipation reduced to 125 from 175.
+  . Speed reduced to 45 from 55.
+
+ - Gust:
+  . Shield arc reduced to 60 degrees from 75.
+  . Hull raised to 7250 from 6200.
+  . Armor lowered to 750 from 975.
+  . Flux dissipation reduced to 400 from 450.
+ - Haze:
+  . Hull raised to 9000 from 7800.
+  . Armor raised to 900 from 825.
+  . OP amount reduced from 160 to 140.
+
+ - Storm:
+  . Hull raised to 11000 from 9500.
+  . Armor reduced to 975 from 1150.
+  . Reduced speed to 40 from 50.
+ - Maelstorm:
+  . Armor reduced to 1250 from 1350.
+  . Flux capacity raised to 22250 from 18250.
+ - Pandemonium:
+  . Added two flight decks.
+  . Armor reduced to 1500 from 1750.
+  . Flux dissipation reduced to 1250 from 1750.
+  . Speed raised to 30 from 25.
+
+ - All ships now have vanilla-like deployment CR cost and Peak Efficiency timer.
+
+
+1.2
+
+0.7.1 update
+
+BALANCING:
+ - Valiant Versatile Fighter:
+  . Light TPCs range reduced to 600 from 650.
+  . Light TPCs damage per bolt reduced to 75 from 100 (dps reduced to 150 from 200).
+  . Light TPSs flux per shot reduced to 75 from 100.
+  . Missile damage raised to 150 Frag from 100 Frag (dps raised to 75 from 50).
+  . Flux dissipation reduced to 250 from 350.
+  . Armor reduced to 100 from 150.
+  . Shield upkeep raised to 125 from 80.
+  . CR to deploy reduced to 5% per fighter from 6%.
+ - Maelstorm:
+  . Deployment/monthly cost reduced to 50 from 55.
+  . Flux dissipation raised to 1200 from 950.
+ - Pandemonium:
+  . Deployment/monthly cost reduced to 60 from 70.
+  . Flux dissipation raised to 1750 from 1150.
+  . Armor raised to 1750 from 1500.
+
+
+BUGFIXES/IMPROVEMENTS:
+ - Diable Avionics now post commissions and engage in hostilities.
+ - Improved the transformation AI for the Valiant.
+ - Valiant Light TPC sprite and sound slightly toned town.
+
+
+1.11
+
+BALANCING:
+ - Grave HMG: 
+  . Range raised to 725 from 475.
+  . Flux per shot raised to 85 from 80 (340fps from 320).
+ - Burchel: 
+  . Flux per second reduced to 275 from 375 (50fps sustained from 68).
+ - Recson S:
+  . OP cost raised to 8 from 5.
+ - Prices adjusted to vanilla levels.
+
+BUGFIXES/IMPROVEMENTS:
+ - Improved the Valiant transformation logic.
+ - All projectiles are now slightly more visible.
+ - Slightly improver the Heavy TPC projectile.
+ - Variant adjusted for better use of missile.
+ - Slightly improved the Plover/Thunderbold effect visual, modified the description.

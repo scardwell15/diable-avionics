@@ -1,0 +1,40 @@
+{
+  "variantId": "diableavionics_hoar_akimbo",
+  "hullId": "diableavionics_hoar",
+  "displayName": "6th gen Wanzer",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "diableavionics_wanzer",
+    #"pointdefenseai",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_L": "diableavionics_hoarArmL"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_R": "diableavionics_hoarArmR"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "diableavionics_hoar_winee"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

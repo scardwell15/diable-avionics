@@ -1,0 +1,25 @@
+{
+    "starSystem":"diableavionics_fob",
+    "markets":[
+        {
+            "entities":["diableavionics_shadow"],
+            "faction":"diableavionics",
+            "size":5,
+            "freePort":false,
+
+            "startingConditions":[			
+                "population_5",
+            ],
+
+            "industries":[
+                ["population","gamma_core"],
+                ["spaceport","gamma_core"],
+                ["fuelprod", "synchrotron", "gamma_core"],
+                ["heavybatteries","gamma_core"],
+                ["diableavionics_orbitalstation_lock","gamma_core"],
+                ["militarybase","gamma_core"],
+                #["waystation","gamma_core"],
+            ],
+        },
+    ],
+}

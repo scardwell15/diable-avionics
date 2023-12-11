@@ -1,0 +1,64 @@
+{
+    "displayName": "Brawler",
+    "fluxCapacitors": 0,
+    "fluxVents": 48,
+    "goalVariant": true,
+    "hullId": "diableavionics_maelstrom",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_maelstrom_brawler",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "diableavionics_thunderboltsmall",
+                "WS0015": "diableavionics_thunderboltsmall",
+                "WS0016": "diableavionics_thunderboltsmall",
+                "WS0017": "diableavionics_thunderboltsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "diableavionics_microarray"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_hexafire2",
+                "WS0003": "diableavionics_hexafire",
+                "WS0004": "diableavionics_hexafire",
+                "WS0005": "diableavionics_hexafire"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "diableavionics_artassault",
+                "WS0008": "diableavionics_artassault",
+                "WS0009": "diableavionics_artassault",
+                "WS0010": "diableavionics_artassault"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "diableavionics_raptor",
+                "WS0012": "diableavionics_burchel",
+                "WS0013": "diableavionics_burchel",
+                "WS0022": "diableavionics_ibis",
+                "WS0023": "diableavionics_ibis",
+                "WS0024": "diableavionics_ibis"
+            }
+        }
+    ],
+    "wings": [
+        "diableavionics_arbitratorZ_wing",
+        "diableavionics_arbitratorZ_wing"
+    ]
+}

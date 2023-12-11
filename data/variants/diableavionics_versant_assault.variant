@@ -1,0 +1,38 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "diableavionics_versant",
+    "hullMods": [
+        "diableavionics_selector_semi",
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_versant_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0000": "diableavionics_artdeux"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "GUN_LEFT": "diableavionics_versant_harvestC_LEFT",
+                "GUN_RIGHT": "diableavionics_versant_harvestC_RIGHT"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "diableavionics_ibis",
+                "WS0002": "diableavionics_ibis"
+            }
+        }
+    ]
+}

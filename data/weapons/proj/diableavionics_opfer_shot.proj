@@ -1,0 +1,26 @@
+{
+	"id":"diableavionics_opfer_shot",
+	"specClass":"projectile",
+
+	#"spawnType":"BALLISTIC_AS_BEAM",
+	#"collisionClass":"RAY",
+	#"collisionClassByFighter":"RAY_FIGHTER",
+
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+
+	"hitGlowRadius":16,
+	"length":100.0,
+	"width":3.0,
+	"fadeTime":0.15,
+	"fringeColor":[245,210,150,150],
+	"coreColor":[150,140,130,255],
+
+	#"glowRadius":3,
+	#"glowColor":[0,25,50,150],
+
+	"bulletSprite":"graphics/missiles/flechette_med.png"
+}

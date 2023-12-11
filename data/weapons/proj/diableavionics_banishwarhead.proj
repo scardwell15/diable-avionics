@@ -1,0 +1,52 @@
+{
+	"id":"diableavionics_banishwarhead",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/da/missiles/diableavionics_banishwarhead.png",
+	"size":[10,24],	
+	"center":[5,12],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,0,128,96],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+                        "radius":100,
+                        "coreRadius":50, # full damage within core radius
+                        "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+                        "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+                        "particleSizeMin":3.0,
+                        "particleSizeRange":3.0,
+                        "particleDuration":1,
+                        "particleCount":25,
+                        "particleColor":[27,118,253,255]},
+	"flameoutTime":0.5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered				 
+	"engineSpec":{
+                        "turnAcc":75,
+			"turnRate":9,
+			"acc":10,
+			"dec":0},
+	"engineSlots":[
+                        {
+                        "id":"ES1",
+			"loc":[-11, 0],
+                        "style":"CUSTOM",
+                        "styleSpec":{
+                                "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                                "engineColor":[107,195,210,255],
+                                "contrailDuration":1.5,
+                                "contrailWidthMult":1,
+                                "contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+                                "contrailMinSeg":10, # min segment length, in pixels
+                                "contrailMaxSpeedMult":0.5f,
+                                "contrailAngularVelocityMult":0.5f,
+                                "contrailColor":[33,103,120,165],
+                                "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+                        },
+                        "width":8.0,
+                        "length":20.0,
+                        "angle":180.0
+                        }
+                    ],
+	"onHitEffect":"data.scripts.weapons.Diableavionics_banishEffect",	
+}

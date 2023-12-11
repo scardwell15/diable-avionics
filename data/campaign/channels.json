@@ -1,0 +1,26 @@
+{
+        "defaultChannels":[
+                "diableavionics_public",
+        ],
+        
+        "diableavionics_public":{
+		"name":"Diable Avionics Bulletin",
+		"logo":"graphics/da/icons/intel/da_external.png",
+		"icon":"graphics/da/icons/intel/da_external.png",
+		"image":"graphics/da/factions/daflag.png",
+		"sound":"ui_channel_news",
+		"faction":"diableavionics",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"diableavionics_internal":{
+		"name":"Diable Avionics Secured",
+		"logo":"graphics/da/icons/intel/da_internal.png",
+		"icon":"graphics/da/icons/intel/da_internal.png",
+		"image":"graphics/da/factions/daflag.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"diableavionics",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}

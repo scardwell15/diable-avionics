@@ -1,0 +1,43 @@
+{
+    "displayName": "Multirole",
+    "fluxCapacitors": 5,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "diableavionics_hayle",
+    "hullMods": [
+        "hardened_subsystems",
+        "eccm",
+        "fluxbreakers",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_hayle_multirole",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_banishsmall",
+                "WS0002": "diableavionics_banishsmall",
+                "WS0003": "diableavionics_banishsmall",
+                "WS0004": "diableavionics_banishsmall",
+                "WS0005": "diableavionics_banishsmall",
+                "WS0006": "diableavionics_banishsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "diableavionics_hexafire",
+                "WS0009": "diableavionics_hexafire"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "diableavionics_lazyhorn"}
+        }
+    ]
+}

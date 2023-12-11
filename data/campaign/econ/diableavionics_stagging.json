@@ -1,0 +1,29 @@
+{
+    "starSystem":"diableavionics_stagging",
+    "markets":[
+        {
+            "entities":["diableavionics_eclipse"],
+            "faction":"diableavionics",
+            "size":6,
+            "freePort":false,
+
+            "startingConditions":[			
+                    "population_6",
+                    "volatiles_abundant",
+            ],
+
+            "industries":[
+                ["population","gamma_core"],
+                ["megaport","gamma_core"],
+                ["mining","gamma_core"],
+                ["lightindustry","gamma_core"],
+                ["orbitalworks", "beta_core"],
+                ["heavybatteries","gamma_core"],
+                ["diableavionics_battlestation_lock","gamma_core"],
+                ["highcommand","gamma_core"],
+                #["commerce","gamma_core"],
+                #["waystation","gamma_core"],
+            ],
+        },
+    ],
+}

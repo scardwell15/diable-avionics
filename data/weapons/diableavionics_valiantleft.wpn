@@ -1,0 +1,25 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_valiantleft",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":40,
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"turretOffsets":[18, 3],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[18, 3],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":10.0,
+					   "spread":5.0,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.12,
+					   "particleCount":5,
+					   "particleColor":[100,195,255,255]},	
+	"autocharge":true,					   
+	"projectileSpecId":"diableavionics_miniharvest_shot",  # projectile that will be fired
+	"fireSoundTwo":"diableavionics_valiantgun_firing",
+}

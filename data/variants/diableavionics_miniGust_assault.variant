@@ -1,0 +1,42 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 7,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "diableavionics_miniGust",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_miniGust_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_recson2"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "diableavionics_artassault",
+                "WS0003": "diableavionics_artassault",
+                "WS0004": "diableavionics_artassault",
+                "WS0005": "diableavionics_artassault"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "diableavionics_microcluster"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "diableavionics_magicbox",
+                "WS0008": "diableavionics_magicbox"
+            }
+        }
+    ],
+    "wings": ["diableavionics_raven_wing"]
+}

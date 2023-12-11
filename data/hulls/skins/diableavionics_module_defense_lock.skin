@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_module_defense",
+    "skinHullId":"diableavionics_module_defense_lock",
+    "hullName":"Defense Module",
+    "descriptionId":"diableavionics_module_defense",
+    "tags":["no_autofit"],
+}

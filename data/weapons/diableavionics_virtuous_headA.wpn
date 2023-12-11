@@ -1,0 +1,32 @@
+{
+	"specClass":"beam",
+	"id":"diableavionics_virtuous_headA",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"turretSprite":"graphics/da/ships/virtuous/diableavionics_virtuous_headA.png",
+	"turretGlowSprite":"graphics/da/ships/virtuous/diableavionics_virtuous_headAG.png",	
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",	
+	"turretOffsets":[7, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[7, 0],
+	"hardpointAngleOffsets":[0],
+
+	"darkCore":true,
+	
+	"fringeColor":[155,50,50,255],
+	"coreColor":[15,15,15,255],
+	"glowColor":[232,128,35,255],
+
+	"width":16.0,
+
+	"textureType":ROUGH,
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	#"fireSoundOne":"diableavionics_burchel_firing",
+	"beamEffect":"data.scripts.weapons.Diableavionics_fastBurstsEffect",
+
+}

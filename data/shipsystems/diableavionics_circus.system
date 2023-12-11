@@ -1,0 +1,14 @@
+{
+	"id":"diableavionics_circus",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_virtuousItanoAI",
+
+	"weaponDataId":"diableavionics_mmDump",
+	
+	"useSound":"diableavionics_virtuousTarget_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}	
+}

@@ -1,0 +1,16 @@
+{
+	"id":"diableavionics_grave_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":40.0,
+	"hitGlowRadius":32,
+	"width":5.0,
+	"fadeTime":0.15,
+	"fringeColor":[255,255,155,205],
+	"coreColor":[255,255,255,225],
+	#"glowRadius":16,
+	#"glowColor":[30,20,0,255],
+	"bulletSprite":"graphics/da/missiles/diableavionics_tusk.png"
+}

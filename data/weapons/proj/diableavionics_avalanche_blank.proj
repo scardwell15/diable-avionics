@@ -1,0 +1,14 @@
+{
+	"id":"diableavionics_avalanche_blank",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":1.0,
+	"hitGlowRadius":1,
+	"width":1.0,
+	"fadeTime":0.15,
+	"fringeColor":[2,2,1,2],
+	"coreColor":[2,2,2,2],
+	"bulletSprite":""
+}

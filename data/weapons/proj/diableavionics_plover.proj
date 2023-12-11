@@ -1,0 +1,41 @@
+{
+	"id":"diableavionics_plover",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+        "onHitEffect":"data.scripts.weapons.Diableavionics_thunderboltEffect",			
+	"sprite":"graphics/da/missiles/diableavionics_plover.png",
+	"size":[7,16],	
+	"center":[3.5,7],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":95, # purely visual
+	"maxFlightTime":5,
+        "armingTime":0.25,	
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":750,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    "style":"CUSTOM",
+                        "styleSpec":{
+                            "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                            "engineColor":[100,150,255,255],
+                            "contrailDuration":2,
+                            "contrailWidthMult":0.5,
+                            "contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+                            "contrailSpawnDistMult":-1f, # how far away from engine it starts
+                            "contrailMinSeg":5, # min segment length, in pixels
+                            "contrailMaxSpeedMult":0.5f,
+                            "contrailAngularVelocityMult":0.5f,
+                            "contrailColor":[33,103,120,165],
+                            "glowSizeMult":1,
+                            "glowAlternateColor":[200,50,100,255],
+                            "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":6.0,
+				    "length":20.0,
+				    "angle":180.0}],
+					}				    
+}

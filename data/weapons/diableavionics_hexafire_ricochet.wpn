@@ -1,0 +1,18 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_hexafire_ricochet",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":50,
+	"turretSprite":"",	
+	"hardpointSprite":"",
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED",
+	"animationType":"NONE",
+	"projectileSpecId":"diableavionics_hexafire_ricochet_shot",
+	"fireSoundOne":"",
+}

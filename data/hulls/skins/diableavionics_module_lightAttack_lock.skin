@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_module_lightAttack",
+    "skinHullId":"diableavionics_module_lightAttack_lock",
+    "hullName":"Light Attack Module",
+    "descriptionId":"diableavionics_module_lightAttack",
+    "tags":["no_autofit"],
+}

@@ -1,0 +1,241 @@
+{
+  "bounds": [
+    -91.5,
+    17.5,
+    -97.5,
+    9.5,
+    -128.5,
+    3.5,
+    -128.5,
+    -3.5,
+    -97.5,
+    -9.5,
+    -85.5,
+    -30.5,
+    -70.5,
+    -24.5,
+    -58.5,
+    -30.5,
+    -23.5,
+    -30.5,
+    -8.5,
+    -22.5,
+    88.5,
+    -11.5,
+    158.5,
+    -5.5,
+    150.5,
+    3.5,
+    131.5,
+    3.5,
+    84.5,
+    13.5,
+    -14.5,
+    22.5,
+    -14.5,
+    22.5,
+    -40.5,
+    31.5,
+    -102.5,
+    28.5
+  ],
+  "builtInMods": [
+    #"diableavionics_universaldecksExtra",
+    #"diableavionics_avionics"
+  ],
+  "builtInWeapons": {
+    "SYSTEM": "diableavionics_gustSystem",
+    "WS0006": "diableavionics_microcluster"
+  },
+  "center": [
+    36,
+    131
+  ],
+  "collisionRadius": 167.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 10.5,
+      "location": [
+        -98,
+        12.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 10.5,
+      "location": [
+        -98,
+        -12.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 10.5,
+      "location": [
+        -99,
+        -4.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 10.5,
+      "location": [
+        -99,
+        4.5
+      ],
+      "style": "DiableAvionicsTrail",
+      "width": 10
+    }
+  ],
+  "height": 291,
+  "hullId": "diableavionics_miniGust",
+  "hullName": "Pocket Gust",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    15,
+    -0
+  ],
+  "shieldRadius": 151,
+  "spriteName": "graphics/da/ships/diableavionics_minigust.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "SYSTEM",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -72.5,
+        21,
+        -84.5,
+        21
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": -60,
+      "arc": 300,
+      "id": "WS0001",
+      "locations": [
+        -41,
+        -16
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 30,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        25,
+        16
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 20,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        42,
+        15
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "renderOrderMod":-10,
+    },
+    {
+      "angle": 10,
+      "arc": 270,
+      "id": "WS0004",
+      "locations": [
+        59,
+        14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "renderOrderMod":-20,
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0005",
+      "locations": [
+        76,
+        13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "renderOrderMod":-30,
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        54,
+        -18.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        -7,
+        20
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0008",
+      "locations": [
+        8,
+        17
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 69
+}

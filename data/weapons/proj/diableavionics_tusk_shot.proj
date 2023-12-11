@@ -1,0 +1,16 @@
+{
+	"id":"diableavionics_tusk_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":40.0,
+	"hitGlowRadius":24,
+	"width":3.0,
+	"fadeTime":0.05,
+	"fringeColor":[255,255,155,205],
+	"coreColor":[255,255,255,225],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/da/missiles/diableavionics_tusk.png"
+}

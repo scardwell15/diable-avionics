@@ -1,0 +1,40 @@
+{
+	"id":"diableavionics_magicmissile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/da/missiles/diableavionics_magicmissile.png",
+	"size":[6,15],	
+	"center":[3,6],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],
+	"explosionRadius":50,
+	"maxFlightTime":3,
+	"engineSpec":{
+                "turnAcc":720,
+                "turnRate":360,
+                "acc":800,
+                "dec":400},			  
+	"engineSlots":[
+                {"id":"ES1",
+                "loc":[-3, 0],
+                "style":"CUSTOM",
+                "styleSpec":{
+                        "mode":"QUAD_STRIP",
+                        "engineColor":[180,71,71,255],
+                        "contrailDuration":1.0,
+                        "contrailWidthMult":1,
+                        "contrailWidthAddedFractionAtEnd":1.5,
+                        "contrailMinSeg":5,
+                        "contrailMaxSpeedMult":0.75f,
+                        "contrailAngularVelocityMult":0.1f,
+                        "contrailColor":[206,80,80,165],
+                        "type":"SMOKE"
+                },
+                "width":4.0,
+                "length":20.0,
+                "angle":180.0
+                }],
+        "renderTargetIndicator":false,
+        "onHitEffect":"data.scripts.weapons.Diableavionics_virtuous_missileHit",
+}

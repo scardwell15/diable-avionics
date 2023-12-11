@@ -1,0 +1,29 @@
+{
+	"id":"diableavionics_deepStrikeM",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/da/ships/station/diableavionics_deepStrikeM.png",
+	"size":[38,62],	
+	"center":[19,42],
+	"collisionRadius":30,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"flameoutTime":3,
+	"engineSpec":
+                        {"turnAcc":180,
+                        "turnRate":180,
+                        "acc":500,
+                        "dec":500},
+	"engineSlots":[
+            {
+                "id":"ES1",
+                "loc":[-41, 0],
+                "style":"DiableAvionicsMissileNoTrail",
+                "width":12.0,
+                "length":40.0,
+                "angle":180.0
+            },	
+        ],	    
+}
+

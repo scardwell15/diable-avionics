@@ -1,0 +1,26 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "diableavionics_stratus",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "diableavionics_stratus_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "diableavionics_burchel",
+                "WS0005": "diableavionics_burchel",
+                "WS0006": "diableavionics_burchel"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_magicbox"}
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+	"id":"debris0",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"NONE",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":8,
+	#"length":0,
+	"hitGlowRadius":6,
+	"width":8,
+	"fadeTime":0.5,
+	"fringeColor":[195,79,0,60],
+	"coreColor":[195,119,0,40],	
+	#"fringeColor":[255,50,50,0],
+	#"coreColor":[255,255,200,0],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/debris/debris_sml0.png",
+
+					
+					
+}

@@ -1,0 +1,14 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "diableavionics_deepStrike",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "diableavionics_deepStrike_5",
+    "weaponGroups": [],
+    "wings": [
+        "diableavionics_raven_wing_independent",
+        "diableavionics_strife_wing_independent"
+    ]
+}

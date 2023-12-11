@@ -1,0 +1,88 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_hexafire2",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"displayArcRadius":950,
+	"turretSprite":"graphics/da/weapons/diableavionics_hexafire2_turret_base.png",
+	"turretGunSprite":"graphics/da/weapons/diableavionics_hexafire2_turret_recoil.png",		
+	"hardpointSprite":"graphics/da/weapons/diableavionics_hexafire2_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/da/weapons/diableavionics_hexafire2_hardpoint_recoil.png",
+	"visualRecoil":5.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],	
+	"turretOffsets":[
+25, -5,
+28, -6,
+31, -7,
+25, -7,
+19, -8,
+22, -9,
+
+25, 5,
+19, 6,
+31, 7,
+25, 7,
+22, 8,
+28, 9
+],
+	"turretAngleOffsets":[
+1.5,
+1,
+0.5,
+-0.5,
+-1,
+-1.5,
+
+1.5,
+1,
+0.5,
+0.5,
+-1,
+-1.5
+],
+	"hardpointOffsets":[ 
+30, -5,
+33, -6,
+39, -7,
+36, -7,
+27, -8,
+33, -9,
+
+33, 5,
+39, 6,
+33, 7,
+27, 7,
+30, 8,
+36, 9
+],
+	"hardpointAngleOffsets":[
+1.5,
+1,
+0.5,
+0.5,
+-1,
+-1.5,
+
+1.5,
+1,
+0.5,
+0.5,
+-1,
+-1.5
+],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+        "separateRecoilForLinkedBarrels":"TRUE",
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":45.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":20.0,
+					   "particleSizeRange":40.0,
+					   "particleDuration":0.1,
+					   "particleCount":5,
+					   "particleColor":[71,175,209,215]},
+        "specialWeaponGlowWidth":5,
+        "specialWeaponGlowHeight":15,
+	"projectileSpecId":"diableavionics_hexafire_shot",
+	"fireSoundOne":"diableavionics_hexafire2_firing",
+        "everyFrameEffect":"data.scripts.weapons.Diableavionics_hexafireFire",
+}

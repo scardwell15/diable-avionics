@@ -1,0 +1,69 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_ibis",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":250,
+	"turretSprite":"graphics/da/weapons/diableavionics_ibis.png",
+	"hardpointSprite":"graphics/da/weapons/diableavionics_ibis_hardpoint.png",
+
+	"turretOffsets":[
+9, -4, 9, 4,
+9, -4, 9, 4,
+9, -4, 9, 4,
+9, -4, 9, 4,
+9, -4, 9, 4,
+9, -4, 9, 4,
+9, -4, 9, 4,
+9, -4, 9, 4,
+],
+
+	"turretAngleOffsets":[
+0, 0,
+-1.5, 1.5,
+-3, 3,
+-1.5, 1.5,
+0, 0,
+1.5, -1.5,
+3, -3,
+1.5, -1.5,
+],
+
+	"hardpointOffsets":[
+13, -3, 13, 3,
+13, -3, 13, 3,
+13, -3, 13, 3,
+13, -3, 13, 3,
+13, -3, 13, 3,
+13, -3, 13, 3,
+13, -3, 13, 3,
+13, -3, 13, 3,
+],
+
+	"hardpointAngleOffsets":[
+0, 0,
+-1, 1,
+-2, 2,
+-1, 1,
+0, 0,
+1, -1,
+2, -2,
+1, -1,
+],
+
+	#"barrelMode":"LINKED",
+	"barrelMode":"DUAL",
+        "separateRecoilForLinkedBarrels":"TRUE",
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":6.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":6.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":8.0,
+					   "particleDuration":0.15,
+					   "particleCount":5,
+					   "particleColor":[62,156,202,200]},
+	"projectileSpecId":"diableavionics_ibis_shot",  # projectile that will be fired
+	#"fireSoundOne":"vulcan_cannon_intro",
+	"fireSoundTwo":"diableavionics_ibis_firing",
+        #"everyFrameEffect":"data.scripts.weapons.Diableavionics_sprayEffect",
+}

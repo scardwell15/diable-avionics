@@ -1,0 +1,53 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "diableavionics_module_ecm",
+    "hullMods": [
+        #"magazines",
+        "turretgyros",
+        #"fluxcoil",
+        #"fluxdistributor",
+        #"fluxbreakers",
+        #"heavyarmor",
+        #"autorepair",
+        #"blast_doors",
+        #"eccm",
+        #"reinforcedhull"
+    ],
+    "permaMods": [],
+    "variantId": "diableavionics_module_ecm_tier3",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_uhlan"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "diableavionics_nocturne",
+                "WS0003": "diableavionics_nocturne",
+                "WS0004": "diableavionics_nocturne"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "diableavionics_ibis",
+                "WS0006": "diableavionics_ibis",
+                "WS0007": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "diableavionics_magicbox",
+                "WS0009": "diableavionics_magicbox"
+            }
+        }
+    ]
+}

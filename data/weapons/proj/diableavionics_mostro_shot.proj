@@ -1,0 +1,18 @@
+{
+	"id":"diableavionics_mostro_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":100.0,
+	"hitGlowRadius":45,
+	"width":5,
+	"fadeTime":0.75,
+	"fringeColor":[200,100,75,125],
+	"coreColor":[200,150,75,255],
+	"glowRadius":30,
+	"glowColor":[50,10,0,200],
+	"bulletSprite":"graphics/da/missiles/diableavionics_plover.png",
+	"onHitEffect":"data.scripts.weapons.Diableavionics_mostroHit",
+
+}

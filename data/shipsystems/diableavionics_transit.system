@@ -1,0 +1,24 @@
+{
+	"id":"diableavionics_transit",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_transformAI",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_transitStats",
+	
+	"engineGlowColor":[200,225,255,255],
+	"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":2,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":1,
+	
+	"flameoutOnImpactChance":0.0,
+
+
+	"aiHints":{
+	},
+	"useSound":"diableavionics_wanzer_transform",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	"deactivateSound":"diableavionics_wanzer_transform",
+}

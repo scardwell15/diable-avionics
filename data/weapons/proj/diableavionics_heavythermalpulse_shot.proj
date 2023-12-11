@@ -1,0 +1,15 @@
+{
+	"id":"diableavionics_heavythermalpulse_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":175.0,
+	"width":30,
+	"fadeTime":0.3,
+	"fringeColor":[255,0,0,255],
+	"coreColor":[255,255,255,200],
+	"textureType":"CHUNKY",
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":1.0,
+}

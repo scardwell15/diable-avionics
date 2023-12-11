@@ -1,0 +1,33 @@
+{
+	"id":"diableavionics_banishmirv",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/da/missiles/diableavionics_banishmirv.png",
+	"size":[10,24],	
+	"center":[5,12],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"flameoutTime":3,
+	"engineSpec":
+                        {"turnAcc":90,
+                        "turnRate":90,
+                        "acc":50,
+                        "dec":50},
+	"engineSlots":[
+                        {"id":"ES1",
+			"loc":[-9, -3],
+			"style":"DiableAvionicsMissileNoTrail",
+                        "width":4.0,
+			"length":20.0,
+			"angle":320.0},
+
+			{"id":"ES2",
+			"loc":[-9, 3],
+			"style":"DiableAvionicsMissileNoTrail",
+			"width":4.0,
+			"length":20.0,
+			"angle":40.0}],			    
+}
+

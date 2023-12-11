@@ -1,0 +1,16 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+	"goalVariant": true,
+    "hullId": "diableavionics_shear",
+    "hullMods": ["heavyarmor"],
+	"permaMods": [],	
+    "quality": 0,
+    "variantId": "diableavionics_shear_standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "diableavionics_ibis"}
+    }]
+}

@@ -1,0 +1,55 @@
+{
+    "displayName": "Craze",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "hullId": "diableavionics_daze",
+    "hullMods": [
+        "safetyoverrides",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "variantId": "diableavionics_daze_craze",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "diableavionics_glowtusk",
+                "WS0008": "diableavionics_glowtusk",
+                "WS0009": "diableavionics_gravemg",
+                "WS0010": "diableavionics_gravemg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0015": "diableavionics_winee"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "diableavionics_microcluster2",
+                "WS0006": "diableavionics_microcluster2"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_magicbox",
+                "WS0002": "diableavionics_magicbox",
+                "WS0003": "diableavionics_magicbox",
+                "WS0004": "diableavionics_magicbox"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "diableavionics_ibis",
+                "WS0012": "diableavionics_ibis"
+            }
+        }
+    ]
+}

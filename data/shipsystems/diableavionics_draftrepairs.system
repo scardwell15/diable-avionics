@@ -1,0 +1,42 @@
+{
+	"id":"diableavionics_draftrepairs",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_repairAI",
+	
+	"statsScript":"data.shipsystems.scripts.Diableavionics_repairsStats",
+	
+	#"jitterUnderColor":[255,165,90,155],
+	#"jitterUnderCopies":25,
+	#"jitterUnderMinRange":0,
+	#"jitterUnderRange":7,
+	#"jitterUnderRangeRadiusFraction":0,
+	
+	#"jitterColor":[255,165,90,55],
+	#"jitterCopies":2,
+	#"jitterMinRange":0,
+	#"jitterRange":5,
+	#"jitterRangeRadiusFraction":0,
+	
+	#"weaponGlowColor":[255,165,90,0],
+	#"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	
+	"engineGlowColor":[100,165,255,125],
+	"engineGlowContrailColor":[100,165,255,50],
+	"engineGlowLengthMult":2,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":2,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+
+	"fadeActivationSoundOnChargedown":true,
+	#"useSound":"system_damper",
+	"loopSound":"diableavionics_draft_repairs",
+	#"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

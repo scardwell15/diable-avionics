@@ -1,0 +1,21 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "diableavionics_module_defense",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "diableavionics_module_defense_tier1",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "diableavionics_ibis",
+            "WS0002": "diableavionics_ibis",
+            "WS0003": "diableavionics_ibis",
+            "WS0004": "diableavionics_ibis",
+            "WS0005": "diableavionics_ibis",
+            "WS0006": "diableavionics_ibis"
+        }
+    }]
+}

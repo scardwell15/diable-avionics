@@ -1,0 +1,31 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+diableavionics_arbitrator_wing,diableavionics_arbitrator_standard,"interceptor2, interceptor, high, diable_ship_bp",0,,5,6,CLAW,6000,250,-200,3,INTERCEPTOR,Rapid Interception,10,6000,,,,,,,,,,,,,7
+diableavionics_arbitratorZ_wing,diableavionics_arbitratorZ_rocketeer,"bomber4, bomber, high, diable_ship_bp",1,,6,12,BOX,4000,2000,300,3,BOMBER,Rocketeer,15,11000,,,,,,,,,,,,,7
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+diableavionics_frost_wing,diableavionics_frost_Standard,"wanzer, fighter1, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",0,,6,8,CLAW,4000,500,,3,FIGHTER,Trooper,12.5,10000,,,,,,,,,,,,,1
+diableavionics_strife_wing,diableavionics_strife_Standard,"wanzer, fighter2, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",1,,7,12,BOX,4000,500,-100,2,FIGHTER,Gunner,15,11000,,,,,,,,,,,,,4
+diableavionics_hoar_wing,diableavionics_hoar_akimbo,"wanzer, fighter3, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",1,,7,10,BOX,1000,500,200,2,INTERCEPTOR,Bodyguard,15,11500,,,,,,,,,,,,,4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+diableavionics_warlust_wing,diableavionics_warlust_Standard,"wanzer, fighter3, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",2,,6,16,BOX,4000,500,,1,FIGHTER,Sniper,20,12000,,,,,,,,,,,,,5
+diableavionics_blizzaia_wing,diableavionics_blizzaia_Standard,"wanzer, bomber5, bomber, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",2,,11,18,V,4000,1000,-200,1,BOMBER,Grenadier,25,14000,,,,,,,,,,,,,13
+diableavionics_avalanche_wing,diableavionics_avalanche_variant,"wanzer, fighter3, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",2,,6,14,BOX,4000,500,,1,FIGHTER,Shock Trooper,20,12000,,,,,,,,,,,,,5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+diableavionics_valiant_wing,diableavionics_valiant_Standard,"wanzer, interceptor3, interceptor, high, rare_bp, rd_no_extra_craft",3,0.5,10,22,V,6000,500,-100,2,INTERCEPTOR,Commando,18,15000,,,,,,,,,,,,,3
+diableavionics_raven_wing,diableavionics_raven_Standard,"wanzer, fighter4, fighter, high, rare_bp, rd_no_extra_craft",3,0.5,12,26,BOX,4000,500,,1,FIGHTER,Heavy Trooper,25,13000,,,,,,,,,,,,,1
+diableavionics_zephyr_wing,diableavionics_zephyr_beam,"wanzer, fighter4, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",3,0.5,8,20,BOX,4000,500,,1,FIGHTER,Marksman,20,14000,,,,,,,,,,,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+diableavionics_vortex_wing,diableavionics_vortex_PD,"no_drop, no_sell, high",2,,4,0,V,2000,500,,1,SUPPORT,Drone,10,1500,,,,,,,,,,,,,18
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+diableavionics_frost_wing_independent,diableavionics_frost_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter1, fighter, high, rd_no_extra_craft",4,2,6,1,CLAW,4000,500,,3,FIGHTER,Trooper,12,10000,,,,,,,,,,,,,1
+diableavionics_strife_wing_independent,diableavionics_strife_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter2, fighter, high, rd_no_extra_craft",4,2,7,1,BOX,4000,500,-100,2,FIGHTER,Gunner,14,11000,,,,,,,,,,,,,4
+diableavionics_hoar_wing_independent,diableavionics_hoar_akimbo,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter3, fighter, high, rd_no_extra_craft",4,2,7,1,BOX,1000,500,200,2,INTERCEPTOR,Bodyguard,13,11500,,,,,,,,,,,,,4
+diableavionics_warlust_wing_independent,diableavionics_warlust_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter3, fighter, high, rd_no_extra_craft",4,2,6,1,BOX,1000,500,,1,SUPPORT,Sniper,17,12000,,,,,,,,,,,,,5
+diableavionics_blizzaia_wing_independent,diableavionics_blizzaia_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, bomber5, bomber, high, rd_no_extra_craft",4,2,11,1,V,4000,1000,-200,1,BOMBER,Grenadier,19,14000,,,,,,,,,,,,,13
+diableavionics_avalanche_wing_independent,diableavionics_avalanche_variant,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter3, fighter, high, rd_no_extra_craft",4,2,6,1,BOX,4000,500,,1,FIGHTER,Shock Trooper,15,12000,,,,,,,,,,,,,5
+diableavionics_valiant_wing_independent,diableavionics_valiant_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, interceptor3, interceptor, high, rd_no_extra_craft",4,2,10,1,V,6000,500,-100,2,INTERCEPTOR,Commando,16,15000,,,,,,,,,,,,,3
+diableavionics_raven_wing_independent,diableavionics_raven_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter4, fighter, high, rd_no_extra_craft",4,2,12,1,BOX,4000,500,,1,FIGHTER,Heavy Trooper,20,13000,,,,,,,,,,,,,1
+diableavionics_zephyr_wing_independent,diableavionics_zephyr_beam,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter4, fighter, high, rd_no_extra_craft",4,2,8,1,BOX,4000,500,,1,FIGHTER,Support,18,14000,,,,,,,,,,,,,1

@@ -1,0 +1,201 @@
+{
+  "hullName": "Wanzer Facility Module",
+  "hullId": "diableavionics_module_wanzer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/da/ships/station/diableavionics_station_wanzer.png",
+  "style": "HIGH_TECH",
+  "height": 285,
+  "width": 218,
+  "center": [109, 40],
+  "collisionRadius": 253.5,
+  "shieldCenter": [-180, -0],
+  "shieldRadius": 503,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    7,
+    0
+  ],
+  "builtInMods": [
+    "diableavionics_universaldecksExtra",
+    "chassis_storage",
+    "supercomputer",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [12, 55]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [12, -55]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [190, 36]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [173, 36],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [157, -3]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [210, -48]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [141, 54]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [107, -36]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [81, 51]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -60,
+      "locations": [89, -36],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 60,
+      "locations": [63, 51],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        198, 5,
+        107, 11.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        197.5, -10.5,
+        85, 11
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        180, 5.5,
+        62.5, 11.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        180.5, -11.5,
+        42.5, 11
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    61, 71.5,
+    33.5, 106,
+    -14.5, 80,
+    -29.5, 80,
+    -37, 63,
+    1, 5.5,
+    1, -5.5,
+    -37, -63,
+    -29.5, -80,
+    -14.5, -80,
+    33.5, -106,
+    69, -70,
+    98.5, -57,
+    221, -58.5,
+    222, -40.5,
+    201, -31,
+    202.5, 10,
+    185, 18,
+    208.5, 30,
+    196, 53.5,
+    152.5, 55.5,
+    116.5, 76
+  ]
+}

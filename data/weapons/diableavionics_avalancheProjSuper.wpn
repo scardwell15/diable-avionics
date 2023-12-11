@@ -1,0 +1,16 @@
+{
+	"specClass":"projectile",
+	"id":"diableavionics_avalancheProjSuper",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":600,
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"NONE",
+	"projectileSpecId":"diableavionics_avalanche_super",
+}

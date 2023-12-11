@@ -1,0 +1,61 @@
+{
+  "hullName": "Deep Strike Pod",
+  "hullId": "diableavionics_deepStrike",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/da/ships/station/diableavionics_deepStrikeEmpty.png",
+  "style": "HIGH_TECH",
+  "height": 62,
+  "width": 38,
+  "center": [19, 42],
+  "collisionRadius": 42,
+  "shieldCenter": [-11, 0],
+  "shieldRadius": 33.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "diableavionics_deepStrikeGlow"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -14.5, 0.5,
+        -11, -1.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        3, 0.5,
+        0, -1.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -39.5, 3.5,
+    3, 17.5,
+    18, 8,
+    18, -8,
+    3, -17.5,
+    -39.5, -3.5
+  ]
+}

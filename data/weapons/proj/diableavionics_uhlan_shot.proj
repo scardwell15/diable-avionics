@@ -1,0 +1,18 @@
+{
+	"id":"diableavionics_uhlan_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"onHitEffect":"data.scripts.weapons.Diableavionics_uhlanEffect",			
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":250.0,
+	"width":25,
+	"fadeTime":0.2,
+	"hitGlowRadius":150,
+	"fringeColor":[255,100,0,255],
+	"coreColor":[255,255,255,200],
+	"textureType":"CHUNKY",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	"textureScrollSpeed":5,
+	"pixelsPerTexel":1.0,
+	"passThroughMissiles":true,
+}

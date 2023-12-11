@@ -1,0 +1,27 @@
+{
+    "displayName": "Beamer",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "diableavionics_sleet",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "diableavionics_sleet_beam",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "diableavionics_burchel",
+                "WS0002": "diableavionics_burchel",
+                "WS0003": "diableavionics_burchel",
+                "WS0004": "diableavionics_burchel"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "diableavionics_recson"}
+        }
+    ]
+}

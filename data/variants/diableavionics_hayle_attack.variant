@@ -1,0 +1,40 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 3,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "diableavionics_hayle",
+    "hullMods": [
+        "eccm",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "variantId": "diableavionics_hayle_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_thunderboltsmall",
+                "WS0002": "diableavionics_thunderboltsmall",
+                "WS0003": "diableavionics_thunderboltsmall",
+                "WS0004": "diableavionics_thunderboltsmall",
+                "WS0005": "diableavionics_thunderboltsmall",
+                "WS0006": "diableavionics_thunderboltsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "diableavionics_recson2",
+                "WS0009": "diableavionics_recson2"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "diableavionics_raptor"}
+        }
+    ]
+}

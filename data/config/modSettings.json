@@ -1,0 +1,72 @@
+{   
+    #DIABLE AVIONICS SETTINGS FILE
+
+    "diableavionics":{
+
+        "missile_resist_derecho": [
+            # Lists missiles id that should loose guidance but not get flamed out by the Derecho ECM system
+            "diableavionics_srab_shot",
+            "diableavionics_deepStrikeM",
+        ],
+
+        "missile_immune_derecho": [
+            # Lists missiles id that should not get affected at all by the Derecho ECM system
+            # please be mindful to not break player expectations. Only very special projectiles should be immune
+            # Such as phased missiles or "smart" bullets
+            "ora_echoesS",
+            "ora_invocationS",
+            "ora_callingS",
+            "SCY_phasedS",
+            "SKR_can",
+            "SKR_drill_shot",
+        ],
+
+        "gantry_refitMult" : 0.5,
+        # Refit time bonus for wanzer installed on a ship with the Wanzer Gantry hullmod. Default : 0.5
+
+        "gantry_depletionPercent" : 20,
+        # Fighter replacement rate depletion malus per wanzer wing installed on a ship with the Wanzer Gantry hullmod. Default : 20
+
+		"gantry_OPeffect" : 7,
+		
+        "wanzers": [
+            # Lists "wanzer" wings that are affected by the "Wanzer gantry" hullmod
+            "diableavionics_frost_wing",
+            "diableavionics_strife_wing",
+            "diableavionics_hoar_wing",
+            "diableavionics_warlust_wing",
+            "diableavionics_avalanche_wing",
+            "diableavionics_valiant_wing",
+            "diableavionics_raven_wing",
+            "diableavionics_blizzaia_wing",
+            "diableavionics_zephyr_wing",
+            "diableavionics_vortex_wing",
+        ],
+    },
+	
+    #MODS INTEGRATION
+
+    "fleetTester":{
+        "stationAndBosses": [
+            # Lists stations and other "bosses" that will face fleets of enemy ships
+			"diableavionics_station_tier1",
+			"diableavionics_station_tier2",
+			"diableavionics_station_tier3",
+        ],
+        "testedFactionFleets": [
+            # Lists faction fleets that will be sent against the tested station/boss
+            "diableavionics",
+        ],
+    },
+	
+    "SCY":{
+        "amity_factionWhitelist":[
+            # Lists factions that should have their known ships and weapons sold in Amity's Freeport discount trader.
+            "diableavionics",
+        ],
+        #"amity_blacklist":[
+        #    # Lists ships, weapons and wings ids that should be culled from Amity's Freeport discount trader.
+        #    # Consider that tier 3 weapons/wings and ships above 5/10/14/23 FP are already culled from that store automatically.
+        #],
+    },
+}

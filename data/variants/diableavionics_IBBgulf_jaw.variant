@@ -1,0 +1,62 @@
+{
+    "displayName": "Jaw",
+    "fluxCapacitors": 0,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "diableavionics_IBBgulf",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_IBBgulf_jaw",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_hexafire2",
+                "WS0002": "diableavionics_hexafire2"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "diableavionics_plover"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "diableavionics_micromissile",
+                "WS0011": "diableavionics_micromissile",
+                "WS0012": "diableavionics_micromissile",
+                "WS0013": "diableavionics_micromissile",
+                "WS0014": "diableavionics_micromissile",
+                "WS0015": "diableavionics_micromissile",
+                "WS0016": "diableavionics_micromissile",
+                "WS0017": "diableavionics_micromissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "diableavionics_ibis",
+                "WS0007": "diableavionics_ibis",
+                "WS0008": "diableavionics_ibis",
+                "WS0009": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "diableavionics_raptor",
+                "WS0005": "diableavionics_raptor"
+            }
+        }
+    ],
+    "wings": [
+        "diableavionics_raven_wing",
+        "diableavionics_blizzaia_wing"
+    ]
+}

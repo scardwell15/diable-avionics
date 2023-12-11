@@ -1,0 +1,42 @@
+{
+    "displayName": "Combat",
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
+    "hullId": "diableavionics_hayle",
+    "hullMods": [
+        "fluxbreakers",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_hayle_combat",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "diableavionics_glaux",
+                "WS0008": "diableavionics_glaux",
+                "WS0009": "diableavionics_glaux"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "diableavionics_micromissile",
+                "WS0002": "diableavionics_micromissile",
+                "WS0003": "diableavionics_micromissile",
+                "WS0004": "diableavionics_micromissile"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "diableavionics_magicbox",
+                "WS0006": "diableavionics_magicbox"
+            }
+        }
+    ]
+}

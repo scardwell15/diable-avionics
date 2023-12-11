@@ -1,0 +1,50 @@
+{
+    "displayName": "Close Quarter",
+    "fluxCapacitors": 17,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "diableavionics_calm",
+    "hullMods": ["fluxbreakers"],
+    "permaMods": [],
+    "variantId": "diableavionics_calm_closequarter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "diableavionics_banishsmall",
+                "WS0004": "diableavionics_banishsmall",
+                "WS0005": "diableavionics_banishsmall",
+                "WS0006": "diableavionics_banishsmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "diableavionics_glowtusk"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "diableavionics_gravemg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "diableavionics_microbuiltin",
+                "WS0008": "diableavionics_microbuiltin",
+                "WS0009": "diableavionics_microbuiltin",
+                "WS0010": "diableavionics_microbuiltin"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "diableavionics_ibis",
+                "WS0002": "diableavionics_ibis"
+            }
+        }
+    ]
+}

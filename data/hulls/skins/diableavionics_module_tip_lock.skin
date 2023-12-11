@@ -1,0 +1,7 @@
+{
+    "baseHullId":"diableavionics_module_tip",
+    "skinHullId":"diableavionics_module_tip_lock",
+    "hullName":"Support Module",
+    "descriptionId":"diableavionics_module_tip",
+    "tags":["no_autofit"],
+}

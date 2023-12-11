@@ -1,0 +1,30 @@
+{
+	"id":"diableavionics_unlockedFlicker",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	
+	"jitterColor":[100,165,255,100],
+	"jitterCopies":5,
+	"jitterRange":0.05,
+	"jitterRangeRadiusFraction":0.2,
+	
+	#"weaponGlowColor":[100,165,255,0],
+	#"weaponTypes":[ENERGY],
+	
+	"engineGlowColor":[100,165,255,125],
+
+	"range":250,
+	"randomRange":0,
+	
+	"vulnerableChargeup":true,
+	"vulnerableChargedown":false,	
+	"renderCopyDuringTeleport":false,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"diableavionics_virtuousTeleport",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"averageSpeedIncrease":300,
+	},
+}

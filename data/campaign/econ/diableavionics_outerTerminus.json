@@ -1,0 +1,57 @@
+{
+    "starSystem":"diableavionics_outerTerminus",
+    "markets":[
+        {
+            "entities":["diableavionics_prison"],
+            "faction":"diableavionics",
+            "size":7,
+            "freePort":false,
+
+            "startingConditions":[
+                "terran",
+                "mild_climate",
+                "farmland_bountiful",
+                "organics_plentiful",
+                "habitable",
+                "pollution",
+                "population_7",
+            ],
+
+            "industries":[
+                ["population","gamma_core"],
+                ["megaport","gamma_core"],
+                #["commerce","gamma_core"],
+                ["farming","gamma_core"],
+                ["mining","gamma_core"],
+                ["orbitalworks", "pristine_nanoforge","alpha_core"],
+                ["cryosanctum","gamma_core"],
+                ["heavybatteries","alpha_core"],
+                ["highcommand","alpha_core"],
+                ["diableavionics_starfortress_lock","alpha_core"],
+                #["waystation","gamma_core"],
+            ],
+        },
+
+        {
+            "entities":["diableavionics_ressource"],
+            "faction":"diableavionics",
+            "size":5,
+            "freePort":false,
+
+            "startingConditions":[
+                "ore_abundant",
+                "rare_ore_abundant",		
+                "population_5",
+            ],
+
+            "industries":[
+                ["population","gamma_core"],
+                ["spaceport","gamma_core"],
+                ["mining","gamma_core"],
+                ["refining","gamma_core"],
+                ["diableavionics_orbitalstation_lock","beta_core"],
+                #["waystation","gamma_core"],
+            ],
+        },
+    ],
+}

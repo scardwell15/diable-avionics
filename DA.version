@@ -1,0 +1,12 @@
+{
+    "masterVersionFile":"https://www.dropbox.com/s/n7bliv66bn3zke0/DA.version?dl=1",
+    "modName":"Diable Avionics",
+    "modThreadId":10046,
+    "modNexusId":"15",
+    "modVersion":
+    {
+        "major":2,
+        "minor":7,
+        "patch":"0rc3",
+    },
+}

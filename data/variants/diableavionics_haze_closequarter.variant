@@ -1,0 +1,55 @@
+{
+    "displayName": "Close Quarter",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "hullId": "diableavionics_haze",
+    "hullMods": [
+        "unstable_injector",
+        "safetyoverrides",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_haze_closequarter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "diableavionics_plover",
+                "WS0006": "diableavionics_plover"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "diableavionics_gravemg",
+                "WS0002": "diableavionics_gravemg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "diableavionics_glowtusk",
+                "WS0004": "diableavionics_glowtusk"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "diableavionics_winee"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "diableavionics_ibis",
+                "WS0009": "diableavionics_ibis",
+                "WS0012": "diableavionics_ibis",
+                "WS0013": "diableavionics_ibis"
+            }
+        }
+    ]
+}

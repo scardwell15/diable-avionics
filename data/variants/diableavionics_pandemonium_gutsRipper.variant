@@ -1,0 +1,76 @@
+{
+    "displayName": "Guts-Ripper",
+    "fluxCapacitors": 6,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "diableavionics_pandemonium",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_pandemonium_gutsRipper",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "diableavionics_thrush",
+                "WS0006": "diableavionics_thrush",
+                "WS0007": "diableavionics_thrush",
+                "WS0008": "diableavionics_thrush",
+                "WS0034": "diableavionics_thrush",
+                "WS0035": "diableavionics_thrush"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_uhlan",
+                "WS0004": "diableavionics_uhlan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "diableavionics_microarrayM",
+                "WS0002": "diableavionics_microarrayM"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "diableavionics_raptor",
+                "WS0010": "diableavionics_raptor",
+                "WS0012": "diableavionics_burchel",
+                "WS0013": "diableavionics_burchel",
+                "WS0014": "diableavionics_burchel",
+                "WS0015": "diableavionics_burchel",
+                "WS0030": "diableavionics_ibis",
+                "WS0031": "diableavionics_ibis",
+                "WS0032": "diableavionics_ibis",
+                "WS0033": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0022": "diableavionics_magicbox",
+                "WS0023": "diableavionics_magicbox",
+                "WS0024": "diableavionics_magicbox",
+                "WS0025": "diableavionics_magicbox"
+            }
+        }
+    ],
+    "wings": [
+        "diableavionics_arbitrator_wing",
+        "diableavionics_arbitratorZ_wing",
+        "diableavionics_arbitratorZ_wing",
+        "diableavionics_arbitratorZ_wing"
+    ]
+}

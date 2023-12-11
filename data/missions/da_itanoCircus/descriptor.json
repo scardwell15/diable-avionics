@@ -1,0 +1,7 @@
+{
+	"title":"DA-Type: ACE",
+	"difficulty":"Challenge",
+	"icon":"damission.png",
+	#"background":"graphics/backgrounds/background2.jpg",
+	"background":"graphics/da/itano/itano_bg1.png",
+}
