@@ -2,12 +2,9 @@ package data.scripts.weapons;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
-//import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.graphics.SpriteAPI;
-//import org.lazywizard.lazylib.combat.entities.SimpleEntity;
-//import org.lwjgl.util.vector.Vector2f;
 
 public class Diableavionics_artdeuxFire implements EveryFrameWeaponEffectPlugin {
         
@@ -16,7 +13,6 @@ public class Diableavionics_artdeuxFire implements EveryFrameWeaponEffectPlugin 
     private SpriteAPI barrel;
     private float barrelHeight=0, recoil=0, ammo=0;
     private final float maxRecoil=-6;
-//    CombatEntityAPI soundSource;
     
     @Override
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
@@ -53,28 +49,7 @@ public class Diableavionics_artdeuxFire implements EveryFrameWeaponEffectPlugin 
                 Global.getSoundPlayer().playSound("diableavionics_artdeux_trail", 1, 1, weapon.getLocation(), weapon.getShip().getVelocity());
             }
         }
-        
-        /*
-        if(weapon.getChargeLevel()==1){
-//            soundSource = new SimpleEntity(weapon.getLocation());
-//            if(!sound){
-////                Global.getSoundPlayer().playSound("diableavionics_artdeux_start", 1, 1, weapon.getLocation(), weapon.getShip().getVelocity());
-//            }
-            if(!sound){
-                Global.getSoundPlayer().playLoop("diableavionics_artdeux_loop", weapon, 1, 0.05f, weapon.getLocation(), weapon.getShip().getVelocity());
-//                Global.getSoundPlayer().playSound("diableavionics_artdeux_start", 1, 1, weapon.getLocation(), weapon.getShip().getVelocity());
-                sound=true;
-            } else {
-//            Global.getSoundPlayer().playLoop("diableavionics_artdeux_loop", soundSource, 1, 1, weapon.getLocation(), weapon.getShip().getVelocity());
-                Global.getSoundPlayer().playLoop("diableavionics_artdeux_loop", weapon, 1, 1, weapon.getLocation(), weapon.getShip().getVelocity());
-            }
-        } else if(sound){
-            sound=false;
-//            soundSource=null;
-            Global.getSoundPlayer().playLoop("diableavionics_artdeux_loop", weapon, 1, 0.05f, weapon.getLocation(), weapon.getShip().getVelocity());
-//            Global.getSoundPlayer().playSound("diableavionics_artdeux_end", 1, 1, weapon.getLocation(), weapon.getShip().getVelocity());
-        }
-        */
+
         if(!hidden){
             if(weapon.getChargeLevel()==1 && weapon.getAmmo()<ammo){
                 recoil=Math.min(1, recoil+0.05f);

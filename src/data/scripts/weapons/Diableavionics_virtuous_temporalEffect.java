@@ -8,7 +8,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.graphics.SpriteAPI;
-import data.scripts.plugins.MagicTrailPlugin;
+import org.magiclib.plugins.MagicTrailPlugin;
 import java.awt.Color;
 import java.util.List;
 import org.lazywizard.lazylib.MathUtils;
@@ -180,7 +180,7 @@ public class Diableavionics_virtuous_temporalEffect implements EveryFrameWeaponE
             *                             adjust trail offset at different speeds. Default: 1f
             */
             
-            MagicTrailPlugin.AddTrailMemberAdvanced(
+            MagicTrailPlugin.addTrailMemberAdvanced(
                     ship, 
                     idL, 
                     TRAIL,
@@ -203,7 +203,7 @@ public class Diableavionics_virtuous_temporalEffect implements EveryFrameWeaponE
                     0
             );
             
-            MagicTrailPlugin.AddTrailMemberAdvanced(
+            MagicTrailPlugin.addTrailMemberAdvanced(
                     ship, 
                     idR, 
                     TRAIL,

@@ -7,7 +7,7 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import java.util.HashSet;
 import java.util.Set;
 import static data.scripts.util.Diableavionics_stringsManager.txt;
-import data.scripts.util.MagicIncompatibleHullmods;
+import org.magiclib.util.MagicIncompatibleHullmods;
 
 public class DiableAvionicsCramped extends BaseHullMod {
 

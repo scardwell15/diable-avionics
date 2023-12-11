@@ -1,20 +1,15 @@
 package data.scripts.world.systems;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.campaign.JumpPointAPI;
-import com.fs.starfarer.api.campaign.LocationAPI;
-import com.fs.starfarer.api.campaign.OrbitAPI;
-import com.fs.starfarer.api.campaign.PlanetAPI;
-import com.fs.starfarer.api.campaign.SectorAPI;
-import com.fs.starfarer.api.campaign.SectorEntityToken;
-import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
-import com.fs.starfarer.api.campaign.StarSystemAPI;
+import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
-import java.awt.Color;
+
+import java.awt.*;
+
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 
 public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
@@ -27,17 +22,16 @@ public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
     public void generate(SectorAPI sector) {
 
         StarSystemAPI system = sector.createStarSystem(txt("star_C"));
-        LocationAPI hyper = Global.getSector().getHyperspace();
         system.setBackgroundTextureFilename("graphics/da/backgrounds/diableavionics_outerTerminus.jpg");
 
         // create the star and generate the hyperspace anchor for this system
-		PlanetAPI star = system.initStar(txt("star_C_star_1"), // unique id for this star
-                                                "star_white", // id in planets.json
-						450f,
-                                                250);		// radius (in pixels at default zoom)
-	system.setLightColor(new Color(255, 250, 250)); // light color in entire system, affects all entities
+        PlanetAPI star = system.initStar(txt("star_C_star_1"), // unique id for this star
+                "star_white", // id in planets.json
+                450f,
+                250);        // radius (in pixels at default zoom)
+        system.setLightColor(new Color(255, 250, 250)); // light color in entire system, affects all entities
 
-	system.getLocation().set(29000, -5000);
+        system.getLocation().set(29000, -5000);
         /*
          * addPlanet() parameters:
          * 1. What the planet orbits (orbit is always circular)
@@ -54,7 +48,7 @@ public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
          * 2. Number of asteroids
          * 3. Orbit radius
          * 4. Belt width
-         * 6/7. Range of days to complete one orbit. Value picked randomly for each asteroid. 
+         * 6/7. Range of days to complete one orbit. Value picked randomly for each asteroid.
          */
         /*
          * addRingBand() parameters:
@@ -77,7 +71,7 @@ public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
 //                    ArrayList<String> marketConditions, 
 //                    ArrayList<String> submarkets, 
 //                    float tarrif)
-        
+
 
         //2000
         PlanetAPI OT1 = system.addPlanet("OT_a",
@@ -89,17 +83,17 @@ public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
                 2000,
                 150
         );
-        
-            //JUMP POINT
-            JumpPointAPI jumpPoint1 = Global.getFactory().createJumpPoint("OT_jumpPointA",
-                    txt("star_C_jp_0")
-            );
-            OrbitAPI orbit = Global.getFactory().createCircularOrbit(star, 85, 2000, 150);
-            jumpPoint1.setOrbit(orbit);
-            jumpPoint1.setRelatedPlanet(OT1);
-            jumpPoint1.setStandardWormholeToHyperspaceVisual();
-            system.addEntity(jumpPoint1);
-        
+
+        //JUMP POINT
+        JumpPointAPI jumpPoint1 = Global.getFactory().createJumpPoint("OT_jumpPointA",
+                txt("star_C_jp_0")
+        );
+        OrbitAPI orbit = Global.getFactory().createCircularOrbit(star, 85, 2000, 150);
+        jumpPoint1.setOrbit(orbit);
+        jumpPoint1.setRelatedPlanet(OT1);
+        jumpPoint1.setStandardWormholeToHyperspaceVisual();
+        system.addEntity(jumpPoint1);
+
         //3000
         PlanetAPI ach2 = system.addPlanet("diableavionics_prison",
                 star,
@@ -111,16 +105,16 @@ public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
                 250
         );
         ach2.setCustomDescriptionId("diableavionics_prison");
-        
+
         //3750
         //ASTEROID BELT
-        system.addAsteroidBelt(star, 750, 3750, 512, 310, 330);  
+        system.addAsteroidBelt(star, 750, 3750, 512, 310, 330);
         SectorEntityToken DA_piratePort = system.addCustomEntity("diableavionics_ressource",
                 txt("star_C_station_1"),
                 "diableavionics_station_ressource",
                 "diableavionics");
         DA_piratePort.setCircularOrbitPointingDown(star, 62, 4000, 335);
-        
+
         //OLD RELAY
         SectorEntityToken relay = system.addCustomEntity("OT_abandonned_relay", // unique id
                 txt("star_C_relay"), // name - if null, defaultName from custom_entities.json will be used
@@ -129,11 +123,11 @@ public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
         relay.setCircularOrbit(star, 150, 4250, 350);
 
         StarSystemGenerator.addOrbitingEntities(system, star, StarAge.AVERAGE,
-                        5, 9, // min/max entities to add
-                        5500, // radius to start adding at 
-                        2, // name offset - next planet will be <system name> <roman numeral of this parameter + 1>
-                        true); // whether to use custom or system-name based names
-        
+                5, 9, // min/max entities to add
+                5500, // radius to start adding at
+                2, // name offset - next planet will be <system name> <roman numeral of this parameter + 1>
+                true); // whether to use custom or system-name based names
+
 //        //7000
 //        PlanetAPI ach3 = system.addPlanet("OT_c", star, "Vun", "ice_giant", 180, 300, 7000, 700);
 //
@@ -151,17 +145,17 @@ public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
 //
 //        //15000
 //        PlanetAPI ach6 = system.addPlanet("OT_f", star, "Tid", "frozen", 75, 75, 15000, 2000);
-            
+
         system.autogenerateHyperspaceJumpPoints(true, true, true);
 
         cleanup(system);
     }
-    
-    void cleanup(StarSystemAPI system){
+
+    void cleanup(StarSystemAPI system) {
         HyperspaceTerrainPlugin plugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin();
-	NebulaEditor editor = new NebulaEditor(plugin);        
+        NebulaEditor editor = new NebulaEditor(plugin);
         float minRadius = plugin.getTileSize() * 2f;
-        
+
         float radius = system.getMaxRadiusInHyperspace();
         editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius * 0.5f, 0, 360f);
         editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);

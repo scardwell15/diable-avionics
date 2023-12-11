@@ -7,7 +7,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
-import data.scripts.util.MagicUI;
+import org.magiclib.util.MagicUI;
 import java.awt.Color;
 import org.lazywizard.lazylib.combat.AIUtils;
 import static data.scripts.util.Diableavionics_stringsManager.txt;

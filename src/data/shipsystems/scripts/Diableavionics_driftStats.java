@@ -6,7 +6,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 //import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import static data.scripts.util.Diableavionics_stringsManager.txt;
-import data.scripts.util.MagicAnim;
+import org.magiclib.util.MagicAnim;
 import java.awt.Color;
 
 public class Diableavionics_driftStats extends BaseShipSystemScript {

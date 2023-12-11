@@ -11,7 +11,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 //import data.scripts.util.Diableavionics_graphicLibEffects;
-import data.scripts.util.MagicRender;
+import org.magiclib.util.MagicRender;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;

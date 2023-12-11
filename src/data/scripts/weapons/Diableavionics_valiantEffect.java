@@ -8,7 +8,7 @@ import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.util.MagicAnim;
+import org.magiclib.util.MagicAnim;
 import java.util.List;
 import org.lazywizard.lazylib.MathUtils;
 

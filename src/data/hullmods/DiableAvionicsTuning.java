@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 import org.lazywizard.lazylib.MathUtils;
 import static data.scripts.util.Diableavionics_stringsManager.txt;
-import data.scripts.util.MagicIncompatibleHullmods;
+import org.magiclib.util.MagicIncompatibleHullmods;
 import java.util.HashSet;
 import java.util.Set;
 

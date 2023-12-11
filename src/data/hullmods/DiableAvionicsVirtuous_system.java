@@ -10,7 +10,7 @@ import com.fs.starfarer.api.combat.ShipHullSpecAPI;
 import com.fs.starfarer.api.ui.Alignment;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import static data.scripts.util.Diableavionics_stringsManager.txt;
-import data.scripts.util.MagicIncompatibleHullmods;
+import org.magiclib.util.MagicIncompatibleHullmods;
 import java.awt.Color;
 import java.util.HashMap;
 import java.util.HashSet;

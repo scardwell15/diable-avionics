@@ -12,7 +12,7 @@ import com.fs.starfarer.api.impl.campaign.ids.MemFlags;
 import com.fs.starfarer.api.impl.campaign.ids.Tags;
 import com.fs.starfarer.api.impl.campaign.rulecmd.salvage.special.ShipRecoverySpecial;
 import static data.scripts.util.Diableavionics_stringsManager.txt;
-import data.scripts.util.MagicCampaign;
+import org.magiclib.util.MagicCampaign;
 import java.util.List;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
