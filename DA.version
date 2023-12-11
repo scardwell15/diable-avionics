@@ -1,5 +1,5 @@
 {
-    "masterVersionFile":"https://www.dropbox.com/s/n7bliv66bn3zke0/DA.version?dl=1",
+    "masterVersionFile":"https://raw.githubusercontent.com/scardwell15/diable-avionics/main/DA.version",
     "modName":"Diable Avionics",
     "modThreadId":10046,
     "modNexusId":"15",
@@ -7,6 +7,6 @@
     {
         "major":2,
         "minor":7,
-        "patch":"0rc3",
+        "patch":"1",
     },
 }
