@@ -1,5 +1,6 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.GameState;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.FighterLaunchBayAPI;
@@ -8,7 +9,9 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.combat.ShipVariantAPI;
+import com.fs.starfarer.api.combat.listeners.AdvanceableListener;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
+import com.fs.starfarer.api.impl.hullmods.BDeck;
 import com.fs.starfarer.api.loading.FighterWingSpecAPI;
 import com.fs.starfarer.api.ui.Alignment;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
@@ -18,7 +21,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DiableAvionicsUniversalDecksUpgrade2 extends BaseHullMod {  
-    
+    private static final String GANTRY_ID = "diableavionics_universaldecksExtra";
+    private final Color HL = Global.getSettings().getColor("hColor");
+    private final String ID = "wanzer_gantry", TAG = "wanzer";
+
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) {
@@ -26,8 +32,17 @@ public class DiableAvionicsUniversalDecksUpgrade2 extends BaseHullMod {
         }
         return null;
     }
-    
-    private final Color HL=Global.getSettings().getColor("hColor");
+
+    @Override
+    public String getSModDescriptionParam(int index, HullSize hullSize) {
+        if (index == 0) {
+            return Math.round(REPLACEMENT_RATE_THRESHOLD * 100f) + "%";
+        } else if (index == 1) {
+            return Math.round(REPLACEMENT_RATE_RESET * 100f) + "%";
+        }
+        return super.getSModDescriptionParam(index, hullSize);
+    }
+
         
     @Override
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
@@ -73,16 +88,13 @@ public class DiableAvionicsUniversalDecksUpgrade2 extends BaseHullMod {
                 }
             }
         }
-        
     }
-    
-    private final String ID = "wanzer_gantry", TAG = "wanzer";
-    
+
     @Override
     public void advanceInCombat(ShipAPI ship, float amount) {
         
         if(ship.getOriginalOwner()==-1){
-            return; //supress in refit
+            return; //suppress in refit
         }
         
         boolean allDeployed=true, ranOnce=false;
@@ -127,13 +139,13 @@ public class DiableAvionicsUniversalDecksUpgrade2 extends BaseHullMod {
             ship.getMutableStats().getFighterRefitTimeMult().modifyPercent(ID, 1);
         }
     }
-    
+
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {        
         //reset the "check" mutable stat so that it is applied next deployment
         stats.getFighterRefitTimeMult().unmodify(ID);
     }
-    
+
     @Override
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id){
         //the extra crafts do not deplete the fighter replacement gauge when destroyed, this makes the rate deplete faster from those that do to compensate.
@@ -147,12 +159,11 @@ public class DiableAvionicsUniversalDecksUpgrade2 extends BaseHullMod {
         if(extraCrafts>0){
             ship.getMutableStats().getDynamic().getMod(Stats.REPLACEMENT_RATE_DECREASE_MULT).modifyMult(id, (crafts+extraCrafts)/crafts);
         }
-    }
-    
-    @Override
-    public boolean isApplicableToShip(ShipAPI ship) {
-        if(ship==null) return false;
-        return ship.getMutableStats().getNumFighterBays().getModifiedValue()>0 && !ship.getVariant().getHullMods().contains("diableavionics_universaldecksBI"); 
+
+        boolean sMod = isSMod(ship);
+        if (sMod) {
+            ship.addListener(new BDeckListener(ship));
+        }
     }
 
     @Override
@@ -184,5 +195,64 @@ public class DiableAvionicsUniversalDecksUpgrade2 extends BaseHullMod {
             }
         }
         return allWanzers;
+    }
+
+    @Override
+    public boolean isApplicableToShip(ShipAPI ship) {
+        if(ship==null) return false;
+        return ship.getVariant().hasHullMod(GANTRY_ID);
+    }
+
+    @Override
+    public boolean showInRefitScreenModPickerFor(ShipAPI ship) {
+        return ship.getVariant().hasHullMod(GANTRY_ID);
+    }
+
+    public static float REPLACEMENT_RATE_THRESHOLD = 0.4f;
+    public static float REPLACEMENT_RATE_RESET = 0.75f;
+
+    public static class BDeckListener implements AdvanceableListener {
+        protected ShipAPI ship;
+        protected boolean fired = false;
+        public BDeckListener(ShipAPI ship) {
+            this.ship = ship;
+        }
+
+        public void advance(float amount) {
+            float cr = ship.getCurrentCR();
+
+            if (!fired && cr >= 0) {
+                if (ship.getSharedFighterReplacementRate() <= REPLACEMENT_RATE_THRESHOLD) {
+                    fired = true;
+
+                    for (FighterLaunchBayAPI bay : ship.getLaunchBaysCopy()) {
+                        if (bay.getWing() == null) continue;
+
+                        float rate = REPLACEMENT_RATE_RESET;
+                        bay.setCurrRate(rate);
+
+                        bay.makeCurrentIntervalFast();
+                        FighterWingSpecAPI spec = bay.getWing().getSpec();
+
+                        int maxTotal = spec.getNumFighters();
+                        int actualAdd = maxTotal - bay.getWing().getWingMembers().size();
+                        if (actualAdd > 0) {
+                            bay.setFastReplacements(bay.getFastReplacements() + actualAdd);
+                        }
+                    }
+                }
+            }
+
+            if (Global.getCurrentState() == GameState.COMBAT &&
+                    Global.getCombatEngine() != null && Global.getCombatEngine().getPlayerShip() == ship) {
+
+                String status = txt("hm_gantry_s02_standby");
+                boolean penalty = false;
+                if (fired) status = txt("hm_gantry_s02_active");
+                Global.getCombatEngine().maintainStatusForPlayerShip("da_bdeck",
+                        Global.getSettings().getSpriteName("ui", "icon_tactical_bdeck"),
+                        txt("hm_gantry_s02"), status, penalty);
+            }
+        }
     }
 }
