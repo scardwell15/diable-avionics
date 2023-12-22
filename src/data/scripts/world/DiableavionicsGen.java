@@ -181,6 +181,7 @@ public class DiableavionicsGen implements SectorGeneratorPlugin {
             virtuous.getFlagship().getStats().getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat(ID, -2000);
             virtuous.addEventListener(new Diableavionics_virtuousLoot());
 
+            virtuousCaptain.getMemoryWithoutUpdate().set("$virtuous", true);
             virtuous.getMemoryWithoutUpdate().set("$virtuous", true);
         }
     }

@@ -7,6 +7,7 @@ import com.fs.starfarer.api.campaign.CampaignPlugin;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
+import data.campaign.DACampaignPlugin;
 import data.scripts.ai.*;
 import data.scripts.world.DiableavionicsGen;
 import exerelin.campaign.SectorManager;
@@ -75,6 +76,11 @@ public class DAModPlugin extends BaseModPlugin {
         }
         DiableavionicsGen.spawnVirtuous();
         Global.getSector().getMemoryWithoutUpdate().set(SPECIAL_FLEETS, true);
+    }
+
+    @Override
+    public void onGameLoad(boolean newGame) {
+        Global.getSector().registerPlugin(new DACampaignPlugin());
     }
 
     @Override

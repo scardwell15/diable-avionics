@@ -1,0 +1,44 @@
+{
+  "specClass": "projectile",
+  "id": "diableavionics_virtuous_roar_L",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/da/ships/virtuous/roar/diableavionics_virtuous_roar_L00.png",
+  "hardpointSprite": "graphics/da/ships/virtuous/roar/diableavionics_virtuous_roar_L00.png",
+  "turretGunSprite": "graphics/da/ships/virtuous/roar/diableavionics_virtuous_roar_LB.png",
+  "hardpointGunSprite": "graphics/da/ships/virtuous/roar/diableavionics_virtuous_roar_LB.png",
+  "numFrames": 8,
+  "frameRate": 1,
+  "visualRecoil": 2.0,
+  "renderHints": [ "SUSPEND_RECOIL","RENDER_BARREL_BELOW" ],
+  "turretOffsets": [
+    73,4.5,
+  ],
+  "turretAngleOffsets": [
+    0,
+  ],
+  "hardpointOffsets": [
+    73,4.5,
+  ],
+  "hardpointAngleOffsets": [
+    0,
+  ],
+  "barrelMode": "LINKED", #ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+  "separateRecoilForLinkedBarrels": "TRUE",
+  "animationType": "MUZZLE_FLASH",
+  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 50.0,   # only used if animationType = MUZZLE_FLASH
+    "spread": 10.0,
+    "particleSizeMin": 20.0,
+    "particleSizeRange": 40.0,
+    "particleDuration": 0.05,
+    "particleCount": 10,
+    "particleColor": [ 199,93,76,200 ]
+  },
+
+  "projectileSpecId": "diableavionics_virtuousMinigun_shot",
+
+  "fireSoundTwo": "diableavionics_virtuousMinigun_fire",
+  "everyFrameEffect": "data.scripts.weapons.Diableavionics_virtuous_minigunEffect",
+}

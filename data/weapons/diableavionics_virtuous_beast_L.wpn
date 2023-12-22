@@ -1,0 +1,50 @@
+{
+  "specClass": "projectile",
+  "id": "diableavionics_virtuous_beast_L",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/da/ships/virtuous/beast/diableavionics_virtuous_beast_L.png",
+  "turretGunSprite": "graphics/da/ships/virtuous/beast/diableavionics_virtuous_beast_LB.png",
+  "hardpointSprite": "",
+  "hardpointGunSprite": "",
+  "visualRecoil": 6.0,  # the gun sprites are only used if this is non-0
+  "renderHints": [ RENDER_BARREL_BELOW ],
+  "turretOffsets": [
+    62, 20.5,
+    64, 14.5,
+    66, 8.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    62, 20.5,
+    64, 14.5,
+    66, 8.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "separateRecoilForLinkedBarrels": "TRUE",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 5.0,
+    "particleSizeRange": 20.0,
+    "cloudParticleCount": 20,
+    "cloudDuration": 1.0,
+    "cloudRadius": 10.0,
+    "blowbackParticleCount": 30,
+    "blowbackDuration": 2,
+    "blowbackLength": -30.0,
+    "blowbackSpread": 5.0,
+    "particleColor": [ 80,60,50,64 ]
+  },
+  "projectileSpecId": "diableavionics_mostro_shot",
+  "fireSoundTwo": "diableavionics_mostro_firing",
+  "everyFrameEffect": "data.scripts.weapons.Diableavionics_mostroFire",
+}

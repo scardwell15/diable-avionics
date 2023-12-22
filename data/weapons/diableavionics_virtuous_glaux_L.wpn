@@ -1,0 +1,35 @@
+{
+  "specClass": "beam",
+  "id": "diableavionics_virtuous_glaux_L",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "beamFireOnlyOnFullCharge": true,
+  "turretSprite": "graphics/da/ships/virtuous/glaux/diableavionics_virtuous_glaux_L.png",
+  "turretGlowSprite": "graphics/da/ships/virtuous/glaux/diableavionics_virtuous_glaux_LG.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "turretOffsets": [ 46, 7 ],
+  "turretAngleOffsets": [ 0 ],
+  "hardpointOffsets": [ 46, 7 ],
+  "hardpointAngleOffsets": [ 0 ],
+
+  "interruptibleBurst": true,
+  "darkCore": false,
+
+  "fringeColor": [ 250,50,200,255 ],
+  "coreColor": [ 255,255,200,255 ],
+  "glowColor": [ 232,128,35,255 ],
+
+  "width": 50.0,
+
+  #"textureType":CHUNKY,
+  "textureType": WEAVE,
+  "textureScrollSpeed": 428.0,
+  "pixelsPerTexel": 5.0,
+  "pierceSet": [ PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER ],
+  "beamEffect": "data.scripts.weapons.Diableavionics_virtuous_glauxEffect",
+  "specialWeaponGlowWidth": 0,
+  "specialWeaponGlowHeight": 0,
+}

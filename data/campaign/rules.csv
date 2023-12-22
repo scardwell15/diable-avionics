@@ -17,7 +17,7 @@ $faction.hostileToPlayer
 $relativeStrength >= 0","$ignorePlayerCommRequests = true 1","""All I see is a fine addition to either my fleet or my kill tally.""","cutCommLink:Cut the comm link",
 greetingDANeutral,OpenCommLink,"$faction.id == diableavionics
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""You are speaking to $PersonRank $personName of $theFaction Navy. State your buisness.""",,
+FireAll PopulateOptions","""You are speaking to $PersonRank $personName of $theFaction Navy. State your business.""",,
 "#END Diable Avionics fleet greeting lines",,,,,,
 ,,,,,,
 # Trade panel flavor text,,,,,,
@@ -29,16 +29,199 @@ $faction.id == diableavionics","AddText ""Glares pierce into you as looks of con
 "#END Trade panel flavor text",,,,,,
 ,,,,,,
 "# default commission conversation strings, copy and adjust this section for faction-specific conversation flavor",,,,,,
-CMSNTextRejectHostile_diableavionics,CMSNTextRejectHostile,"$faction.id == ora",,"""Is this some kind of joke? If you are who you say you are, you're on several $faction wanted lists.""",,
-CMSNTextHasOther_diableavionics,CMSNTextHasOther,"$faction.id == ora",,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.""",,
-CMSNTextUnsuited_diableavionics,CMSNTextUnsuited,"$faction.id == ora",,"""I'm sorry, but you don't meet our criteria for receiving a commission.""",,
-CMSNTextSuitedPart1_diableavionics,CMSNTextSuitedPart1,"$faction.id == ora",,"""Hmm, yes, you're a suitable candidate.\n\nAccepting a commission is a serious matter. You will be required to fight enemies of $theFaction, wherever they may be found.\n\nYou'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.""",,
-CMSNTextSuitedPart2_diableavionics,CMSNTextSuitedPart2,"$faction.id == ora",,"""So, how about it? Still want to sign on?""",,
-CMSNTextWelcomePart1_diableavionics,CMSNTextWelcomePart1,"$faction.id == ora",,"""Excellent! Welcome to the service.""",,
-CMSNTextWelcomePart2_diableavionics,CMSNTextWelcomePart2,"$faction.id == ora",,"""Anything else I can do for you?""",,
-CMSNTextChangeMind_diableavionics,CMSNTextChangeMind,"$faction.id == ora",,"""Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.\n\nAnything else I can do for you?""",,
-CMSNResignAskToConfirm_diableavionics,CMSNResignAskToConfirm,"$faction.id == ora",,"""Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
-CMSNResignConfirmed_diableavionics,CMSNResignConfirmed,"$faction.id == ora",,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
-CMSNResignCancelled_diableavionics,CMSNResignCancelled,"$faction.id == ora",,"""A good decision. We can use people like you.""",,
+CMSNTextRejectHostile_diableavionics,CMSNTextRejectHostile,"$faction.id == diableavionics",,"""Is this some kind of joke? If you are who you say you are, you're on several $faction wanted lists.""",,
+CMSNTextHasOther_diableavionics,CMSNTextHasOther,"$faction.id == diableavionics",,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.""",,
+CMSNTextUnsuited_diableavionics,CMSNTextUnsuited,"$faction.id == diableavionics",,"""I'm sorry, but you don't meet our criteria for receiving a commission.""",,
+CMSNTextSuitedPart1_diableavionics,CMSNTextSuitedPart1,"$faction.id == diableavionics",,"""Hmm, yes, you're a suitable candidate.\n\nAccepting a commission is a serious matter. You will be required to fight enemies of $theFaction, wherever they may be found.\n\nYou'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.""",,
+CMSNTextSuitedPart2_diableavionics,CMSNTextSuitedPart2,"$faction.id == diableavionics",,"""So, how about it? Still want to sign on?""",,
+CMSNTextWelcomePart1_diableavionics,CMSNTextWelcomePart1,"$faction.id == diableavionics",,"""Excellent! Welcome to the service.""",,
+CMSNTextWelcomePart2_diableavionics,CMSNTextWelcomePart2,"$faction.id == diableavionics",,"""Anything else I can do for you?""",,
+CMSNTextChangeMind_diableavionics,CMSNTextChangeMind,"$faction.id == diableavionics",,"""Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.\n\nAnything else I can do for you?""",,
+CMSNResignAskToConfirm_diableavionics,CMSNResignAskToConfirm,"$faction.id == diableavionics",,"""Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
+CMSNResignConfirmed_diableavionics,CMSNResignConfirmed,"$faction.id == diableavionics",,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
+CMSNResignCancelled_diableavionics,CMSNResignCancelled,"$faction.id == diableavionics",,"""A good decision. We can use people like you.""",,
 "#END default commission conversation strings, copy and adjust this section for faction-specific conversation flavor",,,,,,
+,,,,,,
+DASubject71_greetingNotFriendly,OpenCommLink,"$virtuous score:10
+!$faction.friendlyToPlayer score:10","$menuState = fleetConvMain 0
+FireBest DA_Subject71_showGreetingText
+AddText """"
+AddText ""There is no response to any signal sent through the comm link. The system that you are communicating with probably requires the correct IFF codes, which are only obtained through positive relations with the Diable Corporation.""
+Highlight ""positive relations with the Diable Corporation""","The comm link opens successfully, however the visual screen has no image.",,
+DASubject71_showGreetingText,DA_Subject71_showGreetingText,,"SetTextHighlightColors textGreenColor textGreenColor
+SetTextHighlights ""This system is property of the Diable Avionics Corporation. Unauthorized access is prohibited."" ""ERR: Fleet simulation component has signs of corruption. Recommend repair. See sysinfo.txt for more information.""","This system is property of the Diable Avionics Corporation. Unauthorized access is prohibited.
+ERR: Fleet simulation component has signs of corruption. Recommend repair. See sysinfo.txt for more information.",,
+DASubject71_showCommandPrompt,DA_Subject71_showCommandPrompt,,"SetTextHighlightColors textGreenColor
+SetTextHighlights ""subject71 >""","subject71 >",,
+DASubject71_greetingFirst,OpenCommLink,"$virtuous score:10
+!$simulationRunning
+!$metSubject71","$menuState = fleetConvMain 0
+$metSubject71 = true
+FireBest DA_Subject71_showGreetingText
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","The comm link opens successfully, however the visual screen has no image. Instead, there is a command prompt.",,
+DASubject71_greeting,OpenCommLink,"$virtuous score:10
+!$simulationRunning
+$metSubject71","$menuState = fleetConvMain 0
+FireBest DA_Subject71_showGreetingText
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","The comm link opens successfully, showing the familiar command prompt.",,
+DASubject71_greetingAfterSimulationSuccess,OpenCommLink,"$virtuous score:10
+$simulationRunning
+$simulationSuccessful","$menuState = fleetConvMain 0
+unset $simulationRunning
+$simulationRun = true
+SetTextHighlightColors textGreenColor textGreenColor
+SetTextHighlights ""Simulation complete."" ""Permissions of transfer file modified.""
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","The visual feed from the comm link goes dark suddenly, and returns to the command prompt which now has a new line:
+Simulation complete.
 
+After a brief moment, the command prompt enters hundreds or even thousands of commands quickly, before outputting a final line:
+Permissions of transfer file modified.",,
+DASubject71_greetingAfterSimulationFailure,OpenCommLink,"$virtuous score:10
+$simulationRunning
+!$simulationSuccessful","$menuState = fleetConvMain 0
+unset $simulationRunning
+$simulationRun = true
+SetTextHighlightColors textGreenColor
+SetTextHighlights ""Simulation failed. Recommend re-running simulation.""
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","The visual feed from the comm link goes dark suddenly, and returns to the command prompt which now has a new line:
+Simulation failed. Recommend re-running simulation.",,
+DASubject71_optionHelp,PopulateOptions,"$virtuous
+!$helpUsed",,,"subject71Help:> help",
+DASubject71_help,DialogOptionSelected,"$virtuous
+$option == subject71Help
+!$helpUsed","$helpUsed = true
+SetTextHighlightColors textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor
+SetTextHighlights ""subject71 > help"" ""Available commands:"" help whoami list read exec
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","The console scrolls blazingly fast for a couple seconds, outputting text at speeds that can't be read by the human eye. It finishes by showing the available commands.
+
+Available commands:
+whoami
+list
+read
+exec",,
+DASubject71_optionWhoAmI,PopulateOptions,"$virtuous
+$helpUsed",,,"subject71WhoAmI:> whoami",
+DASubject71_optionLS,PopulateOptions,"$virtuous
+$helpUsed",,,"subject71List:> list",
+DASubject71_optionRead,PopulateOptions,"$virtuous
+$helpUsed
+!$lsUsed",,,"subject71Read:> read",
+DASubject71_optionReadSysInfo,PopulateOptions,"$virtuous
+$lsUsed",,,"subject71ReadSysInfo:> read sysinfo.txt",
+DASubject71_optionExec,PopulateOptions,"$virtuous
+$helpUsed
+!$lsUsed",,,"subject71Exec:> exec",
+DASubject71_optionExecBattleSim,PopulateOptions,"$virtuous
+$lsUsed",,,"subject71ExecBattleSim:> exec battlesim",
+DASubject71_optionExecTransfer,PopulateOptions,"$virtuous
+$lsUsed
+!$transferring",,,"subject71ExecTransfer:> exec transfer",
+DASubject71_whoAmI,DialogOptionSelected,"$virtuous
+$option == subject71WhoAmI","SetTextHighlightColors textGreenColor
+SetTextHighlights subject
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","subject
+
+That doesn't seem particularly useful.",,
+DASubject71_Read,DialogOptionSelected,"$virtuous
+$option == subject71Read","SetTextHighlightColors textGreenColor
+SetTextHighlights ""Missing filename.""
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","Missing filename.
+
+That doesn't seem particularly useful.",,
+DASubject71_Exec,DialogOptionSelected,"$virtuous
+$option == subject71Exec","SetTextHighlightColors textGreenColor
+SetTextHighlights ""Missing filename.""
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","Missing filename.
+
+That doesn't seem particularly useful.",,
+DASubject71_LS,DialogOptionSelected,"$virtuous
+$option == subject71List","$lsUsed = true
+SetTextHighlightColors textGreenColor
+SetTextHighlights ""sysinfo.txt, battlesim, transfer""
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","The command lists out the current directory of files.
+
+sysinfo.txt, battlesim, transfer",,
+DASubject71_ReadSysInfo,DialogOptionSelected,"$virtuous
+$option == subject71ReadSysInfo","SetTextHighlightColors textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor
+SetTextHighlights ""This file is updated daily with system condition. As of the last 24 hours, diagnostics reported the following:"" ""Brain condition: 100%."" ""Blood pump condition: 100%."" ""Oxygen levels: 100%."" ""Security checks: 100%."" ""Fleet duel simulation diagnostic: 99%."" ""Supporting fleet simulation diagnostic: 0%.""
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","The file is printed out onto the command display:
+
+This file is updated daily with system condition. As of the last 24 hours, diagnostics reported the following:
+Brain condition: 100%.
+Blood pump condition: 100%.
+Oxygen levels: 100%.
+Security checks: 100%.
+Fleet duel simulation diagnostic: 99%.
+Supporting fleet simulation diagnostic: 0%.
+
+You are apparently interfacing directly with a brain controlled by some kind of computer interface. There appears to be some corruption within the simulation, part of which appears to be its ability to simulate fleets that support either side of an engagement.
+
+If we're going to win this duel, we'll have to do it alone.",,
+DASubject71_ExecTransfer,DialogOptionSelected,"$virtuous
+$option == subject71ExecTransfer
+!$simulationSuccessful","SetTextHighlightColors textGreenColor
+SetTextHighlights ""Access denied.""
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","Access denied.
+
+That doesn't seem particularly useful.",,
+DASubject71_ExecBattleSim,DialogOptionSelected,"$virtuous
+$option == subject71ExecBattleSim
+!$simulationSuccessful","$simulationRunning = true
+SetTextHighlightColors textGreenColor
+SetTextHighlights ""Entering simulation...""
+FireBest DA_Subject71_showCommandPrompt
+DASubject71_BattleSim","Entering simulation...",,
+DASubject71_ExecBattleSimSimulationSuccessful,DialogOptionSelected,"$virtuous
+$option == subject71ExecBattleSim
+$simulationSuccessful","SetTextHighlightColors textGreenColor
+SetTextHighlights ""Process exited with error code -1.""
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","Process exited with error code -1.
+
+The simulation can't be run again, unfortunately.",,
+DASubject71_ExecTransferSimulationSuccessful,DialogOptionSelected,"$virtuous
+$option == subject71ExecTransfer
+$simulationSuccessful
+!$transferring","$transferring = true
+SetTextHighlightColors textGreenColor textGreenColor textGreenColor
+SetTextHighlights ""Missing second argument. Valid options are:"" virtuous subject71
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","Missing second argument. Valid options are:
+virtuous
+subject71",,
+DASubject71_optionTransferSubject71,PopulateOptions,"$virtuous
+$transferring",,,"subject71TransferSubject71:> exec transfer subject71",
+DASubject71_optionTransferVirtuous,PopulateOptions,"$virtuous
+$transferring",,,"subject71TransferVirtuous:> exec transfer virtuous",
+DASubject71_ExecTransferSubject71SimulationSuccessful,DialogOptionSelected,"$virtuous
+$option == subject71TransferSubject71","SetTextHighlightColors textGreenColor
+SetTextHighlights ""Process exited with error code -1.""
+FireBest DA_Subject71_showCommandPrompt
+FireAll PopulateOptions","Process exited with error code -1.
+
+That doesn't seem particularly useful.",,
+DASubject71_ExecTransferVirtuousSimulationSuccessful,DialogOptionSelected,"$virtuous
+$option == subject71TransferVirtuous","SetTextHighlightColors textGreenColor textGreenColor
+SetTextHighlights ""Executing transfer..."" ""Disconnecting...""
+DASubject71_TransferVirtuous","Executing transfer...
+
+An active drive field signature is detected from the fleet. Your security officer instinctively moves his hand towards the alert switch, but after a second glance towards the sensors, moves it away.
+
+The Virtuous mech approaches your fleet and another message appears on the display.
+Disconnecting...
+The comm link closes and the display goes black.
+
+A security team enters the Virtuous. On the tactical display, you see the doors open to the bridge autonomously, where a mess of hanging wires and disconnected life support systems surround a husk of a corpse. The team lead checks its vitals and reports it as deceased.
+
+After another few minutes, the security team clears the Virtuous, with no other signs of life aboard the ship.","cutCommLink:Claim the Virtuous.",

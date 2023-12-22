@@ -1,11 +1,11 @@
 {
 	"specClass":"projectile",
-	"id":"diableavionics_virtuous_armA_L",
+	"id":"diableavionics_virtuous_scicle_L",
 	"type":"ENERGY",
 	"size":"MEDIUM",
 	"displayArcRadius":500,
-	"turretSprite":"graphics/da/ships/virtuous/diableavionics_virtuous_armA_L.png",
-	"turretGunSprite":"graphics/da/ships/virtuous/diableavionics_virtuous_armA_LB.png",
+	"turretSprite":"graphics/da/ships/virtuous/scicle/diableavionics_virtuous_scicle_L.png",
+	"turretGunSprite":"graphics/da/ships/virtuous/scicle/diableavionics_virtuous_scicle_LB.png",
 	"hardpointSprite":"",	
 	"hardpointGunSprite":"",	
 	"visualRecoil":1.5,  # the gun sprites are only used if this is non-0

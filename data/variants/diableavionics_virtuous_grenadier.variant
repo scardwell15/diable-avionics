@@ -5,7 +5,8 @@
     "goalVariant": true,
     "hullId": "diableavionics_virtuous_scout",
     "hullMods": [
-        "diableavionics_virtuous_armC",
+        "diableavionics_virtuous_glaux_L",
+        "diableavionics_virtuous_grasshopper_R",
         "missleracks",
         "diableavionics_virtuous_scout",
         "targetingunit",
@@ -18,12 +19,12 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"LEFT": "diableavionics_virtuous_armC_L"}
+            "weapons": {"LEFT": "diableavionics_virtuous_glaux_L"}
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"RIGHT": "diableavionics_virtuous_armC_R"}
+            "weapons": {"RIGHT": "diableavionics_virtuous_grasshopper_R"}
         },
         {
             "autofire": true,

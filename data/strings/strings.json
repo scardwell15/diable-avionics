@@ -41,10 +41,10 @@
 				"ready":"READY",
 				"target":"NO FTR",
 				"citadel":"Citadel mode active.",
-				"citadel1":"% weapons range",
+				"citadel1":"% weapon range",
 				"citadel2":"% weapon flux cost",
 				"citadel3":"% shield strength",
-				"citadel4":"% maneuverability",
+				"citadel4":"% top speed",
 				"citadel5":"% flux dissipation",
 				
 				"hm_virtuousRefresh1":"DATABASE ERROR",

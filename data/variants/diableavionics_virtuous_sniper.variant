@@ -5,8 +5,8 @@
     "goalVariant": true,
     "hullId": "diableavionics_virtuous_defender",
     "hullMods": [
-        "diableavionics_virtuous_armB",
-        "diableavionics_virtuous_headD",
+        "diableavionics_virtuous_snowblast_L",
+        "diableavionics_virtuous_excision_R",
         "diableavionics_virtuous_defender",
         "heavyarmor",
         "reinforcedhull"
@@ -18,12 +18,12 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"RIGHT": "diableavionics_virtuous_armB_R"}
+            "weapons": {"RIGHT": "diableavionics_virtuous_excision_R"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"LEFT": "diableavionics_virtuous_armB_L"}
+            "weapons": {"LEFT": "diableavionics_virtuous_snowblast_L"}
         },
         {
             "autofire": true,

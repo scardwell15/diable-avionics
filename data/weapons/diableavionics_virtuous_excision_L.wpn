@@ -1,0 +1,28 @@
+{
+  "specClass": "projectile",
+  "id": "diableavionics_virtuous_excision_L",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/da/ships/virtuous/excision/diableavionics_virtuous_excision_L.png",
+  "hardpointSprite": "",
+  "turretOffsets": [ 110, -9 ],
+  "turretAngleOffsets": [ 0 ],
+  "hardpointOffsets": [ 110, -9 ],
+  "hardpointAngleOffsets": [ 0 ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 90.0,
+    "spread": 10.0,
+    "particleSizeMin": 20.0,
+    "particleSizeRange": 40.0,
+    "particleDuration": 0.15,
+    "particleCount": 20,
+    "particleColor": [ 199,93,76,215 ]
+  },
+  "projectileSpecId": "diableavionics_virtuousSniper_shot",
+  "fireSoundTwo": "diableavionics_virtuousSniper_fire",
+  "everyFrameEffect": "data.scripts.weapons.Diableavionics_virtuous_sniperEffect",
+}

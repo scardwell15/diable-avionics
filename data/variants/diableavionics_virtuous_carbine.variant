@@ -5,7 +5,8 @@
     "goalVariant": true,
     "hullId": "diableavionics_virtuous_skirmisher",
     "hullMods": [
-        "diableavionics_virtuous_armA",
+        "diableavionics_virtuous_scicle_L",
+        "diableavionics_virtuous_scicle_R",
         "diableavionics_virtuous_skirmisher",
         "hardenedshieldemitter",
         "magazines",
@@ -20,8 +21,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "LEFT": "diableavionics_virtuous_armA_L",
-                "RIGHT": "diableavionics_virtuous_armA_R"
+                "LEFT": "diableavionics_virtuous_scicle_L",
+                "RIGHT": "diableavionics_virtuous_scicle_R"
             }
         },
         {
