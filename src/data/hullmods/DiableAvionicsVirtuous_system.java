@@ -7,11 +7,13 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.combat.ShipHullSpecAPI;
+import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.ui.Alignment;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 
+import data.campaign.ids.Diableavionics_ids;
 import org.magiclib.util.MagicIncompatibleHullmods;
 
 import java.awt.Color;
@@ -81,6 +83,8 @@ public class DiableAvionicsVirtuous_system extends BaseHullMod {
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+        stats.getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).unmodify(Diableavionics_ids.UNIQUE);
+        stats.getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat(Diableavionics_ids.UNIQUE, 1000f);
 
         //trigger a system switch if none of the selector hullmods are present
         boolean switchSystem = true;

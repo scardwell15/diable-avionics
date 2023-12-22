@@ -9,6 +9,7 @@ import com.fs.starfarer.api.impl.campaign.events.OfficerManagerEvent;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
 import com.fs.starfarer.api.util.WeightedRandomPicker;
+import data.campaign.ids.Diableavionics_ids;
 import data.campaign.special.Diableavionics_gulfLoot;
 import data.campaign.special.Diableavionics_virtuousLoot;
 import data.scripts.world.systems.Diableavionics_fob;
@@ -123,7 +124,6 @@ public class DiableavionicsGen implements SectorGeneratorPlugin {
         VIRTUOUS.add("diableavionics_virtuous_sniper");
     }
 
-    private static final String ID = "diableavionics_unique";
     public static String virtuousVariant = "diableavionics_virtuous_breacher";
 
     public static void spawnVirtuous() {
@@ -178,7 +178,7 @@ public class DiableavionicsGen implements SectorGeneratorPlugin {
 
             virtuous.setDiscoverable(false);
             virtuous.addTag(Tags.NEUTRINO);
-            virtuous.getFlagship().getStats().getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat(ID, -2000);
+            virtuous.getFlagship().getStats().getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat(Diableavionics_ids.UNIQUE, -2000);
             virtuous.addEventListener(new Diableavionics_virtuousLoot());
 
             virtuousCaptain.getMemoryWithoutUpdate().set("$virtuous", true);
@@ -235,7 +235,7 @@ public class DiableavionicsGen implements SectorGeneratorPlugin {
 
             gulf.setDiscoverable(false);
             gulf.addTag(Tags.NEUTRINO);
-            gulf.getFlagship().getStats().getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat(ID, -2000f);
+            gulf.getFlagship().getStats().getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat(Diableavionics_ids.UNIQUE, -2000f);
             gulf.addEventListener(new Diableavionics_gulfLoot());
 
             gulf.getMemoryWithoutUpdate().set("$gulf", true);
