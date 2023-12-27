@@ -20,7 +20,7 @@ public class WanzerMovementScript implements AdvanceableListener {
     public WanzerMovementScript(ShipAPI ship) {
         this.ship = ship;
         for (WeaponAPI weapon : ship.getAllWeapons()) {
-            if (weapon.isDecorative()) continue;
+            if (weapon.isDecorative() || weapon.hasAIHint(WeaponAPI.AIHints.PD)) continue;
             if (weapon.getRange() < maxDistance) {
                 maxDistance = weapon.getRange() * 0.85f;
             }

@@ -35,6 +35,7 @@ public class DiableAvionicsVirtuous_system extends BaseHullMod {
         SWITCH_SYSTEM_TO.put("diableavionics_virtuous_brawler", 2);
         SWITCH_SYSTEM_TO.put("diableavionics_virtuous_defender", 3);
         SWITCH_SYSTEM_TO.put("diableavionics_virtuous_scout", 0);
+        SWITCH_SYSTEM_TO.put("diableavionics_virtuous_destroyed", 0);
     }
 
     private final Map<Integer, String> SWITCH_SYSTEM = new HashMap<>();
