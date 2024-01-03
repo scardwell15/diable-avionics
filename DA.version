@@ -3,10 +3,11 @@
     "modName":"Diable Avionics",
     "modThreadId":10046,
     "modNexusId":"15",
+    "directDownloadURL":"https://github.com/scardwell15/diable-avionics/releases/download/v2.7.6/Diable-Avionics-v2.7.6.zip",
     "modVersion":
     {
         "major":2,
         "minor":7,
-        "patch":5,
+        "patch":6,
     },
 }
