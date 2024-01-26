@@ -8,6 +8,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.combat.ShipHullSpecAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
+import com.fs.starfarer.api.impl.campaign.ids.Tags;
 import com.fs.starfarer.api.ui.Alignment;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 
@@ -29,22 +30,19 @@ public class DiableAvionicsVirtuous_system extends BaseHullMod {
     }
 
     private final Map<String, Integer> SWITCH_SYSTEM_TO = new HashMap<>();
-
     {
-        SWITCH_SYSTEM_TO.put("diableavionics_virtuous_skirmisher", 1);
-        SWITCH_SYSTEM_TO.put("diableavionics_virtuous_brawler", 2);
-        SWITCH_SYSTEM_TO.put("diableavionics_virtuous_defender", 3);
-        SWITCH_SYSTEM_TO.put("diableavionics_virtuous_scout", 0);
-        SWITCH_SYSTEM_TO.put("diableavionics_virtuous_destroyed", 0);
+        SWITCH_SYSTEM_TO.put("diableavionics_unlockedFlicker", 1);
+        SWITCH_SYSTEM_TO.put("diableavionics_temporalshell", 2);
+        SWITCH_SYSTEM_TO.put("diableavionics_citadel", 3);
+        SWITCH_SYSTEM_TO.put("diableavionics_circus", 0);
     }
 
-    private final Map<Integer, String> SWITCH_SYSTEM = new HashMap<>();
-
+    private final Map<Integer, String> SWITCH_HULLSPECS = new HashMap<>();
     {
-        SWITCH_SYSTEM.put(0, "diableavionics_virtuous_skirmisher");
-        SWITCH_SYSTEM.put(1, "diableavionics_virtuous_brawler");
-        SWITCH_SYSTEM.put(2, "diableavionics_virtuous_defender");
-        SWITCH_SYSTEM.put(3, "diableavionics_virtuous_scout");
+        SWITCH_HULLSPECS.put(0, "diableavionics_virtuous_skirmisher");
+        SWITCH_HULLSPECS.put(1, "diableavionics_virtuous_brawler");
+        SWITCH_HULLSPECS.put(2, "diableavionics_virtuous_defender");
+        SWITCH_HULLSPECS.put(3, "diableavionics_virtuous_scout");
     }
 
     private static final String LEFT = "_L";
@@ -84,12 +82,30 @@ public class DiableAvionicsVirtuous_system extends BaseHullMod {
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).unmodify(Diableavionics_ids.UNIQUE);
-        stats.getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat(Diableavionics_ids.UNIQUE, 1000f);
+        if (stats.getFleetMember() == null
+                || (stats.getFleetMember().getFleetData() == null || stats.getFleetMember().getFleetData().getFleet() != Global.getSector().getPlayerFleet())) {
+            //prevent direct recovery from Last Line fleet because we spawn a derelict after combat
+
+            if (!stats.getVariant().hasTag(Tags.VARIANT_UNBOARDABLE))
+                stats.getVariant().addTag(Tags.VARIANT_UNBOARDABLE);
+
+            if (stats.getVariant().hasTag(Tags.VARIANT_ALWAYS_RECOVERABLE))
+                stats.getVariant().removeTag(Tags.VARIANT_ALWAYS_RECOVERABLE);
+        } else if (stats.getFleetMember() != null
+                && stats.getFleetMember().getFleetData() != null
+                && stats.getFleetMember().getFleetData().getFleet() == Global.getSector().getPlayerFleet()) {
+
+            //always recover if in player fleet
+            if (stats.getVariant().hasTag(Tags.VARIANT_UNBOARDABLE))
+                stats.getVariant().removeTag(Tags.VARIANT_UNBOARDABLE);
+
+            if (!stats.getVariant().hasTag(Tags.VARIANT_ALWAYS_RECOVERABLE))
+                stats.getVariant().addTag(Tags.VARIANT_ALWAYS_RECOVERABLE);
+        }
 
         //trigger a system switch if none of the selector hullmods are present
         boolean switchSystem = true;
-        for (String h : SWITCH_SYSTEM_TO.keySet()) {
+        for (String h : SWITCH_HULLSPECS.values()) {
             if (stats.getVariant().getHullMods().contains(h)) {
                 switchSystem = false;
                 break;
@@ -98,13 +114,14 @@ public class DiableAvionicsVirtuous_system extends BaseHullMod {
 
         //swap the source variant and add the proper hullmod
         if (switchSystem && stats.getEntity() != null && ((ShipAPI) stats.getEntity()).getHullSpec() != null) {
-            int switchTo = SWITCH_SYSTEM_TO.get(((ShipAPI) stats.getEntity()).getHullSpec().getHullId());
+            int switchToIndex = SWITCH_SYSTEM_TO.get(((ShipAPI) stats.getEntity()).getHullSpec().getShipSystemId());
+            String switchTo = SWITCH_HULLSPECS.get(switchToIndex);
 
-            ShipHullSpecAPI ship = Global.getSettings().getHullSpec(SWITCH_SYSTEM.get(switchTo));
+            ShipHullSpecAPI ship = Global.getSettings().getHullSpec(switchTo);
             ((ShipAPI) stats.getEntity()).getVariant().setHullSpecAPI(ship);
 
             //add the proper hullmod
-            stats.getVariant().addMod(SWITCH_SYSTEM.get(switchTo));
+            stats.getVariant().addMod(switchTo);
         }
 
         //WEAPONS

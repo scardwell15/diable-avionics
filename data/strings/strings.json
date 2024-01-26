@@ -46,6 +46,8 @@
 				"citadel3":"% shield strength",
 				"citadel4":"% top speed",
 				"citadel5":"% flux dissipation",
+				"citadel6":"+%s%% vent rate",
+				"citadel7":"+%s top speed",
 				
 				"hm_virtuousRefresh1":"DATABASE ERROR",
 				"hm_virtuousRefresh2":"Warning: your tripadOS is outdated and does not support rendering Versatile Frame (tm) systems. Glitches may occur when swapping hull configurations. In case of incorrect display, refresh the page by browsing a different ship then going back to this one.",
