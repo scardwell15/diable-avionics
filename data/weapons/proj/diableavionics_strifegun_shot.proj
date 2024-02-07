@@ -16,5 +16,19 @@
 	"glowRadius":15,
 	"glowColor":[50,28,0,255],
 	"bulletSprite":"graphics/missiles/flechette_sml.png",
-	#"bulletSprite":"",		
+	#"bulletSprite":"",
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":10,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":10,
+									 "coreRadius":10, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":1.5,
+									 "particleSizeRange":1.5,
+									 "particleDuration":0.8,
+									 "particleCount":80,
+									 "particleColor":[255,155,155,255],
+									 },
+					}
 }

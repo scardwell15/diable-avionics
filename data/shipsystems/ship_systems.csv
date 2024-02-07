@@ -16,7 +16,7 @@ Priere Quantum ECM,diableavionics_quantumimpulse,,,,,,,,,,1,8,1,10,,,,,,,,,,,,,g
 Forced Burn Catalyst,diableavionics_forcedburn,1,,0.03,,,0.1,,,,30,,5,5,TRUE,,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,,,,graphics/icons/hullsys/burn_drive.png
 Long Range Coordination,diableavionics_longRange,,,,,,,,,,1,18,1,30,,,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
 Emergency Refit,diableavionics_fastRefit,,,,,,,,,,1,13,1,30,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
-Plasma Capacitor Shunt,diableavionics_capacitors,,,,0,0,0.05,,3,0.05,0.1,1.3,0.1,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,graphics/icons/hullsys/damper_field.png
+Plasma Capacitor Shunt,diableavionics_capacitors,,,,0,0,0.05,,4,0.05,0.1,3.8,0.1,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,graphics/icons/hullsys/damper_field.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Damping Wave,diableavionics_damperwave,,,,,,0.075,,5,0.05,.3,.2,1,1,,,,TRUE,TRUE,,,,TRUE,TRUE,,,graphics/icons/hullsys/displacer.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -25,8 +25,8 @@ Assume Wing Control,diableavionics_assumeControl,,,,,,,,,,0.1,30,0.1,15,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Botte Secrète,diableavionics_slash,,,,,,,,,,0.5,2,0.5,18,,,,,,,,,,,,,graphics/icons/hullsys/teleporter.png
 Hold Your Ground,diableavionics_dakka,,,,,,,,,,0.5,7,1,15,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
-Berserker,diableavionics_berserk,,,,,,,,,,0.5,6,1,15,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
-Aether Splitter,diableavionics_splitter,,,,,,,,,,1.5,1.25,1.5,20,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/high_energy_focus.png
+Berserker,diableavionics_berserk,,,,,,,,,,0.5,9,0.5,15,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Aether Splitter,diableavionics_splitter,,,,,,,,,,1.5,2.5,1.5,20,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/high_energy_focus.png
 Gun Kata,diableavionics_kata,,,,,,,,,,0.5,10,1,20,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Unlocked Flicker Core,diableavionics_unlockedFlicker,,,,,,0.05,,8,0.4,0.15,,0.15,0.15,,TRUE,,TRUE,,,,,,TRUE,,,graphics/icons/hullsys/displacer.png

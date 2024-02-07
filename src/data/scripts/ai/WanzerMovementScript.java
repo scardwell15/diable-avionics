@@ -9,7 +9,7 @@ import org.lazywizard.lazylib.MathUtils;
 
 public class WanzerMovementScript implements AdvanceableListener {
     private ShipAPI ship = null;
-    private float maxDistance = 400f;
+    private float maxDistance = Float.MAX_VALUE;
     private IntervalUtil decelerateInterval = new IntervalUtil(0.25f, 0.5f);
     private boolean canDecelerate = true;
     private IntervalUtil strafeInterval = new IntervalUtil(4f, 8f);
@@ -22,7 +22,7 @@ public class WanzerMovementScript implements AdvanceableListener {
         for (WeaponAPI weapon : ship.getAllWeapons()) {
             if (weapon.isDecorative() || weapon.hasAIHint(WeaponAPI.AIHints.PD)) continue;
             if (weapon.getRange() < maxDistance) {
-                maxDistance = weapon.getRange() * 0.85f;
+                maxDistance = weapon.getRange() * 0.9f;
             }
         }
         maxDistance = maxDistance * maxDistance;
@@ -42,7 +42,7 @@ public class WanzerMovementScript implements AdvanceableListener {
                 ship.giveCommand(strafeState, null, 0);
             }
 
-            if (distance <= maxDistance * 0.85f) {
+            if (distance <= maxDistance * 0.8f) {
                 decelerateInterval.advance(amount);
                 if (decelerateInterval.intervalElapsed()) {
                     canDecelerate = true;

@@ -13,6 +13,9 @@
     13,
     -8
   ],
+"builtInMods": [
+    "pointdefenseai",
+  ],
   "builtInWeapons": {
     "HEAD": "diableavionics_zephyr_head",
     "LEFT_ARM": "diableavionics_zephyr_leftArm",
