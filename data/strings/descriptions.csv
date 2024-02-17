@@ -765,7 +765,7 @@ diableavionics_booster,SHIP_SYSTEM,Detatches the large booster engine used to qu
 ,,,,,
 diableavionics_fastRefit,SHIP_SYSTEM,Halve the refit time of carried fighter wings but doubles the Fighter replacement rate gauge consumption.,Special,Halve the refit time of carried fighter wings but doubles the Fighter replacement rate gauge consumption.,
 ,,,,,
-diableavionics_assumeControl,SHIP_SYSTEM,"Temporarily gives remote control of the resident wing to an Ace safely piloting from the carrier, increasing its performance and effectiveness significantly.",Fighter,"Temporarily gives remote control of the resident wing to an Ace safely piloting from the carrier, increasing its performance and effectiveness significantly.",
+diableavionics_assumeControl,SHIP_SYSTEM,"Temporarily gives remote control of the resident wing to an Ace safely piloting from the carrier, increasing its performance and durability significantly.",Fighter,"Temporarily gives remote control of the resident wing to an Ace safely piloting from the carrier, increasing its performance and durability significantly.",
 ,,,,,
 diableavionics_shield,SHIP_SYSTEM,"Redirects all power from the weapon systems to shields, greatly increasing the efficiency at which damage is absorbed. This process generates hard flux at a steady rate even if the shields are not taking any fire. This is a licensed version that has been artificially limited.",Defensive,"Reduces the damage taken by shields to a minimum for a short duration, but generates hard flux while active.",
 ,,,,,

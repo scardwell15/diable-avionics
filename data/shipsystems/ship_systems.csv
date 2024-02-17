@@ -9,7 +9,7 @@ Phase Grazer Shell,diableavionics_nudge,,,,,,,,,,1,0,0,20,,,,TRUE,TRUE,,,,,TRUE,
 Phase Flicker Core,diableavionics_heavyflicker,,,,,,0.075,,3,0.075,0.3,,0.1,0.5,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/teleporter.png
 Light Flicker Core,diableavionics_flicker,,,,,,0.05,,4,0.1,0.2,,0.1,0.5,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
 High Speed Mode,diableavionics_transit,,,,,,,,,,0.75,,0.75,3,TRUE,,,,TRUE,,,,TRUE,,,,graphics/icons/hullsys/displacer.png
-High Speed Mode,diableavionics_transit2,,,,,,,,,,2,,1,3,TRUE,,,,FALSE,,,,TRUE,,,,graphics/icons/hullsys/displacer.png
+High Speed Mode,diableavionics_transit2,,,,,,,,,,1,,0.5,2,TRUE,,,,FALSE,,,,TRUE,,,,graphics/icons/hullsys/displacer.png
 Drop Booster,diableavionics_booster,,,,,,,,1,,,,,,TRUE,,,,,,,,TRUE,,,,graphics/icons/hullsys/displacer.png
 Flux Redirection,diableavionics_fluxredirection,,,,0,0,0.1,,,,1,5,1,10,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,graphics/icons/hullsys/ammo_feeder.png
 Priere Quantum ECM,diableavionics_quantumimpulse,,,,,,,,,,1,8,1,10,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png

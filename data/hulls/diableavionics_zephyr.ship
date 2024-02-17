@@ -15,6 +15,7 @@
   ],
 "builtInMods": [
     "pointdefenseai",
+    "no_weapon_flux"
   ],
   "builtInWeapons": {
     "HEAD": "diableavionics_zephyr_head",

@@ -8,13 +8,13 @@ diableavionics_hoar_wing,diableavionics_hoar_akimbo,"wanzer, fighter3, fighter, 
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 diableavionics_warlust_wing,diableavionics_warlust_Standard,"wanzer, fighter3, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",2,,6,15,BOX,4000,500,,1,FIGHTER,Sniper,16,12000,,,,,,,,,,,,,5
-diableavionics_blizzaia_wing,diableavionics_blizzaia_Standard,"wanzer, bomber5, bomber, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",2,,11,15,V,4000,1000,-200,1,BOMBER,Grenadier,20,14000,,,,,,,,,,,,,13
+diableavionics_blizzaia_wing,diableavionics_blizzaia_Standard,"wanzer, bomber5, bomber, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",2,,11,16,V,4000,1000,-200,1,BOMBER,Grenadier,20,14000,,,,,,,,,,,,,13
 diableavionics_avalanche_wing,diableavionics_avalanche_variant,"wanzer, fighter3, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",2,,6,19,BOX,4000,500,,1,FIGHTER,Shock Trooper,20,12000,,,,,,,,,,,,,5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 diableavionics_valiant_wing,diableavionics_valiant_Standard,"wanzer, interceptor3, interceptor, high, rare_bp, rd_no_extra_craft",3,0.5,10,18,V,6000,500,-100,2,INTERCEPTOR,Commando,16,15000,,,,,,,,,,,,,3
 diableavionics_raven_wing,diableavionics_raven_Standard,"wanzer, fighter4, fighter, high, rare_bp, rd_no_extra_craft",3,0.5,12,24,BOX,4000,500,,1,FIGHTER,Heavy Trooper,25,13000,,,,,,,,,,,,,1
-diableavionics_zephyr_wing,diableavionics_zephyr_beam,"wanzer, fighter4, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",3,0.5,8,22,BOX,4000,500,,1,INTERCEPTOR,Marksman,23,14000,,,,,,,,,,,,,1
+diableavionics_zephyr_wing,diableavionics_zephyr_beam,"wanzer, fighter4, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",3,0.5,8,23,BOX,4000,500,,1,INTERCEPTOR,Marksman,25,14000,,,,,,,,,,,,,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 diableavionics_vortex_wing,diableavionics_vortex_PD,"no_drop, no_sell, high",2,,4,0,V,2000,500,,1,SUPPORT,Drone,10,1500,,,,,,,,,,,,,18

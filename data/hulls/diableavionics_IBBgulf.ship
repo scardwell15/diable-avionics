@@ -112,7 +112,8 @@
     -11.5
   ],
   "builtInMods": [
-    "diableavionics_universaldecksExtra"
+    "diableavionics_universaldecksExtra",
+    "missleracks"
   ],
   "center": [
     79,
