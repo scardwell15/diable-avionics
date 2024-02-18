@@ -106,7 +106,7 @@
     -3.5
   ],
   "builtInMods": [
-    #"diableavionics_avionics"
+    "diableavionics_avionics",
   ],
   "builtInWings": [],
   "center": [

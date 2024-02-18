@@ -40,8 +40,8 @@
     28.5
   ],
   "builtInMods": [
+    "diableavionics_avionics",
     #"diableavionics_universaldecksExtra",
-    #"diableavionics_avionics"
   ],
   "builtInWeapons": {
     "SYSTEM": "diableavionics_gustSystem",

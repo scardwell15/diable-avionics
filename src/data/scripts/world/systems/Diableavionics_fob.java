@@ -2,11 +2,13 @@ package data.scripts.world.systems;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
+import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
+import data.scripts.world.DiableavionicsGen;
 
 import java.awt.*;
 
@@ -15,8 +17,8 @@ import static data.scripts.util.Diableavionics_stringsManager.txt;
 public class Diableavionics_fob {
 
     public void generate(SectorAPI sector) {
-
         StarSystemAPI system = sector.createStarSystem(txt("star_A"));
+        system.setOptionalUniqueId("diableavionics_fob");
         system.setBackgroundTextureFilename("graphics/backgrounds/background4.jpg");
 
         // create the star and generate the hyperspace anchor for this system
@@ -53,6 +55,11 @@ public class Diableavionics_fob {
                 false); // whether to use custom or system-name based names
 
         system.autogenerateHyperspaceJumpPoints(true, true, true);
+        system.setEnteredByPlayer(true);
+        Misc.setAllPlanetsSurveyed(system, true);
+        for (MarketAPI market : Global.getSector().getEconomy().getMarkets(system)) {
+            market.setSurveyLevel(MarketAPI.SurveyLevel.FULL); // could also be a station, not a planet
+        }
 
         cleanup(system);
     }

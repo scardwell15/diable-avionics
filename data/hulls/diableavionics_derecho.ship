@@ -74,7 +74,7 @@
     1.5
   ],
   "builtInMods": [
-    #"diableavionics_avionics",
+    "diableavionics_avionics",
     "diableavionics_cramped",
     "high_maintenance",
     "hiressensors",

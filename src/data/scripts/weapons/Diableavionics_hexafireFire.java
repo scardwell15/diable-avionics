@@ -20,7 +20,7 @@ public class Diableavionics_hexafireFire implements EveryFrameWeaponEffectPlugin
 
         if(weapon.getChargeLevel()==1){
 
-            float fluxBoost=0.5f*weapon.getShip().getFluxLevel();
+            float fluxBoost=weapon.getShip().getFluxLevel();
 
             for(DamagingProjectileAPI p : CombatUtils.getProjectilesWithinRange(weapon.getLocation(), 100)){
 

@@ -12,6 +12,7 @@
   "shieldRadius": 115,
   "viewOffset": 0,
   "builtInMods": [
+    "diableavionics_avionics",
     "diableavionics_virtuousMasterHullmod"
   ],
   "builtInWeapons": {
