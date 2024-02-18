@@ -42,8 +42,9 @@
     -7.5
   ],
   "builtInMods": [
+    "diableavionics_avionics",
     "diableavionics_cramped",
-    "diableavionics_tuning",
+    "diableavionics_tuning"
     #"delicate"
   ],
   "builtInWeapons": {

@@ -12,8 +12,9 @@
   "shieldRadius": 114.5,
   "viewOffset": 0,
   "builtInMods": [
+    "diableavionics_avionics",
     "diableavionics_mountBI",
-        "missleracks",
+    "missleracks",
   ],
   "weaponSlots": [
     {

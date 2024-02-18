@@ -2,6 +2,7 @@ package data.scripts.world.systems;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
+import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.DerelictShipEntityPlugin;
 import com.fs.starfarer.api.impl.campaign.ids.Entities;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
@@ -14,6 +15,7 @@ import com.fs.starfarer.api.impl.campaign.rulecmd.salvage.special.ShipRecoverySp
 import com.fs.starfarer.api.impl.campaign.rulecmd.salvage.special.ShipRecoverySpecial.ShipCondition;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
+import data.scripts.world.DiableavionicsGen;
 import org.apache.log4j.Logger;
 
 import java.awt.*;
@@ -24,8 +26,8 @@ public class Diableavionics_stagging {
     private Logger log = Global.getLogger(Diableavionics_stagging.class);
 
     public void generate(SectorAPI sector) {
-
         StarSystemAPI system = sector.createStarSystem(txt("star_B"));
+        system.setOptionalUniqueId("diableavionics_stagging");
 
         system.setBackgroundTextureFilename("graphics/backgrounds/background4.jpg");
 
@@ -64,6 +66,12 @@ public class Diableavionics_stagging {
                 false); // whether to use custom or system-name based names
 
         system.autogenerateHyperspaceJumpPoints(true, true, true);
+        system.setEnteredByPlayer(true);
+        Misc.setAllPlanetsSurveyed(system, true);
+        for (MarketAPI market : Global.getSector().getEconomy().getMarkets(system)) {
+            market.setSurveyLevel(MarketAPI.SurveyLevel.FULL); // could also be a station, not a planet
+        }
+
 
         cleanup(system);
 

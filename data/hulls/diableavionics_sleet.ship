@@ -55,7 +55,10 @@
     46,
     -3
   ],
-  "builtInMods": ["shielded_holds"],
+  "builtInMods": [
+    "diableavionics_avionics",
+    "shielded_holds"
+  ],
   "center": [
     57,
     40
