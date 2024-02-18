@@ -26,7 +26,7 @@
     27.5
   ],
   "builtInMods": [
-    #"diableavionics_avionics"
+    "diableavionics_avionics",
     "shielded_holds",
   ],
   "builtInWeapons": {

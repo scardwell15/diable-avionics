@@ -18,39 +18,37 @@ import java.util.Map;
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 
 public class DiableAvionicsMountBI extends BaseHullMod {
+    public static final String BUILT_IN_MOUNT_ID = "diableavionics_mountBI";
 
-    private final float RANGE_BOOST=200;
-    private final float EXTRA_RANGE_BOOST=300;
-    private final float FIRERATE_REDUCTION=-20;
-    private final float RECOIL_REDUCTION=-30;
+    protected static final float RANGE_BOOST = 200;
+    protected static final float LARGE_MOUNT_EXTRA_RANGE_BOOST = 300;
+    protected static final float RECOIL_REDUCTION = -30;
 
-    private final int SMALL_SIZE_OP_REDCUTION=2;
-    private final int MEDIUM_SIZE_OP_REDCUTION=4;
-    private final int LARGE_SIZE_OP_REDCUTION=6;
+    protected static final int FRIGATE_DP = 2;
+    protected static final int DESTORYER_DP = 3;
+    protected static final int CRUSIER_DP = 5;
+    protected static final int CAPITAL_DP = 7;
 
-    private final int FRIGATE_DP=2;
-    private final int DESTORYER_DP=3;
-    private final int CRUSIER_DP=5;
-    private final int CAPITAL_DP=7;
+    private static final Map<WeaponSize, Integer> DIABLE_WEAPON_OP_REDUCTION_MAP = new EnumMap<>(WeaponSize.class);
 
-    private static final Map<WeaponSize, Integer> DIABLE_WEAPON_OP_REDUCTION_MAP = new EnumMap(WeaponSize.class);
+    static {
+        DIABLE_WEAPON_OP_REDUCTION_MAP.put(WeaponSize.SMALL, 2);
+        DIABLE_WEAPON_OP_REDUCTION_MAP.put(WeaponSize.MEDIUM, 4);
+        DIABLE_WEAPON_OP_REDUCTION_MAP.put(WeaponSize.LARGE, 6);
+    }
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-
-        DIABLE_WEAPON_OP_REDUCTION_MAP.put(WeaponSize.SMALL, SMALL_SIZE_OP_REDCUTION);
-        DIABLE_WEAPON_OP_REDUCTION_MAP.put(WeaponSize.MEDIUM, MEDIUM_SIZE_OP_REDCUTION);
-        DIABLE_WEAPON_OP_REDUCTION_MAP.put(WeaponSize.LARGE, LARGE_SIZE_OP_REDCUTION);
-
         stats.getBallisticWeaponRangeBonus().modifyFlat(id, RANGE_BOOST);
         stats.getEnergyWeaponRangeBonus().modifyFlat(id, RANGE_BOOST);
         stats.getBeamWeaponRangeBonus().modifyFlat(id, -RANGE_BOOST);
 
-        stats.getRecoilPerShotMult().modifyPercent(id,RECOIL_REDUCTION);
+        stats.getRecoilPerShotMult().modifyPercent(id, RECOIL_REDUCTION);
 
-        stats.addListener(new DiableAvionicsMountBI.DiableRangeModifier());
-        if(isSMod(stats)){
-            switch(hullSize) {
+        stats.addListener(new DiableWeaponOPModifier(id));
+
+        if (isSMod(stats)) {
+            switch (hullSize) {
                 case DEFAULT:
                     break;
                 case FIGHTER:
@@ -68,23 +66,25 @@ public class DiableAvionicsMountBI extends BaseHullMod {
                     stats.getDynamic().getMod(Stats.DEPLOYMENT_POINTS_MOD).modifyFlat(id, CAPITAL_DP);
                     break;
             }
-            stats.addListener(new DiableAvionicsMountBI.DiableWeaponOPModifier());
         }
+    }
 
-    }
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
-        ship.addListener(new DiableAvionicsMountBI.DiableRangeModifier());
+        if (BUILT_IN_MOUNT_ID.equals(id)) {
+            ship.addListener(new DiableRangeModifier());
+        }
     }
+
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) {
-            return RANGE_BOOST+" "+txt("su");
+            return RANGE_BOOST + " " + txt("su");
         }
         if (index == 1) {
-            return 25+txt("%");
+            return 25 + txt("%");
         }
         if (index == 2) {
-            return EXTRA_RANGE_BOOST+" "+txt("su");
+            return LARGE_MOUNT_EXTRA_RANGE_BOOST + " " + txt("su");
         }
         return null;
     }
@@ -92,41 +92,54 @@ public class DiableAvionicsMountBI extends BaseHullMod {
     @Override
     public String getSModDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) {
-            return SMALL_SIZE_OP_REDCUTION+"";    //+“” means int→string
+            return DIABLE_WEAPON_OP_REDUCTION_MAP.get(WeaponSize.SMALL) + "";    //+“” means int→string
         }
         if (index == 1) {
-            return MEDIUM_SIZE_OP_REDCUTION+"";
+            return DIABLE_WEAPON_OP_REDUCTION_MAP.get(WeaponSize.MEDIUM) + "";
         }
         if (index == 2) {
-            return LARGE_SIZE_OP_REDCUTION+"";
+            return DIABLE_WEAPON_OP_REDUCTION_MAP.get(WeaponSize.LARGE) + "";
         }
         if (index == 3) {
-            return FRIGATE_DP+"";
+            return FRIGATE_DP + "";
         }
         if (index == 4) {
-            return DESTORYER_DP+"";
+            return DESTORYER_DP + "";
         }
         if (index == 5) {
-            return CRUSIER_DP+"";
+            return CRUSIER_DP + "";
         }
         if (index == 6) {
-            return CAPITAL_DP+"";
+            return CAPITAL_DP + "";
         }
 
         return super.getSModDescriptionParam(index, hullSize);
     }
-    public static boolean isdiableWeapon(WeaponSpecAPI weapon) {
+
+    public static boolean isDiableWeapon(WeaponSpecAPI weapon) {
         return weapon.getWeaponId().startsWith("diable");
     }
 
+    @Override
     public boolean affectsOPCosts() {
         return true;
     }
 
+    @Override
+    public boolean isApplicableToShip(ShipAPI ship) {
+        if (ship == null) return false;
+        return ship.getVariant().hasHullMod(BUILT_IN_MOUNT_ID);
+    }
+
+    @Override
+    public boolean showInRefitScreenModPickerFor(ShipAPI ship) {
+        return ship.getVariant().hasHullMod(BUILT_IN_MOUNT_ID);
+    }
+
     public static final class DiableRangeModifier implements WeaponBaseRangeModifier {
         public DiableRangeModifier() {
-
         }
+
         public float getWeaponBaseRangePercentMod(ShipAPI ship, WeaponAPI weapon) {
             return 0.0F;
         }
@@ -136,21 +149,43 @@ public class DiableAvionicsMountBI extends BaseHullMod {
         }
 
         public float getWeaponBaseRangeFlatMod(ShipAPI ship, WeaponAPI weapon) {
-            if(DiableAvionicsMount.isdiableWeapon(weapon.getSpec())) {
-                if (weapon.getSize()==WeaponSize.LARGE){
-                    if(weapon.getType()==WeaponType.BALLISTIC|| weapon.getType()==WeaponType.ENERGY &&!weapon.isBeam()&&!weapon.isBurstBeam())
+            if (isDiableWeapon(weapon.getSpec())) {
+                if (weapon.getSize() == WeaponSize.LARGE) {
+                    if (weapon.getType() == WeaponType.BALLISTIC || weapon.getType() == WeaponType.ENERGY && !weapon.isBeam() && !weapon.isBurstBeam())
                         return 100f;
                 }
             }
             return 0;
         }
     }
+
     public static class DiableWeaponOPModifier implements WeaponOPCostModifier {
-        public DiableWeaponOPModifier() {
+        private final String hullmodId;
+        public DiableWeaponOPModifier(String hullmodId) {
+            this.hullmodId = hullmodId;
         }
 
         public int getWeaponOPCost(MutableShipStatsAPI stats, WeaponSpecAPI weapon, int currCost) {
-            return !weapon.getType().equals(WeaponAPI.WeaponType.MISSILE) ? currCost - (DiableAvionicsMountBI.isdiableWeapon(weapon) ?(Integer)DiableAvionicsMountBI.DIABLE_WEAPON_OP_REDUCTION_MAP.get(weapon.getSize()) : 0): currCost;
+            if (!isSModded(stats, hullmodId)) return currCost;
+
+            if (isDiableWeapon(weapon)) {
+                if (weapon.getType() == WeaponType.BALLISTIC || weapon.getType() == WeaponType.ENERGY) {
+                    return currCost - DiableAvionicsMountBI.DIABLE_WEAPON_OP_REDUCTION_MAP.get(weapon.getSize());
+                }
+            }
+            return currCost;
         }
+    }
+
+    public static boolean isSModded(MutableShipStatsAPI stats, String id) {
+        if (stats == null || stats.getVariant() == null) return false;
+        return stats.getVariant().getSMods().contains(id) ||
+                stats.getVariant().getSModdedBuiltIns().contains(id);
+    }
+
+    public static boolean isSModded(ShipAPI ship, String id) {
+        if (ship == null || ship.getVariant() == null) return false;
+        return ship.getVariant().getSMods().contains(id) ||
+                ship.getVariant().getSModdedBuiltIns().contains(id);
     }
 }

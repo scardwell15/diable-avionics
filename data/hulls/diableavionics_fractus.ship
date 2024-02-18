@@ -44,7 +44,7 @@
     -0
   ],
   "builtInMods": [
-    #"diableavionics_avionics"
+    "diableavionics_avionics",
   ],
   "center": [
     89,

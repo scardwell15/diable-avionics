@@ -27,6 +27,7 @@
 	"pixelsPerTexel":5.0,
 	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
 	#"fireSoundOne":"diableavionics_burchel_firing",
+	"onHitEffect":"data.scripts.weapons.BurchelOnHitEffect",
 	"beamEffect":"data.scripts.weapons.Diableavionics_fastBurstsEffect",
 
 }
