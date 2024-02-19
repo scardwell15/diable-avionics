@@ -1,0 +1,62 @@
+{
+  "id": "diableavionics_magicboxpod",
+  "specClass": "projectile",
+  "projectileSpecId": "diableavionics_magicmissile",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/diableavionics_magicboxpod_turret.png",
+  "hardpointSprite": "graphics/weapons/diableavionics_magicboxpod_hardpoint.png",
+  "turretOffsets": [
+    13,
+    7,
+    13,
+    -7,
+    13,
+    7,
+    13,
+    -7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    19.5,
+    -8,
+    19.5,
+    6,
+    19.5,
+    -8,
+    19.5,
+    6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "autocharge": true,
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 14,
+    "cloudParticleCount": 2,
+    "cloudDuration": 1.4,
+    "cloudRadius": 11,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 0.33,
+    "blowbackLength": 33,
+    "blowbackSpread": 33,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ]
+  },
+  "fireSoundTwo": "diableavionics_magic_firing",
+}
