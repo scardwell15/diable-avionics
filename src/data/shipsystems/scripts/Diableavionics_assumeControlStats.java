@@ -361,6 +361,17 @@ public class Diableavionics_assumeControlStats extends BaseShipSystemScript {
             switchToCarrier(carrier, ship);
         }
 
+
+        @Override
+        public void advanceInternal(float amount) {
+            if (!ship.isAlive() || !carrier.isAlive()) {
+                switchToCarrier(carrier, ship);
+                return;
+            }
+
+            super.advanceInternal(amount);
+        }
+
         @Override
         public void advance(float amount, boolean isPaused) {
             ShipAPI closest = AIUtils.getNearestEnemy(ship);
