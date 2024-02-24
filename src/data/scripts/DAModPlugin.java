@@ -2,14 +2,17 @@ package data.scripts;
 
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.ModSpecAPI;
 import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.CampaignPlugin;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.impl.campaign.shared.SharedData;
 import data.campaign.DACampaignPlugin;
 import data.scripts.ai.*;
 import data.scripts.world.DiableavionicsGen;
+import data.scripts.world.MarketHelpers;
 import exerelin.campaign.SectorManager;
 import org.dark.shaders.light.LightData;
 import org.dark.shaders.util.ShaderLib;
@@ -21,7 +24,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DAModPlugin extends BaseModPlugin {
-
     public static final String SCATTER_MISSILE_ID = "diableavionics_micromissile";
     public static final String PD_MISSILE_ID = "diableavionics_magicmissile";
     public static final String THUNDERBOLT_ID = "diableavionics_thunderbolt";
@@ -34,13 +36,24 @@ public class DAModPlugin extends BaseModPlugin {
     public static final String VIRTUOUS_MISSILE_ID = "diableavionics_virtuousmissile";
     public static final String DEEPSTRIKE_ID = "diableavionics_deepStrikeM";
 
+    public static final String MEMKEY_INTIALIZED = "$diableavionics_initialized";
+    public static final String MEMKEY_SPECIAL_FLEETS_INITIALIZED = "$diableavionicsSpecial";
+
     public static List<String> DERECHO_RESIST = new ArrayList<>();
     public static List<String> DERECHO_IMMUNE = new ArrayList<>();
     public static List<String> WANZERS = new ArrayList<>();
     public static float GANTRY_TIME_MULT = 1, GANTRY_DEPLETION_PERCENT = 0, GANTRY_OP_MODIFIER = 0;
+    public static final boolean haveNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
+
 
     @Override
     public void onApplicationLoad() throws ClassNotFoundException {
+        ModSpecAPI ml = Global.getSettings().getModManager().getModSpec("MagicLib");
+        int minor = Integer.parseInt(ml.getVersionInfo().getMinor());
+        int major = Integer.parseInt(ml.getVersionInfo().getMajor());
+        if (major < 1 || (major == 1 && minor < 4))
+            throw new RuntimeException("Diable Avionics 2.8.0 requires MagicLib version 1.4.0 or newer.");
+
         try {
             Global.getSettings().getScriptClassLoader().loadClass("org.dark.shaders.util.ShaderLib");
             ShaderLib.init();
@@ -59,13 +72,13 @@ public class DAModPlugin extends BaseModPlugin {
 
     @Override
     public void onNewGame() {
-        boolean haveNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
         if (!haveNexerelin || SectorManager.getManager().isCorvusMode()) {
             new DiableavionicsGen().generate(Global.getSector());
         }
+
+        Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_INTIALIZED, true);
     }
 
-    private final String SPECIAL_FLEETS = "$diableavionicsSpecial";
 
     @Override
     public void onNewGameAfterEconomyLoad() {
@@ -75,12 +88,43 @@ public class DAModPlugin extends BaseModPlugin {
             DiableavionicsGen.spawnGulf();
         }
         DiableavionicsGen.spawnVirtuous();
-        Global.getSector().getMemoryWithoutUpdate().set(SPECIAL_FLEETS, true);
+        Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_SPECIAL_FLEETS_INITIALIZED, true);
     }
 
     @Override
     public void onGameLoad(boolean newGame) {
         Global.getSector().registerPlugin(new DACampaignPlugin());
+
+        if (!haveNexerelin || SectorManager.getManager().isCorvusMode()) {
+            if (!Global.getSector().getMemoryWithoutUpdate().contains(MEMKEY_INTIALIZED)) {
+                addToOngoingGame();
+                Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_INTIALIZED, true);
+            }
+        }
+
+        if (!Global.getSector().getMemoryWithoutUpdate().contains(MEMKEY_SPECIAL_FLEETS_INITIALIZED)) {
+            addFleetsToOngoingGame();
+            Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_SPECIAL_FLEETS_INITIALIZED, true);
+        }
+    }
+
+    protected void addFleetsToOngoingGame() {
+        //add the special fleets
+        if (!MagicVariables.getIBB()) {
+            //no IBB system? it would be a shame to miss on the Gulf
+            DiableavionicsGen.spawnGulf();
+        }
+        DiableavionicsGen.spawnVirtuous();
+    }
+
+    protected void addToOngoingGame() {
+        if (!haveNexerelin || SectorManager.getManager().isCorvusMode()) {
+            new DiableavionicsGen().generate(Global.getSector());
+
+            MarketHelpers.generateMarketsFromEconJson("diableavionics_outerTerminus");
+            MarketHelpers.generateMarketsFromEconJson("diableavionics_stagging");
+            MarketHelpers.generateMarketsFromEconJson("diableavionics_fob");
+        }
     }
 
     @Override

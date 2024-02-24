@@ -2,6 +2,7 @@ package data.scripts.world;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
+import com.fs.starfarer.api.campaign.econ.EconomyAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.characters.FullName;
 import com.fs.starfarer.api.characters.PersonAPI;
@@ -15,7 +16,15 @@ import data.campaign.special.Diableavionics_virtuousLoot;
 import data.scripts.world.systems.Diableavionics_fob;
 import data.scripts.world.systems.Diableavionics_outerTerminus;
 import data.scripts.world.systems.Diableavionics_stagging;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.magiclib.util.MagicCampaign;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 
@@ -24,7 +33,6 @@ public class DiableavionicsGen implements SectorGeneratorPlugin {
 
     @Override
     public void generate(SectorAPI sector) {
-
         new Diableavionics_outerTerminus().generate(sector);
         new Diableavionics_stagging().generate(sector);
         new Diableavionics_fob().generate(sector);
@@ -112,7 +120,6 @@ public class DiableavionicsGen implements SectorGeneratorPlugin {
         diableavionics.setRelationship("nomads", -0.25f);
         diableavionics.setRelationship("thulelegacy", -0.25f);
         diableavionics.setRelationship("infected", -0.99f);
-
     }
 
     private static final WeightedRandomPicker<String> VIRTUOUS = new WeightedRandomPicker<>();

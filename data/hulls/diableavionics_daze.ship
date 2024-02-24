@@ -94,7 +94,7 @@
     -2.5
   ],
   "builtInMods": [
-    #"diableavionics_avionics",
+    "diableavionics_avionics",
   ],
   "builtInWeapons": {
     "WS0005": "diableavionics_microcluster2",

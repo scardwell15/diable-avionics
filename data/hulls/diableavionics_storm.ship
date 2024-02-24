@@ -12,8 +12,8 @@
   "shieldRadius": 168,
   "viewOffset": 0,
   "builtInMods": [
-    "diableavionics_universaldecksExtra",
-    #"missleracks",
+    "diableavionics_avionics",
+    "diableavionics_universaldecksExtra"
   ],
   "builtInWeapons": {
     "WS0010": "diableavionics_microcluster_left"

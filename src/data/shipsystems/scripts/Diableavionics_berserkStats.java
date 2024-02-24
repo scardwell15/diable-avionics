@@ -10,16 +10,16 @@ public class Diableavionics_berserkStats extends BaseShipSystemScript {
     @Override
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
 
-        stats.getMaxSpeed().modifyMult(id, 1-(effectLevel*0.33f));
         stats.getMaxTurnRate().modifyMult(id, 1+effectLevel);
         stats.getArmorDamageTakenMult().modifyMult(id, 1-(effectLevel*0.33f));
 
         stats.getWeaponTurnRateBonus().modifyMult(id, 1+effectLevel);
         stats.getAutofireAimAccuracy().modifyMult(id, 1+effectLevel);
         stats.getMaxRecoilMult().modifyMult(id, 1-(effectLevel*0.33f));
-        
+
         stats.getEnergyWeaponRangeBonus().modifyMult(id, 1+(effectLevel/2));        
-        stats.getEnergyRoFMult().modifyMult(id, 1+(effectLevel*2));
+        stats.getEnergyRoFMult().modifyMult(id, 1+(effectLevel*0.5f));
+        stats.getBallisticRoFMult().modifyMult(id,1+(effectLevel*0.5f));
         stats.getProjectileSpeedMult().modifyMult(id, 1+effectLevel);
         
         
@@ -32,7 +32,7 @@ public class Diableavionics_berserkStats extends BaseShipSystemScript {
 
     @Override
     public void unapply(MutableShipStatsAPI stats, String id) {
-        stats.getMaxSpeed().unmodify(id);
+
         stats.getMaxTurnRate().unmodify(id);
         stats.getArmorDamageTakenMult().unmodify(id);
 
@@ -42,6 +42,7 @@ public class Diableavionics_berserkStats extends BaseShipSystemScript {
         
         stats.getEnergyWeaponRangeBonus().unmodify(id);
         stats.getEnergyRoFMult().unmodify(id);
+        stats.getBallisticRoFMult().unmodify(id);
         stats.getProjectileSpeedMult().unmodify(id);
         
         stats.getEnergyWeaponFluxCostMod().unmodify(id);

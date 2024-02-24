@@ -1,7 +1,7 @@
 {
     "id":"diableavionics_cicada_shot",
     "specClass":"missile",	
-    #"missileType":"ROCKET",	
+    #"missileType":"ROCKET",
     "missileType":"BOMB",
     "sprite":"graphics/da/missiles/diableavionics_banishwarhead.png",
     "size":[5,12],	

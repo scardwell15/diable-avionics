@@ -249,6 +249,7 @@ public class Diableavionics_itanoMissileAI implements MissileAIPlugin, GuidedMis
                 0.25f,
                 EXPLOSION_COLOR
             );
+
             for (int i=0; i<NUM_PARTICLES; i++){
                 float axis = (float)Math.random()*360;
                 float range = (float)Math.random()*100;
@@ -261,6 +262,7 @@ public class Diableavionics_itanoMissileAI implements MissileAIPlugin, GuidedMis
                     PARTICLE_COLOR
                 );
             }
+
             engine.applyDamage(
                     missile,
                     missile.getLocation(),
@@ -271,10 +273,8 @@ public class Diableavionics_itanoMissileAI implements MissileAIPlugin, GuidedMis
                     false,
                     missile
             );
-            engine.removeEntity(missile);
-        } else {
-            engine.removeEntity(missile);
         }
+        engine.removeEntity(missile);
     }
 
     @Override

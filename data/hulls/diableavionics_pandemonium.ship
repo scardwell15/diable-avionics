@@ -166,7 +166,7 @@
     -10.5
   ],
   "builtInMods": [
-    #"diableavionics_oversized",
+    "diableavionics_avionics",
     "diableavionics_mountBI",
     "diableavionics_universaldecksExtra",
     "advanced_ground_support"

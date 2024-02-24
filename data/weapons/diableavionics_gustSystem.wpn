@@ -16,6 +16,5 @@
 	"width":1.0,
 	"textureType":ROUGH,
 	"textureScrollSpeed":1.0,
-	"pixelsPerTexel":1.0,
-        "everyFrameEffect":"data.scripts.weapons.Diableavionics_assumeControlEffect",	
+	"pixelsPerTexel":1.0
 }

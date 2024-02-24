@@ -17,7 +17,7 @@ public class Diableavionics_artdeuxHit implements OnHitEffectPlugin {
     @Override
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
 
-        if(Math.random()<(projectile.getSource().getFluxLevel()*0.8f)){
+        if(Math.random()-0.2f<(projectile.getSource().getFluxLevel()*0.8f)){
         
             float size = MathUtils.getRandomNumberInRange(48, 64);
             

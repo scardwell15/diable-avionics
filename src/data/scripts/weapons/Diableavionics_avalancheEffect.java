@@ -114,7 +114,7 @@ public class Diableavionics_avalancheEffect implements EveryFrameWeaponEffectPlu
 
                     Vector2f.add(MathUtils.getPoint(new Vector2f(), 100, weapon.getCurrAngle()+180), ship.getVelocity(), ship.getVelocity());
 
-                    for(int i=0; i<8; i++){
+                    for(int i=0; i<6; i++){
 
                         Vector2f drift = MathUtils.getPoint(new Vector2f(), MathUtils.getRandomNumberInRange(0, 150), weapon.getCurrAngle());
                         Vector2f.add(drift, new Vector2f(ship.getVelocity()), drift);

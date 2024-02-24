@@ -56,7 +56,7 @@
     -0
   ],
   "builtInMods": [
-    #"diableavionics_avionics"
+    "diableavionics_avionics"
   ],
   "builtInWeapons": {
     "SYSTEM": "diableavionics_calmSystem",

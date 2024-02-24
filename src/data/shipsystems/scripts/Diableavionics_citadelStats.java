@@ -1,7 +1,19 @@
 package data.shipsystems.scripts;
 
-import com.fs.starfarer.api.combat.MutableShipStatsAPI;
+import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
+import com.fs.starfarer.api.combat.listeners.DamageListener;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
+import com.fs.starfarer.api.loading.DamagingExplosionSpec;
+import org.lazywizard.lazylib.MathUtils;
+import org.lazywizard.lazylib.VectorUtils;
+import org.lazywizard.lazylib.combat.CombatUtils;
+import org.lwjgl.util.vector.Vector2f;
+import org.magiclib.util.MagicRender;
+
+import java.awt.*;
+import java.util.List;
 
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 
@@ -50,7 +62,6 @@ public class Diableavionics_citadelStats extends BaseShipSystemScript {
 
         stats.getFluxDissipation().unmodify(id);
     }
-
     @Override
     public StatusData getStatusData(int index, State state, float effectLevel) {
 //        if (index == 0) {

@@ -34,7 +34,8 @@
     6.5
   ],
   "builtInMods": [
-    #"diableavionics_avionics"
+    "diableavionics_avionics",
+    "rugged"
   ],
   "builtInWeapons": {
     "SYSTEM": "diableavionics_armor"
