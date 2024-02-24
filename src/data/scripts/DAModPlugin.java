@@ -2,6 +2,7 @@ package data.scripts;
 
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.ModSpecAPI;
 import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.CampaignPlugin;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
@@ -47,6 +48,12 @@ public class DAModPlugin extends BaseModPlugin {
 
     @Override
     public void onApplicationLoad() throws ClassNotFoundException {
+        ModSpecAPI ml = Global.getSettings().getModManager().getModSpec("MagicLib");
+        int minor = Integer.parseInt(ml.getVersionInfo().getMinor());
+        int major = Integer.parseInt(ml.getVersionInfo().getMajor());
+        if (major < 1 || (major == 1 && minor < 4))
+            throw new RuntimeException("Diable Avionics 2.8.0 requires MagicLib version 1.4.0 or newer.");
+
         try {
             Global.getSettings().getScriptClassLoader().loadClass("org.dark.shaders.util.ShaderLib");
             ShaderLib.init();
