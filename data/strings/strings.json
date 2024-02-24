@@ -135,5 +135,8 @@
 				"virtuousLN":"71",
 				"virtuousFleet":"The Last Line",
 				"virtuousShip":"00000000",
+
+				"wanzerLinkSubsystemName": "Assume Wing Control",
+				"wanzerLinkedSubsystemName": "Return Wing Control"
         },
 }

@@ -13,6 +13,7 @@ import com.fs.starfarer.api.util.Misc;
 import data.campaign.DANexVirtuousFleetInteractionDialogPluginImpl;
 import data.campaign.DAVirtuousFleetInteractionDialogPluginImpl;
 import data.campaign.ids.Diableavionics_ids;
+import data.scripts.DAModPlugin;
 
 import java.util.List;
 import java.util.Map;
@@ -39,7 +40,7 @@ public class DASubject71_TransferVirtuous extends BaseCommandPlugin {
 
         BattleAPI battle = Global.getFactory().createBattle(playerFleet, targetFleet);
         context.setBattle(battle);
-        if (dialog.getPlugin() instanceof DANexVirtuousFleetInteractionDialogPluginImpl) {
+        if (DAModPlugin.haveNexerelin) {
             DANexVirtuousFleetInteractionDialogPluginImpl plugin = (DANexVirtuousFleetInteractionDialogPluginImpl) dialog.getPlugin();
             plugin.pullFleets();
             plugin.refreshFleetInfo();
