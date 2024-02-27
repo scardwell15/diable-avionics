@@ -42,7 +42,7 @@
     1.5
   ],
   "builtInMods": [
-    "diableavionics_avionics",
+    #"diableavionics_avionics",\n
     "diableavionics_cramped"
   ],
   "builtInWings": [],

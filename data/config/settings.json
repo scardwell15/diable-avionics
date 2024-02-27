@@ -52,6 +52,7 @@
       "nocturneT": "graphics/da/weapons/diableavionics_nocturne_turretglow_base.png",
       "flakFlash": "graphics/da/fx/flak_flash.png",
       "flakPuff": "graphics/da/fx/flak_puff.png",
+      "beamRough2Core": "graphics/fx/beam_weave_fringe.png",
     },
 
     "diableavionics": {

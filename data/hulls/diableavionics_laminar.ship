@@ -26,7 +26,7 @@
     6.5
   ],
   "builtInMods": [
-    "diableavionics_avionics",
+    #"diableavionics_avionics",\n
     "surveying_equipment"
   ],
   "builtInWeapons": {

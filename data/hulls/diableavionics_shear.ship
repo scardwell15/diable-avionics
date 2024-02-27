@@ -36,7 +36,7 @@
     -0
   ],
   "builtInMods": [
-    "diableavionics_avionics",
+    #"diableavionics_avionics",\n
     "drive_field_stabilizer",
     "high_maintenance",
     "repair_gantry"

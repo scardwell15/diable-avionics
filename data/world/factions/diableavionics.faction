@@ -333,6 +333,8 @@
             "shielded_holds",
             "recovery_shuttles",
             "ecm",
+            "diableavionics_mount",
+            "diableavionics_avionics"
         ],
     },
 

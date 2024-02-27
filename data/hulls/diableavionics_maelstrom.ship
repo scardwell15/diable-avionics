@@ -126,7 +126,7 @@
     -38.5
   ],
   "builtInMods": [
-    "diableavionics_avionics",
+    #"diableavionics_avionics",\n
     "diableavionics_mountBI",
     #"diableavionics_universaldecksExtra"
   ],

@@ -34,7 +34,7 @@
     26.5
   ],
   "builtInMods": [
-    "diableavionics_avionics",
+    #"diableavionics_avionics",
     "ground_support"
   ],
   "center": [

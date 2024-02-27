@@ -12,7 +12,7 @@
   "shieldRadius": 114.5,
   "viewOffset": 0,
   "builtInMods": [
-    "diableavionics_avionics",
+    #"diableavionics_avionics",\n
     "diableavionics_mountBI",
     "missleracks",
   ],

@@ -40,7 +40,8 @@
     28.5
   ],
   "builtInMods": [
-    "diableavionics_avionics",
+    #"diableavionics_avionics",\n
+    "diableavionics_subsystem_wanzerdisruption"
     #"diableavionics_universaldecksExtra",
   ],
   "builtInWeapons": {

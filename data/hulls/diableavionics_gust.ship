@@ -62,8 +62,9 @@
     27.5
   ],
   "builtInMods": [
-    "diableavionics_avionics",
-    "diableavionics_universaldecksExtra"
+    #"diableavionics_avionics",\n
+    "diableavionics_universaldecksExtra",
+    "diableavionics_subsystem_wanzerdisruption"
   ],
   "builtInWeapons": {
     "SYSTEM": "diableavionics_gustSystem"

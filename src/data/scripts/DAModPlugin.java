@@ -4,11 +4,15 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.ModSpecAPI;
 import com.fs.starfarer.api.PluginPick;
+import com.fs.starfarer.api.campaign.CampaignFleetAPI;
 import com.fs.starfarer.api.campaign.CampaignPlugin;
+import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
+import com.fs.starfarer.api.util.Misc;
 import data.campaign.DACampaignPlugin;
 import data.scripts.ai.*;
 import data.scripts.world.DiableavionicsGen;
@@ -36,6 +40,7 @@ public class DAModPlugin extends BaseModPlugin {
     public static final String VIRTUOUS_MISSILE_ID = "diableavionics_virtuousmissile";
     public static final String DEEPSTRIKE_ID = "diableavionics_deepStrikeM";
 
+    public static final String MEMKEY_VERSION = "$diableavionics_version";
     public static final String MEMKEY_INTIALIZED = "$diableavionics_initialized";
     public static final String MEMKEY_SPECIAL_FLEETS_INITIALIZED = "$diableavionicsSpecial";
 
@@ -68,6 +73,7 @@ public class DAModPlugin extends BaseModPlugin {
         WANZERS = MagicSettings.getList("diableavionics", "wanzers");
         GANTRY_TIME_MULT = MagicSettings.getFloat("diableavionics", "gantry_refitMult");
         GANTRY_DEPLETION_PERCENT = MagicSettings.getFloat("diableavionics", "gantry_depletionPercent");
+
     }
 
     @Override
@@ -89,6 +95,7 @@ public class DAModPlugin extends BaseModPlugin {
         }
         DiableavionicsGen.spawnVirtuous();
         Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_SPECIAL_FLEETS_INITIALIZED, true);
+        Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_VERSION, 2.80);
     }
 
     @Override
@@ -105,6 +112,22 @@ public class DAModPlugin extends BaseModPlugin {
         if (!Global.getSector().getMemoryWithoutUpdate().contains(MEMKEY_SPECIAL_FLEETS_INITIALIZED)) {
             addFleetsToOngoingGame();
             Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_SPECIAL_FLEETS_INITIALIZED, true);
+        }
+
+        if (!Global.getSector().getMemoryWithoutUpdate().contains(MEMKEY_VERSION)
+                || ((Double) Global.getSector().getMemoryWithoutUpdate().get(MEMKEY_VERSION)) < 2.80) {
+
+            for (StarSystemAPI system : Global.getSector().getStarSystems()) {
+                for (CampaignFleetAPI fleet : system.getFleets()) {
+                    for (FleetMemberAPI member : fleet.getMembersWithFightersCopy()) {
+                        if (member.getVariant().hasHullMod("diableavionics_avionics")) {
+                            member.getVariant().removeMod("diableavionics_avionics");
+                        }
+                    }
+                }
+            }
+
+            Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_VERSION, 2.80);
         }
     }
 

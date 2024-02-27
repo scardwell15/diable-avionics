@@ -6,7 +6,7 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 
-public class DiableAvionicsMount extends DiableAvionicsMountBI {
+public class DampenedMounts extends DiableAvionicsMountBI {
     public static final String MODULAR_MOUNT_ID = "diableavionics_mount";
     protected static final float MODULAR_FIRERATE_REDUCTION = -20;
     protected static final float MODULAR_WEAPON_DAMAGE_TAKEN = 100;

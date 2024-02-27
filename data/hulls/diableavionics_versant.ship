@@ -42,7 +42,7 @@
     -7.5
   ],
   "builtInMods": [
-    "diableavionics_avionics",
+    #"diableavionics_avionics",\n
     "diableavionics_cramped",
     "diableavionics_tuning"
     #"delicate"

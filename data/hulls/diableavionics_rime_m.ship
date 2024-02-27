@@ -40,7 +40,7 @@
     -12
   ],
   "builtInMods": [
-    "diableavionics_avionics",
+    #"diableavionics_avionics",\n
     "ground_support"
   ],
   "builtInWeapons": {
