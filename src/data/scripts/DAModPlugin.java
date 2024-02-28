@@ -95,7 +95,7 @@ public class DAModPlugin extends BaseModPlugin {
         }
         DiableavionicsGen.spawnVirtuous();
         Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_SPECIAL_FLEETS_INITIALIZED, true);
-        Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_VERSION, 2.80);
+        Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_VERSION, 2.82);
     }
 
     @Override
@@ -128,6 +128,24 @@ public class DAModPlugin extends BaseModPlugin {
             }
 
             Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_VERSION, 2.80);
+        }
+
+        if (!Global.getSector().getMemoryWithoutUpdate().contains(MEMKEY_VERSION)
+                || ((Double) Global.getSector().getMemoryWithoutUpdate().get(MEMKEY_VERSION)) < 2.82) {
+
+            for (StarSystemAPI system : Global.getSector().getStarSystems()) {
+                for (CampaignFleetAPI fleet : system.getFleets()) {
+                    for (FleetMemberAPI member : fleet.getMembersWithFightersCopy()) {
+                        if (member.getVariant().getSMods().contains("diableavionics_avionics")
+                                || member.getVariant().getPermaMods().contains("diableavionics_avionics")) {
+                            member.getVariant().removeMod("diableavionics_avionics");
+                            member.getVariant().removePermaMod("diableavionics_avionics");
+                        }
+                    }
+                }
+            }
+
+            Global.getSector().getMemoryWithoutUpdate().set(MEMKEY_VERSION, 2.82);
         }
     }
 

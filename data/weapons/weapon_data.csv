@@ -3,7 +3,7 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 IBIS,diableavionics_ibis,0,,300,350,,25,,,180,4,24,10,8,FRAGMENTATION,3,,0,0.05,,,0,2,0.2,1,,2000,,,10,,,PD,"pd6, SR, diable_weapon_bp",,Diable Avionics,,Point Defense,,,,,,,,,,1.1
 Raptor Defense System,diableavionics_raptor,0,,1000,600,,40,,,180,8,64,10,4,FRAGMENTATION,10,,0,0.05,,,0,2,0.2,1,,2000,,,10,,,PD,"pd11, diable_weapon_bp",,Diable Avionics,,Point Defense,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Recson S,diableavionics_recson,1,,700,800,,250,,,24,8,,,,KINETIC,275,2,1,,1.8,6,5,6,,650,,,100,,,,"kinetic9, LR, diable_weapon_bp",,Diable Avionics,,Anti Shield,,,,,,,,,,
+Recson S,diableavionics_recson,1,,700,800,,250,,,24,8,,,,KINETIC,275,,0,2,1,,2,6,5,6,,650,,,100,,,,"kinetic9, LR, diable_weapon_bp",,Diable Avionics,,Anti Shield,,,,,,,,,,
 Recson V,diableavionics_recson2,2,0.75,2400,1000,,200,,,8,12,,,,KINETIC,250,,0,2.18,2,0.1,2,6,5,6,,650,,,100,,,,"kinetic14, LR, diable_weapon_bp",,Diable Avionics,,Anti Shield,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Artassault Revolver Cannon,diableavionics_artassault,0,,400,500,,75,,,30,5,,,,HIGH_EXPLOSIVE,60,,0,1.75,5,0.1,1,3,.25,1,,800,,,25,,,,"he8, diable_weapon_bp",,Diable Avionics,,Anti Small Craft,,,,,,,,,,
