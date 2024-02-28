@@ -14,6 +14,7 @@ import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
 import com.fs.starfarer.api.util.Misc;
 import data.campaign.DACampaignPlugin;
+import data.hullmods.DiableAvionicsUpgrade;
 import data.scripts.ai.*;
 import data.scripts.world.DiableavionicsGen;
 import data.scripts.world.MarketHelpers;
@@ -133,6 +134,7 @@ public class DAModPlugin extends BaseModPlugin {
         if (!Global.getSector().getMemoryWithoutUpdate().contains(MEMKEY_VERSION)
                 || ((Double) Global.getSector().getMemoryWithoutUpdate().get(MEMKEY_VERSION)) < 2.82) {
 
+            new DiableAvionicsUpgrade();
             for (StarSystemAPI system : Global.getSector().getStarSystems()) {
                 for (CampaignFleetAPI fleet : system.getFleets()) {
                     for (FleetMemberAPI member : fleet.getMembersWithFightersCopy()) {
