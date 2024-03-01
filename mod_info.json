@@ -1,27 +1,26 @@
 {
-    "id":"diableavionics",
-    "name":"Diable Avionics",
-    "author":"Tartiflette, formerly created by Flashfrozen with the participation of Debido.",	
-    "version":
+  "id": "diableavionics",
+  "name": "Diable Avionics",
+  "author": "Tartiflette, formerly created by Flashfrozen with the participation of Debido.",
+  "version":
     {
-        "major":2,
-        "minor":8,
-        "patch":2,
+      "major": 2,
+      "minor": 8,
+      "patch": 3,
     },
-    "description":"Claiming ownership over the possessions of millions seems to be a bold claim, but is one the Diable Avionics Corporation intends to enforce, with deadly means if necessary.",
-    "gameVersion": "0.97a",
-    "dependencies": [
-        {
-            "id": "lw_lazylib",
-            "name": "LazyLib",
-            #"version": "2.6"
-        },
-        {
-            "id": "MagicLib",
-            "name": "MagicLib",
-            #"version": "2.6"
-        },
-    ],
-    "jars":["jars/Diable_Avionics.jar"],	
-    "modPlugin":"data.scripts.DAModPlugin",
+  "description": "Claiming ownership over the possessions of millions seems to be a bold claim, but is one the Diable Avionics Corporation intends to enforce, with deadly means if necessary.",
+  "gameVersion": "0.97a",
+  "dependencies": [
+    {
+      "id": "lw_lazylib",
+      "name": "LazyLib"
+    },
+    {
+      "id": "MagicLib",
+      "name": "MagicLib",
+      "version": { "major": "1", "minor": "4", "patch": "0" }
+    },
+  ],
+  "jars": [ "jars/Diable_Avionics.jar" ],
+  "modPlugin": "data.scripts.DAModPlugin",
 }
